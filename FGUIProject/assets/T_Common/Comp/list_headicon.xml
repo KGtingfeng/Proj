@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="126,140">
+  <displayList>
+    <loader id="n19_dkwi" name="n19" xy="4,7" size="270,270" scale="0.443,0.443" url="ui://82yrhfjgvdqr1" autoSize="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n17_dkwi" name="n17" src="dkwi48" fileName="Comp/headframe(1).xml" xy="0,6" pkg="vsypkz7i"/>
+    <component id="n16_dkwi" name="n16" src="kki5w" fileName="Comp/ProgressBar_xin.xml" xy="0,84" scale="0.712,0.712"/>
+    <loader id="n18_dkwi" name="n18" xy="0,6" size="50,50"/>
+  </displayList>
+</component>

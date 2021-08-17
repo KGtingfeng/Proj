@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="643,726">
+  <controller name="c1" pages="0,属性缺少,1,对话失败" selected="0"/>
+  <displayList>
+    <image id="n1_dd7o" name="n1" src="gab6q2u" fileName="Imag/frame1_common3.png" pkg="82yrhfjg" xy="15,-11" size="613,650">
+      <gearSize controller="c1" pages="0,1" values="613,650,1,1|750,182,1,1"/>
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </image>
+  </displayList>
+</component>

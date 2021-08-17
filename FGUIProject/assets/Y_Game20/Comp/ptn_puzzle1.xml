@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="240,239" pivot="0.5,0.5" anchor="true">
+  <displayList>
+    <image id="n0_vvaw" name="n0" src="vvaw7" fileName="Imag/ptn_puzzle1.png" xy="120,119" pivot="0.5,0.5" anchor="true"/>
+  </displayList>
+</component>

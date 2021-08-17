@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://uluoyg28rpjz34" designImageOffsetX="50" designImageOffsetY="417" designImageAlpha="0">
+  <controller name="c1" pages="0,领取奖励,1,立即充值,2,已领取" selected="0"/>
+  <displayList>
+    <component id="n21_kkkd" name="n21" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-223,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n24_rpjz" name="n24" src="rpjzq69" fileName="Imag/bg_shouchong.png" xy="24,396">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <graph id="n22_kkkd" name="n22" xy="35,436" size="681,613" type="rect" lineColor="#00000000" fillColor="#00ffffff"/>
+    <image id="n2_k7ir" name="n2" src="lnqm12" fileName="Imag/frame1_common.png" pkg="82yrhfjg" xy="47,418" size="656,626">
+      <gearDisplay controller="c1" pages="1,2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n4_k7ir" name="n4" xy="104,537" size="541,118" font="ui://wkrcryqmbvfr4" fontSize="24" color="#948787" align="center" autoSize="none" bold="true" text="首次充值钻石或购买礼包达任意金额，&#xA;即可获得以下好礼。">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n15_k7ir" name="n15" src="rpjzq67" fileName="Comp/Button1_firstbuy_lingqu.xml" xy="66,881">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n16_k7ir" name="n16" src="rpjzq65" fileName="Comp/Button1_firstbuy_shuangbei.xml" xy="389,881">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n18_k7ir" name="n18" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="270,881" size="217,68">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="立即充值"/>
+    </component>
+    <image id="n19_k7ir" name="n19" src="rpjzq68" fileName="Imag/bt_yilingqu.png" xy="242,885">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <list id="n20_ms0g" name="n20" xy="96,645" size="557,201" layout="row" overflow="scroll" colGap="26" defaultItem="ui://7ru99abrms0g9" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n23_rpjz" name="n23" src="rpjzq63" fileName="Imag/title_firstbuy.png" xy="138,404"/>
+  </displayList>
+</component>

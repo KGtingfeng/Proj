@@ -1,0 +1,48 @@
+
+S5.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+s5_1
+  rotate: false
+  xy: 210, 1
+  size: 82, 64
+  orig: 82, 64
+  offset: 0, 0
+  index: -1
+s5_2
+  rotate: true
+  xy: 210, 66
+  size: 104, 64
+  orig: 104, 64
+  offset: 0, 0
+  index: -1
+s5_3
+  rotate: true
+  xy: 141, 28
+  size: 142, 68
+  orig: 142, 68
+  offset: 0, 0
+  index: -1
+s5_4
+  rotate: true
+  xy: 104, 16
+  size: 154, 36
+  orig: 154, 36
+  offset: 0, 0
+  index: -1
+s5_5
+  rotate: false
+  xy: 1, 8
+  size: 102, 162
+  orig: 102, 162
+  offset: 0, 0
+  index: -1
+s5_6
+  rotate: false
+  xy: 1, 171
+  size: 282, 330
+  orig: 282, 330
+  offset: 0, 0
+  index: -1

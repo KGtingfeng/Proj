@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <loader id="n0_g0xm" name="n0" xy="0,0" size="750,1624" url="ui://xyox4q1eg0xm1b" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n4_g0xm" name="n4" src="g0xms" fileName="Comp/Game3_scene.xml" xy="0,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n1_g0xm" name="n1" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" scale="0.8,0.8">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n2_g0xm" name="n2" src="10xzq14" fileName="Comp/Button_tips.xml" pkg="82yrhfjg" xy="576,69">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+    <component id="n3_g0xm" name="n3" src="10xzq15" fileName="Comp/Button_skip.xml" pkg="82yrhfjg" xy="576,146">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+  </displayList>
+</component>

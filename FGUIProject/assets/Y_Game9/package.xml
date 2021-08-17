@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="53vpi2dj">
+  <resources>
+    <component id="k8n80" name="Game.xml" path="/Comp/" exported="true"/>
+    <image id="k8n82" name="dymon.png" path="/Imag/" exported="true"/>
+    <image id="k8n83" name="frame_dym.png" path="/Imag/" exported="true"/>
+    <image id="k8n84" name="mid.png" path="/Imag/" exported="true"/>
+    <image id="k8n85" name="belowbg.png" path="/Imag/" exported="true"/>
+    <image id="k8n87" name="upbg.png" path="/Imag/" exported="true"/>
+    <component id="k8n88" name="bg_sub.xml" path="/Comp/" exported="true"/>
+    <component id="k8n89" name="Game_scene.xml" path="/Comp/" exported="true"/>
+    <image id="k8n8a" name="frame_before.png" path="/Imag/" exported="true"/>
+    <image id="k8n8c" name=" tipsbg.png" path="/Imag/" exported="true"/>
+    <component id="k8n8d" name="diamond.xml" path="/Comp/" exported="true"/>
+    <component id="k8n8f" name="Ani_door.xml" path="/Comp/" exported="true"/>
+    <component id="k8n816" name="Tips.xml" path="/Comp/" exported="true"/>
+    <image id="wf3b17" name="suipian.png" path="/Imag/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

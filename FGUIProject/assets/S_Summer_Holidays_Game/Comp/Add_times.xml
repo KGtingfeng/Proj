@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <displayList>
+    <component id="n39_b05h" name="n39" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="0,0" size="1220,1624">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n40_b05h" name="n40" src="ls1aq4q" fileName="Imag/freme_tips.png" pkg="82yrhfjg" xy="292,510" size="635,612"/>
+    <image id="n41_b05h" name="n41" src="b05hm" fileName="Imag/bg_4.png" xy="368,711" size="484,47"/>
+    <image id="n42_b05h" name="n42" src="b05hl" fileName="Imag/bg_5.png" xy="758,710" size="93,48"/>
+    <image id="n43_b05h" name="n43" src="b05hm" fileName="Imag/bg_4.png" xy="368,778" size="484,44"/>
+    <image id="n44_b05h" name="n44" src="b05hl" fileName="Imag/bg_5.png" xy="759,777" size="92,45"/>
+    <text id="n45_b05h" name="n45" xy="524,551" size="172,56" font="ui://bs2uwwz8flzz0" fontSize="42" color="#ffffff" align="center" text="增加次数"/>
+    <text id="n46_b05h" name="n46" xy="483,651" size="253,36" font="ui://bs2uwwz8flzz0" fontSize="26" color="#948787" align="center" text="今日剩余游戏次数：0"/>
+    <text id="n47_b05h" name="n47" xy="402,714" size="294,36" font="ui://bs2uwwz8flzz2" fontSize="26" color="#948787" align="center" text="观看1次视频获得1次机会"/>
+    <text id="n48_b05h" name="n48" xy="402,780" size="268,36" fontSize="26" color="#948787" align="center" text="花费5钻石购买1次机会"/>
+    <text id="n49_b05h" name="n49" xy="781,713" size="54,35" font="ui://bs2uwwz8flzz0" fontSize="25" color="#ffffff" align="center" text="获取"/>
+    <text id="n50_b05h" name="n50" xy="781,780" size="54,35" font="ui://bs2uwwz8flzz0" fontSize="25" color="#ffffff" align="center" text="获取"/>
+    <component id="n53_b05h" name="n53" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="510,999">
+      <Button title="去抽奖&gt;&gt;"/>
+    </component>
+    <component id="n54_b05h" name="n54" src="wf3bq5o" fileName="Comp/Button1_red.xml" pkg="82yrhfjg" xy="510,919">
+      <Button title="取消"/>
+    </component>
+  </displayList>
+</component>

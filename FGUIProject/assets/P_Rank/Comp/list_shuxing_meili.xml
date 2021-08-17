@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,184">
+  <displayList>
+    <image id="n49_dkwi" name="n49" src="dkwi3" fileName="Imag/framebg.png" xy="0,0" size="750,184">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n40_dkwi" name="n40" src="dkwi5" fileName="Imag/frameptn.png" xy="107,19"/>
+    <text id="n41_dkwi" name="n41" xy="208,24" size="313,42" font="ui://bs2uwwz8flzz0" fontSize="25" color="#534848" align="center" vAlign="middle" autoSize="none" text="魅力榜">
+      <relation target="n40_dkwi" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n42_dkwi" name="n42" src="dkwio" fileName="Imag/rankptn1.png" xy="186,93"/>
+    <text id="n43_dkwi" name="n43" xy="204,101" size="25,49" font="ui://bs2uwwz8flzz0" fontSize="36" color="#ffffff" align="center" text="1">
+      <relation target="n42_dkwi" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n44_dkwi" name="n44" src="dkwi12" fileName="Imag/attributebg2.png" xy="272,86"/>
+    <component id="n51_tzni" name="n51" src="gab61o" fileName="Comp/frame_title.xml" pkg="82yrhfjg" xy="246,127" pivot="0.5,0.5" scale="0.827,0.827">
+      <relation target="n44_dkwi" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n45_dkwi" name="n45" xy="273,88" size="186,29" font="ui://bs2uwwz8flzz2" fontSize="20" color="#ffffff" align="center" autoSize="none" text="玩家名字">
+      <relation target="n44_dkwi" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n46_dkwi" name="n46" xy="273,133" size="186,29" font="ui://bs2uwwz8flzz2" fontSize="20" color="#ffffff" align="center" autoSize="none" text="玩家称号">
+      <relation target="n44_dkwi" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n47_dkwi" name="n47" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="524,80">
+      <relation target="" sidePair="middle-middle,left-right%"/>
+      <Button title="查看详情" titleFontSize="20"/>
+    </component>
+    <image id="n50_dkwi" name="n50" src="dkwi7" fileName="Imag/icon_meili.png" xy="10,-1"/>
+  </displayList>
+</component>

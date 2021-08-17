@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="245,82" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_rj5h" name="n0" src="rj5h21" fileName="Imag/btn2_common_blue.png" xy="1,7">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_rj5h" name="n1" src="rj5h21" fileName="Imag/btn2_common_blue.png" xy="1,7">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_rj5h" name="title" xy="108,0" size="137,82" font="ui://wkrcryqms5cu3" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" shadowColor="#6466d3" shadowOffset="1,1" singleLine="true" text="跳过">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <image id="n3_suo0" name="n3" src="vdqrc" fileName="Imag/icon_common_zuanshi.png" xy="65,-9" pivot="0.5,0.5" scale="0.549,0.549">
+      <relation target="n5_suo0" sidePair="middle-middle,left-right"/>
+    </image>
+    <text id="n5_suo0" name="n4" xy="35,20" size="57,42" font="ui://wkrcryqms5cu3" fontSize="30" color="#ffffff" align="center" vAlign="middle" shadowColor="#6466d3" shadowOffset="1,1" singleLine="true" text="500&#xA;">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

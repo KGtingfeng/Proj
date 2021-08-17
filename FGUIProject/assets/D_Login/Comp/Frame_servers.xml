@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="447,78">
+  <displayList>
+    <image id="n8_f62n" name="n8" src="f62n27" fileName="Imag/frame_serversbg.png" xy="0,0" size="447,78"/>
+    <loader id="n9_f62n" name="n9" xy="45,24" size="30,26" url="ui://t0kqvihpizqh13" autoSize="true"/>
+    <text id="n10_f62n" name="n10" xy="123,19" size="54,34" font="ui://bs2uwwz8flzz2" fontSize="24" color="#636f8f" align="center" bold="true" text="一区"/>
+    <text id="n11_f62n" name="n11" xy="205,19" size="104,34" font="ui://bs2uwwz8flzz2" fontSize="24" color="#636f8f" bold="true" text="仙境森林"/>
+    <loader id="n12_f62n" name="n12" xy="365,25" size="46,26" url="ui://t0kqvihpf62n26" autoSize="true"/>
+  </displayList>
+</component>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="443,507">
+  <controller name="c1" pages="0,解锁,1,未解锁" selected="0"/>
+  <controller name="c2" pages="0,normal,1,littledred" selected="0"/>
+  <displayList>
+    <image id="n48_tc0m" name="n48" src="tc0mq42" fileName="Imag/frame_rolelist0.png" xy="34,7">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n37_kki5" name="n37" src="tc0mq42" fileName="Imag/frame_rolelist0.png" xy="40,7" scale="0.975,1">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <component id="n40_kki5" name="n6" src="hee62y" fileName="Comp/cha_banshen.xml" pkg="82yrhfjg" xy="84,85" scale="0.65,0.65"/>
+    <image id="n38_kki5" name="n38" src="kki5s" fileName="Imag/frame_rolelist2.png" xy="89,76">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n39_kki5" name="n39" src="kki5t" fileName="Imag/frame_rolelist3.png" xy="45,189" scale="1.017,1"/>
+    <image id="n41_kki5" name="n41" src="vdqrc" fileName="Imag/icon_common_zuanshi.png" pkg="82yrhfjg" xy="165,314" pivot="0.5,0.5" size="58,58" group="n43_kki5" scale="0.6,0.6"/>
+    <text id="n42_kki5" name="n42" xy="216,326" size="61,35" group="n43_kki5" font="ui://wkrcryqms5cu5" fontSize="25" color="#6bc9ec" strokeColor="#ffffff" text="9999">
+      <relation target="n41_kki5" sidePair="middle-middle,left-left"/>
+    </text>
+    <group id="n43_kki5" name="n43" xy="165,314" size="112,58" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <text id="n44_kki5" name="n44" xy="178,436" size="99,35" font="ui://bs2uwwz8flzz0" fontSize="24" color="#bc81e6" align="center" autoSize="none" strokeColor="#ffffff" strokeSize="2" shadowColor="#d8c89d" shadowOffset="1,1" text="角色名">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <component id="n46_kki5" name="n46" src="kki5w" fileName="Comp/ProgressBar_xin.xml" pkg="82yrhfjg" xy="189,31"/>
+    <text id="n47_kki5" name="n47" xy="176,439" size="99,34" font="ui://bs2uwwz8flzz0" fontSize="24" color="#e286c0" align="center" letterSpacing="4" autoSize="none" text="未解锁">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <component id="n49_mgpz" name="n49" src="lnqm1e" fileName="Comp/Littlered.xml" pkg="82yrhfjg" xy="291,47">
+      <gearDisplay controller="c2" pages="1"/>
+    </component>
+  </displayList>
+</component>

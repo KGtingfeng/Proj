@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <component id="n3_iv1t" name="n3" src="e2l7q2z" fileName="Comp/mask_Component.xml" xy="-235,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n4_iv1t" name="n4" src="iv1tq37" fileName="Comp/loadingfx.xml" xy="203,640">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

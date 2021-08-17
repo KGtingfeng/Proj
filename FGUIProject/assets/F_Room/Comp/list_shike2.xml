@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="614,270">
+  <displayList>
+    <loader id="n11_zh3o" name="n11" xy="53,0" size="561,270" url="ui://x03va7jnzh3o1u" autoSize="true"/>
+    <text id="n12_zh3o" name="n12" xy="169,69" size="124,79" font="ui://xk3nrdkvkki50" fontSize="60" color="#ffffff" italic="true" strokeColor="#f3a588" strokeSize="2" shadowColor="#d68960" shadowOffset="2,2" text="人名"/>
+    <text id="n14_zh3o" name="n14" xy="162,156" size="142,29" font="ui://xk3nrdkvkki50" fontSize="20" color="#ffffff" italic="true" strokeColor="#f3a588" strokeSize="2" shadowColor="#d68960" shadowOffset="2,2" text="已拥有时刻数:1"/>
+  </displayList>
+</component>

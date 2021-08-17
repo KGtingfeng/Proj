@@ -1,0 +1,27 @@
+
+ti3.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ti_1
+  rotate: false
+  xy: 316, 53
+  size: 13, 19
+  orig: 13, 19
+  offset: 0, 0
+  index: -1
+ti_2
+  rotate: false
+  xy: 316, 31
+  size: 11, 21
+  orig: 11, 21
+  offset: 0, 0
+  index: -1
+ti_3
+  rotate: false
+  xy: 1, 1
+  size: 314, 71
+  orig: 314, 71
+  offset: 0, 0
+  index: -1

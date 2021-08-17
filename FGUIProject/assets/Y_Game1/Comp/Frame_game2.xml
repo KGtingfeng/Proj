@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,找宝石,1,找到宝石" selected="1"/>
+  <displayList>
+    <loader id="n0_gggm" name="n0" xy="-235,0" size="1220,1624" url="ui://qq4rd330ej9fe21" clearOnPublish="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n36_f54j" name="n36" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="-235,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n17_gggm" name="n17" src="f54j1g" fileName="Comp/hole.xml" xy="136,970" group="n44_pvv0" rotation="50" filter="color" filterData="0,0,0,0"/>
+    <component id="n31_f54j" name="n18" src="f54j1g" fileName="Comp/hole.xml" xy="93,770" group="n44_pvv0" rotation="90" filter="color" filterData="0,0,0,0"/>
+    <component id="n32_f54j" name="n19" src="f54j1g" fileName="Comp/hole.xml" xy="71,582" group="n44_pvv0" rotation="-50" filter="color" filterData="0,0,0,0"/>
+    <component id="n33_f54j" name="n20" src="f54j1g" fileName="Comp/hole.xml" xy="642,530" group="n44_pvv0" rotation="50" filter="color" filterData="0,0,0,0"/>
+    <component id="n34_f54j" name="n21" src="f54j1g" fileName="Comp/hole.xml" xy="744,770" group="n44_pvv0" rotation="90" filter="color" filterData="0,0,0,0"/>
+    <component id="n35_f54j" name="n22" src="f54j1g" fileName="Comp/hole.xml" xy="576,1023" group="n44_pvv0" rotation="-50" filter="color" filterData="0,0,0,0"/>
+    <group id="n44_pvv0" name="n37" xy="71,530" size="742,575"/>
+    <image id="n1_gggm" name="n1" src="ndoc3" fileName="Imag/图层148.png" xy="62,1358" group="n7_gggm"/>
+    <image id="n2_gggm" name="n2" src="ndoc3" fileName="Imag/图层148.png" xy="165,1358" group="n7_gggm"/>
+    <image id="n3_gggm" name="n3" src="ndoc3" fileName="Imag/图层148.png" xy="268,1358" group="n7_gggm"/>
+    <image id="n4_gggm" name="n4" src="ndoc3" fileName="Imag/图层148.png" xy="371,1358" group="n7_gggm"/>
+    <image id="n5_gggm" name="n5" src="ndoc3" fileName="Imag/图层148.png" xy="474,1358" group="n7_gggm"/>
+    <image id="n6_gggm" name="n6" src="ndoc3" fileName="Imag/图层148.png" xy="577,1358" group="n7_gggm"/>
+    <component id="n25_f54j" name="n8" src="q9vfy" fileName="Comp/baishi1.xml" xy="84,1379" group="n7_gggm" filter="color" filterData="0,0,0,0"/>
+    <component id="n26_f54j" name="n9" src="q9vf12" fileName="Comp/baoshi2.xml" xy="188,1379" group="n7_gggm" filter="color" filterData="0,0,0,0"/>
+    <component id="n27_f54j" name="n10" src="q9vfz" fileName="Comp/baoshi3.xml" xy="291,1379" group="n7_gggm" filter="color" filterData="0,0,0,0"/>
+    <component id="n28_f54j" name="n11" src="q9vf11" fileName="Comp/baoshi4.xml" xy="394,1379" group="n7_gggm" filter="color" filterData="0,0,0,0"/>
+    <component id="n29_f54j" name="n12" src="q9vf10" fileName="Comp/baoshi5.xml" xy="497,1379" group="n7_gggm" filter="color" filterData="0,0,0,0"/>
+    <component id="n30_f54j" name="n13" src="q9vf15" fileName="Comp/baoshi6.xml" xy="602,1379" group="n7_gggm" filter="color" filterData="0,0,0,0"/>
+    <group id="n7_gggm" name="n7" xy="62,1358" size="625,126" advanced="true">
+      <relation target="n0_gggm" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n38_ivfr" name="n38" src="wezje23" fileName="Comp/find.xml" xy="169,1253">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n23_gggm" name="n23" xy="374,1316" pivot="0.5,0.5" anchor="true" size="463,38" font="ui://bs2uwwz8flzz2" fontSize="27" color="#ffd59f" strokeColor="#000000" text="请按照彩虹的颜色把宝石放入四时钟内">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="n24_kydj" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n24_kydj" name="n24" src="kydjx" fileName="Imag/ptn_tip.png" xy="375,1316" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <graph id="n39_ffqq" name="n39" xy="-244,9" size="1220,1624" touchable="false" type="rect" lineSize="0" fillColor="#00ffffff"/>
+    <component id="n46_b9y4" name="n46" src="xrnqj" fileName="Comp/tap.xml" pkg="5sqxgclf" xy="183,1048" touchable="false"/>
+    <component id="n47_b9y4" name="n47" src="xrnqj" fileName="Comp/tap.xml" pkg="5sqxgclf" xy="291,1397" touchable="false"/>
+  </displayList>
+</component>

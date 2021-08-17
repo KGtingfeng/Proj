@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,448">
+  <displayList>
+    <component id="n10_ro8r" name="n10" src="ro8rq2n" fileName="Comp/Frame_dialog.xml" xy="0,0" pivot="0.5,0.55">
+      <relation target="" sidePair="center-center,middle-middle%"/>
+    </component>
+  </displayList>
+  <transition name="t0" frameRate="60">
+    <item time="0" type="Alpha" target="n10_ro8r" tween="true" startValue="0" endValue="1" duration="30"/>
+    <item time="0" type="XY" target="n10_ro8r" tween="true" startValue="-107,0" endValue="0,0" duration="30" ease="Quart.Out"/>
+    <item time="30" type="Alpha" target="n10_ro8r" tween="true" startValue="1" endValue="0" duration="24"/>
+  </transition>
+  <transition name="t1" frameRate="60">
+    <item time="0" type="Alpha" target="n10_ro8r" tween="true" startValue="0" endValue="1" duration="30"/>
+    <item time="0" type="XY" target="n10_ro8r" tween="true" startValue="110,0" endValue="0,0" duration="30" ease="Quart.Out"/>
+    <item time="30" type="Alpha" target="n10_ro8r" tween="true" startValue="1" endValue="0" duration="24"/>
+  </transition>
+  <transition name="t2" frameRate="60">
+    <item time="0" type="Alpha" target="n10_ro8r" tween="true" startValue="0" endValue="1" duration="24"/>
+    <item time="24" type="Alpha" target="n10_ro8r" tween="true" startValue="1" endValue="0" duration="24"/>
+  </transition>
+</component>

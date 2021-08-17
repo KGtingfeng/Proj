@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <component id="n0_r8fu" name="n0" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-235,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n1_r8fu" name="n1" src="r8fu1z" fileName="imag/312frame.png" xy="6,1034">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n2_r8fu" name="n2" xy="128,1127" size="499,88" font="ui://xk3nrdkvkki52" fontSize="33" color="#ffffff" align="center" text="按住时间轻舟避开水面上的障碍物&#xD;抵达对岸！">
+      <relation target="n1_r8fu" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n3_r8fu" name="n3" src="r8fu21" fileName="Comp/Ani_321.xml" xy="304,558">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

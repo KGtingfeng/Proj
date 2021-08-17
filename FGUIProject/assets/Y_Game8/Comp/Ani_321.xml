@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="147,229">
+  <displayList>
+    <image id="n2_k8n8" name="n2" src="k8n82" fileName="Imag/3.png" xy="0,0" pivot="0.5,0.5"/>
+    <image id="n3_k8n8" name="n3" src="k8n81" fileName="Imag/2.png" xy="1,1" pivot="0.5,0.5"/>
+    <image id="n4_k8n8" name="n4" src="k8n80" fileName="Imag/1.png" xy="10,4" pivot="0.5,0.5"/>
+  </displayList>
+  <transition name="t0" frameRate="60">
+    <item time="0" type="Alpha" target="n2_k8n8" value="1"/>
+    <item time="0" type="Alpha" target="n2_k8n8" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="Alpha" target="n3_k8n8" value="1"/>
+    <item time="0" type="Alpha" target="n3_k8n8" value="0"/>
+    <item time="0" type="Alpha" target="n4_k8n8" value="1"/>
+    <item time="0" type="Alpha" target="n4_k8n8" value="0"/>
+    <item time="0" type="Scale" target="n2_k8n8" tween="true" startValue="1,1" endValue="1.3,1.3" duration="12"/>
+    <item time="0" type="Scale" target="n3_k8n8" value="1,1"/>
+    <item time="0" type="Scale" target="n3_k8n8" value="1,1"/>
+    <item time="0" type="Scale" target="n4_k8n8" value="1,1"/>
+    <item time="0" type="Scale" target="n4_k8n8" value="1,1"/>
+    <item time="12" type="Alpha" target="n2_k8n8" tween="true" startValue="1" endValue="0" duration="48" ease="Quad.In"/>
+    <item time="12" type="Scale" target="n2_k8n8" tween="true" startValue="1.3,1.3" endValue="1,1" duration="48" ease="Quad.In"/>
+    <item time="61" type="Alpha" target="n3_k8n8" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="61" type="Scale" target="n3_k8n8" tween="true" startValue="1,1" endValue="1.3,1.3" duration="12"/>
+    <item time="73" type="Alpha" target="n3_k8n8" tween="true" startValue="1" endValue="0" duration="48" ease="Quad.In"/>
+    <item time="73" type="Scale" target="n3_k8n8" tween="true" startValue="1.3,1.3" endValue="1,1" duration="48" ease="Quad.In"/>
+    <item time="122" type="Alpha" target="n4_k8n8" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="122" type="Scale" target="n4_k8n8" tween="true" startValue="1,1" endValue="1.3,1.3" duration="12"/>
+    <item time="134" type="Alpha" target="n4_k8n8" tween="true" startValue="1" endValue="0" duration="48" ease="Quad.In"/>
+    <item time="134" type="Scale" target="n4_k8n8" tween="true" startValue="1.3,1.3" endValue="1,1" duration="48" ease="Quad.In"/>
+  </transition>
+</component>

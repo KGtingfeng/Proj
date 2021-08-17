@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="140,76" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <controller name="c1" pages="0,normal,1,littlered" selected="0"/>
+  <displayList>
+    <image id="n0_lnqm" name="n0" src="lnqm1g" fileName="Imag/btn_common_bookmark.png" xy="0,0" size="140,76" alpha="0.5">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_gab6" name="n1" src="gab6q2p" fileName="Imag/btn_common_bookmark_active.png" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+    <text id="n2_lnqm" name="title" xy="0,0" size="140,76" font="ui://wkrcryqms5cu3" fontSize="25" color="#ffffff" align="center" vAlign="middle" autoSize="none" singleLine="true" text="">
+      <gearColor controller="button" pages="0,1" values="#ffffff,#ffffff|#ffffff,#000000"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <component id="n4_mgpz" name="n4" src="lnqm1e" fileName="Comp/Littlered.xml" xy="91,-11">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

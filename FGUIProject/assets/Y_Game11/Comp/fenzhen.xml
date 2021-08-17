@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="110,398">
+  <displayList>
+    <image id="n16_cn0h" name="n16" src="cn0hd" fileName="Imag/baipan2.png" xy="0,0"/>
+    <graph id="n17_cn0h" name="n17" xy="47,126" pivot="0.5,0.5" size="16,48" type="rect" lineSize="0" lineColor="#00000000" fillColor="#00ffffff"/>
+    <graph id="n18_cn0h" name="n18" xy="47,223" pivot="0.5,0.5" size="16,152" type="rect" lineSize="0" lineColor="#00000000" fillColor="#02ffffff"/>
+  </displayList>
+</component>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,,1,成功发送好友请求" selected="0"/>
+  <displayList>
+    <image id="n0_k7ir" name="n0" src="k7ir5" fileName="Imag/btn2_common_yellow.png" xy="0,256" size="750,1368">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n14_bvfr" name="n14" src="bvfrq" fileName="Imag/bg_3.png" xy="0,256" size="750,1368">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n15_bvfr" name="n15" src="bvfrr" fileName="Imag/bg_huawen.png" xy="1,255" size="742,1289">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n13_olp0" name="n12" src="pfkm1h" fileName="Cmop/list_addfriend.xml" xy="20,349">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n16_xv4h" name="n16" xy="471,1566" size="298,49" fontSize="22" color="#877d80" autoSize="none" text="每日0点所有申请会被清除">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <component id="n17_y3w4" name="n35" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-235,0">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n18_y3w4" name="n18" src="bvfr1o" fileName="Imag/bg_frame.png" pkg="82yrhfjg" xy="86,771" size="578,82">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n19_y3w4" name="n19" xy="115,789" size="520,45" font="ui://wkrcryqmbvfr3" fontSize="24" color="#ac88a5" align="center" vAlign="middle" autoSize="none" text="成功发送好友请求">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="jq7r9soh">
+  <resources>
+    <component id="nvu80" name="Interactive.xml" path="/Comp/" exported="true"/>
+    <image id="nvu81" name="namebg.png" path="/Imag/" exported="true"/>
+    <image id="kki58" name="jindutiao1.png" path="/Imag/" exported="true" scale="9grid" scale9grid="52,0,104,18"/>
+    <image id="kki59" name="jindutiao2.png" path="/Imag/" exported="true" scale="9grid" scale9grid="52,0,104,18"/>
+    <component id="kki5a" name="ProgressBar_hangandu.xml" path="/Comp/" exported="true"/>
+    <image id="kki5c" name="icon_gushi.png" path="/Imag/" exported="true"/>
+    <image id="kki5d" name="icon_jinrixinyuan.png" path="/Imag/" exported="true"/>
+    <image id="kki5e" name="icon_liwu.png" path="/Imag/" exported="true"/>
+    <image id="kki5f" name="icon_naozhong.png" path="/Imag/" exported="true"/>
+    <image id="kki5g" name="icon_waiguan.png" path="/Imag/" exported="true"/>
+    <component id="kki5h" name="Button_gushi.xml" path="/Comp/" exported="true"/>
+    <component id="kki5i" name="Button_waiguan.xml" path="/Comp/" exported="true"/>
+    <component id="kki5j" name="Button_xinyuan.xml" path="/Comp/" exported="true"/>
+    <component id="kki5k" name="Button_songli.xml" path="/Comp/" exported="true"/>
+    <component id="kki5l" name="Button_naozhong.xml" path="/Comp/" exported="true"/>
+    <image id="kki5m" name="setonmain.png" path="/Imag/" exported="true"/>
+    <component id="kki5n" name="Button_mainset.xml" path="/Comp/" exported="true"/>
+    <image id="kki5o" name="all.png" path="/Imag/" exported="true"/>
+    <image id="kki5p" name="normal.png" path="/Imag/" exported="true"/>
+    <component id="kki5q" name="Button_classification.xml" path="/Comp/" exported="true"/>
+    <image id="kki5r" name="frame_rolelist1.png" path="/Imag/" exported="true"/>
+    <image id="kki5s" name="frame_rolelist2.png" path="/Imag/" exported="true"/>
+    <image id="kki5t" name="frame_rolelist3.png" path="/Imag/" exported="true"/>
+    <component id="kki5u" name="Frame_rolelist.xml" path="/Comp/" exported="true"/>
+    <image id="kki5x" name="ptn_fenleibg.png" path="/Imag/" exported="true"/>
+    <image id="7vvyy" name="ptn_infobg.png" path="/Imag/" exported="true" scale="9grid" scale9grid="376,191,1,382"/>
+    <image id="7vvyz" name="rileinfo.png" path="/Imag/" exported="true" scale="9grid" scale9grid="166,293,332,6"/>
+    <component id="7vvy11" name="Frame_info.xml" path="/Comp/" exported="true"/>
+    <component id="7vvy12" name="Frame_gushi.xml" path="/Comp/" exported="true"/>
+    <image id="7vvy13" name="infobg.png" path="/Imag/" exported="true" scale="9grid" scale9grid="161,13,5,26"/>
+    <image id="7vvy14" name="button_info1.png" path="/Imag/" exported="true"/>
+    <image id="7vvy15" name="button_info2.png" path="/Imag/" exported="true"/>
+    <component id="7vvy16" name="Button_infotype.xml" path="/Comp/" exported="true"/>
+    <image id="7vvy17" name="ptn_hangandubg.png" path="/Imag/" exported="true" scale="9grid" scale9grid="355,42,34,84"/>
+    <image id="7vvy18" name="ptn_hangandubg1.png" path="/Imag/" exported="true"/>
+    <image id="7vvy19" name="bg_songli.png" path="/Imag/" exported="true"/>
+    <image id="7vvy1a" name="frame_liwu1.png" path="/Imag/" exported="true"/>
+    <image id="7vvy1b" name="frame_liwu2.png" path="/Imag/" exported="true"/>
+    <component id="7vvy1c" name="Frame_liwupop.xml" path="/Comp/" exported="true"/>
+    <image id="7vvy1d" name="icon_shijian.png" path="/Imag/" exported="true"/>
+    <component id="7vvy1f" name="Button_gift.xml" path="/Comp/" exported="true"/>
+    <component id="7vvy1g" name="Frame_gift.xml" path="/Comp/" exported="true"/>
+    <image id="7vvy1h" name="ptn_line.png" path="/Imag/" exported="true"/>
+    <image id="7vvy1i" name="number_bg.png" path="/Imag/" exported="true"/>
+    <component id="7vvy1j" name="Frame_giftmake.xml" path="/Comp/" exported="true"/>
+    <image id="7vvy1k" name="ptn_redcloth.png" path="/Imag/" exported="true"/>
+    <image id="7vvy1l" name="btn_buygift.png" path="/Imag/" exported="true"/>
+    <image id="7vvy1m" name="btn_makegift.png" path="/Imag/" exported="true"/>
+    <component id="7vvy1n" name="Button_makegift.xml" path="/Comp/" exported="true"/>
+    <component id="7vvy1o" name="Button_buygift.xml" path="/Comp/" exported="true"/>
+    <image id="7vvy1p" name="liwufenlei2.png" path="/Imag/" exported="true"/>
+    <image id="7vvy1q" name="liwufenlei.png" path="/Imag/" exported="true"/>
+    <component id="7vvy1r" name="Button_liwufenlei.xml" path="/Comp/" exported="true"/>
+    <image id="7vvy1s" name="ptn_popbg.png" path="/Imag/" exported="true"/>
+    <image id="7vvy1t" name="frame_pop2.png" path="/Imag/" exported="true"/>
+    <image id="7vvy1u" name="frame_pop4.png" path="/Imag/" exported="true"/>
+    <image id="7vvy1v" name="frame_pop3.png" path="/Imag/" exported="true"/>
+    <image id="7vvy1w" name="frame_pop1.png" path="/Imag/" exported="true"/>
+    <component id="7vvy1x" name="Frame_pop.xml" path="/Comp/" exported="true"/>
+    <component id="7vvy1y" name="icon_gift.xml" path="/Comp/" exported="true"/>
+    <image id="7vvy1z" name="icon_giftmask.png" path="/Imag/" exported="true"/>
+    <image id="7vvy20" name="icon_lan.png" path="/Imag/" exported="true"/>
+    <image id="7vvy21" name="btn_page.png" path="/Imag/" exported="true"/>
+    <component id="7vvy22" name="Button_page.xml" path="/Comp/" exported="true"/>
+    <image id="7vvy23" name="btn_suit2.png" path="/Imag/" exported="true"/>
+    <image id="7vvy24" name="btn_suit1.png" path="/Imag/" exported="true"/>
+    <component id="7vvy25" name="Button_suitandbg.xml" path="/Comp/" exported="true"/>
+    <image id="7vvy26" name="bg_suitandbg.png" path="/Imag/" exported="true" scale="9grid" scale9grid="62,218,124,4"/>
+    <image id="qqiz27" name="ptn_updown.png" path="/Imag/" exported="true"/>
+    <component id="qqiz28" name="icon_suit.xml" path="/Comp/" exported="true"/>
+    <image id="qqiz29" name="ptn_suittype.png" path="/Imag/" exported="true"/>
+    <image id="qqiz2a" name="btn_share.png" path="/Imag/" exported="true"/>
+    <image id="qqiz2b" name="btn_save.png" path="/Imag/" exported="true"/>
+    <component id="qqiz2c" name="Button_share.xml" path="/Comp/" exported="true"/>
+    <component id="qqiz2d" name="Button_save.xml" path="/Comp/" exported="true"/>
+    <image id="qqiz2e" name="text_bg.png" path="/Imag/" exported="true" scale="9grid" scale9grid="33,11,1,22"/>
+    <component id="t4052g" name="Frame_gifts.xml" path="/Comp/" exported="true"/>
+    <image id="t405q3g" name="ptn_sline.png" path="/Imag/" exported="true" scale="9grid" scale9grid="1,0,2,2"/>
+    <component id="qtrlq3h" name="Frame_favor.xml" path="/Comp/" exported="true"/>
+    <component id="jlkxq3i" name="Frame_contact.xml" path="/Comp/" exported="true"/>
+    <image id="jlkxq3j" name="frame_contact.png" path="/Imag/" exported="true" scale="9grid" scale9grid="0,113,702,3"/>
+    <image id="vycmq3k" name="ptn_suittype1.png" path="/Imag/" exported="true"/>
+    <image id="vycmq3l" name="btn_buy.png" path="/Imag/" exported="true"/>
+    <component id="vycmq3m" name="Button_buy.xml" path="/Comp/" exported="true"/>
+    <image id="vycmq3n" name="lock.png" path="/Imag/" exported="true"/>
+    <image id="vycmq3o" name="active.png" path="/Imag/" exported="true"/>
+    <image id="vycmq3p" name="wefewfewfw.png" path="/Imag/" exported="true"/>
+    <component id="hnnpq3v" name="Frame_buybg.xml" path="/Comp/" exported="true"/>
+    <image id="hnnpq3w" name="frame_buybg.png" path="/Imag/" exported="true" scale="9grid" scale9grid="0,198,750,7"/>
+    <image id="hnnpq3x" name="ptnupbg.png" path="/Imag/" exported="true" scale="9grid" scale9grid="0,102,580,1"/>
+    <component id="hnnpq3y" name="bg_review.xml" path="/Comp/" exported="true"/>
+    <component id="hnnpq3z" name="Frame_sources.xml" path="/Comp/" exported="true"/>
+    <image id="hnnpq3s" name="ptn_sources.png" path="/Imag/" exported="true"/>
+    <image id="hnnpq40" name="btn_sources.png" path="/Imag/" exported="true"/>
+    <component id="hnnpq41" name="Button_sources.xml" path="/Comp/" exported="true"/>
+    <image id="tc0mq42" name="frame_rolelist0.png" path="/Imag/" exported="true"/>
+    <image id="qaikq43" name="frame_haogandu_mask.png" path="/Imag/" exported="true"/>
+    <image id="qaikq44" name="frame_haogandu1.png" path="/Imag/" exported="true"/>
+    <image id="qaikq45" name="frame_hangandu0.png" path="/Imag/" exported="true"/>
+    <component id="qaikq46" name="Frame_haogandu.xml" path="/Comp/" exported="true"/>
+    <component id="qaikq47" name="icon_headwithmask.xml" path="/Comp/" exported="true"/>
+    <image id="qaikq48" name="frame_haogandu2.png" path="/Imag/" exported="true"/>
+    <font id="qaikq4a" name="Font_haogandu.fnt" path="/Comp/" exported="true"/>
+    <image id="qaikq4b" name="number_01.png" path="/Imag/" exported="true"/>
+    <image id="qaikq4c" name="number_02.png" path="/Imag/" exported="true"/>
+    <image id="qaikq4d" name="number_03.png" path="/Imag/" exported="true"/>
+    <image id="qaikq4e" name="number_04.png" path="/Imag/" exported="true"/>
+    <image id="qaikq4f" name="number_05.png" path="/Imag/" exported="true"/>
+    <image id="qaikq4g" name="number_06.png" path="/Imag/" exported="true"/>
+    <image id="qaikq4h" name="number_07.png" path="/Imag/" exported="true"/>
+    <image id="qaikq4i" name="number_08.png" path="/Imag/" exported="true"/>
+    <image id="qaikq4j" name="number_09.png" path="/Imag/" exported="true"/>
+    <image id="qaikq4k" name="number_10.png" path="/Imag/" exported="true"/>
+    <component id="qaikq4l" name="Frame_haogandu_son.xml" path="/Comp/" exported="true"/>
+    <component id="qaikq4m" name="Frame_haogandushengjizi.xml" path="/Comp/" exported="true"/>
+    <image id="qaikq4n" name="ptn_jiantou2.png" path="/Imag/" exported="true"/>
+    <component id="jckqq4p" name="Frame_haogandushengjidengji.xml" path="/Comp/" exported="true"/>
+    <component id="m8qhq4t" name="Frame_role.xml" path="/Comp/" exported="true"/>
+    <component id="m8qhq4u" name="component_buybg.xml" path="/Comp/" exported="true"/>
+    <image id="fjvxq4v" name="liebiao2.png" path="/Imag/" exported="true"/>
+    <image id="fjvxq4w" name="liebiao1.png" path="/Imag/" exported="true"/>
+    <component id="atpaq4z" name="Frame_giftslist.xml" path="/Comp/" exported="true"/>
+    <image id="m46lq50" name="ptn_framelight.png" path="/Imag/"/>
+    <image id="h4v2q51" name="frame_haogandu3.png" path="/Imag/" exported="true"/>
+    <component id="h4v2q52" name="Frame_haogandu_son2.xml" path="/Comp/"/>
+    <image id="rkmiq54" name="weijiesuo.png" path="/Imag/"/>
+    <component id="bvfrq55" name="Button_qianwang.xml" path="/Comp/" exported="true"/>
+    <image id="bvfrq56" name="bt_qianwang.png" path="/Imag/"/>
+    <image id="bvfrq57" name="line_zise.png" path="/Imag/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

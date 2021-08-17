@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <component id="n6_7o7m" name="n6" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-235,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n1_7o7m" name="n1" src="t4052f" fileName="Imag/frame_gifts.png" pkg="82yrhfjg" xy="104,534" size="644,714" group="n5_7o7m" scale="0.87,0.87"/>
+    <text id="n2_7o7m" name="n2" xy="293,564" size="168,44" group="n5_7o7m" font="ui://bs2uwwz8flzz0" fontSize="32" color="#ffffff" letterSpacing="1" text="活跃度奖励"/>
+    <text id="n3_7o7m" name="n3" xy="154,628" size="165,32" group="n5_7o7m" font="ui://bs2uwwz8flzz2" fontSize="22" color="#ce58a0" text="可获得以下物品:"/>
+    <list id="n4_7o7m" name="n4" xy="129,665" size="566,517" group="n5_7o7m" scale="0.862,0.862" layout="flow_hz" overflow="scroll" lineGap="6" colGap="4" defaultItem="ui://82yrhfjgubaiq58" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n5_7o7m" name="n5" xy="104,534" size="644,714" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

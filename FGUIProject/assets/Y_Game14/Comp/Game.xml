@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://kzvhx58przdk43">
+  <controller name="c1" pages="0,,1," selected="1"/>
+  <displayList>
+    <loader id="n0_rzdk" name="n0" xy="-235,0" size="1220,1624" url="ui://1a2mmzyzrzdkb" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n1_rzdk" name="n1" src="rzdk0" fileName="Imag/shadow.png" xy="1,840" size="756,398">
+      <relation target="n0_rzdk" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n3_rzdk" name="n3" src="rzdke" fileName="Comp/suipian2.xml" xy="165,934" group="n11_rzdk"/>
+    <component id="n4_rzdk" name="n4" src="rzdkf" fileName="Comp/suipian3.xml" xy="348,891" group="n11_rzdk"/>
+    <component id="n5_rzdk" name="n5" src="rzdkg" fileName="Comp/suipian4.xml" xy="585,867" group="n11_rzdk"/>
+    <component id="n6_rzdk" name="n6" src="rzdkh" fileName="Comp/suipian5.xml" xy="23,1119" group="n11_rzdk"/>
+    <component id="n7_rzdk" name="n7" src="rzdki" fileName="Comp/suipian6.xml" xy="181,1064" group="n11_rzdk"/>
+    <component id="n8_rzdk" name="n8" src="rzdkj" fileName="Comp/suipian7.xml" xy="397,943" group="n11_rzdk"/>
+    <component id="n9_rzdk" name="n9" src="rzdkk" fileName="Comp/suipian8.xml" xy="526,936" group="n11_rzdk"/>
+    <component id="n10_rzdk" name="n10" src="rzdkl" fileName="Comp/suipian9.xml" xy="589,1124" group="n11_rzdk"/>
+    <group id="n11_rzdk" name="n11" xy="23,867" size="684,351" advanced="true">
+      <relation target="n0_rzdk" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n13_rzdk" name="n13" src="cn0h4z" fileName="Comp/Frame_suipian.xml" pkg="wk6n06m0" xy="37,1273">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n18_tgx1" name="n18" src="rzdkn" fileName="Comp/Arrowani.xml" xy="520,847"/>
+    <graph id="n17_tgx1" name="n17" xy="0,0" size="750,1624" type="rect" lineSize="0" fillColor="#00ffffff">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n14_rzdk" name="n14" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" scale="0.8,0.8">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n15_rzdk" name="n15" src="10xzq14" fileName="Comp/Button_tips.xml" pkg="82yrhfjg" xy="576,69" pivot="1,0.5">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+    <component id="n16_rzdk" name="n16" src="10xzq15" fileName="Comp/Button_skip.xml" pkg="82yrhfjg" xy="576,146" pivot="1,0.5">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+    <image id="n19_tgx1" name="n19" src="cwn65a" fileName="Imag/texbg.png" pkg="wk6n06m0" xy="47,1163" size="667,77">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n20_tgx1" name="n20" xy="127,1177" size="498,52" font="ui://xk3nrdkvkki50" fontSize="32" color="#ffffff" align="center" autoSize="none" text="成功找到所有碎片">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

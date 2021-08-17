@@ -1,0 +1,48 @@
+
+wangmo_up.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shagshen
+  rotate: false
+  xy: 284, 55
+  size: 320, 176
+  orig: 320, 176
+  offset: 0, 0
+  index: -1
+toufa1
+  rotate: false
+  xy: 434, 7
+  size: 112, 46
+  orig: 112, 46
+  offset: 0, 0
+  index: -1
+toufa2
+  rotate: false
+  xy: 2, 9
+  size: 280, 222
+  orig: 280, 222
+  offset: 0, 0
+  index: -1
+toufa3
+  rotate: true
+  xy: 746, 95
+  size: 136, 112
+  orig: 136, 112
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 284, 2
+  size: 148, 51
+  orig: 148, 51
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: true
+  xy: 606, 85
+  size: 146, 138
+  orig: 146, 138
+  offset: 0, 0
+  index: -1

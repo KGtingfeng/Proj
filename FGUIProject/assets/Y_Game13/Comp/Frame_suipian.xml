@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="675,286">
+  <displayList>
+    <image id="n17_cn0h" name="n17" src="cn0hp" fileName="Imag/frame_suipianbg.png" xy="4,0" alpha="0.994">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n18_cn0h" name="n18" src="cn0h50" fileName="Comp/Frame_suipian_sub.xml" xy="8,39" pivot="0.5,0.5" size="659,230"/>
+    <image id="n19_cn0h" name="n19" src="cn0h51" fileName="Imag/arrow.png" xy="632,113"/>
+  </displayList>
+</component>

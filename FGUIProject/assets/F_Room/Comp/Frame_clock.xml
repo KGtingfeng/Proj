@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://uluoyg28rqggq3u">
+  <displayList>
+    <component id="n1_rqgg" name="n1" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-235,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <graph id="n24_nmss" name="n24" xy="36,487" size="683,573" type="rect" lineSize="0" fillColor="#00ffffff"/>
+    <image id="n2_rqgg" name="n2" src="rqgg1" fileName="Imag/frame_clock.png" xy="13,457">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n3_rqgg" name="n3" xy="303,503" size="148,64" font="ui://bs2uwwz8flzz0" fontSize="48" color="#ffffff" text="起床铃">
+      <relation target="n2_rqgg" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n4_rqgg" name="n4" xy="110,621" size="421,45" group="n23_rqgg" font="ui://bs2uwwz8flzz2" fontSize="33" color="#875b9e" letterSpacing="-1" text="起床铃开启后，将于次日生效"/>
+    <component id="n5_rqgg" name="n5" src="rqggb" fileName="Comp/Button_open.xml" xy="575,628" group="n23_rqgg"/>
+    <list id="n7_rqgg" name="n7" xy="114,706" size="532,61" group="n23_rqgg" layout="flow_hz" selectionMode="multipleSingleClick" colGap="22" defaultItem="ui://x03va7jnrqggd">
+      <item title="日"/>
+      <item title="一"/>
+      <item title="二"/>
+      <item title="三"/>
+      <item title="四"/>
+      <item title="五"/>
+      <item title="六"/>
+    </list>
+    <text id="n8_rqgg" name="n8" xy="112,827" size="151,45" group="n23_rqgg" font="ui://bs2uwwz8flzz0" fontSize="33" color="#875b9e" letterSpacing="1" text="时间设定:"/>
+    <image id="n9_rqgg" name="n9" src="rqgg4" fileName="Imag/input_unmber.png" xy="504,832" group="n23_rqgg"/>
+    <image id="n10_rqgg" name="n10" src="rqgg4" fileName="Imag/input_unmber.png" xy="570,832" group="n23_rqgg"/>
+    <image id="n11_rqgg" name="n11" src="rqgg5" fileName="Imag/btn_anrrow.png" xy="525,807" group="n23_rqgg"/>
+    <image id="n12_rqgg" name="n12" src="rqgg5" fileName="Imag/btn_anrrow.png" xy="588,807" group="n23_rqgg"/>
+    <image id="n13_rqgg" name="n13" src="rqgg5" fileName="Imag/btn_anrrow.png" xy="526,886" pivot="0.5,0.5" group="n23_rqgg" rotation="180"/>
+    <image id="n14_rqgg" name="n14" src="rqgg5" fileName="Imag/btn_anrrow.png" xy="588,886" pivot="0.5,0.5" group="n23_rqgg" rotation="180"/>
+    <list id="n15_rqgg" name="n15" xy="506,832" size="65,44" group="n23_rqgg" overflow="scroll" scrollBarFlags="2048" margin="3,0,6,0" lineGap="4" defaultItem="ui://x03va7jnrqgge" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n16_rqgg" name="n16" xy="572,832" size="65,44" group="n23_rqgg" overflow="scroll" scrollBarFlags="2048" margin="3,0,6,0" lineGap="4" defaultItem="ui://x03va7jnrqgge" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n17_rqgg" name="n17" xy="114,920" size="155,45" group="n23_rqgg" font="ui://bs2uwwz8flzz0" fontSize="33" color="#875b9e" letterSpacing="2" text="提醒铃声:"/>
+    <text id="n20_rqgg" name="n20" xy="116,971" size="459,33" group="n23_rqgg" font="ui://bs2uwwz8flzz2" fontSize="23" color="#93879a" letterSpacing="-1" text="(注：闹钟生效后，主界面会更改为选择的角色)"/>
+    <component id="n21_rqgg" name="n21" src="rqggf" fileName="Comp/Button_lingsheng.xml" xy="452,916" pivot="0.56,0.6" group="n23_rqgg"/>
+    <text id="n27_gyvj" name="n27" xy="113,879" size="283,33" group="n23_rqgg" font="ui://bs2uwwz8flzz2" fontSize="23" color="#93879a" letterSpacing="-1" text="(按住数字上下拖动选择时间)"/>
+    <group id="n23_rqgg" name="n23" xy="110,621" size="536,383" advanced="true">
+      <relation target="n2_rqgg" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

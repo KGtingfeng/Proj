@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="270,270">
+  <displayList>
+    <loader id="n0_dkwi" name="n0" xy="0,0" size="270,270" url="ui://82yrhfjgvdqr1" autoSize="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n1_mqef" name="n1" xy="-54,-54" size="378,378" url="ui://f738c2kbrkmiq4l" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <graph id="n2_mqef" name="n2" xy="0,0" size="270,270" type="rect" lineSize="0" fillColor="#00ffffff"/>
+  </displayList>
+</component>

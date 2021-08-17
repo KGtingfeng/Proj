@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,101">
+  <displayList>
+    <image id="n14_g0xm" name="n14" src="vvawc" fileName="Imag/piece3.png" xy="26,45" pivot="0.5,0.5" anchor="true" rotation="16"/>
+  </displayList>
+</component>

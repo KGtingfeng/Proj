@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,362">
+  <controller name="c1" pages="1,折扣,0,原价" selected="1"/>
+  <displayList>
+    <image id="n11_exzo" name="n11" src="exzof" fileName="Imag/frame_pop1.png" xy="-33,-30"/>
+    <image id="n12_exzo" name="n12" src="exzog" fileName="Imag/frame_pop2.png" xy="46,48"/>
+    <image id="n20_exzo" name="n20" src="exzon" fileName="Imag/pricebg.png" xy="64,274" size="179,44"/>
+    <text id="n21_exzo" name="n21" xy="62,246" size="178,29" font="ui://bs2uwwz8flzz0" fontSize="20" color="#905468" align="center" vAlign="middle" autoSize="none" text="物品的名字"/>
+    <text id="n22_exzo" name="n22" xy="64,319" size="179,24" font="ui://bs2uwwz8flzz2" fontSize="16" color="#976c7a" align="center" vAlign="middle" autoSize="none" text="限时出售：2天17小时"/>
+    <loader id="n25_exzo" name="n26" xy="54,55" pivot="0.5,0.5" size="194,194" scale="0.9,0.9" url="ui://uluoyg28nuqx2e" fill="scale" shrinkOnly="true"/>
+    <component id="n16_exzo" name="n16" src="exzoo" fileName="Comp/hotnew.xml" xy="214,200"/>
+    <image id="n18_exzo" name="n18" src="exzol" fileName="Imag/type_dazhe.png" xy="51,48">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n19_exzo" name="n19" src="exzok" fileName="Imag/type_xianshi.png" xy="219,48"/>
+    <text id="n26_h3u3" name="n29" xy="220,281" size="35,29" font="ui://bs2uwwz8flzz0" fontSize="20" color="#aa97b1" letterSpacing="-2" shadowColor="#ffffff" shadowOffset="1,1" text="100">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n24_exzo" sidePair="middle-middle,left-right"/>
+    </text>
+    <graph id="n27_h3u3" name="n27" xy="220,295" size="38,2" type="rect" lineSize="0" fillColor="#ffaa97b1">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n26_h3u3" sidePair="width-width,center-center,middle-middle"/>
+    </graph>
+    <text id="n24_exzo" name="n25" xy="136,281" size="75,29" font="ui://bs2uwwz8flzz0" fontSize="20" color="#6e4a77" align="center" shadowColor="#cccccc" shadowOffset="1,1" text="200000">
+      <gearXY controller="c1" pages="1" values="114,281" default="136,281"/>
+      <relation target="n20_exzo" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n23_exzo" name="n24" xy="90,273" size="100,100" scale="0.45,0.45" url="ui://82yrhfjgvdqrd" autoSize="true">
+      <relation target="n24_exzo" sidePair="middle-middle,left-left"/>
+    </loader>
+    <image id="n13_exzo" name="n13" src="exzoi" fileName="Imag/popnumberbg.png" xy="64,209" group="n28_tp42"/>
+    <text id="n14_exzo" name="n14" xy="69,211" size="54,23" group="n28_tp42" font="ui://bs2uwwz8flzz0" fontSize="15" color="#ffffff" autoSize="none" shadowColor="#000000" shadowOffset="1,1" text="限购:">
+      <relation target="n13_exzo" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n15_exzo" name="n15" xy="123,211" size="54,23" group="n28_tp42" font="ui://bs2uwwz8flzz0" fontSize="15" color="#ffffff" align="center" autoSize="none" shadowColor="#000000" shadowOffset="1,1" text="100">
+      <relation target="n13_exzo" sidePair="middle-middle,right-right"/>
+    </text>
+    <group id="n28_tp42" name="n28" xy="64,209" size="120,28" advanced="true">
+      <relation target="n12_exzo" sidePair="left-left"/>
+    </group>
+    <text id="n29_a9ez" name="n29" xy="52,54" size="25,56" font="ui://bs2uwwz8flzz0" fontSize="16" color="#ffffff" align="center" autoSize="none" text="打&#xA;折">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <text id="n30_a9ez" name="n30" xy="220,54" size="25,56" font="ui://bs2uwwz8flzz0" fontSize="16" color="#ffffff" align="center" autoSize="none" text="限&#xA;时"/>
+  </displayList>
+</component>

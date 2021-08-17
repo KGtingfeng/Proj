@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0," selected="0"/>
+  <displayList>
+    <loader id="n36_ibet" name="n36" xy="-235,0" size="1220,1624">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n35_ibet" name="n34" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="-235,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n12_vvaw" name="n12" src="h4fsd" fileName="Imag/bg_laji.png" xy="3,344" size="744,848"/>
+    <component id="n0_vvaw" name="n0" src="vvawc" fileName="Comp/harmfulwaste.xml" xy="382,1200">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n1_vvaw" name="n1" src="vvaw9" fileName="Comp/other.xml" xy="566,1200">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n2_vvaw" name="n2" src="vvawb" fileName="Comp/recoverable.xml" xy="14,1201">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n3_vvaw" name="n3" src="vvawa" fileName="Comp/rest.xml" xy="198,1200">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n37_h4fs" name="n37" src="h4fs22" fileName="Imag/bg_1.png" pkg="17rhwh28" xy="224,196"/>
+    <text id="n13_vvaw" name="n13" xy="252,263" size="259,47" font="ui://bs2uwwz8flzz0" fontSize="29" color="#fff6ea" align="center" autoSize="none" shadowColor="#e56a91" shadowOffset="1,1" text="剩余时间：10s"/>
+  </displayList>
+</component>

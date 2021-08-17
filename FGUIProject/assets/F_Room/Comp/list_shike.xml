@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="298,391">
+  <controller name="c1" pages="0,已解锁,1,未解锁,2,敬请期待" selected="2"/>
+  <displayList>
+    <image id="n13_zh3o" name="n13" src="zh3o20" fileName="Imag/jiesuo.png" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n14_zh3o" name="n14" src="zh3o1y" fileName="Imag/qidai.png" xy="0,0">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <loader id="n15_zh3o" name="n15" xy="0,0" size="298,391" url="ui://x03va7jnzh3o1z" autoSize="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </loader>
+    <image id="n16_zh3o" name="n16" src="zh3o22" fileName="Imag/textbg.png" xy="43,306" group="n18_zh3o"/>
+    <text id="n17_zh3o" name="n17" xy="5,305" size="288,48" group="n18_zh3o" font="ui://bs2uwwz8flzz0" fontSize="35" color="#ffffff" align="center" autoSize="none" italic="true" shadowColor="#555eb2" shadowOffset="1,2" text="敬请期待">
+      <gearText controller="c1" pages="2" values="敬请期待" default="时刻名字"/>
+    </text>
+    <group id="n18_zh3o" name="n18" xy="5,305" size="288,48" advanced="true">
+      <gearDisplay controller="c1" pages="0,1,2"/>
+      <gearText controller="c1" default=""/>
+    </group>
+    <text id="n20_a9ez" name="n20" xy="98,151" size="122,62" font="ui://bs2uwwz8flzz0" fontSize="22" color="#ffffff" letterSpacing="2" text="更多时刻，&#xA;敬请期待！">
+      <gearDisplay controller="c1" pages="2"/>
+    </text>
+    <text id="n21_a9ez" name="n21" xy="101,229" size="98,32" font="ui://bs2uwwz8flzz0" fontSize="22" color="#ffffff" letterSpacing="2" text="前往解锁">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+  </displayList>
+</component>

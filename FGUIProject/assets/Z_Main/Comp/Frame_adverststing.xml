@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <component id="n10_rpjz" name="n10" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-235,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n4_k7ir" name="n4" src="rpjzq6b" fileName="Imag/bg_adverststing.png" xy="26,291" size="693,935">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n6_k7ir" name="n6" xy="144,1243" size="462,52" fontSize="33" color="#e7d5ed" align="center" autoSize="none" text="点击空白处关闭">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n12_rpjz" name="n12" xy="34,324" size="681,891" url="ui://6q5yp7sirpjzq6c"/>
+  </displayList>
+</component>

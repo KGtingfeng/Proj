@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="802,1342">
+  <displayList>
+    <image id="n19_vvaw" name="n19" src="vvawu" fileName="Imap/ptn_effect.png" xy="0,0" size="802,1342">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <graph id="n27_yphc" name="n27" xy="388,508" pivot="0.5,0.5" anchor="true" size="100,100" type="rect" lineColor="#00000000" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <component id="n24_n6wn" name="n24" src="7afj1l" fileName="Comp/doll_character.xml" xy="149,145"/>
+    <image id="n21_gait" name="n21" src="k9eb1j" fileName="Imap/bg_effect_top.png" xy="86,60">
+      <relation target="n19_vvaw" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n23_n6wn" name="n23" src="n6wn1q" fileName="Comp/path_ani.xml" xy="24,-118"/>
+    <graph id="n25_yphc" name="n25" xy="402,601" pivot="0.5,0.5" anchor="true" size="466,1032" type="rect" lineColor="#00000000" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <graph id="n26_yphc" name="n26" xy="400,110" pivot="0.5,0.5" anchor="true" size="100,100" type="rect" lineColor="#00000000" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+  </displayList>
+</component>

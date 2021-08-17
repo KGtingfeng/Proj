@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,主页,1,tips1,2,tips2,3,tips3,4,获得剑,5,获得剑后" selected="5"/>
+  <displayList>
+    <loader id="n0_ndoc" name="n0" xy="-235,0" size="1220,1624" url="ui://uluoyg28boei3j">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <graph id="n48_onqs" name="n48" xy="-235,0" size="1220,1624" type="rect" lineSize="0" fillColor="#00ffffff"/>
+    <graph id="n47_onqs" name="n47" xy="-235,0" size="1220,1624" type="rect" lineSize="0" fillColor="#00ffffff"/>
+    <component id="n40_f54j" name="n40" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="-235,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n1_ndoc" name="n1" src="ndoc2" fileName="Imag/btn_swordbg.png" xy="73,1214">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n2_ndoc" name="n2" src="ndoc3" fileName="Imag/图层148.png" xy="69,1363" group="n8_ndoc"/>
+    <image id="n3_ndoc" name="n3" src="ndoc3" fileName="Imag/图层148.png" xy="172,1363" group="n8_ndoc"/>
+    <image id="n4_ndoc" name="n4" src="ndoc3" fileName="Imag/图层148.png" xy="275,1363" group="n8_ndoc"/>
+    <image id="n5_ndoc" name="n5" src="ndoc3" fileName="Imag/图层148.png" xy="378,1363" group="n8_ndoc"/>
+    <image id="n6_ndoc" name="n6" src="ndoc3" fileName="Imag/图层148.png" xy="481,1363" group="n8_ndoc"/>
+    <image id="n7_ndoc" name="n7" src="ndoc3" fileName="Imag/图层148.png" xy="584,1363" group="n8_ndoc"/>
+    <group id="n8_ndoc" name="n8" xy="69,1363" size="611,96" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n22_gggm" name="n22" src="gggmj" fileName="Imag/btn_swordbg1.png" xy="92,1230">
+      <gearDisplay controller="c1" pages="0,1,2,3,4"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n10_gggm" name="n9" src="q9vfy" fileName="Comp/baishi1.xml" xy="435,362" pivot="0.5,0.5" group="n42_pgcr" scale="0.8,0.8" rotation="21"/>
+    <component id="n13_gggm" name="n10" src="q9vf12" fileName="Comp/baoshi2.xml" xy="670,1147" pivot="0.5,0.5" group="n42_pgcr" scale="0.8,0.8" rotation="-39"/>
+    <component id="n9_gggm" name="n11" src="q9vfz" fileName="Comp/baoshi3.xml" xy="323,994" pivot="0.5,0.5" group="n42_pgcr" scale="0.8,0.8" rotation="25"/>
+    <component id="n12_gggm" name="n12" src="q9vf11" fileName="Comp/baoshi4.xml" xy="73,816" pivot="0.5,0.5" group="n42_pgcr" scale="0.8,0.8" rotation="38"/>
+    <component id="n11_gggm" name="n13" src="q9vf10" fileName="Comp/baoshi5.xml" xy="671,967" pivot="0.5,0.5" group="n42_pgcr" scale="0.8,0.8" rotation="15"/>
+    <component id="n14_gggm" name="n14" src="q9vf15" fileName="Comp/baoshi6.xml" xy="283,1101" pivot="0.5,0.5" group="n42_pgcr" scale="0.8,0.8" rotation="39"/>
+    <group id="n42_pgcr" name="n42" xy="73,362" size="656,865" advanced="true">
+      <relation target="n0_ndoc" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n56_ipzc" name="n56" src="ipzce1w" fileName="Comp/tengman.xml" xy="3,400" size="350,367" group="n62_ipzc"/>
+    <component id="n57_ipzc" name="n57" src="ipzce1w" fileName="Comp/tengman.xml" xy="-71,772" size="335,288" group="n62_ipzc"/>
+    <component id="n58_ipzc" name="n58" src="ipzce1w" fileName="Comp/tengman.xml" xy="315,361" size="260,198" group="n62_ipzc"/>
+    <component id="n59_ipzc" name="n59" src="ipzce1w" fileName="Comp/tengman.xml" xy="547,489" size="201,556" group="n62_ipzc"/>
+    <component id="n60_ipzc" name="n60" src="ipzce1w" fileName="Comp/tengman.xml" xy="576,255" size="409,236" group="n62_ipzc"/>
+    <component id="n61_ipzc" name="n61" src="ipzce1w" fileName="Comp/tengman.xml" xy="720,490" size="265,556" group="n62_ipzc"/>
+    <group id="n62_ipzc" name="n62" xy="-71,255" size="1057,805" advanced="true">
+      <relation target="n0_ndoc" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n15_gggm" name="n15" src="gggma" fileName="Imag/ptn_sd_sword.png" xy="421,829" group="n41_pgcr">
+      <gearDisplay controller="c1" pages="0,1,2,3"/>
+    </image>
+    <component id="n16_gggm" name="n16" src="q9vf17" fileName="Comp/sward2.xml" xy="473,830" pivot="0.5,0.5" group="n41_pgcr">
+      <gearDisplay controller="c1" pages="0,1,2,3"/>
+    </component>
+    <component id="n17_gggm" name="n17" src="q9vf18" fileName="Comp/sward4.xml" xy="95,895" pivot="0.5,0.5" group="n41_pgcr">
+      <gearDisplay controller="c1" pages="0,1,2,3"/>
+    </component>
+    <component id="n18_gggm" name="n18" src="q9vf19" fileName="Comp/sward5.xml" xy="16,745" pivot="0.5,0.5" group="n41_pgcr">
+      <gearDisplay controller="c1" pages="0,1,2,3"/>
+    </component>
+    <component id="n19_gggm" name="n19" src="q9vf16" fileName="Comp/sward6.xml" xy="496,1036" pivot="0.5,0.5" group="n41_pgcr">
+      <gearDisplay controller="c1" pages="0,1,2,3"/>
+    </component>
+    <component id="n20_gggm" name="n20" src="q9vf1a" fileName="Comp/sward1.xml" xy="164,995" pivot="0.5,0.5" group="n41_pgcr">
+      <gearDisplay controller="c1" pages="0,1,2,3"/>
+    </component>
+    <component id="n21_gggm" name="n21" src="q9vf1b" fileName="Comp/sward3.xml" xy="338,734" pivot="0.5,0.5" group="n41_pgcr">
+      <gearDisplay controller="c1" pages="0,1,2,3"/>
+    </component>
+    <group id="n41_pgcr" name="n41" xy="16,734" size="612,442" advanced="true">
+      <relation target="n0_ndoc" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n49_boei" name="n49" src="boeie1p" fileName="Imag/tengman2.png" xy="-48,375">
+      <relation target="n0_ndoc" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n50_boei" name="n50" src="boeie1q" fileName="Imag/tengman1.png" xy="-124,734">
+      <relation target="n0_ndoc" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n52_boei" name="n51" src="boeie1r" fileName="Imag/tengman3.png" xy="261,323">
+      <relation target="n0_ndoc" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n53_boei" name="n52" src="boeie1t" fileName="Imag/tengman5.png" xy="504,463">
+      <relation target="n0_ndoc" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n54_boei" name="n53" src="boeie1s" fileName="Imag/tengman4.png" xy="573,256">
+      <relation target="n0_ndoc" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n55_boei" name="n54" src="boeie1u" fileName="Imag/tengman6.png" xy="680,485">
+      <relation target="n0_ndoc" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n43_nofy" name="n43" src="nofy1j" fileName="Imag/ptn_flower.png" xy="202,1125">
+      <relation target="n0_ndoc" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n23_gggm" name="n23" src="gggml" fileName="Comp/frame_tips.xml" xy="4,669">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n24_gggm" name="n24" src="gggmm" fileName="Comp/frame_tips2.xml" xy="6,234">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n26_gggm" name="n26" src="ikcrq1s" fileName="Comp/Frame_tips.xml" pkg="82yrhfjg" xy="15,241">
+      <gearDisplay controller="c1" pages="3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n35_gggm" name="n35" src="gggmo" fileName="Comp/Frame_gainsword.xml" xy="-235,-1">
+      <gearDisplay controller="c1" pages="4"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n44_q9g9" name="n37" src="q9g9e1m" fileName="Comp/sword.xml" xy="510,1248" pivot="0.778,0" anchor="true">
+      <gearDisplay controller="c1" pages="5"/>
+    </component>
+    <graph id="n63_ffqq" name="n63" xy="-235,0" size="1220,1624" touchable="false" type="rect" lineSize="0" fillColor="#00ffffff"/>
+    <component id="n64_ej9f" name="n64" src="ej9fe20" fileName="Comp/anime_sword.xml" xy="332,254" touchable="false">
+      <gearDisplay controller="c1" pages="5"/>
+    </component>
+  </displayList>
+</component>

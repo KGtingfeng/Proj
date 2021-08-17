@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <displayList>
+    <image id="n3_e2l7" name="n3" src="hsbv1v" fileName="Imag/ptn_mask.png" xy="0,0" size="1220,1624">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n1_dd7o" name="n1" src="dd7o2l" fileName="Comp/frame_common_levelup_com.xml" xy="244,433" pivot="0.5,0.5">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+  <transition name="t0" frameRate="60">
+    <item time="0" type="Alpha" target="n1_dd7o" tween="true" startValue="0" endValue="1" duration="24"/>
+    <item time="0" type="Scale" target="n1_dd7o" tween="true" startValue="0.8,0.8" endValue="1.1,1.1" duration="16" ease="Quart.In"/>
+    <item time="16" type="Scale" target="n1_dd7o" tween="true" startValue="1.1,1.1" endValue="1,1" duration="8" ease="Linear"/>
+  </transition>
+</component>

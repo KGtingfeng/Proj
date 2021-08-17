@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,148">
+  <displayList>
+    <image id="n49_dkwi" name="n49" src="dkwi4" fileName="Imag/framebg2.png" xy="0,0">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n50_dkwi" name="n50" src="dkwih" fileName="Imag/rank.png" xy="36,12">
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </image>
+    <component id="n57_tzni" name="n57" src="gab61o" fileName="Comp/frame_title.xml" pkg="82yrhfjg" xy="286,70" pivot="0.5,0.5" scale="0.827,0.827"/>
+    <text id="n51_dkwi" name="n51" xy="47,38" size="50,49" font="ui://bs2uwwz8flzz0" fontSize="30" color="#ffffff" align="center" leading="1" autoSize="none" shadowColor="#7bdfe7" shadowOffset="1,1" text="71">
+      <relation target="n50_dkwi" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n53_dkwi" name="n53" xy="319,34" size="162,36" font="ui://bs2uwwz8flzz0" fontSize="26" color="#534848" align="center" autoSize="none" text="玩家名字">
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </text>
+    <text id="n54_dkwi" name="n54" xy="319,75" size="162,36" font="ui://bs2uwwz8flzz0" fontSize="26" color="#ffffff" align="center" autoSize="none" text="玩家名字">
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </text>
+    <text id="n55_dkwi" name="n55" xy="519,58" size="207,36" font="ui://bs2uwwz8flzz0" fontSize="26" color="#ffffff" align="right" autoSize="none" shadowColor="#c36969" shadowOffset="1,1" text="好感度:321654">
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </text>
+    <component id="n56_mqef" name="n52" src="dkwi10" fileName="Comp/headicon.xml" xy="59,-66" pivot="0.5,0.5" scale="0.409,0.409"/>
+  </displayList>
+</component>

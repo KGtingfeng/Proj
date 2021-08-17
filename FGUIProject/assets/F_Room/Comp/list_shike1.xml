@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="614,270">
+  <controller name="c1" pages="0,,1," selected="1"/>
+  <displayList>
+    <loader id="n11_zh3o" name="n11" xy="307,135" pivot="0.5,0.5" anchor="true" size="614,270" url="ui://x03va7jnih11q51">
+      <gearXY controller="c1" pages="0,1" values="307,135|307,135"/>
+    </loader>
+    <text id="n12_zh3o" name="n12" xy="302,69" size="124,79" font="ui://bs2uwwz8flzz0" fontSize="60" color="#ffffff" italic="true" strokeColor="#6276b5" strokeSize="2" shadowColor="#606ba3" shadowOffset="2,2" text="人名">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <text id="n13_zh3o" name="n13" xy="293,156" size="141,29" font="ui://bs2uwwz8flzz2" fontSize="20" color="#ffffff" italic="true" strokeColor="#6276b5" shadowColor="#606ba3" shadowOffset="1,1" text="已拥有时刻数:1">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <text id="n14_fps2" name="n14" xy="169,69" size="124,79" font="ui://bs2uwwz8flzz0" fontSize="60" color="#ffffff" italic="true" strokeColor="#f3a588" strokeSize="2" shadowColor="#d68960" shadowOffset="2,2" text="人名">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <text id="n15_fps2" name="n15" xy="162,156" size="141,29" font="ui://bs2uwwz8flzz2" fontSize="20" color="#ffffff" italic="true" strokeColor="#f3a588" strokeSize="2" shadowColor="#d68960" shadowOffset="2,2" text="已拥有时刻数:1">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+  </displayList>
+</component>

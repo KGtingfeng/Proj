@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,256" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_dkwi" name="n0" src="dkwif" fileName="Imag/ptn_shuxing.png" xy="0,0">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_dkwi" name="n1" src="dkwif" fileName="Imag/ptn_shuxing.png" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_a9ez" name="n2" xy="348,71" size="194,52" font="ui://bs2uwwz8flzz0" fontSize="38" color="#ffffff" align="center" shadowColor="#330066" shadowOffset="1,1" text="玩家属性榜"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".99"/>
+</component>

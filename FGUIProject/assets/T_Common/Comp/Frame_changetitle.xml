@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://uluoyg28pzu0q4f">
+  <displayList>
+    <component id="n92_pzu0" name="n1" src="e2l7q2z" fileName="Comp/mask_Component.xml" xy="-235,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n45_rj5h" name="n45" src="lnqm12" fileName="Imag/frame1_common.png" xy="68,311" size="611,1063" group="n94_980g">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n46_rj5h" name="n46" src="lnqm1p" fileName="Imag/ptn_freme_playerinfo.png" xy="91,447" size="576,48" group="n93_pzu0" alpha="0.41"/>
+    <component id="n49_rj5h" name="n49" src="lnqm1r" fileName="Comp/Icon_head.xml" pkg="t0kqvihp" xy="117,394" size="268,270" group="n93_pzu0" scale="0.54,0.54"/>
+    <text id="n52_rj5h" name="n52" xy="291,451" size="182,42" group="n93_pzu0" font="ui://bs2uwwz8flzz0" fontSize="30" color="#71635d" autoSize="none" text="XXXXXXXXX"/>
+    <component id="n71_gab6" name="n71" src="gab61o" fileName="Comp/frame_title.xml" xy="291,509" size="236,44" group="n93_pzu0" scale="0.8,0.8"/>
+    <text id="n53_rj5h" name="n53" xy="389,527" pivot="0.5,0.5" anchor="true" size="122,34" group="n93_pzu0" font="ui://bs2uwwz8flzz0" fontSize="24" color="#ffffff" align="center" autoSize="none" text="仙境百事通"/>
+    <component id="n70_phej" name="n70" src="o2bo2h" fileName="Comp/Button_common_close.xml" xy="588,249" size="94,106" group="n93_pzu0"/>
+    <component id="n67_rj5h" name="n67" src="nnz4q5i" fileName="Comp/list_selecttitle.xml" xy="84,622" size="589,573" group="n93_pzu0"/>
+    <image id="n72_gab6" name="n72" src="gab61l" fileName="Imag/ptn_lv.png" xy="114,496" group="n93_pzu0"/>
+    <text id="n73_gab6" name="n73" xy="112,500" size="46,29" group="n93_pzu0" font="ui://bs2uwwz8flzz0" fontSize="20" color="#ffffff" align="center" autoSize="none" strokeColor="#c65959" text="99">
+      <relation target="n72_gab6" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n74_gab6" name="n74" xy="268,408" size="46,32" group="n93_pzu0" font="ui://bs2uwwz8flzz2" fontSize="22" color="#71635d" align="right" autoSize="none" text="ID："/>
+    <text id="n75_gab6" name="n75" xy="318,408" size="182,32" group="n93_pzu0" font="ui://bs2uwwz8flzz2" fontSize="22" color="#71635d" autoSize="none" text="666666666666666"/>
+    <image id="n78_pzu0" name="n78" src="pzu0q44" fileName="Imag/titlebg(1).png" xy="91,560" size="202,48" group="n93_pzu0"/>
+    <text id="n79_pzu0" name="n79" xy="125,566" size="109,34" group="n93_pzu0" font="ui://bs2uwwz8flzz0" fontSize="24" color="#71635d" autoSize="none" text="我的称号"/>
+    <component id="n90_pzu0" name="n90" src="pzu0q5e" fileName="Comp/Button_xiexia.xml" xy="490,509" group="n93_pzu0" scale="0.747,0.747"/>
+    <component id="n91_pzu0" name="n91" src="pzu03q" fileName="Comp/Button2_red2.xml" xy="280,1216" size="197,68" group="n93_pzu0" scale="0.883,0.883"/>
+    <group id="n93_pzu0" name="n93" xy="84,249" size="598,1035" group="n94_980g" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <group id="n94_980g" name="n94" xy="68,249" size="614,1125"/>
+  </displayList>
+</component>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0," selected="0"/>
+  <displayList>
+    <loader id="n48_cf64" name="n48" xy="-235,0" size="1220,1624" visible="false" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <graph id="n51_w1na" name="n51" xy="383,527" pivot="0.5,0.5" anchor="true" size="100,100" type="rect">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <component id="n1_vvaw" name="n1" src="vvaw8" fileName="Comp/boat.xml" xy="376,601" pivot="0.5,1" anchor="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n50_etuz" name="n50" src="ple6l" fileName="Imag/bg_water.png" xy="-236,582" size="1224,884">
+      <relation target="n48_cf64" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n2_vvaw" name="n2" src="vvawa" fileName="Comp/claw.xml" xy="355,594" pivot="0.5,0" anchor="true">
+      <relation target="n1_vvaw" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n42_8noa" name="n42" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="-235,-4">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <graph id="n43_8noa" name="n43" xy="-109,0" size="100,1624" type="rect" lineSize="0" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <graph id="n44_8noa" name="n44" xy="760,0" size="100,1624" type="rect" lineSize="0" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <graph id="n45_8noa" name="n45" xy="-25,1619" size="800,20" type="rect" lineSize="0" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <image id="n47_h4fs" name="n47" src="h4fs22" fileName="Imag/bg_1.png" pkg="17rhwh28" xy="218,171"/>
+    <text id="n3_vvaw" name="n3" xy="342,218" size="66,78" font="ui://bs2uwwz8flzz0" fontSize="29" color="#fff6ea" align="center" vAlign="middle" text="打捞垃圾数&#xA;6/10">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n52_kfwi" name="n52" src="vvaw9" fileName="Imag/claw.png" xy="346,514" size="13,74" rotation="-2"/>
+  </displayList>
+</component>

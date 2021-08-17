@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <controller name="c1" pages="0,提示,1,失败,3,成功" selected="1"/>
+  <displayList>
+    <component id="n22_dkaw" name="n22" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="0,0" size="1220,1624">
+      <relation target="" sidePair="width-width,height-height%"/>
+    </component>
+    <graph id="n37_izkh" name="n37" xy="270,489" size="683,501" type="rect" lineSize="0" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <image id="n21_dkaw" name="n21" src="t4052f" fileName="Imag/frame_gifts.png" pkg="82yrhfjg" xy="288,482" size="644,512" grayed="true">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearLook controller="c1" pages="0" values="1,0,0,0" default="1,0,1,0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n23_dkaw" name="n23" xy="534,517" size="152,54" font="ui://bs2uwwz8flzz0" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="挑战失败">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearText controller="c1" pages="0" values="提示" default="挑战失败"/>
+      <relation target="n21_dkaw" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n24_dkaw" name="n24" xy="383,706" size="454,112" font="ui://bs2uwwz8flzz2" fontSize="30" color="#cf6aa5" align="center" leading="20" autoSize="none" text="在按钮完全变红时点击它&#xA;就能躲开砸下来的高楼">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="n21_dkaw" sidePair="center-center,middle-middle%"/>
+    </text>
+    <text id="n26_dkaw" name="n26" xy="413,657" size="393,103" font="ui://xk3nrdkvkki51" fontSize="32" color="#cf6aa5" align="center" vAlign="middle" leading="20" autoSize="none" text="点击按钮的时间不准确&#xA;你没能躲开砸下的大楼">
+      <gearDisplay controller="c1" pages="1"/>
+      <gearText controller="c1" pages="1" values="点击按钮的时间不准确&#xA;你没能躲开砸下的大楼" default="你已经找到了所有碎片，快去修复时间之舟吧！"/>
+      <relation target="n21_dkaw" sidePair="center-center,middle-middle%"/>
+    </text>
+    <component id="n32_suo0" name="n32" src="rj5h22" fileName="Comp/Button2_red.xml" pkg="82yrhfjg" xy="636,817">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n21_dkaw" sidePair="right-right,bottom-bottom"/>
+      <Button title="再来一次"/>
+    </component>
+    <component id="n34_iyc8" name="n34" src="k1w4q4z" fileName="Comp/Button2_blue_xiaohao.xml" pkg="82yrhfjg" xy="329,817">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n21_dkaw" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <image id="n35_cn0h" name="n35" src="cn0h1" fileName="Imag/tips_frame2.png" xy="260,993">
+      <gearDisplay controller="c1" pages="3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n36_cn0h" name="n36" xy="366,1017" size="488,159" font="ui://bs2uwwz8flzz0" fontSize="35" color="#9e448f" align="center" vAlign="middle" leading="20" autoSize="none" strokeColor="#ffffff" text="恭喜你&#xA;你成功避开了所有倒塌的建筑">
+      <gearDisplay controller="c1" pages="3"/>
+      <relation target="n35_cn0h" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

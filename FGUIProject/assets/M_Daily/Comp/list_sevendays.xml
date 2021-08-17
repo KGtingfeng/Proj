@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="168,162">
+  <displayList>
+    <loader id="n1_bvfr" name="n1" xy="18,10" size="138,133" group="n7_ple6" fill="scale" shrinkOnly="true"/>
+    <image id="n6_ple6" name="n6" src="ubaiq54" fileName="Imag/frame_liwu1(1).png" pkg="82yrhfjg" xy="19,10" group="n7_ple6"/>
+    <image id="n0_bvfr" name="n0" src="bvfry" fileName="Imge/bg_present.png" xy="10,4" size="146,144" group="n7_ple6"/>
+    <image id="n2_bvfr" name="n2" src="ubaiq55" fileName="Imag/number_bg(1).png" pkg="82yrhfjg" xy="18,103" size="132,40" group="n7_ple6"/>
+    <text id="n3_bvfr" name="n3" xy="47,105" size="71,29" group="n7_ple6" font="ui://bs2uwwz8flzz2" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="130"/>
+    <text id="n4_bvfr" name="n4" xy="57,147" size="51,26" group="n7_ple6" font="ui://bs2uwwz8flzz0" fontSize="18" color="#ffffff" align="center" autoSize="none" text="发卡"/>
+    <group id="n7_ple6" name="n7" xy="10,4" size="146,169"/>
+  </displayList>
+</component>

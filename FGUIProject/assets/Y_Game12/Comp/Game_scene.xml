@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,开始游戏,1,游戏中" selected="0"/>
+  <displayList>
+    <loader id="n9_p567" name="n9" xy="-235,0" size="1220,1624" fill="scaleMatchWidth">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n6_gx49" name="n6" xy="-235,0" size="1220,1624" fill="scaleMatchWidth">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n3_cn0h" name="n3" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="275,1380" scale="2,2">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="开始游戏"/>
+    </component>
+    <image id="n4_cn0h" name="n4" src="cn0h0" fileName="Imag/tips_frame.png" xy="12,1027" pivot="0.5,0.5" size="726,211">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n5_cn0h" name="n5" xy="193,1050" size="364,168" font="ui://bs2uwwz8flzz2" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="请及时点击躲避倒塌的建筑&#xD;注意在准确的时间点击&#xD;当按钮变成红色时点击它">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="n4_cn0h" sidePair="center-center,middle-middle"/>
+    </text>
+    <graph id="n7_gx49" name="n7" xy="375,950" pivot="0.5,0.5" anchor="true" size="100,100" type="rect" lineSize="0" fillColor="#00ffffff">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <graph id="n8_gx49" name="n8" xy="375,950" pivot="0.5,0.5" anchor="true" size="100,100" type="rect" lineSize="0" fillColor="#00ffffff">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <component id="n10_k7i8" name="n10" src="xrnqj" fileName="Comp/tap.xml" pkg="5sqxgclf" xy="435,673" touchable="false"/>
+  </displayList>
+</component>

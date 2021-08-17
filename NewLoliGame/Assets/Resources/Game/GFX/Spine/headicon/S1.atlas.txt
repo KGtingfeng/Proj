@@ -1,0 +1,27 @@
+
+S1.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+s1_1
+  rotate: false
+  xy: 1, 1
+  size: 330, 330
+  orig: 330, 330
+  offset: 0, 0
+  index: -1
+s1_2
+  rotate: true
+  xy: 76, 332
+  size: 150, 186
+  orig: 150, 186
+  offset: 0, 0
+  index: -1
+s1_3
+  rotate: true
+  xy: 1, 410
+  size: 72, 74
+  orig: 72, 74
+  offset: 0, 0
+  index: -1

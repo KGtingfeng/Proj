@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="70,84" mask="n24_m7ft">
+  <displayList>
+    <image id="n23_m7ft" name="n23" src="m7ftq3s" fileName="Imag/star_jindu1.png" xy="0,22"/>
+    <image id="n24_m7ft" name="n24" src="m7ftq3t" fileName="Imag/star_jinduze.png" xy="9,8" size="52,43"/>
+  </displayList>
+</component>

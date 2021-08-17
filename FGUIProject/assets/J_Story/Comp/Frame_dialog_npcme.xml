@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,455">
+  <controller name="c1" pages="0,NPC,1,我,2,事件旁白" selected="1"/>
+  <displayList>
+    <image id="n1_g6pv" name="n1" src="mjv5j" fileName="Imag/ptn_namebg.png" xy="708,56" size="373,140" scale="-1,1">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearXY controller="c1" pages="0,1" values="88,56|708,56" default="88,56"/>
+      <gearSize controller="c1" pages="1" values="373,140,-1,1" default="373,140,1,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <loader id="n8_er5d" name="n6" xy="541,-17" pivot="0.5,1" size="160,208" scale="-1,1" url="ui://6f05wxg5js92q5c">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearXY controller="c1" pages="0,1" values="95,-20|541,-17" default="83,-19"/>
+      <gearSize controller="c1" pages="0,1" values="158,210,1,1|160,208,-1,1" default="160,208,1,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n5_gab6" name="n5" src="gab6q3p" fileName="Imag/ptn_namebg1.png" xy="701,124" scale="-1,1">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearXY controller="c1" pages="0,1" values="97,124|701,124" default="93,122"/>
+      <gearSize controller="c1" pages="1" values="182,70,-1,1" default="182,70,1,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n2_g6pv" name="n2" xy="376,129" size="176,46" font="ui://bs2uwwz8flzz0" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" shadowColor="#6560c4" shadowOffset="0,2" text="烦烦&#xA;">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearXY controller="c1" pages="0,1" values="246,130|376,129" default="367,134"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

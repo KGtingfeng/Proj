@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="712,660">
+  <displayList>
+    <image id="n20_zw9n" name="n20" src="lnqm12" fileName="Imag/frame1_common.png" pkg="82yrhfjg" xy="49,0" size="613,660"/>
+    <text id="n2_7cz7" name="n2" xy="284,105" size="148,49" font="ui://bs2uwwz8flzz0" fontSize="36" color="#545454" text="账号登录"/>
+    <loader id="n23_zw9n" name="n23" xy="124,312" size="464,64" url="ui://t0kqvihpzw9n1z" autoSize="true"/>
+    <loader id="n21_zw9n" name="n21" xy="122,211" size="464,64" url="ui://t0kqvihpzw9n1z" autoSize="true"/>
+    <text id="n5_7cz7" name="n5" xy="135,225" size="82,36" font="ui://bs2uwwz8flzz0" fontSize="26" color="#ffffff" text="账号："/>
+    <text id="n6_7cz7" name="n6" xy="138,325" size="82,36" font="ui://bs2uwwz8flzz0" fontSize="26" color="#ffffff" text="密码："/>
+    <component id="n12_7cz7" name="n12" src="wf3bq5o" fileName="Comp/Button1_red.xml" pkg="82yrhfjg" xy="119,457">
+      <Button title="取消"/>
+    </component>
+    <component id="n13_7cz7" name="n13" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="387,457">
+      <Button title="确认"/>
+    </component>
+    <text id="n15_7cz7" name="n15" xy="243,215" size="329,57" alpha="0.97" font="ui://bs2uwwz8flzz2" fontSize="20" color="#4a4847" vAlign="middle" autoSize="none" text="" input="true" prompt="[color=#647074]请输入账号[/color]"/>
+    <text id="n16_7cz7" name="n16" xy="243,315" size="332,58" font="ui://bs2uwwz8flzz2" fontSize="20" color="#4a4847" vAlign="middle" autoSize="none" text="" input="true" prompt="[color=#647074]请输入6位以上密码[/color]" password="true"/>
+    <component id="n18_izqh" name="n18" src="izqh18" fileName="Comp/Button_change.xml" xy="124,385"/>
+    <component id="n19_izqh" name="n19" src="izqh19" fileName="Comp/Button_forget.xml" xy="481,387"/>
+  </displayList>
+</component>

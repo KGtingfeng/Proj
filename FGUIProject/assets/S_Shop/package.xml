@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="dtk856dw">
+  <resources>
+    <component id="jlkx0" name="Shop.xml" path="/Comp/" exported="true"/>
+    <image id="exzo2" name="btn_libao_active.png" path="/Imag/" exported="true"/>
+    <image id="exzo3" name="btn_libao.png" path="/Imag/" exported="true"/>
+    <image id="exzo4" name="btn_xingxing_active.png" path="/Imag/" exported="true"/>
+    <image id="exzo5" name="btn_xingxing.png" path="/Imag/" exported="true"/>
+    <image id="exzo6" name="btn_chongzhi_active.png" path="/Imag/" exported="true"/>
+    <image id="exzo7" name="btn_chongzhi.png" path="/Imag/" exported="true"/>
+    <image id="exzo8" name="btn_zuanshi_active.png" path="/Imag/" exported="true"/>
+    <image id="exzo9" name="btn_zuanshi.png" path="/Imag/" exported="true"/>
+    <component id="exzoa" name="Button_chongzhi.xml" path="/Comp/" exported="true"/>
+    <component id="exzob" name="Button_libao.xml" path="/Comp/" exported="true"/>
+    <component id="exzoc" name="Button_xingxing.xml" path="/Comp/" exported="true"/>
+    <component id="exzod" name="Button_zuanshi.xml" path="/Comp/" exported="true"/>
+    <image id="exzoe" name="ptn_1.png" path="/Imag/" exported="true" scale="9grid" scale9grid="0,352,739,14"/>
+    <image id="exzof" name="frame_pop1.png" path="/Imag/" exported="true"/>
+    <image id="exzog" name="frame_pop2.png" path="/Imag/" exported="true"/>
+    <component id="exzoh" name="Frame_liwupop.xml" path="/Comp/" exported="true"/>
+    <image id="exzoi" name="popnumberbg.png" path="/Imag/" exported="true"/>
+    <image id="exzok" name="type_xianshi.png" path="/Imag/" exported="true"/>
+    <image id="exzol" name="type_dazhe.png" path="/Imag/" exported="true"/>
+    <image id="exzom" name="hotnew.png" path="/Imag/" exported="true"/>
+    <image id="exzon" name="pricebg.png" path="/Imag/" exported="true" scale="9grid" scale9grid="21,0,3,44"/>
+    <component id="exzoo" name="hotnew.xml" path="/Comp/" exported="true"/>
+    <component id="exzoq3k" name="Frame_buy.xml" path="/Comp/" exported="true"/>
+    <image id="exzop" name="frame_shop.png" path="/Imag/" exported="true" scale="9grid" scale9grid="0,112,696,3"/>
+    <image id="exzoq" name="frame_pop3.png" path="/Imag/" exported="true"/>
+    <image id="exzoq3l" name="frame_buytips.png" path="/Imag/" exported="true" scale="9grid" scale9grid="0,112,702,4"/>
+    <component id="exzor" name="Frame_buytips.xml" path="/Comp/" exported="true"/>
+    <image id="vycmq3n" name="line.png" path="/Imag/" exported="true"/>
+    <component id="vycmq3o" name="Frame_lobaopop.xml" path="/Comp/" exported="true"/>
+    <image id="vycmq3p" name="libaonamebg.png" path="/Imag/" exported="true" scale="9grid" scale9grid="43,0,1,82"/>
+    <image id="vycmq3q" name="frame_libaoreview.png" path="/Imag/" exported="true" scale="9grid" scale9grid="27,24,2,7"/>
+    <component id="vycmq3r" name="Frame_libaoreview.xml" path="/Comp/" exported="true"/>
+    <image id="oo7gq3s" name="cardyue.png" path="/Imag/" exported="true"/>
+    <image id="oo7gq3t" name="cardji.png" path="/Imag/" exported="true"/>
+    <component id="oo7gq3u" name="yueka.xml" path="/Comp/" exported="true"/>
+    <component id="oo7gq3v" name="jika.xml" path="/Comp/" exported="true"/>
+    <image id="oo7gq3w" name="ptn_jika.png" path="/Imag/" exported="true" scale="9grid" scale9grid="33,11,83,22"/>
+    <image id="oo7gq3x" name="btn_yueka.png" path="/Imag/" exported="true"/>
+    <image id="oo7gq3y" name="btn_yuekaclose.png" path="/Imag/" exported="true"/>
+    <component id="oo7gq3z" name="Button_yueka.xml" path="/Comp/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

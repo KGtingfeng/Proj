@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="821,1624">
+  <controller name="c1" pages="0,属性缺少,1,对话失败,2,等级不足" selected="2"/>
+  <displayList>
+    <component id="n14_e2l7" name="n14" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-261,0" size="1344,1624">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n1_dd7o" name="n1" src="ro8rq37" fileName="Comp/Ptn_attribute_lackfailbg.xml" xy="99,536" size="643,726" group="n13_w8uf"/>
+    <text id="n2_dd7o" name="n2" xy="195,670" size="451,75" group="n13_w8uf" font="ui://bs2uwwz8flzz2" fontSize="24" color="#55626a" align="center" autoSize="none" shadowColor="#cccccc" shadowOffset="1,1" text="属性书的等级不能超过个人等级，你可以通过以下方式提升等级">
+      <gearDisplay controller="c1" pages="0,1,2"/>
+      <gearXY controller="c1" pages="2" values="195,670" default="195,692"/>
+      <gearText controller="c1" pages="0,1,2" values="您的属性不足，可以通过以下方式提升！|你和X的好感度不足，快去提升好感度吧|属性书的等级不能超过个人等级，你可以通过以下方式提升等级"/>
+    </text>
+    <component id="n8_lq3m" name="n3" src="lq3mq3v" fileName="Comp/Button_attribute_r.xml" xy="247,759" size="336,80" group="n13_w8uf">
+      <gearDisplay controller="c1" pages="0,1"/>
+    </component>
+    <component id="n9_lq3m" name="n6" src="lq3mq3u" fileName="Comp/Button_attribute_b.xml" xy="247,863" size="336,80" group="n13_w8uf">
+      <gearText controller="c1" pages="0,2" values="升级属性|帮助辛灵" default="提升角色好感度"/>
+      <Button title="帮助辛灵"/>
+    </component>
+    <component id="n10_lq3m" name="n7" src="lq3mq3u" fileName="Comp/Button_attribute_b.xml" xy="247,964" size="336,80" group="n13_w8uf">
+      <gearDisplay controller="c1" pages="1,2"/>
+      <gearText controller="c1" pages="2" values="经验瓶" default="重新开始剧情"/>
+      <Button title="经验瓶"/>
+    </component>
+    <text id="n16_tma0" name="n16" xy="338,570" size="152,50" group="n13_w8uf" font="ui://bs2uwwz8flzz0" fontSize="37" color="#ffffff" text="等级不足">
+      <gearText controller="c1" pages="2" values="等级不足" default="属性不足"/>
+    </text>
+    <loader id="n4_dd7o" name="n4" xy="317,775" size="100,100" group="n13_w8uf" scale="0.45,0.45" url="ui://82yrhfjgvdqrd" autoSize="true">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="n5_dd7o" sidePair="middle-middle,right-left"/>
+    </loader>
+    <text id="n5_dd7o" name="n5" xy="361,781" size="44,33" group="n13_w8uf" font="ui://wkrcryqms5cu3" fontSize="23" color="#ffffff" autoSize="none" shadowColor="#faa5e5" shadowOffset="1,1" text="256&#xA;">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="n8_lq3m" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n17_en21" name="n6" src="lq3mq3u" fileName="Comp/Button_attribute_b.xml" xy="247,761" size="336,80" group="n13_w8uf">
+      <gearDisplay controller="c1" pages="2"/>
+      <gearText controller="c1" pages="0,2" values="升级属性|每日任务" default="提升角色好感度"/>
+      <Button title="每日任务"/>
+    </component>
+    <group id="n13_w8uf" name="n13" xy="99,536" size="643,726" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

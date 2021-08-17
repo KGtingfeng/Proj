@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <controller name="c1" pages="0,提示,1,完成提示" selected="0"/>
+  <displayList>
+    <component id="n22_dkaw" name="n22" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="0,0">
+      <relation target="" sidePair="width-width,height-height%"/>
+    </component>
+    <image id="n21_dkaw" name="n21" src="t4052f" fileName="Imag/frame_gifts.png" pkg="82yrhfjg" xy="288,482" size="644,512">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n23_dkaw" name="n23" xy="567,517" size="64,42" font="ui://wkrcryqms5cu3" fontSize="30" color="#ffffff" align="center" vAlign="middle" text="提示">
+      <relation target="n21_dkaw" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n24_dkaw" name="n24" xy="488,687" size="228,103" font="ui://wkrcryqms5cu5" fontSize="32" color="#cf6aa5" align="center" leading="20" text="请找到碎片&#xA;修复时间之舟！">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="n21_dkaw" sidePair="center-center,middle-middle%"/>
+    </text>
+    <text id="n26_dkaw" name="n26" xy="413,661" size="393,103" font="ui://xk3nrdkvkki51" fontSize="32" color="#cf6aa5" leading="20" autoSize="none" text="你已经找到了所有碎片，快去修复时间之舟吧！">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n21_dkaw" sidePair="center-center,middle-middle%"/>
+    </text>
+    <component id="n28_dkaw" name="n28" src="dkawt" fileName="Comp/Button_gofind.xml" xy="478,813">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n21_dkaw" sidePair="center-center,bottom-bottom"/>
+    </component>
+  </displayList>
+</component>

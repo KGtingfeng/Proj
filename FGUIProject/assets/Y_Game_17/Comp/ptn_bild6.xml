@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="119,102">
+  <controller name="c1" pages="0,,1,tip" selected="0"/>
+  <displayList>
+    <image id="n10_g0xm" name="n10" src="vvaw9" fileName="Imag/bild6.png" xy="-64,-3"/>
+    <image id="n11_t19t" name="n11" src="t19t2y" fileName="Imag/tip6.png" xy="-24,-22">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+  </displayList>
+</component>

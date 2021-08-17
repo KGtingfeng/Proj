@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://uluoyg28bvfr2x" designImageOffsetY="26" designImageAlpha="0" designImageLayer="1">
+  <displayList>
+    <image id="n3_ms0g" name="n3" src="oymvr" fileName="Imge/bg_2.png" xy="0,256" size="750,1368">
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </image>
+    <image id="n10_bvfr" name="n10" src="bvfr1b" fileName="Imge/bg_3.png" xy="0,256" size="750,1368" alpha="0.7">
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </image>
+    <list id="n5_ms0g" name="n5" xy="478,463" size="239,1120" overflow="scroll" clipSoftness="22,22" lineGap="3" defaultItem="ui://7ru99abrms0gd" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n12_bvfr" name="n12" src="bvfr1c" fileName="Imge/bg_huawen.png" xy="-1,255" size="742,1289">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n13_bvfr" name="n13" src="bvfr1k" fileName="Imge/bg_title.png" xy="369,313">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n14_bvfr" name="n14" src="bvfr1l" fileName="Imge/bg_text.png" xy="361,401">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n6_ms0g" name="n6" xy="461,319" size="241,68" font="ui://bs2uwwz8flzz0" fontSize="36" color="#ffffff" align="center" vAlign="middle" autoSize="none" shadowColor="#ca9eca" shadowOffset="1,1" text="今日福利">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n7_ms0g" name="n7" xy="383,408" size="344,29" font="ui://bs2uwwz8flzz2" fontSize="20" color="#997392" shadowColor="#d2d8e3" shadowOffset="1,1" text="每日登录游戏，看视频领取游戏福利。">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n15_bvfr" name="n15" src="bvfr1m" fileName="Imge/character1.png" xy="11,282">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n16_bvfr" name="n16" src="bvfr1n" fileName="Imge/character2.png" xy="16,976">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+</component>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="64,64">
+  <displayList>
+    <image id="n26_ufcb" name="n26" src="rn795" fileName="Imag/ptn_tip1.png" xy="-14,-14"/>
+    <image id="n25_ufcb" name="n25" src="rn79b" fileName="Imag/ptn2_biao1.png" xy="0,0"/>
+  </displayList>
+</component>

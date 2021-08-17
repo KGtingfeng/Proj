@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="699,223">
+  <controller name="c1" pages="0,前往,1,领取,2,完成" selected="2"/>
+  <displayList>
+    <image id="n19_ubai" name="n19" src="ubaia" fileName="Imag/taskframebg.png" xy="0,0" size="696,226"/>
+    <text id="n20_ubai" name="n20" xy="7,9" size="116,39" font="ui://bs2uwwz8flzz0" fontSize="28" color="#ffffff" text="收获时刻"/>
+    <text id="n21_ubai" name="n21" xy="6,55" size="464,32" font="ui://bs2uwwz8flzz2" fontSize="22" color="#ffffff" autoSize="none" shadowColor="#25449b" shadowOffset="1,1" text="收集获得与角色们的珍贵时刻10张，收集获得与角色们的"/>
+    <list id="n22_ubai" name="n22" xy="7,91" size="772,157" scale="0.7,0.7" touchable="false" layout="row" overflow="scroll" colGap="-15" defaultItem="ui://82yrhfjgubaiq58">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n24_ubai" name="n24" src="s8t3q6a" fileName="Comp/Button1_tifred.xml" pkg="82yrhfjg" xy="495,30" size="170,55" aspect="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="领取" titleFontSize="20"/>
+    </component>
+    <component id="n26_ubai" name="n26" src="ubaij" fileName="Comp/ProgressBar.xml" xy="7,208" size="683,10">
+      <ProgressBar value="5" max="10"/>
+    </component>
+    <component id="n28_ubai" name="n28" src="rj5h23" fileName="Comp/Button2_blue.xml" pkg="82yrhfjg" xy="495,30" size="170,54" aspect="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button title="前往" titleFontSize="20"/>
+    </component>
+    <image id="n29_ubai" name="n29" src="ubail" fileName="Imag/wanhceng.png" pkg="82yrhfjg" xy="552,13">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <text id="n30_a9ez" name="n30" xy="564,50" size="83,35" font="ui://bs2uwwz8flzz2" fontSize="25" color="#999999" letterSpacing="2" text="已完成">
+      <gearDisplay controller="c1" pages="2"/>
+    </text>
+  </displayList>
+</component>

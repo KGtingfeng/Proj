@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="704,1379" designImage="ui://uluoyg28gab6j">
+  <displayList>
+    <image id="n45_rj5h" name="n45" src="lnqm12" fileName="Imag/frame1_common.png" pkg="82yrhfjg" xy="2,0" size="704,1379"/>
+    <image id="n77_gab6" name="n77" src="gab61p" fileName="Imag/ptn_line.png" pkg="82yrhfjg" xy="62,424" size="582,836"/>
+    <image id="n46_rj5h" name="n46" src="lnqm1p" fileName="Imag/ptn_freme_playerinfo.png" pkg="82yrhfjg" xy="64,201" size="578,48" alpha="0.41"/>
+    <component id="n49_rj5h" name="n49" src="lnqm1r" fileName="Comp/Icon_head.xml" pkg="t0kqvihp" xy="109,148" scale="0.54,0.54"/>
+    <text id="n52_rj5h" name="n52" xy="283,202" size="172,46" font="Yuanti SC" fontSize="30" color="#71635d" text="XXXXXXXXX"/>
+    <component id="n71_gab6" name="n71" src="gab61o" fileName="Comp/frame_title.xml" pkg="82yrhfjg" xy="277,260" scale="0.8,0.8"/>
+    <text id="n53_rj5h" name="n53" xy="313,259" size="125,37" font="Yuanti SC" fontSize="24" color="#ffffff" text="仙境百事通"/>
+    <text id="n55_rj5h" name="n55" xy="293,332" size="155,38" alpha="0.6" font="Yuanti SC" fontSize="25" color="#8d837b" align="center" text="选择你的称号"/>
+    <list id="n56_rj5h" name="n56" xy="94,370" size="577,76" scale="0.9,0.9" layout="pagination" colGap="-31" defaultItem="ui://82yrhfjgrj5h1z">
+      <item title="全部"/>
+      <item title="剧情"/>
+      <item title="好感度"/>
+      <item title="橱窗"/>
+      <item title="收集"/>
+    </list>
+    <list id="n67_rj5h" name="n67" xy="63,431" size="578,719" layout="flow_hz" overflow="scroll" margin="0,0,7,0" clipSoftness="30,30" lineGap="15" defaultItem="ui://65jpza8yrj5h1t" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n68_rj5h" name="n68" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="385,1147">
+      <Button title="确认"/>
+    </component>
+    <component id="n69_rj5h" name="n69" src="7cz79" fileName="Comp/Button1_red.xml" pkg="82yrhfjg" xy="124,1149">
+      <Button title="取消"/>
+    </component>
+    <component id="n70_phej" name="n70" src="o2bo2h" fileName="Comp/Button_common_close.xml" pkg="82yrhfjg" xy="580,4" size="96,106"/>
+    <image id="n72_gab6" name="n72" src="gab61l" fileName="Imag/ptn_lv.png" pkg="6q5yp7si" xy="103,257"/>
+    <text id="n73_gab6" name="n73" xy="105,268" size="39,20" fontSize="14" color="#ffffff" text="LV.60"/>
+    <text id="n74_gab6" name="n74" xy="260,162" size="45,34" font="Yuanti SC" fontSize="22" color="#6a7791" align="right" text="ID："/>
+    <text id="n75_gab6" name="n75" xy="298,162" size="180,34" font="Yuanti SC" fontSize="22" color="#6a7791" text="666666666666666"/>
+    <image id="n76_gab6" name="n76" src="gab6q2q" fileName="Imag/ptn_xian.png" pkg="82yrhfjg" xy="125,306" size="451,16"/>
+  </displayList>
+</component>

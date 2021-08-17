@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <controller name="c1" pages="0,提示,1,失败" selected="0"/>
+  <displayList>
+    <component id="n12_d0j6" name="n12" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="0,0" size="1220,1624">
+      <relation target="" sidePair="width-width,height-height%"/>
+    </component>
+    <image id="n14_d0j6" name="n14" src="t4052f" fileName="Imag/frame_gifts.png" pkg="82yrhfjg" xy="288,466" size="644,512">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n15_d0j6" name="n15" xy="540,501" size="140,54" font="ui://wkrcryqms5cu3" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="提示">
+      <gearText controller="c1" pages="1" values="游戏失败" default="提示"/>
+      <relation target="n14_d0j6" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n16_d0j6" name="n16" xy="354,641" size="495,153" font="ui://wkrcryqms5cu5" fontSize="32" color="#cf6aa5" align="center" vAlign="middle" leading="20" autoSize="none" text="仔细回忆一下&#xA;时间公主留下的线索">
+      <gearText controller="c1" pages="0,1" values="仔细回忆一下&#xA;时间公主留下的线索|再次观察一下四时钟现场的线索吧"/>
+      <relation target="n14_d0j6" sidePair="center-center,middle-middle%"/>
+    </text>
+    <component id="n18_d0j6" name="n18" src="rj5h23" fileName="Comp/Button2_blue.xml" pkg="82yrhfjg" xy="487,812">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n14_d0j6" sidePair="center-center,middle-middle"/>
+      <Button title="再次观察"/>
+    </component>
+  </displayList>
+</component>

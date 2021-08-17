@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="792,1556">
+  <displayList>
+    <graph id="n42_jz00" name="n42" xy="27,73" size="737,1484" type="rect" lineSize="0" fillColor="#00ffffff"/>
+    <image id="n0_gerr" name="n0" src="gerr26" fileName="Imag/frame1_common2.png" pkg="82yrhfjg" xy="43,125" size="706,1443"/>
+    <loader id="n38_kw6k" name="n26" xy="165,285" size="564,1024" scale="0.8,0.8" url="ui://gztqkmmpizqho">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <image id="n4_gerr" name="n4" src="gerr27" fileName="Imag/frame1_common2_ptn2.png" pkg="82yrhfjg" xy="235,117" size="206,1024" scale="-1,1"/>
+    <image id="n3_gerr" name="n3" src="gerr27" fileName="Imag/frame1_common2_ptn2.png" pkg="82yrhfjg" xy="559,117" size="206,1024"/>
+    <image id="n2_gerr" name="n2" src="gerr28" fileName="Imag/frame1_common2_ptn1.png" pkg="82yrhfjg" xy="791,48" size="396,327" scale="-1,1"/>
+    <image id="n1_gerr" name="n1" src="gerr28" fileName="Imag/frame1_common2_ptn1.png" pkg="82yrhfjg" xy="3,48" size="396,327"/>
+    <component id="n6_gerr" name="n6" src="gerr2a" fileName="Comp/Button_shift.xml" pkg="82yrhfjg" xy="87,586"/>
+    <component id="n7_gerr" name="n7" src="gerr2a" fileName="Comp/Button_shift.xml" pkg="82yrhfjg" xy="640,586" scale="-1,1"/>
+    <component id="n8_gerr" name="n8" src="gerr2c" fileName="Comp/Button_suit.xml" xy="432,1095" size="90,90"/>
+    <component id="n10_gerr" name="n10" src="gerr2a" fileName="Comp/Button-story.xml" xy="278,1095"/>
+    <image id="n11_gerr" name="n11" src="lnqm0" fileName="Imag/ptn_attributebg.png" pkg="82yrhfjg" xy="111,1240" size="276,78"/>
+    <image id="n12_gerr" name="n12" src="lnqm0" fileName="Imag/ptn_attributebg.png" pkg="82yrhfjg" xy="403,1240" size="276,78"/>
+    <loader id="n39_p7i4" name="n13" xy="123,1248" size="120,120" scale="0.5,0.5" url="ui://82yrhfjglnqmn" autoSize="true"/>
+    <loader id="n40_p7i4" name="n14" xy="415,1249" size="120,120" scale="0.5,0.5" url="ui://82yrhfjglnqmo" autoSize="true"/>
+    <text id="n15_gerr" name="n15" xy="178,1258" size="82,36" alpha="0.5" font="ui://bs2uwwz8flzz0" fontSize="26" color="#63433d" align="right" shadowColor="#ffffff" shadowOffset="1,1" text="魅力："/>
+    <text id="n16_gerr" name="n16" xy="470,1258" size="82,36" alpha="0.5" font="ui://bs2uwwz8flzz0" fontSize="26" color="#63433d" align="right" shadowColor="#ffffff" shadowOffset="1,1" text="智慧："/>
+    <text id="n17_gerr" name="n17" xy="274,1259" size="96,36" alpha="0.5" font="ui://bs2uwwz8flzz0" fontSize="26" color="#63433d" align="right" shadowColor="#ffffff" shadowOffset="1,1" text="999999"/>
+    <text id="n18_gerr" name="n18" xy="565,1259" size="96,36" alpha="0.5" font="ui://bs2uwwz8flzz0" fontSize="26" color="#63433d" align="right" shadowColor="#ffffff" shadowOffset="1,1" text="999999"/>
+    <component id="n19_gerr" name="n19" src="lnqmy" fileName="Comp/Button_shop window.xml" pkg="68tbb4zq" xy="594,315" visible="false"/>
+    <text id="n20_gerr" name="n20" xy="287,135" size="76,49" font="ui://bs2uwwz8flzz0" fontSize="36" color="#bd63c7" align="center" shadowColor="#ffffff" shadowOffset="1,1" text="罗丽"/>
+    <text id="n21_gerr" name="n21" xy="425,135" size="100,49" font="ui://bs2uwwz8flzz0" fontSize="36" color="#bd63c7" align="center" shadowColor="#ffffff" shadowOffset="1,1" text="Lv.12"/>
+    <image id="n22_gerr" name="n22" src="lnqmi" fileName="Imag/ptn_common_split line.png" pkg="82yrhfjg" xy="70,1199" size="652,4" alpha="0.4"/>
+    <component id="n29_gerr" name="n29" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="512,1410" size="166,64">
+      <Button title="合成"/>
+    </component>
+    <image id="n30_gerr" name="n30" src="lnqmi" fileName="Imag/ptn_common_split line.png" pkg="82yrhfjg" xy="332,1374" size="142,4" alpha="0.4" rotation="90"/>
+    <component id="n33_gerr" name="n33" src="ouy21v" fileName="Comp/Button_common_porp_EXP.xml" pkg="82yrhfjg" xy="364,1384" scale="0.8,0.8"/>
+    <component id="n34_gerr" name="n34" src="wf3bq5o" fileName="Comp/Button1_red.xml" pkg="82yrhfjg" xy="114,1410">
+      <Button title="购买"/>
+    </component>
+    <loader id="n41_p7i4" name="n35" xy="127,1362" size="100,100" scale="0.5,0.5" url="ui://82yrhfjgvdqrc" autoSize="true">
+      <relation target="n36_gerr" sidePair="right-left"/>
+    </loader>
+    <text id="n36_gerr" name="n36" xy="179,1370" size="100,34" alpha="0.6" font="ui://bs2uwwz8flzz2" fontSize="24" text="9999999">
+      <relation target="n34_gerr" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n37_o2bo" name="n37" src="o2bo2h" fileName="Comp/Button_common_close.xml" pkg="82yrhfjg" xy="634,120"/>
+  </displayList>
+</component>

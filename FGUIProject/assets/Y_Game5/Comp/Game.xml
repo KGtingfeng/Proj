@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,,1,原图" selected="1"/>
+  <displayList>
+    <loader id="n0_rn79" name="n0" xy="-235,0" size="1220,1624" url="ui://oagcz368rn791" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n11_rn79" name="n11" src="rn79m" fileName="Comp/Game_scene.xml" xy="0,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n1_rn79" name="n1" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" scale="0.8,0.8">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n2_rn79" name="n2" src="10xzq14" fileName="Comp/Button_tips.xml" pkg="82yrhfjg" xy="576,69">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+    <component id="n3_rn79" name="n3" src="10xzq15" fileName="Comp/Button_skip.xml" pkg="82yrhfjg" xy="576,146">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+    <component id="n12_kfwi" name="n12" src="li84q6j" fileName="Comp/Button_lookpicture.xml" pkg="17rhwh28" xy="575,223" visible="false">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+  </displayList>
+</component>

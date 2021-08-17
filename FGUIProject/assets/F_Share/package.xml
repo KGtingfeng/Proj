@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="78igsbz8">
+  <resources>
+    <component id="k7ir0" name="Share.xml" path="/Comp/" exported="true"/>
+    <component id="k7ir1" name="share_success.xml" path="/Comp/" exported="true"/>
+    <component id="k7ir2" name="Button1.xml" path="/Comp/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

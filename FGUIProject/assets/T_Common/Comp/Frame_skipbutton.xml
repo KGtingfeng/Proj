@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="204,138">
+  <displayList>
+    <component id="n4_lq3m" name="n25" src="gab6q2s" fileName="Comp/Button_attribute.xml" xy="4,6">
+      <Button title="跳过"/>
+    </component>
+    <loader id="n1_rjsy" name="n23" xy="37,28" size="100,100" scale="0.4,0.4" url="ui://82yrhfjgvdqrd" autoSize="true">
+      <relation target="n2_rjsy" sidePair="middle-middle,left-left"/>
+    </loader>
+    <text id="n2_rjsy" name="n24" xy="81,27" size="101,42" font="ui://bs2uwwz8flzz2" fontSize="30" color="#ffffff" align="center" autoSize="none" text="256&#xA;">
+      <relation target="n4_lq3m" sidePair="center-center,top-top"/>
+    </text>
+  </displayList>
+</component>

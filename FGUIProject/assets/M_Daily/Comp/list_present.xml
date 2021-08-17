@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="230,223">
+  <controller name="c1" pages="0,,1,已领取" selected="1"/>
+  <displayList>
+    <image id="n7_ms0g" name="n7" src="bvfr1h" fileName="Imge/bg_presenttoday.png" xy="46,16" size="142,143"/>
+    <loader id="n15_bvfr" name="n15" xy="34,5" size="162,162" url="ui://wkrcryqmoo7g7" fill="scaleFree"/>
+    <image id="n13_bvfr" name="n13" src="bvfr1j" fileName="Imge/bg_presenttodayfront.png" xy="46,120" size="140,41"/>
+    <image id="n3_ms0g" name="n3" src="k7ir2" fileName="Imge/frame_common_levelup1.png" xy="29,176"/>
+    <text id="n8_ms0g" name="n8" xy="57,181" size="115,44" font="ui://bs2uwwz8flzz0" fontSize="21" color="#ffffff" align="center" autoSize="none" text="音乐盒"/>
+    <image id="n16_bvfr" name="n16" src="bvfr1a" fileName="Imge/bg_frontpresent2.png" xy="48,18" size="140,138">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n2_ms0g" name="n2" src="bvfry" fileName="Imge/bg_present.png" xy="36,7" size="161,159"/>
+    <text id="n4_ms0g" name="n4" xy="49,124" size="138,35" font="ui://bs2uwwz8flzz2" fontSize="20" color="#ffffff" align="center" autoSize="none" strokeColor="#000000" text="1000"/>
+    <image id="n10_ms0g" name="n10" src="bvfrw" fileName="Imge/bg_yilingqu.png" xy="66,59" size="97,28">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <text id="n17_xazz" name="n17" xy="85,60" size="55,25" fontSize="17" color="#ffffff" align="center" text="已领取">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+  </displayList>
+</component>

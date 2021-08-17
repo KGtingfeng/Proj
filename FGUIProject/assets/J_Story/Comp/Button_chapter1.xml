@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="543,214" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <image id="n0_mjv5" name="n0" src="mjv5c" fileName="Imag/ptn_chapter.png" xy="439,37" scale="-1,1">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_mjv5" name="n1" src="mjv5c" fileName="Imag/ptn_chapter.png" xy="439,36" scale="-1,1">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_mjv5" name="title" xy="35,65" size="342,59" font="ui://bs2uwwz8flzz0" fontSize="25" color="#aa6fad" align="center" vAlign="middle" letterSpacing="1" autoSize="none" strokeColor="#ffffff" strokeSize="2" singleLine="true" text="南风知我意  吹梦到西洲">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <loader id="n3_w8uf" name="n3" xy="386,1" size="157,210" url="ui://uluoyg28w8uf19" autoSize="true"/>
+    <loader id="n4_hq7r" name="n4" xy="386,1" size="157,210" url="ui://uluoyg28w8uf19" autoSize="true"/>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".9"/>
+</component>

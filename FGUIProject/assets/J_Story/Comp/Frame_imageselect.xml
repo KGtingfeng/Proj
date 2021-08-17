@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <loader id="n2_m2f3" name="n2" xy="-235,0" size="1220,1624">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n3_m2f3" name="n3" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="0,0" size="750,1624">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n0_m2f3" name="n0" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="34,87">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="203,311">
+  <controller name="c1" pages="0,当前,1,变更,2,购买,3,敬请期待" selected="3"/>
+  <displayList>
+    <image id="n32_gerr" name="n32" src="gerr2e" fileName="Imag/frame_suitchoose.png" xy="5,7"/>
+    <component id="n36_gerr" name="n36" src="w8uf2q" fileName="Comp/Frame_rolepose.xml" xy="9,38" size="188,229">
+      <gearDisplay controller="c1" pages="0,1,2"/>
+    </component>
+    <image id="n46_w8uf" name="n46" src="w8uf2t" fileName="Imag/ptn_sunitnamebg.png" xy="28,68"/>
+    <text id="n33_gerr" name="n33" xy="31,70" size="17,54" font="ui://bs2uwwz8flzz2" fontSize="12" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="默&#xA;认"/>
+    <image id="n41_gerr" name="n41" src="gerr2g" fileName="Imag/ptn_pricebg.png" xy="33,89">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <text id="n43_gerr" name="n43" xy="74,146" size="54,32" font="ui://bs2uwwz8flzz2" fontSize="22" color="#ffffff" align="center" text="2000">
+      <gearDisplay controller="c1" pages="2"/>
+    </text>
+    <component id="n50_j8n4" name="n50" src="j8n430" fileName="Comp/Button_suitchoose.xml" xy="7,2">
+      <gearDisplay controller="c1" pages="0,1,2"/>
+    </component>
+    <component id="n47_w8uf" name="n39" src="w8uf2w" fileName="Comp/Button_change.xml" xy="5,255">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="变更"/>
+    </component>
+    <component id="n48_w8uf" name="n40" src="w8uf2x" fileName="Comp/Button_buy.xml" xy="5,255">
+      <gearDisplay controller="c1" pages="2"/>
+      <Button title="购买"/>
+    </component>
+    <loader id="n49_w8uf" name="n42" xy="81,109" size="100,100" scale="0.35,0.35" url="ui://82yrhfjgvdqrc" autoSize="true">
+      <gearDisplay controller="c1" pages="2"/>
+    </loader>
+    <image id="n56_7vvy" name="n56" src="7vvy33" fileName="Imag/suit.png" xy="14,52">
+      <gearDisplay controller="c1" pages="3"/>
+    </image>
+    <image id="n54_7vvy" name="n54" src="7vvy32" fileName="Imag/frame_suitchoose0.png" xy="7,10" size="192,291">
+      <gearDisplay controller="c1" pages="3"/>
+    </image>
+    <image id="n57_7vvy" name="n57" src="7vvy34" fileName="Imag/jingqingqidai.png" xy="37,140">
+      <gearDisplay controller="c1" pages="3"/>
+    </image>
+    <text id="n58_xazz" name="n58" xy="74,163" size="64,36" font="ui://bs2uwwz8flzz2" fontSize="12" color="#ffffff" align="center" text="更多时装，&#xA;敬请期待！">
+      <gearDisplay controller="c1" pages="3"/>
+    </text>
+  </displayList>
+</component>

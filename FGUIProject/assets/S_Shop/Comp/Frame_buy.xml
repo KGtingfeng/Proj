@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://f738c2kbvycmqc">
+  <controller name="c1" pages="0,普通物品,1,礼包" selected="1"/>
+  <displayList>
+    <component id="n0_t405" name="n0" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-235,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n28_exzo" name="n28" src="exzop" fileName="Imag/frame_shop.png" xy="27,435" size="696,754">
+      <gearXY controller="c1" pages="0,1" values="27,435|27,435"/>
+      <gearSize controller="c1" pages="0,1" values="696,754,1,1|696,754,1,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n15_t405" name="n15" xy="151,476" size="433,54" font="ui://bs2uwwz8flzz0" fontSize="40" color="#ffffff" align="center" letterSpacing="3" autoSize="none" text="道具名字">
+      <relation target="n28_exzo" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n17_t405" name="n17" src="rj5h23" fileName="Comp/Button2_blue.xml" pkg="82yrhfjg" xy="404,1037">
+      <relation target="n28_exzo" sidePair="right-right,bottom-bottom"/>
+      <Button title="确定"/>
+    </component>
+    <component id="n18_t405" name="n18" src="rj5h22" fileName="Comp/Button2_red.xml" pkg="82yrhfjg" xy="100,1039">
+      <relation target="n28_exzo" sidePair="left-left,bottom-bottom"/>
+      <Button title="取消"/>
+    </component>
+    <text id="n11_t405" name="n11" xy="123,886" size="133,42" group="n34_exzo" font="ui://bs2uwwz8flzz2" fontSize="30" color="#645757" letterSpacing="3" text="购买数量"/>
+    <text id="n23_t405" name="n23" xy="414,946" size="106,42" group="n34_exzo" font="ui://bs2uwwz8flzz2" fontSize="30" color="#645757" letterSpacing="4" text="99999">
+      <relation target="n16_t405" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n27_exzo" name="n24" xy="527,940" size="100,100" group="n34_exzo" scale="0.53,0.53" url="ui://82yrhfjgvdqrc" autoSize="true">
+      <relation target="n23_t405" sidePair="middle-middle,right-right"/>
+    </loader>
+    <text id="n30_exzo" name="n30" xy="314,946" size="100,42" group="n34_exzo" font="ui://bs2uwwz8flzz2" fontSize="30" color="#645757" letterSpacing="3" text="价格：">
+      <relation target="n23_t405" sidePair="middle-middle,left-left"/>
+    </text>
+    <component id="n12_t405" name="n12" src="t405q3d" fileName="Comp/Button_jia.xml" pkg="82yrhfjg" xy="568,883" size="48,48" group="n34_exzo"/>
+    <component id="n13_t405" name="n13" src="t405q3e" fileName="Comp/Button_jian.xml" pkg="82yrhfjg" xy="279,883" size="48,48" group="n34_exzo"/>
+    <image id="n14_t405" name="n14" src="t405q3f" fileName="Imag/ptn_buyunmberbg.png" pkg="82yrhfjg" xy="339,880" size="214,52" group="n34_exzo">
+      <relation target="n16_t405" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n16_t405" name="n16" xy="349,881" size="193,50" group="n34_exzo" font="ui://bs2uwwz8flzz0" fontSize="26" color="#645757" align="center" vAlign="middle" letterSpacing="3" autoSize="none" text="1"/>
+    <group id="n34_exzo" name="n34" xy="123,880" size="504,160" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="n28_exzo" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <text id="n10_t405" name="n10" xy="346,576" size="323,193" group="n35_vycm" font="ui://bs2uwwz8flzz2" fontSize="25" color="#645757" vAlign="middle" letterSpacing="3" autoSize="none" text="这里是道具描述这里是道具描述这里是道具描述这里是道具描"/>
+    <image id="n33_exzo" name="n33" src="exzoq" fileName="Imag/frame_pop3.png" xy="110,573" size="200,196" group="n35_vycm" aspect="true"/>
+    <loader id="n32_exzo" name="n32" xy="129,593" size="161,161" group="n35_vycm" aspect="true" url="ui://f738c2kbexzoqa" fill="scale" shrinkOnly="true">
+      <relation target="n33_exzo" sidePair="left-left,top-top"/>
+    </loader>
+    <text id="n31_exzo" name="n31" xy="119,784" size="176,35" group="n35_vycm" font="ui://bs2uwwz8flzz2" fontSize="25" color="#645757" letterSpacing="3" text="拥有数量：20">
+      <relation target="n33_exzo" sidePair="center-center"/>
+    </text>
+    <group id="n35_vycm" name="n35" xy="110,573" size="559,246" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="n28_exzo" sidePair="center-center,top-top"/>
+    </group>
+    <text id="n36_vycm" name="n36" xy="109,566" size="519,72" font="ui://bs2uwwz8flzz2" fontSize="24" color="#948787" autoSize="none" text="购买后，可随机获得其中一件物品购买后，可随机获得其中一件物品，获得其中一件物品">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n28_exzo" sidePair="center-center,top-top"/>
+    </text>
+    <image id="n37_vycm" name="n37" src="vycmq3n" fileName="Imag/line.png" xy="90,950">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n28_exzo" sidePair="center-center,bottom-bottom"/>
+    </image>
+    <text id="n38_vycm" name="n38" xy="115,978" size="519,34" font="ui://bs2uwwz8flzz2" fontSize="24" color="#948787" align="center" autoSize="none" text="今日剩余购买次数 1/1">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n28_exzo" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <list id="n40_vycm" name="n40" xy="95,648" size="794,428" scale="0.7,0.7" layout="flow_hz" overflow="scroll" lineGap="25" colGap="9" defaultItem="ui://dtk856dwvycmq3o" align="center" vAlign="middle" autoClearItems="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n28_exzo" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

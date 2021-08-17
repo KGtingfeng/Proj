@@ -1,0 +1,199 @@
+
+moli.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ml_idle
+  rotate: false
+  xy: 129, 825
+  size: 50, 41
+  orig: 50, 41
+  offset: 0, 0
+  index: -1
+ml_tf02
+  rotate: true
+  xy: 1, 234
+  size: 214, 867
+  orig: 214, 867
+  offset: 0, 0
+  index: -1
+ml_tf06
+  rotate: true
+  xy: 1, 1
+  size: 232, 715
+  orig: 232, 715
+  offset: 0, 0
+  index: -1
+ml_tou01
+  rotate: true
+  xy: 208, 642
+  size: 148, 197
+  orig: 148, 197
+  offset: 0, 0
+  index: -1
+ml_tou03
+  rotate: true
+  xy: 1, 520
+  size: 148, 197
+  orig: 148, 197
+  offset: 0, 0
+  index: -1
+ml_tstf_00
+  rotate: false
+  xy: 199, 468
+  size: 183, 173
+  orig: 183, 173
+  offset: 0, 0
+  index: -1
+ml_yanl1
+  rotate: false
+  xy: 1, 844
+  size: 23, 22
+  orig: 23, 22
+  offset: 0, 0
+  index: -1
+ml_yanl2
+  rotate: true
+  xy: 91, 830
+  size: 36, 37
+  orig: 36, 37
+  offset: 0, 0
+  index: -1
+ml_yanr1
+  rotate: false
+  xy: 25, 844
+  size: 23, 22
+  orig: 23, 22
+  offset: 0, 0
+  index: -1
+ml_yanr2
+  rotate: false
+  xy: 49, 831
+  size: 41, 35
+  orig: 41, 35
+  offset: 0, 0
+  index: -1
+ml_yf01
+  rotate: false
+  xy: 821, 739
+  size: 148, 127
+  orig: 148, 127
+  offset: 0, 0
+  index: -1
+ml_yf03
+  rotate: true
+  xy: 595, 765
+  size: 101, 111
+  orig: 101, 111
+  offset: 0, 0
+  index: -1
+ml_yj
+  rotate: true
+  xy: 311, 791
+  size: 75, 137
+  orig: 75, 137
+  offset: 0, 0
+  index: -1
+ml_ys
+  rotate: false
+  xy: 707, 763
+  size: 113, 103
+  orig: 113, 103
+  offset: 0, 0
+  index: -1
+ml_ysb01
+  rotate: false
+  xy: 383, 449
+  size: 233, 178
+  orig: 233, 178
+  offset: 0, 0
+  index: -1
+ml_ysb02
+  rotate: true
+  xy: 406, 628
+  size: 136, 287
+  orig: 136, 287
+  offset: 0, 0
+  index: -1
+ml_zj
+  rotate: true
+  xy: 180, 792
+  size: 74, 130
+  orig: 74, 130
+  offset: 0, 0
+  index: -1
+ml_zs
+  rotate: false
+  xy: 449, 768
+  size: 145, 98
+  orig: 145, 98
+  offset: 0, 0
+  index: -1
+ml_zsb01
+  rotate: true
+  xy: 1, 669
+  size: 122, 206
+  orig: 122, 206
+  offset: 0, 0
+  index: -1
+ml_zsb02
+  rotate: true
+  xy: 694, 594
+  size: 144, 285
+  orig: 144, 285
+  offset: 0, 0
+  index: -1
+
+moli2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ml_qz02
+  rotate: false
+  xy: 1, 1
+  size: 920, 920
+  orig: 920, 920
+  offset: 0, 0
+  index: -1
+
+moli3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ml_ss01
+  rotate: false
+  xy: 430, 238
+  size: 442, 614
+  orig: 442, 614
+  offset: 0, 0
+  index: -1
+ml_tf07
+  rotate: false
+  xy: 1, 1
+  size: 428, 851
+  orig: 428, 851
+  offset: 0, 0
+  index: -1
+
+moli4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ml_tf01
+  rotate: false
+  xy: 1, 1
+  size: 254, 914
+  orig: 254, 914
+  offset: 0, 0
+  index: -1
+ml_tf05
+  rotate: false
+  xy: 256, 232
+  size: 276, 683
+  orig: 276, 683
+  offset: 0, 0
+  index: -1

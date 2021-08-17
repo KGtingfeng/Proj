@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,448">
+  <displayList>
+    <loader id="n12_gab6" name="n10" xy="-12,82" size="816,364" url="ui://6f05wxg5gab6q3l" autoSize="true">
+      <relation target="" sidePair="width-width"/>
+    </loader>
+    <component id="n1_g6pv" name="n1" src="g6pvs" fileName="Comp/Frame_dialog_npcme.xml" xy="0,0"/>
+    <richtext id="n11_ro8r" name="n11" xy="117,195" size="581,165" alpha="0.8" font="ui://bs2uwwz8flzz2" fontSize="30" color="#432b66" leading="7" ubb="true" autoSize="none" text="NPC的话：这里是角色要说的话，布拉布拉布拉...NPC的话：这里是角色要说的话，布拉布拉布拉..."/>
+    <component id="n14_v302" name="n14" src="v302q55" fileName="Comp/larrow.xml" xy="653,298"/>
+  </displayList>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="wt8hgzon">
+  <resources>
+    <image id="cn0h0" name="tips_frame.png" path="/Imag/" exported="true" scale="9grid" scale9grid="0,4,726,2"/>
+    <image id="cn0h1" name="tips_frame2.png" path="/Imag/" exported="true"/>
+    <component id="cn0h2" name="Game_scene.xml" path="/Comp/" exported="true"/>
+    <component id="cn0h2q" name="Button_start.xml" path="/Comp/" exported="true"/>
+    <image id="cn0h2r" name="begingame.png" path="/Imag/" exported="true"/>
+    <component id="cn0h3" name="Game.xml" path="/Comp/" exported="true"/>
+    <component id="cn0hk" name="tips.xml" path="/Comp/" exported="true"/>
+    <component id="ej9f2s" name="tap.xml" path="/Comp/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

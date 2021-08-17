@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ekvijpo5">
+  <resources>
+    <component id="vvaw8" name="Help_xinling.xml" path="/Comp/" exported="true"/>
+    <image id="vvaw1" name="icon_kitchen.png" path="/Imag/" exported="true"/>
+    <image id="vvaw4" name="icon_taskfinish.png" path="/Imag/" exported="true"/>
+    <image id="vvaw5" name="bubble_makedoll.png" path="/Imag/" exported="true"/>
+    <component id="vvaw6" name="Button_Kitchen.xml" path="/Comp/" exported="true"/>
+    <component id="vvaw9" name="Button_rubbish_classify.xml" path="/Comp/" exported="true"/>
+    <component id="vvawa" name="Button_salverubbish.xml" path="/Comp/" exported="true"/>
+    <component id="vvawb" name="Button_makedoll.xml" path="/Comp/" exported="true"/>
+    <component id="vvawc" name="Frame_makedoll.xml" path="/Comp/" exported="true"/>
+    <image id="t19te" name="xinling.png" path="/Imag/" exported="true"/>
+    <image id="t19tf" name="icon_salverubbish.png" path="/Imag/"/>
+    <image id="t19tg" name="icon_rubbish_classify.png" path="/Imag/"/>
+    <image id="t19th" name="character1.png" path="/Imag/"/>
+    <image id="gaiti" name="icon_lookdifferent.png" path="/Imag/"/>
+    <image id="gaitj" name="icon_makedoll.png" path="/Imag/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

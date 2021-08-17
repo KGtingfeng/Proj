@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="712,774" designImage="ui://uluoyg28zw9nc">
+  <displayList>
+    <image id="n22_zw9n" name="n22" src="lnqm12" fileName="Imag/frame1_common.png" pkg="82yrhfjg" xy="49,0" size="613,785"/>
+    <loader id="n28_zw9n" name="n28" xy="122,216" size="464,64" url="ui://t0kqvihpzw9n1z" autoSize="true"/>
+    <loader id="n29_zw9n" name="n29" xy="122,325" size="464,64" url="ui://t0kqvihpzw9n1z" autoSize="true"/>
+    <loader id="n30_zw9n" name="n30" xy="122,435" size="464,64" url="ui://t0kqvihpzw9n1z" autoSize="true"/>
+    <text id="n2_7cz7" name="n2" xy="285,103" size="148,49" font="ui://bs2uwwz8flzz0" fontSize="36" color="#545454" text="注册账号"/>
+    <text id="n7_7cz7" name="n7" xy="140,228" size="82,36" font="ui://bs2uwwz8flzz0" fontSize="26" color="#ffffff" text="账号："/>
+    <text id="n8_7cz7" name="n8" xy="235,219" size="339,58" font="ui://bs2uwwz8flzz2" fontSize="20" color="#4a4847" vAlign="middle" autoSize="none" text="" input="true" prompt="[color=#647074]请输入账号（6-12位数）[/color]"/>
+    <text id="n13_7cz7" name="n13" xy="141,339" size="82,36" font="ui://bs2uwwz8flzz0" fontSize="26" color="#ffffff" text="密码："/>
+    <text id="n14_7cz7" name="n14" xy="139,449" size="134,36" font="ui://bs2uwwz8flzz0" fontSize="26" color="#ffffff" text="确认密码："/>
+    <text id="n15_7cz7" name="n15" xy="246,328" size="328,59" font="ui://bs2uwwz8flzz2" fontSize="20" color="#4a4847" vAlign="middle" autoSize="none" text="" input="true" prompt="[color=#647074]请设置游戏密码（6-12位）[/color]" maxLength="12" password="true"/>
+    <text id="n16_7cz7" name="n16" xy="296,437" size="277,60" font="ui://bs2uwwz8flzz2" fontSize="20" color="#4a4847" vAlign="middle" autoSize="none" text="" input="true" prompt="[color=#647074]请确认游戏密码[/color]" maxLength="12" password="true"/>
+    <component id="n26_zw9n" name="n20" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="382,537">
+      <Button title="确认注册"/>
+    </component>
+    <component id="n27_zw9n" name="n21" src="wf3bq5o" fileName="Comp/Button1_red.xml" pkg="82yrhfjg" xy="119,537">
+      <Button title="取消"/>
+    </component>
+  </displayList>
+</component>

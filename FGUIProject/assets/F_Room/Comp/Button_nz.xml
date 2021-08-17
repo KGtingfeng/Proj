@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="215,61" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_lol4" name="n0" src="a9ezq6d" fileName="Imag/btn_share.png" pkg="82yrhfjg" xy="-85,-26" pivot="0.5,0.5" scale="0.557,0.557">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_lol4" name="n1" src="a9ezq6d" fileName="Imag/btn_share.png" pkg="82yrhfjg" xy="-86,-26" pivot="0.5,0.5" scale="0.557,0.557">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n3_a9ez" name="n3" xy="96,7" size="74,48" font="ui://bs2uwwz8flzz0" fontSize="35" color="#ffffff" shadowColor="#da5db3" shadowOffset="1,1" text="闹钟"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".97"/>
+</component>

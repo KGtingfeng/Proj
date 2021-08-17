@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <controller name="c1" pages="" selected="-1"/>
+  <displayList>
+    <loader id="n5_7vvy" name="n5" xy="0,0" size="1220,1624" url="ui://geym4w1i9pfj9" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n2_l0t2" name="n2" src="hsbv1v" fileName="Imag/ptn_mask.png" xy="0,0" size="1220,1624">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n3_l0t2" name="n3" src="izqh1m" fileName="Comp/ProgressBar_load.xml" xy="289,1404">
+      <relation target="" sidePair="center-center,middle-middle%"/>
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <text id="n4_l0t2" name="n4" xy="326,1506" size="580,32" font="ui://bs2uwwz8flzz2" fontSize="22" color="#ffffff" align="center" autoSize="none" strokeColor="#c27b8e" text="加载中...">
+      <relation target="n3_l0t2" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

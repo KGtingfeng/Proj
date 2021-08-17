@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="368,522" pivot="0.5,0.5" anchor="true">
+  <controller name="c1" pages="1," selected="0"/>
+  <displayList>
+    <image id="n5_vvaw" name="n5" src="vvaw3" fileName="Imag/piece4.png" xy="184,261" pivot="0.5,0.5" anchor="true"/>
+  </displayList>
+</component>

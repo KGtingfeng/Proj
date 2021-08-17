@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://uluoyg28rqggq3v">
+  <displayList>
+    <component id="n2_rqgg" name="n2" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-235,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n6_rqgg" name="n6" src="rqggh" fileName="Imag/frame_choosesound.png" xy="82,510" size="590,554">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n7_rqgg" name="n7" xy="283,541" size="168,52" font="ui://bs2uwwz8flzz0" fontSize="38" color="#ffffff" letterSpacing="4" text="提醒铃声">
+      <relation target="n6_rqgg" sidePair="center-center,top-top"/>
+    </text>
+    <list id="n13_rqgg" name="n13" xy="115,609" size="518,412" overflow="scroll" clipSoftness="60,60" lineGap="-10" defaultItem="ui://x03va7jnrqggm" autoClearItems="true">
+      <relation target="n6_rqgg" sidePair="center-center,middle-middle%"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

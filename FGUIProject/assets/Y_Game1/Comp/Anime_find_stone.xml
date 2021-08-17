@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="363,442">
+  <displayList>
+    <image id="n45_ej9f" name="n45" src="gggm7" fileName="Imag/naoshi4.png" xy="298,370"/>
+    <component id="n46_ej9f" name="n46" src="qfcc1t" fileName="Comp/tap.xml" pkg="17rhwh28" xy="60,0" size="82,66" rotation="-101"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1" frameRate="60">
+    <item time="0" type="Alpha" target="n46_ej9f" value="1"/>
+    <item time="0" type="Alpha" target="n46_ej9f" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="Rotation" target="n45_ej9f" value="0"/>
+    <item time="0" type="Scale" target="n46_ej9f" value="1,1"/>
+    <item time="0" type="XY" target="n45_ej9f" value="297,370"/>
+    <item time="0" type="XY" target="n46_ej9f" tween="true" startValue="328,395" endValue="328,395" duration="28"/>
+    <item time="21" type="Scale" target="n46_ej9f" tween="true" startValue="1,1" endValue="0.76,0.76" duration="7"/>
+    <item time="28" type="XY" target="n45_ej9f" tween="true" startValue="298,370" endValue="28,-24" duration="44"/>
+    <item time="28" type="XY" target="n46_ej9f" tween="true" startValue="328,395" endValue="57,-13" duration="44"/>
+    <item time="72" type="Alpha" target="n46_ej9f" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="72" type="Rotation" target="n45_ej9f" tween="true" startValue="0" endValue="45" duration="8"/>
+    <item time="72" type="Scale" target="n46_ej9f" tween="true" startValue="0.76,0.76" endValue="1,1" duration="8"/>
+  </transition>
+</component>

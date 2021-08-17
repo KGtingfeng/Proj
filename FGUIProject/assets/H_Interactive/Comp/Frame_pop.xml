@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="238,270">
+  <controller name="c1" pages="0,已有,1,需制作" selected="1"/>
+  <displayList>
+    <image id="n70_7vvy" name="n70" src="7vvy1w" fileName="Imag/frame_pop1.png" xy="-59,-62"/>
+    <image id="n71_7vvy" name="n71" src="7vvy1t" fileName="Imag/frame_pop2.png" xy="33,33"/>
+    <component id="n78_7vvy" name="n78" src="7vvy1y" fileName="Comp/icon_gift.xml" xy="41,34" scale="0.78,0.78"/>
+    <image id="n72_7vvy" name="n72" src="7vvy1v" fileName="Imag/frame_pop3.png" xy="43,36">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n73_7vvy" name="n73" src="7vvy1u" fileName="Imag/frame_pop4.png" xy="29,27"/>
+    <text id="n74_7vvy" name="n74" xy="71,158" size="101,34" font="ui://bs2uwwz8flzz0" fontSize="24" color="#ffffff" align="center" autoSize="none" text="名字名字"/>
+    <text id="n75_7vvy" name="n75" xy="116,210" size="46,34" font="ui://bs2uwwz8flzz0" fontSize="24" color="#6e4a77" align="center" shadowColor="#cccccc" shadowOffset="1,1" text="100">
+      <relation target="n73_7vvy" sidePair="center-center%"/>
+    </text>
+    <loader id="n76_7vvy" name="n20" xy="44,177" pivot="0.5,0.5" size="100,100" scale="0.4,0.4" url="ui://82yrhfjgvdqrd" autoSize="true">
+      <relation target="n75_7vvy" sidePair="left-left"/>
+    </loader>
+  </displayList>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <loader id="n4_e6xi" name="n4" xy="-134,-1" size="990,1653"/>
+    <component id="n3_vvaw" name="n3" src="vvawa" fileName="Comp/Game20_scene.xml" xy="0,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n0_vvaw" name="n0" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" scale="0.8,0.8">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n1_vvaw" name="n1" src="10xzq14" fileName="Comp/Button_tips.xml" pkg="82yrhfjg" xy="576,69" pivot="1,0.5">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+    <component id="n2_vvaw" name="n2" src="10xzq15" fileName="Comp/Button_skip.xml" pkg="82yrhfjg" xy="576,146" pivot="1,0.5">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://uluoyg28t40525">
+  <controller name="c1" pages="0,角色列表,1,互动主界面,2,个人故事,3,送礼&amp;完成,6,制作礼物,7,礼物列表,8,切换时装和背景,9,送礼弹框,10,背景碎片购买弹框,11,来源弹框" selected="0"/>
+  <displayList>
+    <loader id="n43_7vvy" name="n43" xy="-235,0" size="1220,1624" url="ui://uluoyg28fjvx2o" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <graph id="n100_m8qh" name="n100" xy="-235,0" size="1220,1624" touchable="false" type="rect" lineSize="0" fillColor="#00ffffff"/>
+    <component id="n91_mqug" name="n91" src="m8qhq4t" fileName="Comp/Frame_role.xml" xy="-235,0" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <graph id="n92_vd3x" name="n92" xy="129,263" size="501,337" type="rect" lineSize="0" fillColor="#00ffffff">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <graph id="n93_vd3x" name="n93" xy="131,613" size="501,1007" type="rect" lineSize="0" fillColor="#00ffffff">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <list id="n41_kki5" name="n41" xy="-90,158" size="929,1330" layout="flow_hz" overflow="scroll" lineGap="-30" colGap="-65" defaultItem="ui://jq7r9sohkki5u" align="center" autoClearItems="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle%"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n102_fjvx" name="n102" src="fjvxq4v" fileName="Imag/liebiao2.png" xy="-137,1474">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="n43_7vvy" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n101_fjvx" name="n101" src="fjvxq4w" fileName="Imag/liebiao1.png" xy="-137,1">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="n43_7vvy" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n22_kki5" name="n22" src="kki5h" fileName="Comp/Button_gushi.xml" xy="5,974" group="n97_qoqv" scale="0.8,0.8">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="left-left%,bottom-bottom%"/>
+    </component>
+    <component id="n23_kki5" name="n23" src="kki5i" fileName="Comp/Button_waiguan.xml" xy="7,1115" group="n97_qoqv" scale="0.8,0.8">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="left-left%,bottom-bottom%"/>
+    </component>
+    <component id="n24_kki5" name="n24" src="kki5j" fileName="Comp/Button_xinyuan.xml" xy="4,1257" pivot="0.43,0.5" group="n97_qoqv" scale="0.8,0.8">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n25_kki5" name="n25" src="kki5k" fileName="Comp/Button_songli.xml" xy="89,1484" pivot="0.5,0.5" anchor="true" group="n97_qoqv" scale="0.8,0.8">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="left-left%,bottom-bottom%"/>
+    </component>
+    <group id="n97_qoqv" name="n97" xy="4,974" size="198,594" advanced="true"/>
+    <component id="n27_kki5" name="n27" src="lnqmv" fileName="Comp/Button_main_phone.xml" pkg="68tbb4zq" xy="652,1342" pivot="0.5,0.5" anchor="true" group="n98_qoqv">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="right-right%,bottom-bottom%"/>
+    </component>
+    <component id="n31_kki5" name="n31" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="596,1509" pivot="0.5,0.5" anchor="true" group="n98_qoqv" scale="1.5,1.5">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="right-right%,bottom-bottom%"/>
+      <Button title="展示在主页" titleFontSize="20"/>
+    </component>
+    <group id="n98_qoqv" name="n98" xy="496,1258" size="239,285" advanced="true"/>
+    <image id="n0_nvu8" name="n0" src="nvu81" fileName="Imag/namebg.png" xy="96,162" group="n33_kki5"/>
+    <text id="n17_nvu8" name="n17" xy="135,182" size="158,56" group="n33_kki5" font="ui://wkrcryqms5cu3" fontSize="42" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#7d71d0" strokeSize="2" text="舒言"/>
+    <text id="n18_kki5" name="n18" xy="449,191" size="157,42" group="n33_kki5" font="ui://wkrcryqms5cu3" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#789bca" text="志同道合"/>
+    <component id="n19_kki5" name="n19" src="kki5a" fileName="Comp/ProgressBar_hangandu.xml" xy="423,238" group="n33_kki5">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n20_kki5" name="n20" src="kki5w" fileName="Comp/ProgressBar_xin.xml" pkg="82yrhfjg" xy="298,181" group="n33_kki5"/>
+    <group id="n33_kki5" name="n33" xy="96,162" size="580,124" advanced="true">
+      <gearDisplay controller="c1" pages="1,2,3,6"/>
+      <relation target="" sidePair="center-center,middle-middle%"/>
+    </group>
+    <list id="n40_kki5" name="n40" xy="185,1498" size="377,76" layout="row" overflow="scroll" colGap="15" defaultItem="ui://jq7r9sohkki5q">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="n42_kki5" sidePair="center-center,middle-middle"/>
+      <item title="所有"/>
+      <item title="人类"/>
+      <item title="仙子"/>
+    </list>
+    <image id="n38_kki5" name="n38" src="kki5x" fileName="Imag/ptn_fenleibg.png" xy="548,1526" pivot="0.5,0.5" group="n42_kki5"/>
+    <image id="n39_kki5" name="n39" src="kki5x" fileName="Imag/ptn_fenleibg.png" xy="59,1526" pivot="0.5,0.5" group="n42_kki5" scale="-1,1"/>
+    <group id="n42_kki5" name="n42" xy="59,1526" size="629,54" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle%"/>
+    </group>
+    <image id="n44_7vvy" name="n44" src="7vvyy" fileName="Imag/ptn_infobg.png" xy="0,860" size="750,764">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="width-width,center-center,bottom-bottom"/>
+    </image>
+    <component id="n45_7vvy" name="n45" src="7vvy11" fileName="Comp/Frame_info.xml" xy="42,873">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <list id="n47_7vvy" name="n47" xy="57,821" size="434,81" layout="flow_hz" scroll="horizontal" colGap="-11" defaultItem="ui://jq7r9soh7vvy16">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="n45_7vvy" sidePair="center-center,middle-middle"/>
+      <item title="个人信息"/>
+      <item title="个人故事"/>
+    </list>
+    <component id="n57_7vvy" name="n57" src="7vvy1g" fileName="Comp/Frame_gift.xml" xy="0,1054">
+      <gearDisplay controller="c1" pages="3"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n58_7vvy" name="n58" src="7vvy1j" fileName="Comp/Frame_giftmake.xml" xy="-1,1054">
+      <gearDisplay controller="c1" pages="6"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n60_7vvy" name="n60" src="7vvy1n" fileName="Comp/Button_makegift.xml" xy="204,957" pivot="0.5,0.92" visible="false">
+      <gearDisplay controller="c1" pages="6"/>
+      <relation target="n58_7vvy" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n61_7vvy" name="n61" src="7vvy1o" fileName="Comp/Button_buygift.xml" xy="-3,955" pivot="0.5,0.92">
+      <gearDisplay controller="c1" pages="6"/>
+      <relation target="n58_7vvy" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n72_7vvy" name="n72" src="atpaq4z" fileName="Comp/Frame_giftslist.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="7"/>
+    </component>
+    <component id="n84_qqiz" name="n84" src="qqiz2c" fileName="Comp/Button_share.xml" xy="0,1364" pivot="0,0.5">
+      <gearDisplay controller="c1" pages="8"/>
+      <relation target="" sidePair="left-left,bottom-bottom%"/>
+    </component>
+    <component id="n85_qqiz" name="n85" src="qqiz2d" fileName="Comp/Button_save.xml" xy="0,1256" pivot="0,0.5" visible="false">
+      <gearDisplay controller="c1" pages="8"/>
+      <relation target="" sidePair="left-left,bottom-bottom%"/>
+    </component>
+    <image id="n80_7vvy" name="n80" src="7vvy26" fileName="Imag/bg_suitandbg.png" xy="500,200" size="250,1424" group="n88_t405">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </image>
+    <image id="n82_qqiz" name="n82" src="qqiz27" fileName="Imag/ptn_updown.png" xy="598,266" pivot="0.5,0.5" group="n88_t405">
+      <relation target="n80_7vvy" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n83_qqiz" name="n83" src="qqiz27" fileName="Imag/ptn_updown.png" xy="600,1537" pivot="0.5,0.5" group="n88_t405" scale="1,-1">
+      <relation target="n80_7vvy" sidePair="center-center,middle-middle"/>
+    </image>
+    <list id="n87_t405" name="n87" xy="541,324" size="200,1208" group="n88_t405" overflow="scroll" margin="0,0,-39,0" clipSoftness="60,60" lineGap="-15" defaultItem="ui://jq7r9sohqqiz28" autoClearItems="true">
+      <relation target="n80_7vvy" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n81_7vvy" name="n81" xy="468,242" size="67,268" group="n88_t405" layout="flow_vt" lineGap="-9" defaultItem="ui://jq7r9soh7vvy25">
+      <relation target="n80_7vvy" sidePair="right-right"/>
+      <item title="服装"/>
+      <item title="背景"/>
+    </list>
+    <group id="n88_t405" name="n88" xy="468,200" size="282,1424" advanced="true">
+      <gearDisplay controller="c1" pages="8"/>
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <component id="n36_kki5" name="n36" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" scale="0.8,0.8">
+      <relation target="" sidePair="left-left%,top-top%"/>
+    </component>
+    <component id="n90_t405" name="n90" src="t4052g" fileName="Comp/Frame_gifts.xml" xy="-235,0">
+      <gearDisplay controller="c1" pages="9"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n94_hnnp" name="n94" src="hnnpq3v" fileName="Comp/Frame_buybg.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="10"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n95_hnnp" name="n95" src="hnnpq3z" fileName="Comp/Frame_sources.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="11"/>
+    </component>
+    <component id="n103_ple6" name="n103" src="bvfrq64" fileName="Comp/star_diamond.xml" pkg="82yrhfjg" xy="220,60">
+      <gearDisplay controller="c1" pages="0,1,2,3,6,7,8,9,10,11"/>
+      <relation target="" sidePair="right-right%"/>
+    </component>
+    <image id="n104_n2mj" name="n104" src="hnnpq3x" fileName="Imag/ptnupbg.png" xy="91,379" size="580,864">
+      <gearDisplay controller="c1" pages="10"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+</component>

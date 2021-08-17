@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="748,216" designImage="ui://uluoyg28bvfr2w" designImageOffsetY="-732" designImageAlpha="0" designImageLayer="1">
+  <controller name="c1" pages="0,已领取,1,领取/双倍奖励,2,暂未获得" selected="0"/>
+  <displayList>
+    <image id="n0_ms0g" name="n0" src="bvfr17" fileName="Imge/bg_sevendays.png" xy="48,16"/>
+    <image id="n1_ms0g" name="n1" src="ms0gb" fileName="Imge/frame_chuan(1).png" xy="588,82">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <text id="n3_ms0g" name="n3" xy="56,25" size="144,39" font="ui://bs2uwwz8flzz0" fontSize="28" color="#ffffff" shadowColor="#3a4665" shadowOffset="1,1" text="第一天登录"/>
+    <component id="n7_ms0g" name="n7" src="s8t3q6a" fileName="Comp/Button1_tifred.xml" pkg="82yrhfjg" xy="498,101" size="195,60">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="签到"/>
+    </component>
+    <text id="n9_ms0g" name="n9" xy="520,106" size="157,47" font="ui://bs2uwwz8flzz0" fontSize="24" color="#bb8888" align="center" vAlign="middle" autoSize="none" text="暂未获得">
+      <gearDisplay controller="c1" pages="2"/>
+    </text>
+    <list id="n10_qk9f" name="n10" xy="54,73" size="652,172" scale="0.7,0.7" layout="flow_hz" overflow="scroll" scroll="horizontal" defaultItem="ui://82yrhfjgubaiq58" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n11_xazz" name="n11" xy="600,111" size="61,28" font="ui://bs2uwwz8flzz0" fontSize="19" color="#918c8c" text="已领取">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+  </displayList>
+</component>

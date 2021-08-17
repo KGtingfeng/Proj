@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,找碎片,1,碎片找到,2,拼碎片,3,完成" selected="0"/>
+  <displayList>
+    <loader id="n0_dkaw" name="n0" xy="-234,0" size="1220,1624" url="ui://uluoyg28dkawq3t" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <graph id="n53_m2y6" name="n53" xy="-235,0" size="1220,1624" touchable="false" type="rect" lineSize="0" fillColor="#02ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <component id="n26_dkaw" name="n26" src="ifsv11" fileName="Comp/Game2_scene.xml" xy="0,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n2_dkaw" name="n2" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" scale="0.8,0.8">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n3_dkaw" name="n3" src="10xzq14" fileName="Comp/Button_tips.xml" pkg="82yrhfjg" xy="576,69">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+    <component id="n4_dkaw" name="n4" src="10xzq15" fileName="Comp/Button_skip.xml" pkg="82yrhfjg" xy="576,146">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+    <component id="n22_dkaw" name="n22" src="dkawr" fileName="Comp/tips.xml" xy="-235,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+  </displayList>
+</component>

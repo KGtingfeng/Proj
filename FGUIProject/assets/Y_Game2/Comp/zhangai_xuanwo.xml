@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="694,445" pivot="0.5,0.5" anchor="true">
+  <displayList>
+    <image id="n23_suo0" name="n23" src="suo01m" fileName="imag/xuanwo.png" xy="0,0" size="693,445" aspect="true" alpha="0.788" blend="add"/>
+  </displayList>
+</component>

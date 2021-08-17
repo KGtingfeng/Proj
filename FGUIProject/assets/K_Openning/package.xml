@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="lspsm73c">
+  <resources>
+    <image id="q7dz0" name="btn.png" path="/Imag/" exported="true"/>
+    <component id="q7dz1" name="Button.xml" path="/Comp/" exported="true"/>
+    <component id="q7dz2" name="Openning.xml" path="/Comp/" exported="true"/>
+    <component id="p25x3" name="frame_button.xml" path="/Comp/" exported="true"/>
+    <image id="sfjp4" name="light.png" path="/Imag/" exported="true" scale="9grid" scale9grid="125,125,6,6"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

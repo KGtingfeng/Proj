@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="706,160">
+  <controller name="c1" pages="0,文字,1,电话,2,视频" selected="0"/>
+  <controller name="c2" pages="0,已读,1,已读未完,2,未读" selected="0"/>
+  <displayList>
+    <component id="n7_zee8" name="n5" src="zee8e" fileName="Comp/headicon.xml" pkg="82yrhfjg" xy="-53,-56" pivot="0.5,0.5" scale="0.47,0.47"/>
+    <image id="n15_zee8" name="n15" src="m7ftq3t" fileName="Imag/star_jinduze.png" pkg="82yrhfjg" xy="15,97" pivot="0.5,0.5" scale="0.75,0.75">
+      <relation target="n9_zee8" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n9_zee8" name="n9" src="kki5w" fileName="Comp/ProgressBar_xin.xml" pkg="82yrhfjg" xy="15,97" scale="0.7,0.7"/>
+    <text id="n12_zee8" name="n12" xy="181,36" size="76,49" font="ui://bs2uwwz8flzz0" fontSize="36" color="#886175" text="名字"/>
+    <richtext id="n13_zee8" name="n13" xy="181,92" size="424,39" font="ui://bs2uwwz8flzz2" fontSize="28" color="#84788a" autoSize="none" text="角色最后说的话角色最后说话角色">
+      <gearXY controller="c1" pages="1,2" values="253,92|253,92" default="181,92"/>
+      <gearColor controller="c2" pages="0,1" values="#84788a,#000000|#c0293f,#000000" default="#e45987,#000000"/>
+      <gearText controller="c1" pages="1,2" values="本次通话：音乐会|本次通话：足球赛" default="角色最后说的话角色最后说话角色"/>
+    </richtext>
+    <image id="n14_zee8" name="n14" src="zee8g" fileName="Image/ptn_tixing.png" xy="632,52">
+      <gearDisplay controller="c2" pages="2"/>
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n16_zee8" name="n16" src="zee8k" fileName="Image/ptn_call.png" xy="181,87">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n17_zee8" name="n17" src="zee8j" fileName="Image/ptn_video.png" xy="181,88">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+  </displayList>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1200,1624">
+  <displayList>
+    <component id="n0_ro8r" name="n0" src="ro8rq2p" fileName="Comp/Btn_other.xml" xy="600,812" pivot="0.5,0.5" anchor="true"/>
+  </displayList>
+  <transition name="t0" frameRate="60">
+    <item time="0" type="Alpha" target="n0_ro8r" tween="true" startValue="0" endValue="1" duration="60"/>
+  </transition>
+</component>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,开始,1,主页" selected="0"/>
+  <displayList>
+    <loader id="n9_cn0h" name="n9" xy="-235,0" size="1220,1748" group="n13_cn0h" url="ui://kzvhx58pcn0h3w" autoSize="true"/>
+    <loader id="n10_cn0h" name="n10" xy="-235,1682" size="1220,1748" group="n13_cn0h" url="ui://wakg4v19cn0h9" autoSize="true"/>
+    <loader id="n11_cn0h" name="n11" xy="-235,3393" size="1220,1748" group="n13_cn0h" url="ui://wakg4v19cn0h8" autoSize="true"/>
+    <loader id="n12_cn0h" name="n12" xy="-235,5106" size="1220,1748" group="n13_cn0h" url="ui://wakg4v19cn0h7" autoSize="true"/>
+    <group id="n13_cn0h" name="n13" xy="-235,0" size="1220,6854" advanced="true"/>
+    <component id="n0_cn0h" name="n0" src="suo01c" fileName="Comp/ProgressBar1.xml" pkg="82yrhfjg" xy="665,267">
+      <relation target="" sidePair="center-center%,middle-middle"/>
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <component id="n14_s9u4" name="n14" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="0,0" size="750,1624">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n4_cn0h" name="n4" src="cn0h26" fileName="Comp/321.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n1_cn0h" name="n1" src="10xzq14" fileName="Comp/Button_tips.xml" pkg="82yrhfjg" xy="576,69">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+    <component id="n2_cn0h" name="n2" src="10xzq15" fileName="Comp/Button_skip.xml" pkg="82yrhfjg" xy="576,146">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+    <component id="n3_cn0h" name="n3" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" scale="0.8,0.8">
+      <relation target="" sidePair="left-left%,top-top%"/>
+    </component>
+  </displayList>
+</component>

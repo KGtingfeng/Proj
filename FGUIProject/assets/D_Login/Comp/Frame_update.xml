@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,更新系统,1,解压资源,2,资源下载中" selected="0"/>
+  <displayList>
+    <component id="n8_npkc" name="n8" src="k7irq61" fileName="Comp/Frame_update_tips.xml" xy="28,525" size="693,573">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n9_npkc" name="n9" src="ikv12b" fileName="Comp/ProgressBar_load.xml" xy="48,1296" size="654,140">
+      <gearDisplay controller="c1" pages="1,2"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <text id="n10_npkc" name="n10" xy="210,1392" size="304,35" fontSize="25" color="#ffffff" strokeColor="#c27b8e" text="资源解压中，不消耗流量。">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <text id="n11_npkc" name="n11" xy="210,1393" size="329,35" fontSize="25" color="#ffffff" autoSize="none" strokeColor="#c27b8e" text="资源下载中300MB/1000MB">
+      <gearDisplay controller="c1" pages="2"/>
+    </text>
+  </displayList>
+</component>

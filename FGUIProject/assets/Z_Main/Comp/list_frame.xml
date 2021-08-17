@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="578,522" mask="n30_rdz1">
+  <displayList>
+    <graph id="n30_rdz1" name="n30" xy="0,0" size="578,522" type="rect"/>
+    <list id="n29_rkmi" name="n29" xy="0,0" size="578,522" layout="flow_hz" overflow="scroll" margin="9,0,0,0" clipSoftness="67,67" lineGap="22" colGap="19" defaultItem="ui://68tbb4zqrkmiq42" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

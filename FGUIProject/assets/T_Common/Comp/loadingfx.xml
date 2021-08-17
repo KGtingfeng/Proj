@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="344,344">
+  <displayList>
+    <image id="n4_iv1t" name="n4" src="iv1tq36" fileName="Imag/loading1.png" xy="89,89" pivot="0.5,0.5"/>
+    <image id="n5_iv1t" name="n5" src="iv1tq35" fileName="Imag/loading2.png" xy="89,89" pivot="0.5,0.5"/>
+    <image id="n6_iv1t" name="n6" src="iv1tq34" fileName="Imag/loading3.png" xy="89,89" pivot="0.5,0.5"/>
+    <image id="n7_iv1t" name="n7" src="iv1tq33" fileName="Imag/loading4.png" xy="89,89" pivot="0.5,0.5"/>
+    <image id="n8_iv1t" name="n8" src="iv1tq32" fileName="Imag/loading5.png" xy="89,89" pivot="0.5,0.5"/>
+    <image id="n9_qobk" name="n9" src="qobkq38" fileName="Imag/ladiingbg.png" xy="0,0" alpha="0.8"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1" frameRate="60">
+    <item time="0" type="Rotation" target="n5_iv1t" tween="true" startValue="0" endValue="360" duration="180" ease="Linear" repeat="-1"/>
+    <item time="0" type="Rotation" target="n6_iv1t" tween="true" startValue="0" endValue="-360" duration="180" ease="Linear" repeat="-1"/>
+    <item time="0" type="Rotation" target="n7_iv1t" tween="true" startValue="0" endValue="360" duration="240" ease="Linear" repeat="-1"/>
+    <item time="0" type="Rotation" target="n8_iv1t" tween="true" startValue="0" endValue="-360" duration="154" ease="Linear" repeat="-1"/>
+  </transition>
+</component>

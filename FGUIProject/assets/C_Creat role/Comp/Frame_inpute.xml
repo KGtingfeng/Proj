@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="406,54">
+  <controller name="c1" pages="0,正常,1,输入状态" selected="1"/>
+  <displayList>
+    <image id="n25_gab6" name="n25" src="gab6t" fileName="Imag/frame_input.png" xy="0,0" color="#999999">
+      <gearColor controller="c1" pages="1" values="#999999" default="#ffffff"/>
+    </image>
+  </displayList>
+</component>

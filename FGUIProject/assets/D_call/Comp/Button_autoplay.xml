@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,116" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <controller name="c1" pages="0,自动播放,1,X1,2,X2" selected="2"/>
+  <displayList>
+    <image id="n4_a9ez" name="n4" src="boeiq4w" fileName="Image/btn_autoplayx1.png" xy="-1,1">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n6_a9ez" name="n6" src="boeiq4x" fileName="Image/btn_autoplayx2.png" xy="-1,1">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <image id="n5_a9ez" name="n5" src="boeiq4v" fileName="Image/btn_autoplay.png" xy="-1,1">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <text id="n7_a9ez" name="n7" xy="134,33" size="162,59" font="ui://bs2uwwz8flzz0" fontSize="36" color="#ffffff" letterSpacing="2" autoSize="none" shadowColor="#cc3399" shadowOffset="1,1" text="自动播放"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

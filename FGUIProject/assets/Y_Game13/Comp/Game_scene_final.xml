@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <displayList>
+    <loader id="n13_cn0h" name="n13" xy="0,0" size="1220,1624" url="ui://kzvhx58pcn0h3y" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n5_cn0h" name="n5" src="cn0hg" fileName="Comp/suipian1.xml" xy="653,606"/>
+    <component id="n6_cn0h" name="n6" src="cn0hh" fileName="Comp/suipian2.xml" xy="811,675"/>
+    <component id="n8_cn0h" name="n8" src="cn0hi" fileName="Comp/suipian3.xml" xy="863,810"/>
+    <component id="n9_cn0h" name="n9" src="cn0hj" fileName="Comp/suipian4.xml" xy="716,923"/>
+    <component id="n10_cn0h" name="n10" src="cn0hk" fileName="Comp/suipian5.xml" xy="620,922"/>
+    <component id="n11_cn0h" name="n11" src="cn0hl" fileName="Comp/suipian6.xml" xy="500,922"/>
+    <component id="n12_cn0h" name="n12" src="cn0hm" fileName="Comp/suipian7.xml" xy="385,877"/>
+    <image id="n14_c8rh" name="n14" src="od9e5d" fileName="Imag/final.png" xy="451,600">
+      <relation target="n13_cn0h" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+  <transition name="t0" frameRate="60">
+    <item time="0" type="Alpha" target="n10_cn0h" tween="true" startValue="1" endValue="0" duration="60" ease="Quad.In"/>
+    <item time="0" type="Alpha" target="n11_cn0h" tween="true" startValue="1" endValue="0" duration="60" ease="Quad.In"/>
+    <item time="0" type="Alpha" target="n12_cn0h" tween="true" startValue="1" endValue="0" duration="60" ease="Quad.In"/>
+    <item time="0" type="Alpha" target="n14_c8rh" tween="true" startValue="0" endValue="1" duration="60" ease="Quad.In"/>
+    <item time="0" type="Alpha" target="n5_cn0h" tween="true" startValue="1" endValue="0" duration="60" ease="Quad.In"/>
+    <item time="0" type="Alpha" target="n6_cn0h" tween="true" startValue="1" endValue="0" duration="60" ease="Quad.In"/>
+    <item time="0" type="Alpha" target="n8_cn0h" tween="true" startValue="1" endValue="0" duration="60" ease="Quad.In"/>
+    <item time="0" type="Alpha" target="n9_cn0h" tween="true" startValue="1" endValue="0" duration="60" ease="Quad.In"/>
+  </transition>
+</component>

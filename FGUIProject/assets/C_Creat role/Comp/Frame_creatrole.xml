@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="583,781">
+  <displayList>
+    <image id="n3_izqh" name="n3" src="izqh5" fileName="Imag/freme_creatrole.png" xy="0,0" visible="false"/>
+    <image id="n29_gab6" name="n29" src="gab6t" fileName="Imag/frame_input.png" xy="148,185" visible="false"/>
+    <image id="n30_gab6" name="n30" src="gab6t" fileName="Imag/frame_input.png" xy="148,544" visible="false"/>
+    <component id="n26_gab6" name="n26" src="gab6u" fileName="Comp/Frame_inpute.xml" xy="148,304" visible="false" touchable="false"/>
+    <component id="n27_gab6" name="n27" src="gab6u" fileName="Comp/Frame_inpute.xml" xy="148,423" visible="false" touchable="false"/>
+    <component id="n12_izqh" name="n12" src="izqh7" fileName="Comp/Button_special_red.xml" pkg="82yrhfjg" xy="71,713">
+      <Button title="缔结契约"/>
+    </component>
+    <component id="n14_izqh" name="n14" src="xrnqc" fileName="Comp/btn_choice.xml" xy="545,637" size="35,32"/>
+    <text id="n15_vy2y" name="n15" xy="361,280" size="187,36" font="ui://wkrcryqms5cu3" fontSize="26" color="#bc6aa9" align="center" autoSize="none" shadowColor="#ffffff" shadowOffset="1,1" text="小红" input="true" maxLength="6"/>
+    <text id="n16_vy2y" name="n16" xy="361,396" size="187,36" font="ui://wkrcryqms5cu3" fontSize="26" color="#bc6aa9" align="center" autoSize="none" shadowColor="#ffffff" shadowOffset="1,1" text="2000-01-01" input="true" maxLength="6"/>
+    <component id="n24_iua3" name="n24" src="xrnqa" fileName="Comp/btn_random.xml" xy="538,277"/>
+    <richtext id="n32_lq3m" name="n32" xy="361,637" size="187,36" font="ui://wkrcryqms5cu3" fontSize="26" color="#bc6aa9" align="center" autoSize="none" shadowColor="#ffffff" shadowOffset="1,1" text="学生"/>
+    <richtext id="n33_lq3m" name="n17" xy="362,515" size="187,36" font="ui://wkrcryqms5cu3" fontSize="26" color="#bc6aa9" align="center" vAlign="middle" autoSize="none" shadowColor="#ffffff" shadowOffset="1,1" text="2000-01-01"/>
+    <component id="n34_auup" name="n34" src="xrnqb" fileName="Comp/btn_calendar.xml" xy="541,514" size="40,37"/>
+    <loader id="n35_auup" name="n35" xy="351,8" size="202,204" url="ui://6ct0sutvxrnq6" autoSize="true"/>
+    <loader id="n36_auup" name="n36" xy="6,8" size="202,204" url="ui://6ct0sutvxrnq6" fill="scale" shrinkOnly="true"/>
+    <text id="n37_auup" name="n37" xy="50,276" size="116,37" font="ui://wkrcryqms5cu3" fontSize="26" color="#bc6aa9" align="center" autoSize="none" shadowColor="#ffffff" shadowOffset="1,1" text="罗丽"/>
+    <text id="n38_auup" name="n38" xy="69,402" size="81,36" font="ui://wkrcryqms5cu3" fontSize="26" color="#bc6aa9" align="center" autoSize="none" shadowColor="#ffffff" shadowOffset="1,1" text="O型"/>
+  </displayList>
+</component>

@@ -1,0 +1,48 @@
+
+fazhen.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani1
+  rotate: false
+  xy: 1, 924
+  size: 98, 90
+  orig: 98, 90
+  offset: 0, 0
+  index: -1
+ani2
+  rotate: true
+  xy: 1, 518
+  size: 310, 316
+  orig: 310, 316
+  offset: 0, 0
+  index: -1
+ani3
+  rotate: false
+  xy: 409, 768
+  size: 410, 246
+  orig: 410, 246
+  offset: 0, 0
+  index: -1
+ani4
+  rotate: false
+  xy: 1, 1
+  size: 458, 458
+  orig: 458, 458
+  offset: 0, 0
+  index: -1
+ani5
+  rotate: false
+  xy: 318, 460
+  size: 512, 307
+  orig: 512, 307
+  offset: 0, 0
+  index: -1
+sni2.5
+  rotate: false
+  xy: 100, 829
+  size: 308, 185
+  orig: 308, 185
+  offset: 0, 0
+  index: -1

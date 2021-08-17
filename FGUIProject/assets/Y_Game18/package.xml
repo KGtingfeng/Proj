@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="e7eqxxh3">
+  <resources>
+    <image id="vvaw0" name="progressbar_in.png" path="/Imag/" exported="true" scale="9grid" scale9grid="22,7,19,9"/>
+    <image id="vvaw1" name="progressbar_out.png" path="/Imag/" exported="true" scale9grid="0,14,278,30"/>
+    <image id="vvaw2" name="ptn_xinling.png" path="/Imag/" exported="true"/>
+    <image id="vvaw3" name="ptn_circle.png" path="/Imag/" exported="true"/>
+    <image id="vvaw4" name="ptn_reminder.png" path="/Imag/" exported="true"/>
+    <image id="vvaw5" name="ptn_manduola.png" path="/Imag/" exported="true"/>
+    <component id="vvaw6" name="Game18.xml" path="/Comp/" exported="true"/>
+    <component id="vvaw8" name="ProgressBar.xml" path="/Comp/" exported="true"/>
+    <component id="vvaw9" name="Game18_scene.xml" path="/Comp/" exported="true"/>
+    <image id="h4fsa" name="bar_top.png" path="/Imag/"/>
+    <image id="h4fsb" name="bar_effect.png" path="/Imag/"/>
+    <component id="h4fsc" name="bar_bubble.xml" path="/Comp/"/>
+    <component id="h4fsf" name="bar_inside.xml" path="/Comp/"/>
+    <image id="u5pog" name="bg_progressbar.png" path="/Imag/"/>
+    <component id="dle5h" name="talk_frame.xml" path="/Comp/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

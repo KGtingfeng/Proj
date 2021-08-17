@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <loader id="n0_rzdk" name="n0" xy="-235,0" size="1220,1624" url="ui://1rl5fz6drzdk2" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n1_rzdk" name="n1" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,23" scale="0.8,0.8">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n2_rzdk" name="n2" src="10xzq14" fileName="Comp/Button_tips.xml" pkg="82yrhfjg" xy="576,69" pivot="1,0.5">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+    <component id="n3_rzdk" name="n3" src="10xzq15" fileName="Comp/Button_skip.xml" pkg="82yrhfjg" xy="576,146" pivot="1,0.5">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+    <component id="n4_rzdk" name="n4" src="rzdk3" fileName="Comp/Suipian.xml" xy="71,519" pivot="0.5,0.5"/>
+    <image id="n5_rzdk" name="n5" src="rzdk2a" fileName="Imag/312frame(1).png" xy="6,946"/>
+    <text id="n6_rzdk" name="n6" xy="156,1061" pivot="0.5,0.5" size="438,45" font="ui://bs2uwwz8flzz2" fontSize="33" color="#ffffff" align="center" autoSize="none" bold="true" text="获得重要位置碎片">
+      <relation target="n5_rzdk" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="t0" autoPlay="true" frameRate="60">
+    <item time="0" type="Rotation" target="n4_rzdk" tween="true" startValue="-180" endValue="0" duration="60" ease="Quad.InOut"/>
+    <item time="0" type="Scale" target="n4_rzdk" tween="true" startValue="0,0" endValue="1,1" duration="60"/>
+    <item time="0" type="XY" target="n4_rzdk" tween="true" startValue="-957,1220" endValue="71,519" duration="60"/>
+    <item time="60" type="XY" target="n4_rzdk" tween="true" startValue="71,519" endValue="71,503" duration="60"/>
+    <item time="120" type="XY" target="n4_rzdk" tween="true" startValue="71,503" endValue="71,519" duration="60" ease="Quad.In"/>
+  </transition>
+  <transition name="t1" autoPlay="true" frameRate="60">
+    <item time="0" type="Alpha" target="n5_rzdk" value="0"/>
+    <item time="0" type="Alpha" target="n6_rzdk" value="0"/>
+    <item time="0" type="XY" target="n5_rzdk" value="6,946"/>
+    <item time="60" type="Alpha" target="n5_rzdk" tween="true" startValue="0" endValue="1" duration="48"/>
+    <item time="60" type="Alpha" target="n6_rzdk" tween="true" startValue="0" endValue="1" duration="48"/>
+    <item time="60" type="XY" target="n5_rzdk" tween="true" startValue="6,993" endValue="6,946" duration="48" ease="Quart.Out"/>
+  </transition>
+</component>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,177" designImage="ui://uluoyg28w8uf13">
+  <controller name="c1" pages="0,进入剧情,1,再来一次,2,获得角色" selected="2"/>
+  <displayList>
+    <image id="n6_mjv5" name="n6" src="mjv53" fileName="Imag/ptn_cha_frame.png" pkg="82yrhfjg" xy="-1,2" size="1220,172">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n27_lye8" name="n27" src="lye8q6i" fileName="Imag/bg_white.png" pkg="82yrhfjg" xy="0,-1" size="1242,172" alpha="0.618">
+      <gearLook controller="c1" pages="1" values="0.615,0,0,0" default="0.618,0,0,0"/>
+    </image>
+    <image id="n26_k9eb" name="n26" src="k9ebq4z" fileName="Imag/bg_charactercollect.png" xy="449,69" alpha="0.4">
+      <gearLook controller="c1" pages="2" values="0.4,0,0,0" default="1,0,0,0"/>
+    </image>
+    <image id="n21_w8uf" name="n21" src="w8ufq3w" fileName="Imag/btn_headbg.png" pkg="82yrhfjg" xy="287,-13" alpha="0.65">
+      <gearLook controller="c1" pages="2" values="0.65,0,0,0" default="1,0,0,0"/>
+    </image>
+    <image id="n25_k9eb" name="n25" src="k9ebq4y" fileName="Imag/bg_charactername.png" xy="363,6" alpha="0.4">
+      <gearLook controller="c1" pages="2" values="0.4,0,0,0" default="1,0,0,0"/>
+    </image>
+    <loader id="n16_p7i4" name="n5" xy="296,-5" size="270,270" scale="0.689,0.689" alpha="0.3" url="ui://82yrhfjgvdqr1" autoSize="true">
+      <gearLook controller="c1" pages="2" values="0.3,0,0,1" default="1,0,0,1"/>
+    </loader>
+    <text id="n8_mjv5" name="n8" xy="636,20" size="72,32" alpha="0.4" font="ui://bs2uwwz8flzz2" fontSize="22" color="#b65b8d" text="1/20章">
+      <gearLook controller="c1" pages="2" values="0.4,0,0,0" default="1,0,0,0"/>
+    </text>
+    <text id="n9_mjv5" name="n9" xy="503,71" size="122,26" alpha="0.4" font="ui://bs2uwwz8flzz2" fontSize="18" color="#b65b8d" align="right" text="结局收集：0/4">
+      <gearLook controller="c1" pages="2" values="0.4,0,0,0" default="1,0,0,0"/>
+    </text>
+    <text id="n10_mjv5" name="n10" xy="503,17" size="94,42" alpha="0.4" font="ui://bs2uwwz8flzz0" fontSize="30" color="#b65b8d" strokeColor="#ffffff" text="水王子">
+      <gearLook controller="c1" pages="2" values="0.4,0,0,0" default="1,0,0,0"/>
+    </text>
+    <text id="n11_mjv5" name="n11" xy="503,109" size="117,23" alpha="0.4" font="ui://bs2uwwz8flzz0" fontSize="15" color="#8f8a85" text="好感度：656654">
+      <gearLook controller="c1" pages="2" values="0.4,0,0,0" default="1,0,0,0"/>
+    </text>
+    <text id="n12_mjv5" name="n12" xy="503,137" size="111,23" alpha="0.4" font="ui://bs2uwwz8flzz0" fontSize="15" color="#8f8a85" text="剧情进度：60%">
+      <gearLook controller="c1" pages="2" values="0.4,0,0,0" default="1,0,0,0"/>
+    </text>
+    <component id="n13_mjv5" name="n13" src="s8t3q6a" fileName="Comp/Button1_tifred.xml" pkg="82yrhfjg" xy="747,74">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button title="进入剧情" titleFontSize="25"/>
+    </component>
+    <component id="n14_mjv5" name="n14" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="746,62">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="再来一次" titleFontSize="20"/>
+    </component>
+    <component id="n15_mjv5" name="n15" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="747,74">
+      <gearDisplay controller="c1" pages="2"/>
+      <Button title="获取角色" titleFontSize="25"/>
+    </component>
+    <loader id="n17_f9t3" name="n17" xy="799,125" size="100,100" scale="0.3,0.3" url="ui://82yrhfjgvdqrd" fill="scale" shrinkOnly="true" autoSize="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n18_f9t3" sidePair="middle-middle,left-left"/>
+    </loader>
+    <text id="n18_f9t3" name="n18" xy="830,124" size="66,34" font="ui://wkrcryqms5cu5" fontSize="20" color="#ffffff" vAlign="middle" autoSize="none" shadowColor="#827ed8" shadowOffset="1,1" text="500&#xA;">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n14_mjv5" sidePair="center-center%,middle-middle"/>
+    </text>
+    <component id="n24_w8uf" name="n19" src="s8t3q6a" fileName="Comp/Button1_tifred.xml" pkg="82yrhfjg" xy="748,2">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="章节回看" titleFontSize="20"/>
+    </component>
+  </displayList>
+</component>

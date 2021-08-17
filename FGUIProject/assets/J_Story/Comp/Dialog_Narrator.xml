@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,73">
+  <displayList>
+    <richtext id="n0_dd7o" name="n0" xy="10,15" size="580,36" font="ui://bs2uwwz8flzz2" fontSize="26" color="#ffffff" autoSize="height" text="舒言拉着“我”的手，在时间隧道里。">
+      <relation target="" sidePair="width-width"/>
+    </richtext>
+  </displayList>
+  <relation target="n0_dd7o" sidePair="bottomext-bottom"/>
+</component>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="59kca8sc">
+  <resources>
+    <image id="k8n80" name="1.png" path="/Imag/" exported="true"/>
+    <image id="k8n81" name="2.png" path="/Imag/" exported="true"/>
+    <image id="k8n82" name="3.png" path="/Imag/" exported="true"/>
+    <image id="k8n83" name="tips.png" path="/Imag/" exported="true" scale="9grid" scale9grid="0,112,670,-3"/>
+    <image id="k8n84" name="tipframe.png" path="/Imag/" exported="true"/>
+    <image id="k8n85" name="frame_answer.png" path="/Imag/" exported="true" scale="9grid" scale9grid="91,0,2,86"/>
+    <image id="k8n86" name="frame_question.png" path="/Imag/" exported="true"/>
+    <component id="k8n87" name="Game.xml" path="/Comp/" exported="true"/>
+    <image id="k8n8q5n" name="ptn_framelight.png" path="/Imag/" exported="true"/>
+    <component id="k8n89" name="321.xml" path="/Comp/" exported="true"/>
+    <component id="k8n8a" name="Ani_321.xml" path="/Comp/" exported="true"/>
+    <component id="k8n8e" name="Button_answer.xml" path="/Comp/" exported="true"/>
+    <component id="k8n8f" name="Tips.xml" path="/Comp/" exported="true"/>
+    <image id="k8n8g" name="btn_blue.png" path="/Imag/" exported="true"/>
+    <component id="k8n8h" name="Buttonblue.xml" path="/Comp/" exported="true"/>
+    <component id="k8n8i" name="Buttonblue2.xml" path="/Comp/" exported="true"/>
+    <image id="s9u4q5o" name="bg.png" path="/Imag/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

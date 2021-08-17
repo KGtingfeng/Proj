@@ -1,0 +1,3 @@
+include ':loveTea'
+include ':app'
+rootProject.name = "LoveTea"

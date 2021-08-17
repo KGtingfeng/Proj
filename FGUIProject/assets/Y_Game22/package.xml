@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="equh1laq">
+  <resources>
+    <component id="vvaw0" name="Game22.xml" path="/Comp/" exported="true"/>
+    <image id="vvaw2" name="ptn_rubbishL.png" path="/Imag/" exported="true"/>
+    <image id="vvaw4" name="ptn_obstacle.png" path="/Imag/" exported="true"/>
+    <component id="vvaw5" name="Game22_scene.xml" path="/Comp/" exported="true"/>
+    <image id="vvaw7" name="ptn_boat.png" path="/Imag/" exported="true"/>
+    <component id="vvaw8" name="boat.xml" path="/Comp/" exported="true"/>
+    <image id="vvaw9" name="claw.png" path="/Imag/" exported="true" scale="tile" scale9grid="3,11,6,22"/>
+    <component id="vvawa" name="claw.xml" path="/Comp/" exported="true"/>
+    <component id="vvawb" name="rubbish1.xml" path="/Comp/" exported="true"/>
+    <component id="vvawc" name="obstacle.xml" path="/Comp/" exported="true"/>
+    <image id="8noad" name="c.png" path="/Imag/" exported="true"/>
+    <component id="8noae" name="rubbish2.xml" path="/Comp/" exported="true"/>
+    <component id="8noaf" name="rubbish3.xml" path="/Comp/" exported="true"/>
+    <component id="h4fsh" name="rubbish.xml" path="/Comp/" exported="true"/>
+    <component id="cf64i" name="obstacle1.xml" path="/Comp/" exported="true"/>
+    <component id="cf64j" name="obstacle2.xml" path="/Comp/" exported="true"/>
+    <component id="cf64k" name="obstacle3.xml" path="/Comp/" exported="true"/>
+    <image id="ple6l" name="bg_water.png" path="/Imag/" exported="true"/>
+    <image id="ple6m" name="bg_1.png" path="/Imag/" exported="true"/>
+    <image id="m11dn" name="l.png" path="/Imag/" exported="true"/>
+    <image id="m11do" name="r.png" path="/Imag/" exported="true"/>
+  </resources>
+  <publish name="" maxAtlasSize="2048" square="true" rotation="true"/>
+</packageDescription>

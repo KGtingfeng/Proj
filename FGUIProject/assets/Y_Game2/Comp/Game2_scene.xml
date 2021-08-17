@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,找碎片,2,拼碎片,3,完成" selected="1"/>
+  <displayList>
+    <component id="n26_dkaw" name="n26" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-235,0" size="1220,1624">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="width-width,height-height%"/>
+    </component>
+    <image id="n1_dkaw" name="n1" src="dkaw1" fileName="imag/componentbg.png" xy="32,1210">
+      <gearDisplay controller="c1" pages="0,1,2"/>
+    </image>
+    <image id="n25_dkaw" name="n25" src="dkawv" fileName="imag/frame_chuan.png" xy="-23,245" pivot="0.5,0.5" size="783,947" group="n32_dkaw"/>
+    <image id="n27_dkaw" name="n27" src="dkawu" fileName="imag/frame_chuan1.png" xy="152,280" pivot="0.5,0.5" group="n32_dkaw"/>
+    <image id="n28_dkaw" name="n28" src="dkawu" fileName="imag/frame_chuan1.png" xy="152,1145" pivot="0.5,0.5" group="n32_dkaw"/>
+    <image id="n29_dkaw" name="n29" src="dkawu" fileName="imag/frame_chuan1.png" xy="-197,685" pivot="0.5,0.5" group="n32_dkaw" rotation="90"/>
+    <image id="n30_dkaw" name="n30" src="dkawu" fileName="imag/frame_chuan1.png" xy="502,685" pivot="0.5,0.5" group="n32_dkaw" rotation="90"/>
+    <group id="n32_dkaw" name="n32" xy="-197,245" size="1131,947" advanced="true">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n55_s7t6" name="n55" src="s7t612" fileName="imag/ptn.png" xy="-65,425" pivot="0.5,0.5" size="876,512">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="n31_dkaw" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n31_dkaw" name="n31" src="dkaww" fileName="imag/outline.png" xy="69,381">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="n32_dkaw" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n34_dkaw" name="n34" src="dkawx" fileName="imag/textbg.png" xy="56,1039">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="n32_dkaw" sidePair="center-center,bottom-bottom"/>
+    </image>
+    <text id="n35_dkaw" name="n35" xy="81,1044" pivot="0.5,0.5" size="574,39" font="ui://xk3nrdkvkki52" fontSize="28" color="#ffffff" align="center" leading="20" autoSize="none" text="拖动碎片到上方，修复时间之舟。">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="n34_dkaw" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n39_dkaw" name="n39" src="dkawy" fileName="imag/final.png" xy="57,1407">
+      <gearDisplay controller="c1" pages="3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n56_k80a" name="n56" xy="141,1426" pivot="0.5,0.5" size="469,43" font="ui://xk3nrdkvkki51" fontSize="31" color="#ffffff" align="center" autoSize="none" text="成功修复了时间之舟!">
+      <gearDisplay controller="c1" pages="3"/>
+      <relation target="n39_dkaw" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n12_dkaw" name="n12" src="dkawl" fileName="Comp/Component1.xml" xy="127,1322" pivot="0.5,0.5" anchor="true" group="n38_dkaw" scale="0.528,0.531"/>
+    <component id="n16_dkaw" name="n16" src="dkawp" fileName="Comp/Component5.xml" xy="633,1338" pivot="0.5,0.5" anchor="true" group="n38_dkaw" scale="0.603,0.603"/>
+    <component id="n13_dkaw" name="n13" src="dkawm" fileName="Comp/Component2.xml" xy="255,1340" pivot="0.5,0.5" anchor="true" group="n38_dkaw" scale="0.688,0.688"/>
+    <component id="n14_dkaw" name="n14" src="dkawn" fileName="Comp/Component3.xml" xy="394,1330" pivot="0.5,0.5" anchor="true" group="n38_dkaw" scale="0.555,0.555"/>
+    <component id="n15_dkaw" name="n15" src="dkawo" fileName="Comp/Component4.xml" xy="520,1328" pivot="0.5,0.5" anchor="true" group="n38_dkaw" scale="0.792,0.792"/>
+    <component id="n17_dkaw" name="n17" src="dkawq" fileName="Comp/Component6.xml" xy="347,1449" pivot="0.5,0.5" anchor="true" group="n38_dkaw" scale="0.677,0.677" rotation="68"/>
+    <group id="n38_dkaw" name="n38" xy="26,1157" size="682,584" advanced="true">
+      <gearDisplay controller="c1" pages="0,1,2"/>
+      <relation target="n1_dkaw" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n5_dkaw" name="n5" src="dkawf" fileName="Comp/suipian1.xml" xy="40,612" pivot="0.5,0.5" group="n52_m2y6">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n6_dkaw" name="n6" src="dkawg" fileName="Comp/suipian2.xml" xy="533,1101" pivot="0.5,0.5" group="n52_m2y6">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n7_dkaw" name="n7" src="dkawh" fileName="Comp/suipian3.xml" xy="634,909" pivot="0.5,0.5" group="n52_m2y6">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n8_dkaw" name="n8" src="dkawi" fileName="Comp/suipian4.xml" xy="680,413" pivot="0.5,0.5" group="n52_m2y6">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n9_dkaw" name="n9" src="dkawj" fileName="Comp/suipian5.xml" xy="79,1086" pivot="0.5,0.5" group="n52_m2y6">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <image id="n11_dkaw" name="n11" src="dkawc" fileName="imag/suipian6y.png" xy="49,950" group="n52_m2y6">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="n10_dkaw" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n10_dkaw" name="n10" src="dkawk" fileName="Comp/suipian6.xml" xy="51,915" pivot="0.5,0.5" group="n52_m2y6">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <group id="n52_m2y6" name="n52" xy="40,413" size="693,768" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <component id="n45_m2y6" name="n45" src="m2y6z" fileName="Comp/Frame_click.xml" xy="245,569" size="161,322" group="n46_m2y6">
+      <gearDisplay controller="c1" pages="2"/>
+    </component>
+    <component id="n40_m2y6" name="n40" src="m2y6z" fileName="Comp/Frame_click.xml" xy="87,584" size="141,232" group="n46_m2y6">
+      <gearDisplay controller="c1" pages="2"/>
+    </component>
+    <component id="n41_m2y6" name="n41" src="m2y6z" fileName="Comp/Frame_click.xml" xy="481,605" size="123,166" group="n46_m2y6">
+      <gearDisplay controller="c1" pages="2"/>
+    </component>
+    <component id="n42_m2y6" name="n42" src="m2y6z" fileName="Comp/Frame_click.xml" xy="229,661" size="145,156" group="n46_m2y6">
+      <gearDisplay controller="c1" pages="2"/>
+    </component>
+    <component id="n43_m2y6" name="n43" src="m2y6z" fileName="Comp/Frame_click.xml" xy="604,517" size="71,213" group="n46_m2y6">
+      <gearDisplay controller="c1" pages="2"/>
+    </component>
+    <component id="n44_m2y6" name="n44" src="m2y6z" fileName="Comp/Frame_click.xml" xy="374,634" size="114,179" group="n46_m2y6">
+      <gearDisplay controller="c1" pages="2"/>
+    </component>
+    <group id="n46_m2y6" name="n46" xy="87,517" size="588,374" advanced="true">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <graph id="n47_m2y6" name="n47" xy="-235,1" size="1220,1624" touchable="false" type="rect" lineSize="0" fillColor="#02ffffff">
+      <gearDisplay controller="c1" pages="3"/>
+    </graph>
+    <graph id="n48_m2y6" name="n48" xy="-235,0" size="1220,1624" touchable="false" type="rect" lineSize="0" fillColor="#02ffffff">
+      <gearDisplay controller="c1" pages="3"/>
+    </graph>
+    <graph id="n49_m2y6" name="n49" xy="-235,0" size="1220,1624" touchable="false" type="rect" lineSize="0" fillColor="#02ffffff">
+      <gearDisplay controller="c1" pages="3"/>
+    </graph>
+    <graph id="n50_m2y6" name="n50" xy="-235,0" size="1220,1624" touchable="false" type="rect" lineSize="0" fillColor="#02ffffff">
+      <gearDisplay controller="c1" pages="3"/>
+    </graph>
+    <graph id="n51_m2y6" name="n51" xy="-235,0" size="1220,1624" touchable="false" type="rect" lineSize="0" fillColor="#02ffffff">
+      <gearDisplay controller="c1" pages="3"/>
+    </graph>
+    <graph id="n54_m2y6" name="n54" xy="-219,0" size="1220,1624" type="rect" lineSize="0" fillColor="#02ffffff">
+      <gearDisplay controller="c1" pages="3"/>
+    </graph>
+  </displayList>
+</component>

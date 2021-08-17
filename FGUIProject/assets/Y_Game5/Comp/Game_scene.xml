@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,找碎片,1,拼碎片,2,完成" selected="1"/>
+  <displayList>
+    <component id="n0_rn79" name="n0" src="rn79n" fileName="Comp/ptn1_biao1.xml" xy="92,816" group="n24_ufcb"/>
+    <component id="n1_rn79" name="n1" src="rn79o" fileName="Comp/ptn1_biao2.xml" xy="180,138" group="n24_ufcb"/>
+    <component id="n2_rn79" name="n2" src="rn79p" fileName="Comp/ptn1_biao3.xml" xy="189,939" group="n24_ufcb"/>
+    <component id="n3_rn79" name="n3" src="rn79q" fileName="Comp/ptn1_biao4.xml" xy="458,1085" group="n24_ufcb"/>
+    <component id="n4_rn79" name="n4" src="rn79r" fileName="Comp/ptn1_biao5.xml" xy="141,1163" group="n24_ufcb"/>
+    <component id="n5_rn79" name="n5" src="rn79s" fileName="Comp/ptn1_biao6.xml" xy="600,358" group="n24_ufcb"/>
+    <group id="n24_ufcb" name="n24" xy="92,138" size="587,1122" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n12_rn79" name="n12" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-180,0" size="1111,1624">
+      <gearDisplay controller="c1" pages="1,2"/>
+      <relation target="" sidePair="width-width,height-height%"/>
+    </component>
+    <graph id="n35_5xyh" name="n35" xy="-235,0" size="1220,1624" type="rect" lineSize="0" fillColor="#00ffffff">
+      <gearDisplay controller="c1" pages="2"/>
+    </graph>
+    <graph id="n36_5xyh" name="n36" xy="-235,0" size="1220,1624" type="rect" lineSize="0" fillColor="#00ffffff">
+      <gearDisplay controller="c1" pages="2"/>
+    </graph>
+    <image id="n6_rn79" name="n6" src="rn792" fileName="Imag/frame_below.png" xy="42,1320">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n7_rn79" name="n7" src="g0xm22" fileName="Imag/frame_chuan(1).png" pkg="82yrhfjg" xy="-18,245" pivot="0.5,0.5" size="783,947" group="n16_rn79"/>
+    <image id="n8_rn79" name="n8" src="g0xm24" fileName="Imag/frame_chuan1(1).png" pkg="82yrhfjg" xy="156,280" pivot="0.5,0.5" group="n16_rn79"/>
+    <image id="n9_rn79" name="n9" src="g0xm24" fileName="Imag/frame_chuan1(1).png" pkg="82yrhfjg" xy="156,1145" pivot="0.5,0.5" group="n16_rn79"/>
+    <image id="n10_rn79" name="n10" src="g0xm24" fileName="Imag/frame_chuan1(1).png" pkg="82yrhfjg" xy="-191,685" pivot="0.5,0.5" group="n16_rn79" rotation="90"/>
+    <image id="n11_rn79" name="n11" src="g0xm24" fileName="Imag/frame_chuan1(1).png" pkg="82yrhfjg" xy="506,685" pivot="0.5,0.5" group="n16_rn79" rotation="90"/>
+    <group id="n16_rn79" name="n16" xy="-191,245" size="1129,947" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n13_rn79" name="n13" src="rn793" fileName="Imag/ptn_tip.png" xy="100,328">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n16_rn79" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n14_rn79" name="n14" src="g0xm23" fileName="Imag/textbg(1).png" pkg="xyox4q1e" xy="60,1039">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n15_rn79" name="n15" xy="85,1044" pivot="0.5,0.5" size="574,39" font="ui://xk3nrdkvkki52" fontSize="28" color="#ffffff" align="center" leading="20" autoSize="none" text="拖动碎片，拼好四时钟（需要按照层级顺序）">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n14_rn79" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n17_rn79" name="n17" src="ufcb2b" fileName="Comp/ptn_tip1.xml" xy="331,690" group="n23_ufcb" visible="false"/>
+    <component id="n18_ufcb" name="n18" src="ufcb2c" fileName="Comp/ptn_tip2.xml" xy="331,523" group="n23_ufcb" visible="false"/>
+    <component id="n19_ufcb" name="n19" src="ufcb2d" fileName="Comp/ptn_tip3.xml" xy="295,562" group="n23_ufcb" visible="false"/>
+    <component id="n21_ufcb" name="n21" src="ufcb2f" fileName="Comp/ptn_tip4.xml" xy="104,439" group="n23_ufcb" visible="false"/>
+    <component id="n20_ufcb" name="n20" src="ufcb2e" fileName="Comp/ptn_tip5.xml" xy="221,315" group="n23_ufcb" visible="false"/>
+    <component id="n22_ufcb" name="n22" src="ufcb2g" fileName="Comp/ptn_tip6.xml" xy="393,317" group="n23_ufcb" visible="false"/>
+    <group id="n23_ufcb" name="n23" xy="104,315" size="540,707" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n16_rn79" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n25_ufcb" name="n25" src="ufcb2i" fileName="Comp/ptn2_biao1.xml" xy="98,1419" pivot="0.5,0.5" anchor="true" group="n31_ufcb" scale="1.153,1.153"/>
+    <component id="n26_ufcb" name="n26" src="ufcb2j" fileName="Comp/ptn2_biao2.xml" xy="182,1418" pivot="0.5,0.5" anchor="true" group="n31_ufcb" scale="0.507,0.507"/>
+    <component id="n27_ufcb" name="n27" src="ufcb2k" fileName="Comp/ptn2_biao3.xml" xy="275,1419" pivot="0.5,0.5" anchor="true" group="n31_ufcb" scale="0.516,0.516"/>
+    <component id="n28_ufcb" name="n28" src="ufcb2l" fileName="Comp/ptn2_biao4.xml" xy="401,1418" pivot="0.5,0.5" anchor="true" group="n31_ufcb" scale="0.264,0.264"/>
+    <component id="n29_ufcb" name="n29" src="ufcb2m" fileName="Comp/ptn2_biao5.xml" xy="533,1418" pivot="0.5,0.5" anchor="true" group="n31_ufcb" scale="0.854,0.77"/>
+    <component id="n30_ufcb" name="n30" src="ufcb2n" fileName="Comp/ptn2_biao6.xml" xy="643,1419" pivot="0.5,0.5" anchor="true" group="n31_ufcb" scale="0.8,0.8"/>
+    <group id="n31_ufcb" name="n31" xy="66,1128" size="633,581" advanced="true">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="n6_rn79" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n33_ufcb" name="n33" src="ufcb28" fileName="Imag/final.png" xy="62,1392" size="624,111">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n32_ufcb" name="n32" xy="140,1425" pivot="0.5,0.5" size="469,43" font="ui://xk3nrdkvkki51" fontSize="31" color="#ffffff" align="center" autoSize="none" text="你成功修复了四时钟">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="n33_ufcb" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n34_5xyh" name="n34" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="23,286" size="701,861">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+  </displayList>
+</component>

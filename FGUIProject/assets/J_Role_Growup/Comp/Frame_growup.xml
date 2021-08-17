@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <controller name="c1" pages="0,获得,1,未获得" selected="0"/>
+  <controller name="c2" pages="0,未选择,1,选择升级,2,升级特效,3,升级成功" selected="0"/>
+  <displayList>
+    <image id="n43_e2l7" name="n43" src="hsbv1v" fileName="Imag/ptn_mask.png" pkg="82yrhfjg" xy="0,0" size="1220,1624">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n40_w8uf" name="n40" xy="224,232" size="50,30" group="n44_e2l7" url="ui://uluoyg28w8ufy" autoSize="true"/>
+    <graph id="n38_jz00" name="n38" xy="224,159" size="784,1454" group="n44_e2l7" type="rect" lineSize="0" fillColor="#00ffffff"/>
+    <loader id="n28_kw6k" name="n26" xy="610,812" pivot="0.5,0.5" anchor="true" size="564,1024" group="n44_e2l7" scale="0.75,0.75" url="ui://gztqkmmpizqho">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <image id="n22_gerr" name="n22" src="lnqmi" fileName="Imag/ptn_common_split line.png" pkg="82yrhfjg" xy="304,1258" size="613,4" group="n44_e2l7"/>
+    <loader id="n39_w8uf" name="n39" xy="247,159" size="50,30" group="n44_e2l7" url="ui://uluoyg28w8ufx" autoSize="true"/>
+    <image id="n42_w8uf" name="n42" src="w8uf2p" fileName="Imag/ptn_rolelevelupbg.png" pkg="82yrhfjg" xy="306,1365" size="610,154" group="n44_e2l7"/>
+    <component id="n6_gerr" name="n6" src="gerr2a" fileName="Comp/Button_shift.xml" pkg="82yrhfjg" xy="291,750" group="n44_e2l7"/>
+    <component id="n7_gerr" name="n7" src="gerr2a" fileName="Comp/Button_shift.xml" pkg="82yrhfjg" xy="844,750" group="n44_e2l7" scale="-1,1"/>
+    <component id="n8_gerr" name="n8" src="gerr2c" fileName="Comp/Button_suit.xml" xy="565,1160" size="90,90" group="n44_e2l7" visible="false" touchable="false"/>
+    <component id="n10_gerr" name="n10" src="gerr2a" fileName="Comp/Button-story.xml" xy="565,1159" group="n44_e2l7">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n19_gerr" name="n19" src="lnqmy" fileName="Comp/Button_shop window.xml" pkg="68tbb4zq" xy="763,536" group="n44_e2l7" scale="0.62,0.62" visible="false"/>
+    <text id="n20_gerr" name="n20" xy="455,295" size="133,52" group="n44_e2l7" font="ui://bs2uwwz8flzz0" fontSize="38" color="#ffffff" align="right" autoSize="none" shadowColor="#000000" shadowOffset="1,1" text="罗丽"/>
+    <text id="n21_gerr" name="n21" xy="628,294" size="105,52" group="n44_e2l7" font="ui://bs2uwwz8flzz0" fontSize="38" color="#ffffff" shadowColor="#000000" shadowOffset="1,1" text="Lv.12"/>
+    <component id="n41_w8uf" name="n23" src="w8uf2o" fileName="Comp/Button_rolelevelup.xml" xy="396,1414" group="n44_e2l7">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n29_10xzq" name="n29" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="690,1414" group="n44_e2l7">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="合成"/>
+    </component>
+    <text id="n33_10xzq" name="n33" xy="403,1375" size="104,35" group="n44_e2l7" font="ui://bs2uwwz8flzz2" fontSize="25" color="#ffffff" shadowColor="#000000" shadowOffset="1,1" text="9999999">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n31_10xzq" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n31_10xzq" name="n31" src="wf3bq5o" fileName="Comp/Button1_red.xml" pkg="82yrhfjg" xy="340,1414" group="n44_e2l7">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="购买"/>
+    </component>
+    <component id="n30_10xzq" name="n30" src="ouy21v" fileName="Comp/Button_common_porp_EXP.xml" pkg="82yrhfjg" xy="567,1379" group="n44_e2l7" scale="0.8,0.8">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="100&#xD;"/>
+    </component>
+    <loader id="n37_p7i4" name="n32" xy="351,1368" size="100,100" group="n44_e2l7" scale="0.5,0.5" url="ui://82yrhfjgvdqrc" autoSize="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n33_10xzq" sidePair="right-left"/>
+    </loader>
+    <component id="n27_o2bo" name="n27" src="o2bo2h" fileName="Comp/Button_common_close.xml" pkg="82yrhfjg" xy="839,189" group="n44_e2l7"/>
+    <image id="n12_gerr" name="n12" src="lq3mq2x" fileName="Imag/ptn_attributebg1.png" pkg="82yrhfjg" xy="609,1269" size="297,89" group="n46_b6in"/>
+    <loader id="n35_p7i4" name="n14" xy="635,1283" size="120,120" group="n46_b6in" scale="0.5,0.5" url="ui://82yrhfjglnqmo" autoSize="true"/>
+    <text id="n16_gerr" name="n16" xy="693,1300" size="82,36" group="n46_b6in" font="ui://bs2uwwz8flzz0" fontSize="26" color="#ffffff" align="right" shadowColor="#6633cc" shadowOffset="1,1" text="智慧："/>
+    <text id="n18_gerr" name="n18" xy="788,1300" size="96,36" group="n46_b6in" font="ui://bs2uwwz8flzz0" fontSize="26" color="#ffffff" align="right" shadowColor="#6633cc" shadowOffset="1,1" text="999999"/>
+    <group id="n46_b6in" name="n46" xy="609,1269" size="297,134" group="n44_e2l7" advanced="true"/>
+    <image id="n11_gerr" name="n11" src="lq3mq2x" fileName="Imag/ptn_attributebg1.png" pkg="82yrhfjg" xy="312,1269" size="300,89" group="n47_b6in"/>
+    <loader id="n34_p7i4" name="n13" xy="339,1284" size="120,120" group="n47_b6in" scale="0.5,0.5" url="ui://82yrhfjglnqmn" autoSize="true"/>
+    <text id="n15_gerr" name="n15" xy="397,1299" size="82,36" group="n47_b6in" font="ui://bs2uwwz8flzz0" fontSize="26" color="#ffffff" align="right" shadowColor="#6633cc" shadowOffset="1,1" text="魅力："/>
+    <text id="n17_gerr" name="n17" xy="492,1299" size="96,36" group="n47_b6in" font="ui://bs2uwwz8flzz0" fontSize="26" color="#ffffff" align="right" shadowColor="#6633cc" shadowOffset="1,1" text="999999"/>
+    <group id="n47_b6in" name="n47" xy="312,1269" size="300,135" group="n44_e2l7" advanced="true"/>
+    <group id="n44_e2l7" name="n44" xy="224,159" size="784,1454" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n45_m485" name="n45" src="nuqx3f" fileName="Comp/Frame_leveltimes.xml" xy="0,0">
+      <gearDisplay controller="c2" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

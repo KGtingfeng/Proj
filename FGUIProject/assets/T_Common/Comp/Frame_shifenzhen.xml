@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="515,90">
+  <controller name="c1" pages="0,选择时间,2,完成" selected="0"/>
+  <displayList>
+    <component id="n39_w8uf" name="n37" src="w8ufq4k" fileName="Comp/Button_h.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n40_w8uf" name="n38" src="w8ufq4l" fileName="Comp/Button_m.xml" xy="312,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+  </displayList>
+</component>

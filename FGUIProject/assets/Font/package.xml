@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="bs2uwwz8">
+  <resources>
+    <font id="flzz0" name="Source Han Sans CN Bold.otf" path="/" renderMode="smooth" samplePointSize="16" boldWeight="1"/>
+    <font id="flzz1" name="Source Han Sans CN Normal.otf" path="/" renderMode="smooth" samplePointSize="16"/>
+    <font id="flzz2" name="SourceHanSansCN-Medium.otf" path="/" renderMode="smooth" samplePointSize="16" atlasPadding="20"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="6010uxwf">
+  <resources>
+    <image id="izqh0" name="ptn_choosedoll.png" path="/Imag/" exported="true" scale="9grid" scale9grid="1,267,2,34"/>
+    <image id="izqh3" name="btn_choosedoll_yeluoli.png" path="/Imag/" exported="true" scale9grid="33,91,66,9"/>
+    <image id="izqh4" name="btn_choosedoll_moli.png" path="/Imag/" exported="true" scale9grid="33,88,66,14"/>
+    <image id="izqh5" name="btn_choosedoll_liangcai.png" path="/Imag/" exported="true" scale9grid="33,90,66,12"/>
+    <image id="izqh6" name="btn_choosedoll_lankongque.png" path="/Imag/" exported="true" scale9grid="33,97,66,7"/>
+    <image id="izqh7" name="btn_choosedoll_heixiangling.png" path="/Imag/" exported="true" scale9grid="33,97,66,6"/>
+    <image id="izqh8" name="btn_choosedoll_h.png" path="/Imag/" exported="true" scale="9grid" scale9grid="33,91,66,10"/>
+    <image id="izqh9" name="btn_choosedoll_feiling.png" path="/Imag/" exported="true" scale9grid="33,81,66,3"/>
+    <image id="izqha" name="btn_choosedoll_baiguangying.png" path="/Imag/" exported="true" scale9grid="33,81,66,3"/>
+    <image id="izqhd" name="ptn_attributes_bg.png" path="/Imag/" exported="true"/>
+    <image id="izqhe" name="icon_book.png" path="/Imag/" exported="true"/>
+    <component id="izqhf" name="Choose_doll.xml" path="/Comp/" exported="true"/>
+    <image id="izqhi" name="ptn_name_moli.png" path="/Imag/" exported="true"/>
+    <image id="izqhj" name="ptn_name_liangcai.png" path="/Imag/" exported="true"/>
+    <image id="izqhk" name="ptn_name_lankongque.png" path="/Imag/" exported="true"/>
+    <image id="izqhl" name="ptn_name_heixiangling.png" path="/Imag/" exported="true"/>
+    <image id="izqhm" name="ptn_name_feiling.png" path="/Imag/" exported="true"/>
+    <image id="izqhn" name="ptn_name_baiguangying.png" path="/Imag/" exported="true"/>
+    <image id="izqhv" name="ptn_name_yeluoli.png" path="/Imag/" exported="true"/>
+    <component id="izqhw" name="Button_story.xml" path="/Comp/" exported="true"/>
+    <component id="izqhx" name="Button_choose.xml" path="/Comp/" exported="true"/>
+    <component id="vdqrz" name="Button_choose_lankongque.xml" path="/Comp/" exported="true"/>
+    <component id="vdqr10" name="Button_choose_liangcai.xml" path="/Comp/" exported="true"/>
+    <component id="vdqr11" name="Button_choose_moli.xml" path="/Comp/" exported="true"/>
+    <component id="vdqr12" name="Button_choose_feiling.xml" path="/Comp/" exported="true"/>
+    <component id="vdqr13" name="Button_choose_baiguangying.xml" path="/Comp/" exported="true"/>
+    <component id="vdqr14" name="Button_choose_heixiangling.xml" path="/Comp/" exported="true"/>
+    <component id="vdqr15" name="Button_choosefinal.xml" path="/Comp/" exported="true"/>
+    <image id="vdqr19" name="icon_share.png" path="/Imag/" exported="true"/>
+    <component id="vy2y1d" name="Choose.xml" path="/Comp/" exported="true"/>
+    <image id="n3xv1e" name="icon_book_active.png" path="/Imag/" exported="true"/>
+    <image id="n3xv1g" name="btn_choosedoll_finalbg.png" path="/Imag/" exported="true"/>
+    <image id="n3xv1h" name="btn_continue_active.png" path="/Imag/" exported="true"/>
+    <image id="n3xv1i" name="btn_continue.png" path="/Imag/" exported="true"/>
+    <component id="9we91j" name="Button_continue.xml" path="/Comp/" exported="true"/>
+    <image id="d44r1k" name="btn_continue2.png" path="/Imag/" exported="true"/>
+    <image id="d44r1l" name="btn_continue2_active.png" path="/Imag/" exported="true"/>
+    <image id="h4fs1m" name="character1.png" path="/Imag/" exported="true"/>
+    <image id="h4fs1n" name="talk_frame.png" path="/Imag/" exported="true"/>
+    <component id="vn9i1o" name="Talk_Xinling.xml" path="/Comp/" exported="true"/>
+    <image id="v3021p" name="bigframe.png" path="/Imag/" exported="true"/>
+  </resources>
+  <publish name="X_Choose doll"/>
+</packageDescription>

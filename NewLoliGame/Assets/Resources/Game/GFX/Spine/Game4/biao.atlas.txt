@@ -1,0 +1,34 @@
+
+biao.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 108
+  size: 728, 896
+  orig: 728, 896
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 2, 2
+  size: 104, 222
+  orig: 107, 235
+  offset: 0, 6
+  index: -1
+3
+  rotate: true
+  xy: 226, 3
+  size: 103, 162
+  orig: 112, 176
+  offset: 4, 7
+  index: -1
+4
+  rotate: false
+  xy: 390, 16
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1

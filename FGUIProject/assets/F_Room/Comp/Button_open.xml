@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="70,36" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <image id="n1_rqgg" name="n1" src="rqgga" fileName="Imag/btn_open2.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_rqgg" name="n2" src="rqgg8" fileName="Imag/btn_open3.png" xy="0,0" alpha="0">
+      <gearLook controller="button" pages="0" values="0,0,0,0" default="1,0,0,0" tween="true" ease="Linear"/>
+    </image>
+    <image id="n0_rqgg" name="n0" src="rqgg9" fileName="Imag/btn_open1.png" xy="3,3">
+      <gearXY controller="button" pages="0,1" values="3,3|37,3" tween="true" duration=".2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button mode="Check"/>
+</component>

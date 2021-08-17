@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="706,274" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_b05h" name="n0" src="b05h4" fileName="Imag/bg_1.png" xy="0,0">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_b05h" name="n1" src="b05h4" fileName="Imag/bg_1.png" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_b05h" name="n2" xy="291,78" size="279,73" font="ui://bs2uwwz8flzz0" fontSize="55" color="#ffffff" strokeColor="#5b8cc3" text="暑假向前冲"/>
+    <text id="n3_b05h" name="n3" xy="327,156" size="213,35" font="ui://bs2uwwz8flzz0" fontSize="25" color="#ffffff" strokeColor="#5b8cc3" text="夏日限定一网打尽!"/>
+    <text id="n4_b05h" name="n4" xy="412,239" size="196,26" font="ui://bs2uwwz8flzz2" fontSize="18" color="#ffffff" text="2021.08.01-2021.08.31"/>
+  </displayList>
+  <Button/>
+</component>

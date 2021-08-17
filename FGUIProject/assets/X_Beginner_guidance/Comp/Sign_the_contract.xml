@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <image id="n7_xrnq" name="n7" src="xrnq9" fileName="Imag/character_xinling.png" pkg="6ct0sutv" xy="342,181" size="415,1311">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n0_xrnq" name="n0" src="xrnq0" fileName="Imag/bg_contractbook.png" pkg="6ct0sutv" xy="0,288" size="750,1336">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n44_kfof" name="n44" src="kfofn" fileName="Imag/bg_book2(1).png" pkg="6ct0sutv" xy="380,725" size="338,766">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n45_kfof" name="n45" src="kfofn" fileName="Imag/bg_book2(1).png" pkg="6ct0sutv" xy="31,725" size="338,766" flip="both">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n46_kfof" name="n46" src="auup12" fileName="Imag/bg_info.png" pkg="6ct0sutv" xy="89,986">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n1_xrnq" name="n1" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" scale="0.8,0.8">
+      <relation target="" sidePair="left-left%"/>
+    </component>
+    <loader id="n3_xrnq" name="n3" xy="445,768" size="202,204" url="ui://6ct0sutvxrnq6" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n4_xrnq" name="n4" xy="100,768" size="202,204" url="ui://6ct0sutvxrnq6" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n6_xrnq" name="n6" src="xrnq8" fileName="Imag/talk_frame.png" xy="191,389" scale="0.8,0.8">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n17_xrnq" name="n17" xy="140,1036" size="116,37" font="ui://wkrcryqmbvfr3" fontSize="26" color="#bc6aa9" align="center" autoSize="none" text="罗丽">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n19_xrnq" name="n19" xy="159,1162" size="81,36" fontSize="26" color="#bc6aa9" align="center" autoSize="none" text="O型">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n25_xrnq" name="n25" src="xrnqa" fileName="Comp/btn_random.xml" pkg="6ct0sutv" xy="620,1039">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n32_xrnq" name="n32" src="xrnqb" fileName="Comp/btn_calendar.xml" pkg="6ct0sutv" xy="637,1283">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n33_xrnq" name="n33" xy="437,1275" size="192,36" fontSize="26" color="#bc6aa9" align="center" autoSize="none" text="" input="true" prompt="选择你的生日">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n34_xrnq" name="n34" xy="436,1156" size="193,40" fontSize="26" color="#bc6aa9" align="center" autoSize="none" text="" input="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n35_xrnq" name="n35" xy="436,1040" size="187,36" fontSize="26" color="#bc6aa9" align="center" autoSize="none" text="" input="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n41_xrnq" name="n41" src="xrnqc" fileName="Comp/btn_choice.xml" pkg="6ct0sutv" xy="638,1403">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n42_xrnq" name="n42" xy="437,1397" size="192,35" fontSize="24" color="#cc0066" align="center" autoSize="none" text="" input="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n43_xrnq" name="n43" xy="192,463" size="312,73" fontSize="27" color="#645439" align="center" autoSize="none" text="在契约书中写下你的信息">
+      <relation target="n6_xrnq" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n2_xrnq" name="n2" src="izqh7" fileName="Comp/Button_special_red.xml" pkg="82yrhfjg" xy="161,1473" scale="1.3,1.3">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="缔结契约"/>
+    </component>
+    <image id="n47_sn7v" name="n47" src="mam9t" fileName="Imag/bg_front.png" xy="0,1394" size="750,230">
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </image>
+    <image id="n48_sn7v" name="n48" src="mam9t" fileName="Imag/bg_front.png" xy="0,0" size="750,230" flip="vt">
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </image>
+  </displayList>
+</component>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <loader id="n3_gab6" name="n3" xy="-235,0" pivot="0.5,0.5" size="1220,1624" url="ui://bgqjmy3sdyo59" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n9_dyo5" name="n9" src="dyo5q59" fileName="Imag/c4.png" xy="120,447" pivot="0.5,0.5" scale="1.836,1.836">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n10_c6pw" name="n10" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="-235,0" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n4_gab6" name="n4" src="gab6q3k" fileName="Imag/ptn_prelude.png" xy="32,53" pivot="0.5,0.5" size="685,1514">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_g6pv" name="n1" xy="240,570" size="268,114" font="ui://bs2uwwz8flzz0" fontSize="88" color="#674497" text="第一章">
+      <relation target="" sidePair="center-center,middle-middle%,top-top"/>
+    </text>
+    <image id="n5_dyo5" name="n5" src="dyo5q5a" fileName="Imag/c0.png" xy="147,447" pivot="0.5,0.5">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n2_g6pv" name="n2" xy="262,739" size="224,116" font="ui://bs2uwwz8flzz2" fontSize="44" color="#6c5888" ubb="true" text="南风知我意&#xA;吹梦到西洲">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="t2" frameRate="60">
+    <item time="0" type="Alpha" target="n1_g6pv" value="0"/>
+    <item time="0" type="Alpha" target="n2_g6pv" value="0"/>
+    <item time="0" type="Alpha" target="n3_gab6" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="0" type="Alpha" target="n4_gab6" value="0"/>
+    <item time="0" type="Alpha" target="n5_dyo5" value="0"/>
+    <item time="0" type="Alpha" target="n9_dyo5" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="0" type="Scale" target="n3_gab6" value="1,1"/>
+    <item time="0" type="Scale" target="n4_gab6" tween="true" startValue="0.87,0.87" endValue="1,1" duration="102"/>
+    <item time="0" type="Scale" target="n9_dyo5" value="1.836,1.836"/>
+    <item time="1" type="Scale" target="n3_gab6" tween="true" startValue="1,1" endValue="1.09,1.09" duration="101"/>
+    <item time="1" type="Scale" target="n9_dyo5" tween="true" startValue="1.836,1.836" endValue="2.2,2.2" duration="101"/>
+    <item time="18" type="Alpha" target="n1_g6pv" tween="true" startValue="0" endValue="1" duration="36"/>
+    <item time="18" type="Alpha" target="n2_g6pv" tween="true" startValue="0" endValue="1" duration="36"/>
+    <item time="31" type="Alpha" target="n4_gab6" tween="true" startValue="0" endValue="1" duration="36"/>
+    <item time="31" type="Alpha" target="n5_dyo5" tween="true" startValue="0" endValue="1" duration="36"/>
+  </transition>
+</component>

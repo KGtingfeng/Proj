@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://ca2vb0b4r8fug">
+  <controller name="c1" pages="0,文本,1,礼物" selected="0"/>
+  <displayList>
+    <image id="n20_r8fu" name="n20" src="hsbv1v" fileName="Imag/ptn_mask.png" pkg="82yrhfjg" xy="-235,0" size="1220,1624">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <graph id="n27_pajq" name="n27" xy="-235,0" size="1220,1624" type="rect" lineSize="0" fillColor="#00ffffff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n15_r8fu" name="n15" src="r8fua" fileName="Imag/Frame_mail.png" xy="52,303" group="n28_ple6">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n16_r8fu" name="n16" xy="116,398" size="502,35" group="n28_ple6" font="ui://wkrcryqms5cu3" fontSize="25" color="#71635d" align="center" autoSize="none" text="邮件标题最长十六个字">
+      <relation target="n15_r8fu" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n17_r8fu" name="n17" xy="78,462" size="502,35" group="n28_ple6" font="ui://wkrcryqms5cu5" fontSize="21" color="#71635d" autoSize="none" text="过期时间:2018年9月2日">
+      <relation target="n15_r8fu" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n18_r8fu" name="n18" src="r8fu1" fileName="Imag/line.png" xy="77,497" size="583,4" group="n28_ple6" alpha="0.6">
+      <relation target="n15_r8fu" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n19_r8fu" name="n19" src="r8fud" fileName="Comp/Component_wenben.xml" xy="102,502" size="543,635" group="n28_ple6">
+      <gearSize controller="c1" pages="0" values="543,635,1,1" default="543,377,1,1"/>
+      <relation target="n15_r8fu" sidePair="center-center,top-top"/>
+    </component>
+    <image id="n21_r8fu" name="n21" src="r8fu1" fileName="Imag/line.png" xy="77,1137" size="583,4" group="n28_ple6" alpha="0.6">
+      <relation target="n15_r8fu" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n23_r8fu" name="n23" src="s8t3q6a" fileName="Comp/Button1_tifred.xml" pkg="82yrhfjg" xy="272,1161" group="n28_ple6">
+      <relation target="n15_r8fu" sidePair="center-center,middle-middle"/>
+      <Button title="领取"/>
+    </component>
+    <list id="n26_r8fu" name="n26" xy="-28,848" pivot="0.5,0.5" size="806,326" group="n28_ple6" scale="0.72,0.72" layout="flow_hz" lineGap="-8" colGap="-9" lineItemCount="5" defaultItem="ui://82yrhfjgubaiq58" align="center" vAlign="middle" autoClearItems="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n15_r8fu" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n28_ple6" name="n28" xy="-28,303" size="806,1017" advanced="true"/>
+  </displayList>
+</component>

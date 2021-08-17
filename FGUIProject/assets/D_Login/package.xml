@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="t0kqvihp">
+  <resources>
+    <component id="9pfj0" name="Login.xml" path="/Comp/" exported="true"/>
+    <image id="9pfj1" name="btn_register.png" path="/Imag/" exported="true"/>
+    <image id="9pfj2" name="btn_register_h.png" path="/Imag/" exported="true"/>
+    <image id="9pfj3" name="btn_login.png" path="/Imag/" exported="true"/>
+    <image id="9pfj4" name="btn_login_h.png" path="/Imag/" exported="true"/>
+    <image id="9pfj5" name="login_icon_repair.png" path="/Imag/" exported="true"/>
+    <image id="9pfj6" name="login_icon_repair_active.png" path="/Imag/" exported="true"/>
+    <image id="9pfj7" name="login_icon_announcement.png" path="/Imag/" exported="true"/>
+    <image id="9pfj8" name="login_icon_announcement_active.png" path="/Imag/" exported="true"/>
+    <component id="9pfjb" name="Button_login.xml" path="/Comp/" exported="true"/>
+    <component id="9pfjc" name="Button_announcement.xml" path="/Comp/" exported="true"/>
+    <component id="9pfjd" name="Button_repair.xml" path="/Comp/" exported="true"/>
+    <component id="9pfjf" name="Frame_announcement.xml" path="/Comp/" exported="true"/>
+    <image id="9pfjg" name="frame_bg.png" path="/Imag/" exported="true" scale="9grid"/>
+    <image id="9pfjh" name="frame_head_announcement.png" path="/Imag/" exported="true" scale="9grid" scale9grid="17,17,37,37"/>
+    <component id="9pfji" name="Text_announcement.xml" path="/Comp/" exported="true"/>
+    <image id="9pfjj" name="title_bg.png" path="/Imag/" exported="true"/>
+    <image id="7cz7k" name="frame_head_login.png" path="/Imag/" exported="true" scale="9grid" scale9grid="18,18,36,36"/>
+    <component id="7cz7l" name="Frame_login.xml" path="/Comp/" exported="true"/>
+    <image id="7cz7m" name="frame_input_login.png" path="/Imag/" exported="true" scale="9grid" scale9grid="18,18,36,36"/>
+    <image id="7cz7n" name="icon_forget.png" path="/Imag/" exported="true"/>
+    <image id="7cz7o" name="icon_change.png" path="/Imag/" exported="true"/>
+    <component id="7cz7p" name="Frame_register.xml" path="/Comp/" exported="true"/>
+    <image id="7cz7q" name="frame_head_register.png" path="/Imag/" exported="true" scale="9grid" scale9grid="18,18,36,36"/>
+    <image id="7cz7r" name="frame_input_register.png" path="/Imag/" exported="true" scale="9grid" scale9grid="18,18,36,36"/>
+    <image id="7cz7s" name="btn_confirmregister_h.png" path="/Imag/" exported="true"/>
+    <image id="7cz7t" name="btn_confirmregister.png" path="/Imag/" exported="true"/>
+    <image id="7cz7v" name="login_icon_logout.png" path="/Imag/" exported="true"/>
+    <image id="7cz7w" name="login_icon_logout_active.png" path="/Imag/" exported="true"/>
+    <component id="7cz7x" name="Button_logout.xml" path="/Comp/" exported="true"/>
+    <image id="izqhy" name="ptn_changeserver.png" path="/Imag/" exported="true" scale9grid="22,22,41,36"/>
+    <image id="izqhz" name="btn_entergame.png" path="/Imag/" exported="true"/>
+    <image id="izqh11" name="icon_serverstatus_red.png" path="/Imag/" exported="true"/>
+    <image id="izqh12" name="icon_serverstatus_green.png" path="/Imag/" exported="true"/>
+    <image id="izqh13" name="icon_serverstatus_gray.png" path="/Imag/" exported="true"/>
+    <image id="izqh14" name="icon_agreement_uncheck.png" path="/Imag/" exported="true"/>
+    <image id="izqh15" name="icon_agreement_check.png" path="/Imag/" exported="true"/>
+    <component id="izqh17" name="Button_agreement_check.xml" path="/Comp/" exported="true"/>
+    <component id="izqh18" name="Button_change.xml" path="/Comp/" exported="true"/>
+    <component id="izqh19" name="Button_forget.xml" path="/Comp/" exported="true"/>
+    <component id="izqh1a" name="Button_enter game.xml" path="/Comp/" exported="true"/>
+    <component id="izqh1c" name="Frame_passwordchange.xml" path="/Comp/" exported="true"/>
+    <component id="izqh1d" name="Frame_passwordforget.xml" path="/Comp/" exported="true"/>
+    <component id="izqh1e" name="Button_password.xml" path="/Comp/" exported="true"/>
+    <image id="izqh1i" name="frame_head_update.png" path="/Imag/" exported="true" scale="9grid" scale9grid="18,18,36,36"/>
+    <component id="lnqm1n" name="Button_register.xml" path="/Comp/" exported="true"/>
+    <component id="lnqm1r" name="Icon_head.xml" path="/Comp/" exported="true"/>
+    <image id="hsbv1s" name="frame_bg_line.png" path="/Imag/" exported="true"/>
+    <image id="hsbv1t" name="btn_close.png" path="/Imag/" exported="true"/>
+    <component id="hsbv1u" name="Button_close.xml" path="/Comp/" exported="true"/>
+    <image id="zw9n1x" name="frame_bg2.png" path="/Imag/" exported="true" scale="9grid" scale9grid="178,182,356,6"/>
+    <image id="zw9n1y" name="frame_input_login_active.png" path="/Imag/" exported="true" scale="9grid" scale9grid="16,16,32,32"/>
+    <component id="zw9n1z" name="frame_input_login.xml" path="/Comp/" exported="true"/>
+    <component id="zw9n20" name="frame_input_login_active.xml" path="/Comp/" exported="true"/>
+    <component id="n8oq22" name="Text_announcement0.xml" path="/Comp/" exported="true"/>
+    <component id="plbb23" name="TouchScreen.xml" path="/Comp/" exported="true"/>
+    <component id="f62n24" name="Frame_chooseservers.xml" path="/Comp/" exported="true"/>
+    <image id="f62n25" name="ptn_line.png" path="/Imag/" exported="true"/>
+    <image id="f62n26" name="icon_tuijian.png" path="/Imag/" exported="true"/>
+    <image id="f62n27" name="frame_serversbg.png" path="/Imag/" exported="true" scale="9grid" scale9grid="20,20,40,40"/>
+    <component id="f62n28" name="Frame_servers.xml" path="/Comp/" exported="true"/>
+    <image id="b9gw29" name="logo.png" path="/Imag/" exported="true"/>
+    <component id="ikv12b" name="ProgressBar_load.xml" path="/Comp/" exported="true"/>
+    <image id="ikv12c" name="ProgressBar_load1.png" path="/Imag/" exported="true"/>
+    <image id="ikv12d" name="ProgressBar_load2.png" path="/Imag/" exported="true"/>
+    <component id="k7irq61" name="Frame_update_tips.xml" path="/Comp/" exported="true"/>
+    <component id="vvawq62" name="Frame_update.xml" path="/Comp/"/>
+    <component id="mq08q63" name="ani_guochang.xml" path="/Comp/" exported="true"/>
+  </resources>
+  <publish name="D_Login"/>
+</packageDescription>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <image id="n2_sfjp" name="n2" src="sfjp4" fileName="Imag/light.png" xy="0,0" size="750,1624" blend="add" color="#001691">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n0_q7dz" name="n0" src="p25x3" fileName="Comp/frame_button.xml" xy="0,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n1_c6pw" name="n1" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="-235,0" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+  <transition name="t0" frameRate="60">
+    <item time="0" type="Alpha" target="n2_sfjp" tween="true" startValue="0" endValue="1" duration="24"/>
+  </transition>
+</component>

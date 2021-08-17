@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="195,240">
+  <displayList>
+    <image id="n28_g0xm" name="n29" src="g0xm11" fileName="Imag/ptn_tip3.png" xy="0,0"/>
+  </displayList>
+  <transition name="t0" frameRate="60">
+    <item time="0" type="Alpha" target="n28_g0xm" tween="true" startValue="0" endValue="1" duration="42"/>
+    <item time="42" type="Alpha" target="n28_g0xm" tween="true" startValue="1" endValue="0" duration="48"/>
+  </transition>
+</component>

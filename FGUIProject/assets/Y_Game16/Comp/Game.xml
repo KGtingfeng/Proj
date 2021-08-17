@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <component id="n7_suu9" name="n7" src="rzdk5" fileName="Comp/Game_scene.xml" xy="0,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n8_hryp" name="n8" src="rzdk4" fileName="Imag/shuyan.png" xy="319,1385" pivot="0.5,0.5" visible="false"/>
+    <component id="n4_rzdk" name="n4" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" scale="0.8,0.8">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n5_rzdk" name="n5" src="10xzq14" fileName="Comp/Button_tips.xml" pkg="82yrhfjg" xy="576,69" pivot="1,0.5">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+    <component id="n6_rzdk" name="n6" src="10xzq15" fileName="Comp/Button_skip.xml" pkg="82yrhfjg" xy="576,146" pivot="1,0.5">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+  </displayList>
+</component>

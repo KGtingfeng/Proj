@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="270,270">
+  <controller name="statue" pages="0,normal,1,littlered" selected="1"/>
+  <displayList>
+    <loader id="n16_vdqr" name="n16" xy="0,0" size="270,270" url="ui://82yrhfjgvdqr1" autoSize="true"/>
+    <component id="n17_lnqm" name="n17" src="lnqm1e" fileName="Comp/Littlered.xml" pkg="82yrhfjg" xy="178,-5">
+      <gearDisplay controller="statue" pages="1"/>
+    </component>
+    <loader id="n18_rdz1" name="n18" xy="-54,-54" size="378,378" url="ui://f738c2kbrkmiq4l" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <graph id="n19_rdz1" name="n19" xy="0,0" size="270,270" type="rect" lineSize="0" fillColor="#00ffffff"/>
+  </displayList>
+</component>

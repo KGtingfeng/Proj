@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="1,开始游戏,0,主页,2,完成" selected="1"/>
+  <displayList>
+    <loader id="n3_suo0" name="n3" xy="-235,-3700" size="1220,1854" group="n4_suo0" url="ui://uluoyg28suo0q41" autoSize="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <loader id="n2_suo0" name="n2" xy="-235,-1850" size="1220,1855" group="n4_suo0" url="ui://uluoyg28suo0q40" fill="scaleNoBorder" autoSize="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <loader id="n0_suo0" name="n1" xy="-235,0" size="1220,1854" group="n4_suo0" url="ui://uluoyg28suo0q3z" autoSize="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <group id="n4_suo0" name="n4" xy="-235,-3700" size="1220,5554" advanced="true"/>
+    <component id="n31_7tia" name="n30" src="m2y6z" fileName="Comp/Frame_click.xml" xy="0,0" size="750,1624">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n22_suo0" name="n22" src="suo01c" fileName="Comp/ProgressBar1.xml" pkg="82yrhfjg" xy="665,267">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center%,middle-middle"/>
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <loader id="n33_q0ps" name="n33" xy="-235,0" size="1220,1624">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n35_qwce" name="n35" src="dkawy" fileName="imag/final.png" xy="57,1407">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n37_qwce" name="n37" xy="132,1426" pivot="0.5,0.5" size="469,43" font="ui://bs2uwwz8flzz0" fontSize="31" color="#ffffff" align="center" autoSize="none" text="时间轻舟成功过来了!">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="n35_qwce" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n29_rvpf" name="n29" src="rvpf1v" fileName="Comp/ship.xml" xy="403,1565" pivot="0.5,0.5" anchor="true"/>
+    <component id="n38_f1hi" name="n38" src="m2y6z" fileName="Comp/Frame_click.xml" xy="0,0" size="750,1624"/>
+    <component id="n32_r8fu" name="n32" src="r8fu20" fileName="Comp/321.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n34_q0ps" name="n34" src="rvpf1v" fileName="Comp/ship.xml" xy="-235,0" size="1220,1624">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n27_suo0" name="n27" src="10xzq14" fileName="Comp/Button_tips.xml" pkg="82yrhfjg" xy="576,69">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+    <component id="n28_suo0" name="n28" src="10xzq15" fileName="Comp/Button_skip.xml" pkg="82yrhfjg" xy="576,146">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+    <component id="n13_suo0" name="n13" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" scale="0.8,0.8">
+      <relation target="" sidePair="left-left%,top-top%"/>
+    </component>
+    <component id="n39_l67t" name="n39" src="l67t25" fileName="Comp/anime.xml" xy="26,1301" touchable="false">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n42_l67t" name="n42" src="l67t26" fileName="Comp/anime_finger.xml" xy="298,870" touchable="false">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+  </displayList>
+</component>

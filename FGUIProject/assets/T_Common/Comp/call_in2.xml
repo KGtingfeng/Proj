@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="730,242" restrictSize="7,0,0,0">
+  <displayList>
+    <loader id="n5_gyvj" name="n5" xy="93,59" size="270,270" scale="0.397,0.397" url="ui://82yrhfjgvdqr1">
+      <relation target="n1_gyvj" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n1_gyvj" name="n1" src="gyvjq5r" fileName="Imag/call bk.png" xy="22,4" size="676,237"/>
+    <component id="n2_gyvj" name="n2" src="kr05k" fileName="Comp/Button_accept1.xml" pkg="93v5gurn" xy="435,27" scale="0.5,0.5">
+      <relation target="n1_gyvj" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n4_gyvj" name="n4" src="kr05l" fileName="Comp/Button_refuse1.xml" pkg="93v5gurn" xy="530,23" scale="0.5,0.5">
+      <relation target="n1_gyvj" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n8_gyvj" name="n8" xy="217,61" size="242,106" font="ui://bs2uwwz8flzz2" fontSize="36" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#6699ff" shadowColor="#6699ff" shadowOffset="0,3" text="一二三来电      "/>
+  </displayList>
+</component>

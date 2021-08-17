@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <image id="n2_b05h" name="n2" src="b05h5" fileName="Imag/ptn_1.png" xy="60,10"/>
+    <image id="n3_b05h" name="n3" src="b05h6" fileName="Imag/ptn_2.png" xy="197,7"/>
+    <image id="n4_b05h" name="n4" src="b05h5" fileName="Imag/ptn_1.png" xy="519,10" flip="hz"/>
+    <image id="n5_b05h" name="n5" src="b05h6" fileName="Imag/ptn_2.png" xy="486,7" flip="hz"/>
+    <text id="n6_b05h" name="n6" xy="243,0" size="219,35" font="ui://bs2uwwz8flzz0" fontSize="25" color="#ffffff" text="精彩活动·惊喜不断"/>
+    <component id="n17_b05h" name="n17" src="b05h8" fileName="Comp/Button_Summer_go.xml" xy="0,57"/>
+    <component id="n18_b05h" name="n18" src="b05h9" fileName="Comp/Button_Other.xml" xy="0,353"/>
+  </displayList>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="6dwsq7dn">
+  <resources>
+    <component id="j12a0" name="Splash screen.xml" path="/Comp/" exported="true"/>
+    <image id="10fpz1" name="LOGO_zmx.png" path="/Imag/" exported="true"/>
+    <image id="10fpz2" name="LOGO_jydm.png" path="/Imag/" exported="true"/>
+    <image id="jydqz4" name="split line.png" path="/Imag/" exported="true" scale="9grid" scale9grid="2,1,1,1"/>
+    <component id="flzzz5" name="BG_Splash2.xml" path="/Comp/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

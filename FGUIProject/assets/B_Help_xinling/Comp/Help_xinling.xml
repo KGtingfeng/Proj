@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,,1,finish" selected="0"/>
+  <displayList>
+    <loader id="n2_vvaw" name="n2" xy="-235,0" size="1220,1625">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n16_t19t" name="n16" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="0,0" size="750,1624" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n5_vvaw" name="n5" xy="87,1327" size="183,44" font="ui://bs2uwwz8flzz2" fontSize="20" color="#b48991" autoSize="none" text="所有任务0点后重置">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n7_vvaw" name="n7" src="vvaw6" fileName="Comp/Button_Kitchen.xml" xy="260,1054">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n8_vvaw" name="n8" src="vvawb" fileName="Comp/Button_makedoll.xml" xy="103,345">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n9_vvaw" name="n9" src="vvaw9" fileName="Comp/Button_rubbish_classify.xml" xy="92,815">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n10_vvaw" name="n10" src="vvawa" fileName="Comp/Button_salverubbish.xml" xy="257,582">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n18_t19t" name="n18" src="bvfrq64" fileName="Comp/star_diamond.xml" pkg="82yrhfjg" xy="220,60">
+      <gearDisplay controller="c1" pages=""/>
+      <relation target="" sidePair="right-right%"/>
+    </component>
+    <component id="n11_vvaw" name="n1" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-235,0">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n15_t19t" name="n15" src="vvaw5" fileName="Imag/bubble_makedoll.png" xy="374,863">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n17_t19t" name="n17" xy="391,937" size="326,64" font="ui://bs2uwwz8flzz2" fontSize="23" color="#9f6772" align="center" vAlign="middle" text="每天都可以来帮助我完成这些&#xA;任务哦，选择一个任务开始吧。">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n13_vvaw" name="n13" xy="400,951" size="310,34" fontSize="23" color="#9f6772" autoSize="none" text="任务已经完成了去看看别的吧～">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n15_t19t" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n0_vvaw" name="n0" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" scale="0.8,0.8">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+  </displayList>
+</component>

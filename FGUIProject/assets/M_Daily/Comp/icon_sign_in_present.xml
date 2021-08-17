@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="153,159">
+  <controller name="c1" pages="2,可领取,3,已领取,4,不可领取,5,正常" selected="1"/>
+  <displayList>
+    <image id="n16_bvfr" name="n16" src="bvfr1a" fileName="Imge/bg_frontpresent2.png" xy="8,12" size="138,138"/>
+    <image id="n17_bvfr" name="n17" src="bvfr1d" fileName="Imge/bg_presentnumber.png" xy="8,116" size="137,33"/>
+    <image id="n18_bvfr" name="n18" src="bvfr1e" fileName="Imge/bg_presentdays.png" xy="19,12">
+      <gearDisplay controller="c1" pages="2,3,4"/>
+    </image>
+    <image id="n1_ms0g" name="n1" src="bvfry" fileName="Imge/bg_present.png" xy="-3,0" size="160,159"/>
+    <image id="n19_bvfr" name="n19" src="bvfr1f" fileName="Imge/special_littlestar.png" xy="11,24">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <image id="n20_bvfr" name="n20" src="bvfr1g" fileName="Imge/special_light.png" xy="-2,7" size="158,149">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <loader id="n14_sw58" name="n14" xy="17,20" size="120,120" align="center" vAlign="middle" fill="scale" shrinkOnly="true" clearOnPublish="true"/>
+    <text id="n4_ms0g" name="n4" xy="33,116" size="87,30" font="ui://bs2uwwz8flzz2" fontSize="20" color="#ffffff" align="center" autoSize="none" strokeColor="#000000" text="x10"/>
+    <text id="n6_ms0g" name="n6" xy="16,14" size="33,35" font="ui://bs2uwwz8flzz2" fontSize="18" color="#ffffff" align="center" autoSize="none" italic="true" shadowColor="#666666" shadowOffset="1,1" text="01">
+      <gearDisplay controller="c1" pages="2,3,4"/>
+    </text>
+    <image id="n11_ms0g" name="n11" src="bvfrw" fileName="Imge/bg_yilingqu.png" xy="29,60" size="95,30" alpha="0.844">
+      <gearDisplay controller="c1" pages="3"/>
+    </image>
+    <image id="n12_ms0g" name="n12" src="bvfrz" fileName="Imge/icon_red.png" xy="127,3">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <text id="n21_xazz" name="n21" xy="48,63" size="55,25" font="ui://bs2uwwz8flzz2" fontSize="17" color="#ffffff" align="center" text="已领取">
+      <gearDisplay controller="c1" pages="3"/>
+    </text>
+  </displayList>
+</component>

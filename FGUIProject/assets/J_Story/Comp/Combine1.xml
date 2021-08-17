@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://uluoyg28w8uf1h" designImageAlpha="100">
+  <controller name="c1" pages="0,表盘" selected="0"/>
+  <displayList>
+    <loader id="n1_10xzq" name="n1" xy="-235,0" size="1220,1624" url="ui://uluoyg28w8uf1g" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n44_gmmj" name="n44" src="p7i4q2i" fileName="Comp/Combine_kong.xml" xy="-235,0" size="1220,1624"/>
+    <component id="n0_10xzq" name="n0" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" pivot="0.449,0.5" scale="0.8,0.8">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n2_10xzq" name="n2" src="10xzq14" fileName="Comp/Button_tips.xml" pkg="82yrhfjg" xy="576,69">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+    <component id="n3_10xzq" name="n3" src="10xzq15" fileName="Comp/Button_skip.xml" pkg="82yrhfjg" xy="576,146">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+    <component id="n45_o31q" name="n45" src="li84q6j" fileName="Comp/Button_lookpicture.xml" pkg="17rhwh28" xy="576,227">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+    <image id="n39_w8uf" name="n39" src="w8ufq4e" fileName="Imag/ptn_textbg.png" pkg="82yrhfjg" xy="64,1229">
+      <relation target="" sidePair="center-center,middle-middle%"/>
+    </image>
+    <text id="n4_10xzq" name="n4" xy="162,1246" size="420,36" font="ui://bs2uwwz8flzz0" fontSize="26" color="#ffffff" text="请移动零件修复表盘（注意顺序哦）">
+      <relation target="n39_w8uf" sidePair="center-center,middle-middle"/>
+    </text>
+    <list id="n6_10xzq" name="n6" xy="0,1328" pivot="0.5,0.5" size="750,295" layout="row" overflow="scroll" scroll="horizontal" margin="0,0,46,0" clipSoftness="30,30" colGap="7" defaultItem="ui://6f05wxg5dd7oq1x" autoItemSize="false" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="width-width,center-center,bottom-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n36_p7i4" name="n36" src="p7i4q2i" fileName="Comp/Combine_kong.xml" xy="0,336" size="750,992">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="n6_10xzq" sidePair="bottom-top"/>
+    </component>
+    <image id="n42_ls1a" name="n42" src="ls1aq4t" fileName="Imag/ptn_star.png" xy="-59,259">
+      <relation target="n37_p7i4" sidePair="center-center,middle-middle"/>
+    </image>
+    <graph id="n18_10xzq" name="n18" xy="90,394" size="560,660" group="n37_p7i4"/>
+    <graph id="n19_10xzq" name="n19" xy="140,508" size="467,443" group="n37_p7i4"/>
+    <graph id="n20_10xzq" name="n20" xy="194,521" size="380,409" group="n37_p7i4"/>
+    <graph id="n21_10xzq" name="n21" xy="153,511" size="442,433" group="n37_p7i4"/>
+    <graph id="n22_10xzq" name="n22" xy="60,513" size="621,491" group="n37_p7i4"/>
+    <graph id="n23_10xzq" name="n23" xy="314,635" size="205,300" group="n37_p7i4"/>
+    <graph id="n24_10xzq" name="n24" xy="-13,436" size="674,582" group="n37_p7i4"/>
+    <group id="n37_p7i4" name="n37" xy="-12,394" size="694,661" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

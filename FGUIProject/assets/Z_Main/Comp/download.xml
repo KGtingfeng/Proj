@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="642,140" extention="ProgressBar">
+  <displayList>
+    <image id="n1_npkc" name="bar" src="izqh1g" fileName="Imag/ProgressBar_load2.png" pkg="82yrhfjg" xy="35,63" size="570,14"/>
+    <image id="n0_npkc" name="n0" src="rpjzq6a" fileName="Imag/progress_bar.png" xy="24,47">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_npkc" name="title" xy="407,84" size="83,40" fontSize="20" color="#c27b8e" align="center" autoSize="none" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n3_rpjz" name="n3" xy="141,85" size="360,38" fontSize="20" color="#c27b8e" autoSize="none" text="已完成300MB/1000MB   进度："/>
+  </displayList>
+  <ProgressBar/>
+</component>

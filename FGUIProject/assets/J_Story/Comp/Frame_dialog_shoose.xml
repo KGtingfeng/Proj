@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,对话过关,1,属性过关" selected="1"/>
+  <displayList>
+    <loader id="n14_vy2y" name="n14" xy="-235,0" size="1220,1624" url="ui://uluoyg28plbb1s" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n0_g6pv" name="n0" src="mjv5l" fileName="Imag/ptn_answer.png" xy="0,274" size="750,256">
+      <relation target="" sidePair="width-width,top-top"/>
+    </image>
+    <text id="n1_g6pv" name="n1" xy="66,384" size="636,42" font="ui://bs2uwwz8flzz0" fontSize="30" color="#ffffff" autoSize="height" strokeColor="#4e5fa6" text="你打算怎么做？">
+      <relation target="n0_g6pv" sidePair="center-center,middle-middle"/>
+    </text>
+    <list id="n10_g6pv" name="n10" xy="74,639" size="615,581" defaultItem="ui://6f05wxg5g6pvz" vAlign="middle">
+      <relation target="" sidePair="center-center,top-top"/>
+      <item title="我为什么要回到过去？我为什么要回到过去？我为什么要回到过去？我为什么要回到过去？我为什么要回到过去？我为什么要回到过去？"/>
+      <item url="ui://6f05wxg5dd7oq20"/>
+    </list>
+    <component id="n13_g6pv" name="n13" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" pivot="0.449,0.5" scale="0.8,0.8">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <image id="n21_dd7o" name="n21" src="dd7oq1z" fileName="Imag/ptn_attributebg.png" xy="1,1366" size="750,259">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </image>
+    <component id="n26_dd7o" name="n26" src="lq3mq2w" fileName="Comp/Frame_common_attributes1.xml" pkg="82yrhfjg" xy="45,1401" pivot="0.5,0.5">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n28_rjsy" name="n28" src="rjsyq2j" fileName="Comp/Frame_skipbutton.xml" pkg="82yrhfjg" xy="508,1236">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="right-right"/>
+      <relation target="n21_dd7o" sidePair="top-bottom"/>
+    </component>
+  </displayList>
+</component>

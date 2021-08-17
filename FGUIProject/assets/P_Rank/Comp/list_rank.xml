@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,148">
+  <controller name="c1" pages="0,角色,1,虚位以待" selected="0"/>
+  <displayList>
+    <component id="n0_ieaa" name="n0" src="dkwi15" fileName="Comp/list_player.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="width-width"/>
+    </component>
+    <component id="n1_ieaa" name="n1" src="dkwi18" fileName="Comp/list_xuwei.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+  </displayList>
+</component>

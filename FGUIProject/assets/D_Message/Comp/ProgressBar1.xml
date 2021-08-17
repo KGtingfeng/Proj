@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="391,28" extention="ProgressBar">
+  <displayList>
+    <image id="n0_ufhu" name="n0" src="ufhu2t" fileName="Image/ptn_jindu2.png" xy="0,0" size="391,28">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_sfjp" name="bar" src="ufhu2u" fileName="Image/ptn_jindu1.png" xy="0,0" size="391,28" fillMethod="hz">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <ProgressBar/>
+</component>

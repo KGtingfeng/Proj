@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <displayList>
+    <loader id="n13_cn0h" name="n13" xy="0,0" size="1220,1624" url="ui://kzvhx58pcn0h3y" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n5_cn0h" name="n6" src="cn0hg" fileName="Comp/suipian1.xml" xy="716,668" pivot="0.5,0.5" anchor="true"/>
+    <component id="n6_cn0h" name="n7" src="cn0hh" fileName="Comp/suipian2.xml" xy="840,761" pivot="0.5,0.5" anchor="true"/>
+    <component id="n8_cn0h" name="n8" src="cn0hi" fileName="Comp/suipian3.xml" xy="880,828" pivot="0.5,0.5" anchor="true"/>
+    <component id="n9_cn0h" name="n9" src="cn0hj" fileName="Comp/suipian4.xml" xy="779,982" pivot="0.5,0.5" anchor="true"/>
+    <component id="n10_cn0h" name="n10" src="cn0hk" fileName="Comp/suipian5.xml" xy="662,974" pivot="0.5,0.5" anchor="true"/>
+    <component id="n11_cn0h" name="n11" src="cn0hl" fileName="Comp/suipian6.xml" xy="547,961" pivot="0.5,0.5" anchor="true"/>
+    <component id="n12_cn0h" name="n12" src="cn0hm" fileName="Comp/suipian7.xml" xy="432,913" pivot="0.5,0.5" anchor="true"/>
+  </displayList>
+</component>

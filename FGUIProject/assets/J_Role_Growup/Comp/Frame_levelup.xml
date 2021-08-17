@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <component id="n36_e2l7" name="n35" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-235,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <graph id="n37_hee6" name="n37" xy="30,560" size="715,751" group="n34_e2l7" type="rect" lineSize="0" fillColor="#00ffffff"/>
+    <image id="n32_gab6" name="n32" src="gab6q2u" fileName="Imag/frame1_common3.png" pkg="82yrhfjg" xy="82,551" size="585,691" group="n34_e2l7"/>
+    <component id="n2_ouy2" name="n2" src="lnqm5" fileName="Comp/ProgressBar_rolelv.xml" xy="265,693" size="324,30" group="n34_e2l7">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <text id="n3_ouy2" name="n3" xy="180,689" size="89,40" group="n34_e2l7" font="ui://bs2uwwz8flzz0" fontSize="25" color="#71635d" align="center" autoSize="none" text="Lv.1">
+      <relation target="n2_ouy2" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n28_rj5h" name="n28" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="147,1075" size="199,68" group="n34_e2l7">
+      <Button title="升级一次"/>
+    </component>
+    <text id="n30_rj5h" name="n30" xy="299,597" size="152,50" group="n34_e2l7" font="ui://bs2uwwz8flzz0" fontSize="37" color="#ffffff" align="center" text="玩家升级"/>
+    <component id="n31_dd7o" name="n31" src="dd7o2m" fileName="Comp/Frame_common_attributes.xml" pkg="82yrhfjg" xy="143,744" size="602,151" group="n34_e2l7" scale="0.8,0.8"/>
+    <component id="n33_gab6" name="n29" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="427,1075" size="199,68" group="n34_e2l7">
+      <relation target="n28_rj5h" sidePair="center-center,middle-middle"/>
+      <Button title="升级十次"/>
+    </component>
+    <component id="n21_ouy2" name="n21" src="ouy21v" fileName="Comp/Button_common_porp_EXP.xml" pkg="82yrhfjg" xy="164,890" size="154,154" group="n38_l2i4" scale="0.8,0.8">
+      <Button title="100&#xD;"/>
+    </component>
+    <component id="n22_rj5h" name="n22" src="ouy21v" fileName="Comp/Button_common_porp_EXP.xml" pkg="82yrhfjg" xy="318,890" size="154,154" group="n38_l2i4" scale="0.8,0.8">
+      <Button title="100&#xD;"/>
+    </component>
+    <component id="n23_rj5h" name="n23" src="ouy21v" fileName="Comp/Button_common_porp_EXP.xml" pkg="82yrhfjg" xy="472,890" size="154,154" group="n38_l2i4" scale="0.8,0.8">
+      <Button title="100&#xD;"/>
+    </component>
+    <text id="n24_rj5h" name="n24" xy="186,1016" size="77,25" group="n38_l2i4" font="ui://bs2uwwz8flzz2" fontSize="17" color="#71635d" text="经验+100">
+      <relation target="n21_ouy2" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n25_rj5h" name="n25" xy="340,1016" size="77,25" group="n38_l2i4" font="ui://bs2uwwz8flzz2" fontSize="17" color="#71635d" text="经验+100">
+      <relation target="n22_rj5h" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n26_rj5h" name="n26" xy="495,1016" size="77,25" group="n38_l2i4" font="ui://bs2uwwz8flzz2" fontSize="17" color="#71635d" text="经验+100">
+      <relation target="n23_rj5h" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n38_l2i4" name="n38" xy="164,890" size="462,154" group="n34_e2l7" advanced="true"/>
+    <group id="n34_e2l7" name="n34" xy="30,551" size="715,760" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <transition name="t0" frameRate="60">
+    <item time="0" type="Alpha" target="n28_rj5h" value="0"/>
+    <item time="0" type="Alpha" target="n2_ouy2" value="0"/>
+    <item time="0" type="Alpha" target="n30_rj5h" tween="true" startValue="0" endValue="1" duration="30"/>
+    <item time="0" type="Alpha" target="n31_dd7o" value="0"/>
+    <item time="0" type="Alpha" target="n32_gab6" tween="true" startValue="0" endValue="1" duration="30"/>
+    <item time="0" type="Alpha" target="n33_gab6" value="0"/>
+    <item time="0" type="Alpha" target="n38_l2i4" value="0"/>
+    <item time="0" type="Alpha" target="n3_ouy2" value="0"/>
+    <item time="0" type="Alpha" target="n3_ouy2" value="0"/>
+    <item time="0" type="XY" target="n28_rj5h" value="147,1105,0.196,0.68"/>
+    <item time="0" type="XY" target="n2_ouy2" value="265,733,0.353,0.451"/>
+    <item time="0" type="XY" target="n31_dd7o" value="143,794,0.191,0.489"/>
+    <item time="0" type="XY" target="n38_l2i4" value="164,920,0.219,0.567"/>
+    <item time="12" type="Alpha" target="n2_ouy2" tween="true" startValue="0" endValue="1" duration="20"/>
+    <item time="12" type="Alpha" target="n3_ouy2" tween="true" startValue="0" endValue="1" duration="20"/>
+    <item time="12" type="XY" target="n2_ouy2" tween="true" startValue="265,733,0.353,0.451" endValue="265,693,0.353,0.427" duration="20"/>
+    <item time="18" type="Alpha" target="n31_dd7o" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="XY" target="n31_dd7o" tween="true" startValue="143,774,0.191,0.477" endValue="143,744,0.191,0.458" duration="18"/>
+    <item time="24" type="Alpha" target="n38_l2i4" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="24" type="XY" target="n38_l2i4" tween="true" startValue="164,920,0.219,0.567" endValue="164,890,0.219,0.548" duration="18"/>
+    <item time="30" type="Alpha" target="n28_rj5h" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="30" type="Alpha" target="n33_gab6" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="30" type="XY" target="n28_rj5h" tween="true" startValue="147,1105,0.196,0.68" endValue="147,1075,0.196,0.662" duration="18"/>
+  </transition>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="642,140" extention="ProgressBar">
+  <displayList>
+    <image id="n0_izqh" name="n0" src="izqh1h" fileName="Imag/ProgressBar_load1.png" pkg="82yrhfjg" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_izqh" name="bar" src="izqh1g" fileName="Imag/ProgressBar_load2.png" pkg="82yrhfjg" xy="27,74" fillMethod="hz"/>
+    <text id="n2_izqh" name="title" xy="551,38" size="91,35" font="Yuanti SC" fontSize="22" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#c27b8e" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <ProgressBar/>
+</component>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1074,1624">
+  <controller name="c1" pages="0,登陆与注册,7,更新,8,载入,1,公告,2,登陆,3,注册,4,选服,5,修改密码,9,选择服务器" selected="6"/>
+  <displayList>
+    <loader id="n36_vy2y" name="n36" xy="-73,0" size="1220,1624" url="ui://geym4w1i9pfj9" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n46_b9gw" name="n46" src="b9gw29" fileName="Imag/logo.png" xy="336,75">
+      <gearDisplay controller="c1" pages="0,8,1,2,3,4,9"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n45_qgyt" name="n43" src="xmr3q43" fileName="Comp/Gcom_EffectGraph.xml" pkg="82yrhfjg" xy="-73,3">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n2_9pfj" name="n2" src="9pfjb" fileName="Comp/Button_login.xml" xy="583,1471">
+      <gearDisplay controller="c1" pages="0,1,2,3"/>
+      <relation target="n36_vy2y" sidePair="center-center,middle-middle"/>
+      <Button title="登陆账号"/>
+    </component>
+    <component id="n3_9pfj" name="n3" src="9pfjc" fileName="Comp/Button_announcement.xml" xy="4,149" scale="1.3,1.3">
+      <gearDisplay controller="c1" pages="4,9"/>
+      <relation target="" sidePair="left-left%,top-top"/>
+    </component>
+    <component id="n4_9pfj" name="n4" src="9pfjd" fileName="Comp/Button_repair.xml" xy="2,266" scale="1.3,1.3">
+      <gearDisplay controller="c1" pages="4,9"/>
+      <relation target="" sidePair="left-left%,top-top%"/>
+    </component>
+    <component id="n32_lnqm" name="n32" src="lnqm1n" fileName="Comp/Button_register.xml" xy="260,1471">
+      <gearDisplay controller="c1" pages="0,1,2,3"/>
+      <relation target="n36_vy2y" sidePair="center-center,middle-middle"/>
+      <Button title="注册账号"/>
+    </component>
+    <component id="n10_7cz7" name="n10" src="7cz7x" fileName="Comp/Button_logout.xml" xy="-25,359" scale="1.3,1.3">
+      <gearDisplay controller="c1" pages="4,9"/>
+      <relation target="" sidePair="left-left%,top-top%"/>
+    </component>
+    <component id="n44_v37g" name="n44" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-73,0">
+      <gearDisplay controller="c1" pages="2,3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n7_7cz7" name="n7" src="7cz7l" fileName="Comp/Frame_login.xml" xy="184,391">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n8_7cz7" name="n8" src="7cz7p" fileName="Comp/Frame_register.xml" xy="184,425">
+      <gearDisplay controller="c1" pages="3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n5_9pfj" name="n5" src="9pfjf" fileName="Comp/Frame_announcement.xml" xy="-73,0">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n25_izqh" name="n25" src="izqh1c" fileName="Comp/Frame_passwordchange.xml" xy="181,365">
+      <gearDisplay controller="c1" pages="5"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n27_izqh" name="n27" src="izqh1j" fileName="Comp/Frame_update.xml" pkg="82yrhfjg" xy="-68,0">
+      <gearDisplay controller="c1" pages="7"/>
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </component>
+    <component id="n41_f62n" name="n41" src="f62n24" fileName="Comp/Frame_chooseservers.xml" xy="-73,0">
+      <gearDisplay controller="c1" pages="9"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n42_l0t2" name="n42" src="l0t2q3a" fileName="Comp/Frame_loading.xml" pkg="82yrhfjg" xy="-73,0">
+      <gearDisplay controller="c1" pages="8"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n11_izqh" name="n11" src="izqhy" fileName="Imag/ptn_changeserver.png" xy="240,1459" group="n48_mq08"/>
+    <loader id="n14_izqh" name="n14" xy="314,1481" size="30,26" group="n48_mq08" scale="0.8,0.8" url="ui://t0kqvihpizqh12" autoSize="true"/>
+    <text id="n15_izqh" name="n15" xy="378,1472" size="90,34" group="n48_mq08" alpha="0.92" font="ui://bs2uwwz8flzz0" fontSize="24" color="#636f8f" text="仙境1服"/>
+    <richtext id="n17_izqh" name="n17" xy="679,1475" size="76,26" group="n48_mq08" alpha="0.92" font="ui://bs2uwwz8flzz2" fontSize="18" color="#636f8f" text="点击换区"/>
+    <component id="n20_izqh" name="n20" src="izqh17" fileName="Comp/Button_agreement_check.xml" xy="312,1545" group="n48_mq08" scale="1.5,1.5"/>
+    <richtext id="n21_izqh" name="n21" xy="366,1555" size="398,29" group="n48_mq08" alpha="0.92" font="ui://bs2uwwz8flzz2" fontSize="20" color="#636f8f" letterSpacing="2" ubb="true" text="我已详细阅读并同意隐私政策与服务协议"/>
+    <component id="n22_izqh" name="n22" src="izqh1a" fileName="Comp/Button_enter game.xml" xy="173,1333" group="n48_mq08"/>
+    <text id="n39_gab6" name="n39" xy="518,1472" size="100,34" group="n48_mq08" alpha="0.92" font="ui://bs2uwwz8flzz0" fontSize="24" color="#636f8f" text="仙境森林"/>
+    <text id="n47_t19t" name="n47" xy="447,1361" size="180,52" group="n48_mq08" font="ui://bs2uwwz8flzz0" fontSize="38" color="#ffffff" align="center" autoSize="none" shadowColor="#1f528f" shadowOffset="1,1" text="点击开始"/>
+    <group id="n48_mq08" name="n48" xy="173,1333" size="728,251" advanced="true">
+      <gearDisplay controller="c1" pages="4,9"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1" autoPlayDelay="1" frameRate="60">
+    <item time="0" type="Alpha" target="n22_izqh" tween="true" startValue="1" endValue="0.2" duration="36"/>
+    <item time="36" type="Alpha" target="n22_izqh" tween="true" startValue="0.2" endValue="1" duration="36"/>
+  </transition>
+  <transition name="t1" frameRate="60"/>
+</component>

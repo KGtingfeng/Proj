@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,列表,1,购买框1,2,购买框2,3,礼包预览,5,月卡" selected="0"/>
+  <displayList>
+    <loader id="n14_exzo" name="n14" xy="-235,-1" size="1220,1624" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <list id="n13_exzo" name="n13" xy="0,369" size="749,1164" layout="flow_hz" overflow="scroll" margin="-21,0,0,0" clipSoftness="30,30" lineGap="-6" colGap="-82" defaultItem="ui://dtk856dwexzoh" align="center" autoClearItems="true">
+      <gearDisplay controller="c1" pages="0,1,2,3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n8_jlkx" name="n8" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" scale="0.8,0.8">
+      <relation target="" sidePair="left-left%,top-top%"/>
+    </component>
+    <list id="n9_exzo" name="n9" xy="-63,214" pivot="0.5,0.74" size="876,160" scale="0.98,0.98" layout="flow_hz" colGap="-96" align="center">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item url="ui://dtk856dwoo7gq3z"/>
+      <item url="ui://dtk856dwexzoa"/>
+      <item url="ui://dtk856dwexzoc"/>
+      <item url="ui://dtk856dwexzod"/>
+      <item url="ui://dtk856dwexzob"/>
+    </list>
+    <image id="n10_exzo" name="n10" src="exzoe" fileName="Imag/ptn_1.png" xy="5,355" size="739,1180">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n12_exzo" name="n12" xy="40,1557" size="670,52" visible="false" font="ui://bs2uwwz8flzz2" fontSize="18" color="#945c7c" align="center" letterSpacing="2" autoSize="none" text="特别提示：限购礼包每日5点刷新购买次数，礼包价格1：10计入充值经验超出限购次数的礼包按照1：10到账对应数量钻石">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <component id="n15_exzo" name="n15" src="exzoq3k" fileName="Comp/Frame_buy.xml" xy="0,0" aspect="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n16_exzo" name="n16" src="exzor" fileName="Comp/Frame_buytips.xml" xy="-235,-4">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n17_vycm" name="n17" src="vycmq3r" fileName="Comp/Frame_libaoreview.xml" xy="0,-1">
+      <gearDisplay controller="c1" pages="3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <list id="n18_oo7g" name="n18" xy="41,414" size="667,487" layout="row" overflow="hidden" defaultItem="ui://dtk856dwoo7gq3v">
+      <gearDisplay controller="c1" pages="5"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item url="ui://dtk856dwoo7gq3u" icon="ui://dtk856dwoo7gq3u"/>
+      <item/>
+    </list>
+    <component id="n19_ple6" name="n19" src="bvfrq64" fileName="Comp/star_diamond.xml" pkg="82yrhfjg" xy="220,60">
+      <gearDisplay controller="c1" pages="0,1,2,3,5"/>
+      <relation target="" sidePair="right-right%"/>
+    </component>
+  </displayList>
+</component>

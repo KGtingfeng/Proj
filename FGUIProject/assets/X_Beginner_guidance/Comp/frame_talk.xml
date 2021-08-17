@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <component id="n3_a9ez" name="n3" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-235,0" visible="false"/>
+    <graph id="n0_xrnq" name="n0" xy="0,0" size="750,1624" type="rect" lineSize="0" fillColor="#00ffffff"/>
+    <component id="n1_xrnq" name="n1" src="mjrqq" fileName="Comp/frame_content.xml" xy="30,890" size="396,222"/>
+  </displayList>
+</component>

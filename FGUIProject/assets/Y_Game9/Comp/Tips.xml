@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <component id="n0_ufcb" name="n0" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-235,0" size="1220,1624">
+      <relation target="" sidePair="width-width,height-height%"/>
+    </component>
+    <image id="n2_ufcb" name="n2" src="t4052f" fileName="Imag/frame_gifts.png" pkg="82yrhfjg" xy="57,466" size="644,512">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n3_ufcb" name="n3" xy="336,501" size="64,54" font="ui://wkrcryqms5cu3" fontSize="30" color="#ffffff" vAlign="middle" autoSize="none" text="提示">
+      <relation target="n2_ufcb" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n4_ufcb" name="n4" xy="225,662" size="123,44" group="n7_ufcb" font="ui://wkrcryqms5cu5" fontSize="32" color="#cf6aa5" align="center" leading="20" text="花费100">
+      <relation target="n5_ufcb" sidePair="right-left"/>
+    </text>
+    <image id="n5_ufcb" name="n5" src="vdqrc" fileName="Imag/icon_common_zuanshi.png" pkg="82yrhfjg" xy="327,631" pivot="0.5,0.5" group="n7_ufcb" scale="0.549,0.549"/>
+    <text id="n6_ufcb" name="n6" xy="402,662" size="132,44" group="n7_ufcb" font="ui://wkrcryqms5cu5" fontSize="32" color="#cf6aa5" align="center" leading="20" text="获得提示">
+      <relation target="n5_ufcb" sidePair="left-right"/>
+    </text>
+    <group id="n7_ufcb" name="n7" xy="225,631" size="309,100" advanced="true">
+      <relation target="n2_ufcb" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n8_ufcb" name="n8" src="wf3bq5o" fileName="Comp/Button1_red.xml" pkg="82yrhfjg" xy="170,794">
+      <relation target="n2_ufcb" sidePair="middle-middle,left-left"/>
+      <Button title="取消"/>
+    </component>
+    <component id="n9_ufcb" name="n9" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="392,794">
+      <relation target="n2_ufcb" sidePair="middle-middle,right-right"/>
+      <Button title="确认"/>
+    </component>
+  </displayList>
+</component>

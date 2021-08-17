@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="446,200">
+  <displayList>
+    <image id="n6_wxqs" name="n6" src="wxqs12" fileName="Imag/bubble_big.png" xy="0,0"/>
+    <text id="n7_wxqs" name="n7" xy="110,50" size="322,135" font="ui://bs2uwwz8flzz0" fontSize="26" color="#ffffff" vAlign="middle" autoSize="none" text="啦啦啦啦啦啦啦啦啦阿拉啦啦啦啦啦啦啦啦啦阿拉"/>
+  </displayList>
+</component>

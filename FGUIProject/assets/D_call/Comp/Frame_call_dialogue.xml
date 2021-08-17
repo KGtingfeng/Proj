@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="703,239">
+  <controller name="c1" pages="0,角色,1,玩家" selected="0"/>
+  <displayList>
+    <image id="n2_kr05" name="n2" src="kr05p" fileName="Image/frame_call_dialogue.png" xy="1,17" pivot="0.5,0" size="696,224">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="n4_kr05" sidePair="height-height"/>
+    </image>
+    <image id="n8_drhj" name="n8" src="kr05p" fileName="Image/frame_call_dialogue.png" xy="1,17" pivot="0.5,0" size="696,224" flip="hz">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n4_kr05" sidePair="height-height"/>
+    </image>
+    <component id="n5_oi2k" name="n5" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="28,-4" size="229,68">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="n3_kr05" sidePair="middle-middle,rightext-right"/>
+      <relation target="" sidePair="left-left"/>
+    </component>
+    <text id="n3_kr05" name="n3" xy="92,9" size="94,42" font="ui://bs2uwwz8flzz0" fontSize="30" color="#ffffff" align="center" vAlign="middle" shadowColor="#5d68e0" shadowOffset="1,1" text="玩家的">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="n4_kr05" sidePair="bottom-top"/>
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <text id="n4_kr05" name="n4" xy="61,60" size="584,139" font="ui://bs2uwwz8flzz2" fontSize="30" color="#814684" vAlign="middle" letterSpacing="3" autoSize="none" strokeColor="#ffffff" strokeSize="2" text="对话内容对5用4 微软开发看我二哥为了让顾客俄哥哥我开发">
+      <relation target="n2_kr05" sidePair="center-center"/>
+    </text>
+    <component id="n6_oi2k" name="n6" src="wf3bq5o" fileName="Comp/Button1_red.xml" pkg="82yrhfjg" xy="476,-4" size="198,61">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n7_oi2k" sidePair="middle-middle,leftext-left"/>
+    </component>
+    <text id="n7_oi2k" name="n7" xy="528,5" size="94,42" font="ui://bs2uwwz8flzz0" fontSize="30" color="#ffffff" align="center" vAlign="middle" shadowColor="#ea6b6b" shadowOffset="1,1" text="玩家的">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n4_kr05" sidePair="bottom-top"/>
+      <relation target="" sidePair="right-right"/>
+    </text>
+  </displayList>
+  <relation target="n2_kr05" sidePair="height-height"/>
+</component>

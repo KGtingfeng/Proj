@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1321" designImageOffsetX="-220" designImageOffsetY="-300" designImageAlpha="45" designImageLayer="1">
+  <controller name="c1" pages="" selected="-1"/>
+  <displayList>
+    <image id="n29_b05h" name="n29" src="b05hi" fileName="Imag/bg_3.png" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <text id="n30_b05h" name="n30" xy="280,43" size="194,52" font="ui://bs2uwwz8flzz0" fontSize="38" color="#ffffff" align="center" text="暑假向前冲"/>
+    <text id="n31_b05h" name="n31" xy="237,89" size="273,36" font="ui://bs2uwwz8flzz2" fontSize="26" color="#ffffff" align="center" text="距离结束：29天XX小时"/>
+    <text id="n33_b05h" name="n33" xy="162,243" size="132,36" font="ui://bs2uwwz8flzz2" fontSize="26" color="#a18a86" align="center" text="分数： 360"/>
+    <text id="n34_b05h" name="n34" xy="468,243" size="143,36" font="ui://bs2uwwz8flzz2" fontSize="26" color="#a18a86" align="center" text="冰棍儿： 10"/>
+    <component id="n35_b05h" name="n35" src="rj5h23" fileName="Comp/Button2_blue.xml" pkg="82yrhfjg" xy="251,664">
+      <Button title=" 立即出发"/>
+    </component>
+    <component id="n36_b05h" name="n36" src="rj5h22" fileName="Comp/Button2_red.xml" pkg="82yrhfjg" xy="251,757">
+      <Button title="去抽奖&gt;&gt;"/>
+    </component>
+  </displayList>
+</component>

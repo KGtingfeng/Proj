@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="90,90" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_gerr" name="n0" src="gerr27" fileName="Imag/btn_growup_suit.png" xy="-10,-13">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_gerr" name="n1" src="gerr27" fileName="Imag/btn_growup_suit.png" xy="4,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_xazz" name="n2" xy="25,64" size="40,26" font="ui://bs2uwwz8flzz0" fontSize="18" color="#ffffff" strokeColor="#ff99cc" text="外观"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,好感度提升,1,好感度下降,2,好感度下降2" selected="0"/>
+  <displayList>
+    <component id="n8_qaik" name="n8" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-235,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n1_qaik" name="n1" src="qaikq4l" fileName="Comp/Frame_haogandu_son.xml" xy="307,468">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </component>
+    <component id="n9_j819" name="n9" src="qtrlq3h" fileName="Comp/Frame_favor.xml" xy="0,727">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n10_h4v2" name="n10" src="h4v2q52" fileName="Comp/Frame_haogandu_son2.xml" xy="307,617">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlayRepeat="0" autoPlayDelay="1.26" frameRate="60">
+    <item time="0" type="Alpha" target="n8_qaik" tween="true" startValue="0" endValue="1" duration="24"/>
+  </transition>
+</component>

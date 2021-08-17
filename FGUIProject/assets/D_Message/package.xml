@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="srheglvm">
+  <resources>
+    <component id="zee80" name="Message.xml" path="/Comp/" exported="true"/>
+    <image id="zee81" name="btn_contact_h.png" path="/Image/" exported="true"/>
+    <image id="zee82" name="btn_contact.png" path="/Image/" exported="true"/>
+    <image id="zee83" name="btn_friend_h.png" path="/Image/" exported="true"/>
+    <image id="zee84" name="btn_friend.png" path="/Image/" exported="true"/>
+    <image id="zee85" name="btn_chat_h.png" path="/Image/" exported="true"/>
+    <image id="zee86" name="btn_chat.png" path="/Image/" exported="true"/>
+    <component id="zee87" name="Button_chat.xml" path="/Comp/" exported="true"/>
+    <component id="zee88" name="Button_friend.xml" path="/Comp/" exported="true"/>
+    <component id="zee89" name="Button_cintact.xml" path="/Comp/" exported="true"/>
+    <image id="zee8b" name="ptn_mainmessagebg.png" path="/Image/" exported="true" scale="9grid" scale9grid="1,34,2,68" duplicatePadding="true" disableTrim="true"/>
+    <image id="zee8c" name="ptn_headicon.png" path="/Image/" exported="true"/>
+    <image id="zee8g" name="ptn_tixing.png" path="/Image/" exported="true"/>
+    <component id="zee8h" name="List_main.xml" path="/Comp/" exported="true"/>
+    <component id="zee8i" name="List_main_father.xml" path="/Comp/" exported="true"/>
+    <image id="zee8j" name="ptn_video.png" path="/Image/" exported="true"/>
+    <image id="zee8k" name="ptn_call.png" path="/Image/" exported="true"/>
+    <image id="zee8l" name="btn_down2.png" path="/Image/" exported="true" scale="9grid" scale9grid="2,55,4,3"/>
+    <image id="zee8m" name="btn_down1.png" path="/Image/" exported="true" scale="9grid" scale9grid="187,55,374,3"/>
+    <component id="zee8n" name="Frame_chat_text.xml" path="/Comp/" exported="true"/>
+    <image id="zee8o" name="btn_more.png" path="/Image/" exported="true"/>
+    <component id="zee8p" name="Button_more.xml" path="/Comp/" exported="true"/>
+    <image id="zee8q" name="frame_dialogue_other.png" path="/Image/" exported="true" scale="9grid" scale9grid="77,35,1,-1"/>
+    <image id="zee8r" name="frame_dialogue_me.png" path="/Image/" exported="true" scale="9grid" scale9grid="95,53,16,3"/>
+    <component id="f8rrs" name="Frame_chat_call.xml" path="/Comp/" exported="true"/>
+    <component id="f8rrt" name="Frame_chat_video.xml" path="/Comp/" exported="true"/>
+    <component id="f8rru" name="Frame_chat_image.xml" path="/Comp/" exported="true"/>
+    <component id="f8rrv" name="Frame_chat_hongbao.xml" path="/Comp/" exported="true"/>
+    <image id="f8rrw" name="ptn_hongbao.png" path="/Image/" exported="true"/>
+    <image id="f8rrx" name="ptn_hongbao_textbg.png" path="/Image/" exported="true" scale="9grid" scale9grid="33,9,0,18"/>
+    <component id="f8rry" name="Frame_chat0_text.xml" path="/Comp/" exported="true"/>
+    <component id="f8rrz" name="Frame_chat0_call.xml" path="/Comp/" exported="true"/>
+    <component id="f8rr10" name="Frame_chat0_video.xml" path="/Comp/" exported="true"/>
+    <component id="f8rr11" name="Frame_chat_line.xml" path="/Comp/" exported="true"/>
+    <image id="f8rr12" name="ptn_chatline.png" path="/Image/" exported="true" scale="9grid" scale9grid="339,0,5,0"/>
+    <image id="f8rr13" name="ptn_fake.png" path="/Image/" exported="true" scale="9grid" scale9grid="54,0,2,45"/>
+    <component id="f8rr14" name="Button_fake.xml" path="/Comp/" exported="true"/>
+    <image id="f8rr16" name="btn_send.png" path="/Image/" exported="true"/>
+    <component id="f8rr17" name="Button_send.xml" path="/Comp/" exported="true"/>
+    <image id="f8rr18" name="frame_dialogue_h.png" path="/Image/" exported="true" scale="9grid" scale9grid="79,0,2,92"/>
+    <image id="f8rr19" name="frame_dialogue.png" path="/Image/" exported="true" scale="9grid" scale9grid="79,0,1,92"/>
+    <component id="f8rr1a" name="Button_selectdia.xml" path="/Comp/" exported="true"/>
+    <image id="f8rr1b" name="ptn_up1.png" path="/Image/" exported="true" scale="9grid" scale9grid="0,2,6,2" duplicatePadding="true" disableTrim="true"/>
+    <image id="f8rr1c" name="ptn_up0.png" path="/Image/" exported="true" scale="9grid" scale9grid="0,2,750,5" duplicatePadding="true" disableTrim="true"/>
+    <image id="f8rr1d" name="ptn_up2.png" path="/Image/" exported="true"/>
+    <image id="f8rr1e" name="btn_call.png" path="/Image/" exported="true"/>
+    <image id="f8rr1f" name="btn_chat2.png" path="/Image/" exported="true"/>
+    <component id="f8rr1g" name="Button_chat2.xml" path="/Comp/" exported="true"/>
+    <component id="f8rr1h" name="Button_call.xml" path="/Comp/" exported="true"/>
+    <component id="urj11l" name="List_setting.xml" path="/Comp/" exported="true"/>
+    <component id="urj11m" name="Button_setting.xml" path="/Comp/" exported="true"/>
+    <image id="urj11n" name="btn_jiantou.png" path="/Image/" exported="true"/>
+    <image id="jhz31r" name="btn_storylist.png" path="/Image/" exported="true" scale="9grid" scale9grid="117,0,1,115"/>
+    <component id="jhz31s" name="Button_storylist.xml" path="/Comp/" exported="true"/>
+    <image id="jhz31t" name="btn_line.png" path="/Image/" exported="true"/>
+    <image id="jhz31v" name="icon_video.png" path="/Image/" exported="true"/>
+    <image id="jhz31w" name="icon_sound.png" path="/Image/" exported="true"/>
+    <image id="jhz31x" name="list_videostory.png" path="/Image/" exported="true" scale="9grid" scale9grid="2,0,1,90"/>
+    <component id="jhz31y" name="Button_callstory.xml" path="/Comp/" exported="true"/>
+    <image id="jhz31z" name="ptn_list_video.png" path="/Image/" exported="true"/>
+    <image id="jhz320" name="btn_bg1.png" path="/Image/" exported="true" scale="9grid" scale9grid="0,53,308,1"/>
+    <image id="jhz321" name="btn_bg2.png" path="/Image/" exported="true" scale="9grid" scale9grid="0,53,308,1"/>
+    <component id="jhz322" name="Button_bg.xml" path="/Comp/" exported="true"/>
+    <component id="jhz323" name="List_bg.xml" path="/Comp/" exported="true"/>
+    <component id="p9u324" name="Frame_redbao.xml" path="/Comp/" exported="true"/>
+    <image id="p9u325" name="btn_redbao.png" path="/Image/" exported="true"/>
+    <component id="p9u326" name="Button_redbao.xml" path="/Comp/" exported="true"/>
+    <image id="p9u327" name="namebg.png" path="/Image/" exported="true" scale="9grid" scale9grid="57,0,1,72"/>
+    <component id="h8ad28" name="Frame_postreply_father.xml" path="/Comp/" exported="true"/>
+    <image id="h8ad29" name="btn_postmoment.png" path="/Image/" exported="true"/>
+    <component id="h8ad2b" name="Button_postmoment.xml" path="/Comp/" exported="true"/>
+    <component id="h8ad2c" name="Frame_moment.xml" path="/Comp/" exported="true"/>
+    <image id="h8ad2d" name="momentline.png" path="/Image/" exported="true" scale="9grid" scale9grid="383,0,4,0"/>
+    <image id="h8ad2e" name="btn_reply.png" path="/Image/" exported="true"/>
+    <component id="h8ad2f" name="Button_reply.xml" path="/Comp/" exported="true"/>
+    <component id="ufhu2h" name="Frame_posttextimage.xml" path="/Comp/" exported="true"/>
+    <image id="ufhu2i" name="btn_post.png" path="/Image/" exported="true"/>
+    <image id="ufhu2j" name="frame_postreply.png" path="/Image/" exported="true" scale="9grid" scale9grid="0,105,652,3"/>
+    <image id="ufhu2k" name="list_item.png" path="/Image/" exported="true"/>
+    <image id="ufhu2l" name="btn_reply2.png" path="/Image/" exported="true"/>
+    <component id="ufhu2m" name="Frame_postreply.xml" path="/Comp/" exported="true"/>
+    <component id="ufhu2n" name="Button_listitem.xml" path="/Comp/" exported="true"/>
+    <component id="ufhu2o" name="line.xml" path="/Comp/" exported="true"/>
+    <image id="ufhu2p" name="momentline1.png" path="/Image/" exported="true"/>
+    <component id="ufhu2s" name="List_address.xml" path="/Comp/" exported="true"/>
+    <image id="ufhu2t" name="ptn_jindu2.png" path="/Image/" exported="true" scale="9grid" scale9grid="16,7,3,14"/>
+    <image id="ufhu2u" name="ptn_jindu1.png" path="/Image/" exported="true" scale="9grid" scale9grid="17,0,1,28" gridTile="19"/>
+    <component id="ufhu2v" name="ProgressBar1.xml" path="/Comp/" exported="true"/>
+    <image id="ufhu2w" name="line.png" path="/Image/" exported="true" scale="9grid" scale9grid="9,0,8,5" gridTile="16"/>
+    <image id="ufhu2x" name="btn_gain.png" path="/Image/" exported="true"/>
+    <component id="ufhu2y" name="Button_gain.xml" path="/Comp/" exported="true"/>
+    <image id="ufhu2z" name="btn_mymoment.png" path="/Image/" exported="true"/>
+    <component id="ufhu30" name="Button_mymoment.xml" path="/Comp/" exported="true"/>
+    <image id="am6o32" name="btn_huanyuan.png" path="/Image/" exported="true"/>
+    <image id="am6o33" name="btn_xiugai.png" path="/Image/" exported="true"/>
+    <component id="am6o34" name="Button_xiugai.xml" path="/Comp/" exported="true"/>
+    <component id="am6o35" name="Button_huanyuan.xml" path="/Comp/" exported="true"/>
+    <component id="am6o36" name="Frame_mingzi.xml" path="/Comp/" exported="true"/>
+    <image id="am6o37" name="btn_chuchaung.png" path="/Image/" exported="true"/>
+    <image id="am6o38" name="btn_story.png" path="/Image/" exported="true"/>
+    <image id="am6o39" name="btn_gift.png" path="/Image/" exported="true"/>
+    <component id="am6o3a" name="Button_gift.xml" path="/Comp/" exported="true"/>
+    <component id="am6o3b" name="Button_chuchuang.xml" path="/Comp/" exported="true"/>
+    <component id="am6o3c" name="Button_gushi.xml" path="/Comp/" exported="true"/>
+    <image id="am6o3d" name="btn_liaotian.png" path="/Image/" exported="true"/>
+    <image id="am6o3e" name="btn_luyin.png" path="/Image/" exported="true"/>
+    <image id="am6o3f" name="btn_pengyouquan.png" path="/Image/" exported="true"/>
+    <component id="am6o3g" name="Button_pengyouquan.xml" path="/Comp/" exported="true"/>
+    <component id="am6o3h" name="Button_liaotian.xml" path="/Comp/" exported="true"/>
+    <component id="am6o3i" name="Button_luyin.xml" path="/Comp/" exported="true"/>
+    <component id="am6o3j" name="Frame_info.xml" path="/Comp/" exported="true"/>
+    <image id="am6o3k" name="list_moment.png" path="/Image/" exported="true"/>
+    <component id="am6o3m" name="Title_moment.xml" path="/Comp/" exported="true"/>
+    <component id="am6o3n" name="Button_listmoment.xml" path="/Comp/" exported="true"/>
+    <component id="b9gw3o" name="Component_address.xml" path="/Comp/" exported="true"/>
+    <component id="fn413p" name="Dialogueimag.xml" path="/Comp/" exported="true"/>
+    <component id="fn413q" name="changeimage.xml" path="/Comp/"/>
+    <image id="fn413r" name="frame_dialogue_other1.png" path="/Image/" scale="9grid" scale9grid="77,50,1,1"/>
+    <image id="ry7w3s" name="headframe_fen.png" path="/Image/"/>
+    <image id="ry7w3t" name="headframe_lan.png" path="/Image/"/>
+    <component id="ry7w3u" name="headframe.xml" path="/Comp/" exported="true"/>
+    <image id="oi2k3v" name="btn_storylist1.png" path="/Image/" exported="true" scale="9grid" scale9grid="164,0,1,115"/>
+    <component id="oi2k3w" name="btn_storylist.xml" path="/Comp/" exported="true"/>
+    <component id="oi2k3x" name="Frame_chat_chongzhianniu.xml" path="/Comp/" exported="true"/>
+    <image id="oi2k3y" name="btn_chongzhi.png" path="/Image/" exported="true"/>
+    <component id="oi2k3z" name="Button_chongzhi.xml" path="/Comp/" exported="true"/>
+    <image id="k80a40" name="xiala_bg.png" path="/Image/" exported="true" scale="9grid" scale9grid="16,16,32,32"/>
+    <image id="k80a41" name="xiala_jiantou.png" path="/Image/" exported="true"/>
+    <image id="k80a42" name="xiala_jiazaizhuan.png" path="/Image/" exported="true"/>
+    <component id="k80a43" name="Xiala.xml" path="/Comp/" exported="true"/>
+    <component id="k80a44" name="zhuanquanquan.xml" path="/Comp/" exported="true"/>
+    <image id="k80a45" name="xiala_huawen.png" path="/Image/" exported="true" scale="9grid" scale9grid="323,0,143,110"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="657,193">
+  <displayList>
+    <image id="n51_lq3m" name="n51" src="lq3mq2x" fileName="Imag/ptn_attributebg1.png" xy="327,94" size="323,89"/>
+    <image id="n32_dd7o" name="n32" src="lq3mq2x" fileName="Imag/ptn_attributebg1.png" xy="4,9" size="323,89"/>
+    <image id="n50_lq3m" name="n50" src="lq3mq2x" fileName="Imag/ptn_attributebg1.png" xy="4,94" size="323,89"/>
+    <image id="n49_lq3m" name="n49" src="lq3mq2x" fileName="Imag/ptn_attributebg1.png" xy="327,9" size="323,89"/>
+    <image id="n36_dd7o" name="n36" src="lnqmn" fileName="Imag/icon_common_meili.png" xy="28,31" size="48,48"/>
+    <image id="n37_dd7o" name="n37" src="lnqmo" fileName="Imag/icon_common_zhihui.png" xy="27,113" size="48,48"/>
+    <image id="n38_dd7o" name="n38" src="lnqml" fileName="Imag/icon_common_huanbao.png" xy="358,31" size="48,48"/>
+    <image id="n39_dd7o" name="n39" src="lnqmm" fileName="Imag/icon_common_mofa.png" xy="358,113" size="48,48"/>
+    <text id="n40_dd7o" name="n40" xy="80,39" size="82,36" font="ui://bs2uwwz8flzz0" fontSize="26" color="#51476a" align="right" text="魅力："/>
+    <text id="n41_dd7o" name="n41" xy="80,121" size="82,36" font="ui://bs2uwwz8flzz0" fontSize="26" color="#51476a" align="right" text="智慧："/>
+    <text id="n42_dd7o" name="n42" xy="411,38" size="82,36" font="ui://bs2uwwz8flzz0" fontSize="26" color="#51476a" align="right" text="环保："/>
+    <text id="n43_dd7o" name="n43" xy="411,122" size="82,36" font="ui://bs2uwwz8flzz0" fontSize="26" color="#51476a" align="right" text="魔法："/>
+    <text id="n44_dd7o" name="n44" xy="196,38" size="96,36" font="ui://bs2uwwz8flzz0" fontSize="26" color="#51476a" align="right" text="999999"/>
+    <text id="n45_dd7o" name="n45" xy="519,38" size="96,36" font="ui://bs2uwwz8flzz0" fontSize="26" color="#51476a" align="right" text="999999"/>
+    <text id="n46_dd7o" name="n46" xy="196,121" size="96,36" font="ui://bs2uwwz8flzz0" fontSize="26" color="#51476a" align="right" text="999999"/>
+    <text id="n47_dd7o" name="n47" xy="516,122" size="96,36" font="ui://bs2uwwz8flzz0" fontSize="26" color="#51476a" align="right" text="999999"/>
+  </displayList>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="14eg8dl0">
+  <resources>
+    <component id="rzdk3" name="Game.xml" path="/Comp/" exported="true"/>
+    <image id="rzdk4" name="shuyan.png" path="/Imag/" exported="true"/>
+    <component id="rzdk5" name="Game_scene.xml" path="/Comp/" exported="true"/>
+    <image id="rzdk8" name="stuff.png" path="/Imag/" exported="true"/>
+    <image id="n8t19" name="line1.png" path="/Imag/" exported="true" scale="9grid" scale9grid="0,123,16,2"/>
+    <image id="n8t1a" name="line2.png" path="/Imag/" exported="true" scale="9grid" scale9grid="0,149,36,4"/>
+    <component id="n8t1b" name="Line.xml" path="/Comp/" exported="true"/>
+    <component id="suu9d" name="stuff.xml" path="/Comp/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

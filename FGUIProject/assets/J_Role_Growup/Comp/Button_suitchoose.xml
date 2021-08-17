@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="192,324" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_j8n4" name="n0" src="w8uf2r" fileName="Imag/frame_suitchoose1.png" xy="0,8">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_j8n4" name="n1" src="j8n42z" fileName="Imag/frame_suitchoose1_active.png" xy="-12,2" size="216,311">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_j8n4" name="n2" src="w8uf2s" fileName="Imag/ptn_currentsuit.png" xy="2,261"/>
+    <text id="n3_xazz" name="n3" xy="57,265" size="78,25" fontSize="17" color="#a38e84" letterSpacing="2" shadowColor="#5768ce" shadowOffset="1,1" text="当前时装"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

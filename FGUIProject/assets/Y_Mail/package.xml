@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ca2vb0b4">
+  <resources>
+    <image id="r8fu1" name="line.png" path="/Imag/" exported="true" scale="9grid"/>
+    <image id="r8fu2" name="btn_yijian.png" path="/Imag/" exported="true"/>
+    <image id="r8fu4" name="icon_liwu.png" path="/Imag/" exported="true"/>
+    <image id="r8fu5" name="icon_wenben.png" path="/Imag/" exported="true"/>
+    <image id="r8fu6" name="icon_yidu.png" path="/Imag/" exported="true"/>
+    <component id="r8fu7" name="Mail.xml" path="/Comp/" exported="true"/>
+    <component id="r8fu8" name="Component_mail_list.xml" path="/Comp/" exported="true"/>
+    <component id="r8fu9" name="Button_yijian.xml" path="/Comp/" exported="true"/>
+    <image id="r8fua" name="Frame_mail.png" path="/Imag/" exported="true"/>
+    <component id="r8fub" name="Frame_neiye.xml" path="/Comp/" exported="true"/>
+    <image id="r8fuc" name="btn_lingqu.png" path="/Imag/" exported="true"/>
+    <component id="r8fud" name="Component_wenben.xml" path="/Comp/" exported="true"/>
+    <image id="r8fuq51" name="number_bg(1).png" path="/Imag/" exported="true"/>
+    <image id="r8fuq52" name="frame_liwu2(1).png" path="/Imag/" exported="true"/>
+    <component id="r8fue" name="Component_liwu.xml" path="/Comp/" exported="true"/>
+    <image id="r8fuf" name="liwu_di.png" path="/Imag/" exported="true"/>
+    <image id="dgzd46" name="btn_line(1).png" path="/Imag/"/>
+    <component id="dgzdq53" name="mail_list.xml" path="/Comp/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

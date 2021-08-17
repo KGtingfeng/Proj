@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,174" mask="n10_qaik" reversedMask="true">
+  <displayList>
+    <image id="n9_qaik" name="n9" src="qaikq3y" fileName="Imag/ptn_levelup1.png" xy="0,0" size="1220,174">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n10_qaik" name="n10" src="qaikq3z" fileName="Imag/ptn_levelup1mask.png" xy="582,-7">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+</component>

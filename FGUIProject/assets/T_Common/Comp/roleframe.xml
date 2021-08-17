@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="745,1135">
+  <displayList>
+    <image id="n12_n3xv" name="n12" src="n3xv1g" fileName="Imag/btn_choosedoll_finalbg.png" pkg="6010uxwf" xy="80,51">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n10_kw6k" name="n1" src="dyo5q6m" fileName="Comp/role.xml" xy="91,111">
+      <relation target="n12_n3xv" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n33_v302" name="n33" src="v3021p" fileName="Imag/bigframe.png" pkg="6010uxwf" xy="62,68">
+      <relation target="n12_n3xv" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n15_kw5t" name="n15" src="kw5tq3l" fileName="Comp/Frame_huodefx.xml" xy="0,0">
+      <relation target="n12_n3xv" sidePair="center-center"/>
+    </component>
+    <loader id="n34_v302" name="n34" xy="231,784" size="262,112" url="ui://bgqjmy3sv3027" autoSize="true"/>
+  </displayList>
+</component>

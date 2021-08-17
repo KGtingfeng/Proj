@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="238,44">
+  <controller name="c1" pages="0,normal,1,littlered" selected="1"/>
+  <displayList>
+    <loader id="n39_gab6" name="n39" xy="119,22" pivot="0.5,0.5" anchor="true" size="264,53" url="ui://82yrhfjggab61m" autoSize="true"/>
+    <graph id="n40_mdqn" name="n40" xy="0,0" size="238,44" type="rect" lineSize="0" fillColor="#00ffffff"/>
+    <component id="n41_g6jq" name="n41" src="lnqm1e" fileName="Comp/Littlered.xml" xy="219,-7" scale="0.5,0.5">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+  </displayList>
+</component>

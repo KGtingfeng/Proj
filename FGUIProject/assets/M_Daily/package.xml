@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="7ru99abr">
+  <resources>
+    <component id="k7ir0" name="Daily.xml" path="/Comp/" exported="true"/>
+    <image id="k7ir2" name="frame_common_levelup1.png" path="/Imge/" exported="true" scale9grid="85,0,5,41"/>
+    <component id="k7ir3" name="Button_common_back.xml" path="/Comp/" exported="true"/>
+    <component id="k7ir4" name="Button1_red.xml" path="/Comp/" exported="true"/>
+    <component id="k7ir5" name="Button1_blue.xml" path="/Comp/" exported="true"/>
+    <component id="k7ir7" name="sign_in.xml" path="/Comp/" exported="true"/>
+    <image id="ms0g8" name="icon_common_aixin.png" path="/Imge/" exported="true"/>
+    <image id="ms0ga" name="btn2_common_yellow.png" path="/Imge/" exported="true" scale="9grid" scale9grid="46,32,37,7"/>
+    <image id="ms0gb" name="frame_chuan(1).png" path="/Imge/" exported="true" scale9grid="58,92,28,-6"/>
+    <image id="ms0gc" name="number_bg(1).png" path="/Imge/" exported="true"/>
+    <component id="ms0gd" name="list_present.xml" path="/Comp/" exported="true"/>
+    <component id="ms0ge" name="Frame_reminder.xml" path="/Comp/" exported="true"/>
+    <image id="ms0gf" name="btn_common_shiftleft.png" path="/Imge/" exported="true"/>
+    <component id="ms0gg" name="todays_present.xml" path="/Comp/" exported="true"/>
+    <component id="ms0gi" name="List_seven_days.xml" path="/Comp/" exported="true"/>
+    <component id="ms0gj" name="Seven_days.xml" path="/Comp/" exported="true"/>
+    <component id="npkck" name="present.xml" path="/Comp/" exported="true"/>
+    <image id="sw58l" name="liwu_di.png" path="/Imge/" exported="true"/>
+    <component id="qk9fm" name="Button1_blue_danxuan.xml" path="/Comp/" exported="true"/>
+    <image id="oymvq" name="bg_1.png" path="/Imge/" exported="true" scale="9grid" scale9grid="0,311,750,7"/>
+    <image id="oymvr" name="bg_2.png" path="/Imge/" exported="true" scale="9grid" scale9grid="14,33,15,8"/>
+    <image id="oymvs" name="icon_lingxi.png" path="/Imge/" exported="true"/>
+    <image id="oymvt" name="Line1.png" path="/Imge/" exported="true"/>
+    <image id="oymvu" name="title_1.png" path="/Imge/" exported="true"/>
+    <image id="bvfrv" name="bg_day.png" path="/Imge/" exported="true"/>
+    <image id="bvfrw" name="bg_yilingqu.png" path="/Imge/" exported="true"/>
+    <image id="bvfry" name="bg_present.png" path="/Imge/" exported="true" scale9grid="0,0,161,159"/>
+    <image id="bvfrz" name="icon_red.png" path="/Imge/" exported="true"/>
+    <image id="bvfr10" name="bg_propname.png" path="/Imge/" exported="true" scale="9grid" scale9grid="70,0,3,217"/>
+    <image id="bvfr12" name="bg_number.png" path="/Imge/" exported="true" scale="9grid" scale9grid="32,14,4,25"/>
+    <image id="bvfr13" name="bg_getway.png" path="/Imge/" exported="true"/>
+    <image id="bvfr14" name="bt_zhizuogongfang.png" path="/Imge/" exported="true"/>
+    <component id="bvfr15" name="Button_zhizuogongfang.xml" path="/Comp/" exported="true"/>
+    <image id="bvfr17" name="bg_sevendays.png" path="/Imge/" exported="true"/>
+    <component id="bvfr18" name="list_sevendays.xml" path="/Comp/" exported="true"/>
+    <image id="bvfr19" name="bg_present2.png" path="/Imge/" exported="true"/>
+    <image id="bvfr1a" name="bg_frontpresent2.png" path="/Imge/" exported="true"/>
+    <image id="bvfrq61" name="icon_play.png" path="/Imge/" exported="true"/>
+    <image id="bvfr1b" name="bg_3.png" path="/Imge/" exported="true" scale9grid="0,256,256,0"/>
+    <image id="bvfr1c" name="bg_huawen.png" path="/Imge/" exported="true" scale="9grid" scale9grid="0,347,740,7"/>
+    <image id="bvfr1d" name="bg_presentnumber.png" path="/Imge/" exported="true"/>
+    <image id="bvfr1e" name="bg_presentdays.png" path="/Imge/" exported="true"/>
+    <image id="bvfr1f" name="special_littlestar.png" path="/Imge/" exported="true"/>
+    <image id="bvfr1g" name="special_light.png" path="/Imge/" exported="true"/>
+    <image id="bvfr1h" name="bg_presenttoday.png" path="/Imge/" exported="true"/>
+    <image id="bvfr1j" name="bg_presenttodayfront.png" path="/Imge/" exported="true"/>
+    <image id="bvfr1k" name="bg_title.png" path="/Imge/" exported="true"/>
+    <image id="bvfr1l" name="bg_text.png" path="/Imge/" exported="true"/>
+    <image id="bvfr1m" name="character1.png" path="/Imge/" exported="true"/>
+    <image id="bvfr1n" name="character2.png" path="/Imge/" exported="true"/>
+    <component id="ms0g9" name="icon_sign_in_present.xml" path="/Comp/" exported="true"/>
+    <component id="k7irq4c" name="Frame_first_buy.xml" path="/Comp/" exported="true"/>
+    <image id="m11dq62" name="kelingqu.png" path="/Imge/"/>
+    <component id="m11dq63" name="kelingqu.xml" path="/Comp/"/>
+    <image id="m11dq64" name="rr.png" path="/Imge/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

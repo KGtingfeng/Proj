@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="227,73" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <component id="n0_oi2k" name="n0" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="14,2">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+      <Button title="再来一次"/>
+    </component>
+    <component id="n1_oi2k" name="n1" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="14,2">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button title="再来一次"/>
+    </component>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

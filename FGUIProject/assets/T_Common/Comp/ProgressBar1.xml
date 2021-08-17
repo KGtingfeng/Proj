@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,509" extention="ProgressBar">
+  <displayList>
+    <image id="n0_suo0" name="n0" src="suo01j" fileName="imag/jindu5.png" xy="1,-7"/>
+    <component id="n5_suo0" name="n5" src="suo01l" fileName="imag/var1.xml" xy="9,-1"/>
+    <image id="n1_suo0" name="bar_v" src="suo01h" fileName="imag/jindu4.png" xy="-3,5" size="56,515" blend="add"/>
+    <image id="n3_suo0" name="n3" src="suo01e" fileName="imag/jindu1.png" xy="10,166" blend="multiply"/>
+    <image id="n4_suo0" name="n4" src="suo01f" fileName="imag/jindu2.png" xy="17,11" blend="add"/>
+  </displayList>
+  <ProgressBar reverse="true"/>
+</component>

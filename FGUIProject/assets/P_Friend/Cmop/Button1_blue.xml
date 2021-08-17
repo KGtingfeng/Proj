@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="199,68" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="c1" pages="0,normal,1,littlered" selected="0"/>
+  <displayList>
+    <image id="n0_7cz7" name="n0" src="bvfru" fileName="Imag/bt_blue2.png" pkg="82yrhfjg" xy="42,13">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_7cz7" name="n1" src="bvfru" fileName="Imag/bt_blue2.png" pkg="82yrhfjg" xy="42,13">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_7cz7" name="title" xy="51,14" size="97,40" font="ui://bs2uwwz8flzz0" fontSize="23" color="#ffffff" align="center" vAlign="middle" letterSpacing="3" ubb="true" autoSize="none" shadowColor="#616eea" shadowOffset="1,1" singleLine="true" text="赠送">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <component id="n3_mgpz" name="n3" src="lnqm1e" fileName="Comp/Littlered.xml" pkg="82yrhfjg" xy="152,-15">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

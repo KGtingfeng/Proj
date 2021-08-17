@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <controller name="c1" pages="0,提示,1,失败,3,成功" selected="0"/>
+  <displayList>
+    <component id="n22_dkaw" name="n22" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="0,0" size="1220,1624">
+      <relation target="" sidePair="width-width,height-height%"/>
+    </component>
+    <image id="n21_dkaw" name="n21" src="t4052f" fileName="Imag/frame_gifts.png" pkg="82yrhfjg" xy="288,482" size="644,512">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearLook controller="c1" pages="0" values="1,0,0,0" default="1,0,1,0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n23_dkaw" name="n23" xy="534,517" size="152,54" font="ui://wkrcryqms5cu3" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="提示">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearText controller="c1" pages="0" values="提示" default="挑战失败"/>
+      <relation target="n21_dkaw" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n24_dkaw" name="n24" xy="383,639" size="454,179" font="ui://wkrcryqms5cu5" fontSize="32" color="#cf6aa5" align="center" leading="20" autoSize="none" text="当钟表转到关键时间点时，表盘会发出强烈的黄色光芒，此时点击表盘即可！">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="n21_dkaw" sidePair="center-center,middle-middle%"/>
+    </text>
+    <text id="n26_dkaw" name="n26" xy="413,657" size="393,103" font="ui://bs2uwwz8flzz2" fontSize="30" color="#cf6aa5" align="center" vAlign="middle" leading="20" autoSize="none" text="你已经找到了所有碎片，快去修复时间之舟吧！">
+      <gearDisplay controller="c1" pages="1"/>
+      <gearText controller="c1" pages="1" values="你错过了关键时间点！" default="你已经找到了所有碎片，快去修复时间之舟吧！"/>
+      <relation target="n21_dkaw" sidePair="center-center,middle-middle%"/>
+    </text>
+    <component id="n32_suo0" name="n32" src="rj5h22" fileName="Comp/Button2_red.xml" pkg="82yrhfjg" xy="636,817">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n21_dkaw" sidePair="right-right,bottom-bottom"/>
+      <Button title="再来一次"/>
+    </component>
+    <component id="n34_iyc8" name="n34" src="k1w4q4z" fileName="Comp/Button2_blue_xiaohao.xml" pkg="82yrhfjg" xy="329,817">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n21_dkaw" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <image id="n35_cn0h" name="n35" src="lnqm12" fileName="Imag/frame1_common.png" pkg="82yrhfjg" xy="303,563" size="613,480">
+      <gearDisplay controller="c1" pages="3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n36_cn0h" name="n36" xy="402,734" size="416,103" font="ui://bs2uwwz8flzz2" fontSize="32" color="#cf6aa5" align="center" vAlign="middle" leading="20" autoSize="none" text="你已经找到了所有关键时间!">
+      <gearDisplay controller="c1" pages="3"/>
+      <relation target="n35_cn0h" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n38_fpsf" name="n38" src="fpsfq6f" fileName="Imag/title_success.png" pkg="82yrhfjg" xy="302,590">
+      <gearDisplay controller="c1" pages="3"/>
+    </image>
+  </displayList>
+</component>

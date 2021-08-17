@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <controller name="c1" pages="0,,1,,14," selected="0"/>
+  <displayList>
+    <component id="n0_rjsy" name="n0" src="p7i4q2f" fileName="Comp/Small load.xml" xy="0,0" size="1220,1624">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n1_vycm" name="n1" src="vycmq3o" fileName="Comp/Frame_shiming.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n2_qaik" name="n2" src="qaikq3v" fileName="Comp/Frame_levelup.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="14"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="164,54" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_mjv5" name="n0" src="y3w41b" fileName="Imag/bt_changeanother.png" xy="23,1" pivot="0.5,0.5">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_mjv5" name="n1" src="y3w41b" fileName="Imag/bt_changeanother.png" xy="23,1" pivot="0.5,0.5">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_xazz" name="n2" xy="69,14" size="58,26" font="ui://bs2uwwz8flzz0" fontSize="18" color="#ffffff" shadowColor="#6568d8" shadowOffset="1,1" text="换一批"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

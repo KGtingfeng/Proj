@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="6ct0sutv">
+  <resources>
+    <component id="izqh0" name="Creat role.xml" path="/Comp/" exported="true"/>
+    <image id="izqh1" name="freme_input_creatrole.png" path="/Imag/" exported="true" scale="9grid" scale9grid="15,15,26,30"/>
+    <image id="izqh5" name="freme_creatrole.png" path="/Imag/" exported="true"/>
+    <component id="izqh6" name="Frame_creatrole.xml" path="/Comp/" exported="true"/>
+    <image id="izqh8" name="icon_drop-down menu.png" path="/Imag/" exported="true"/>
+    <image id="izqh9" name="icon_date.png" path="/Imag/" exported="true"/>
+    <component id="izqha" name="Button_date.xml" path="/Comp/" exported="true"/>
+    <component id="izqhb" name="Button_drop-down menu.xml" path="/Comp/" exported="true"/>
+    <image id="rzlil" name="Drop-down_bg.png" path="/Imag/" exported="true" scale="9grid" scale9grid="15,15,30,30"/>
+    <image id="rzlim" name="Drop-down_line.png" path="/Imag/" exported="true" scale="9grid" scale9grid="2,1,1,1"/>
+    <component id="rzlin" name="Drop-down id choose_item.xml" path="/Comp/" exported="true"/>
+    <component id="rzlio" name="Drop-down id choose_popup.xml" path="/Comp/" exported="true"/>
+    <component id="rzlip" name="Drop-down id choose.xml" path="/Comp/" exported="true"/>
+    <image id="iua3r" name="icon_shazi.png" path="/Imag/" exported="true"/>
+    <component id="iua3s" name="Button_shaizi.xml" path="/Comp/" exported="true"/>
+    <image id="gab6t" name="frame_input.png" path="/Imag/" exported="true"/>
+    <component id="gab6u" name="Frame_inpute.xml" path="/Comp/"/>
+    <component id="kr02v" name="Frame_Scrollselection.xml" path="/Comp/" exported="true"/>
+    <component id="kr02w" name="frame_chooseshenfen.xml" path="/Comp/" exported="true"/>
+    <image id="kr02x" name="frame_chooseshenfen.png" path="/Imag/" exported="true"/>
+    <image id="kr02y" name="frame_chooseshenfen1.png" path="/Imag/" exported="true"/>
+    <image id="kr02z" name="frame_chooseshenfen3.png" path="/Imag/" exported="true"/>
+    <image id="kr0210" name="frame_chooseshenfen2.png" path="/Imag/" exported="true"/>
+    <image id="auup11" name="bg_book2.png" path="/Imag/" scale="9grid" scale9grid="0,272,338,4"/>
+    <image id="auup12" name="bg_info.png" path="/Imag/" exported="true"/>
+    <image id="auup13" name="bg_front.png" path="/Imag/" scale9grid="3,57,56,114"/>
+    <image id="kfofn" name="bg_book2(1).png" path="/Imag/" scale="9grid" scale9grid="0,272,338,4"/>
+    <image id="xrnq0" name="bg_contractbook.png" path="/Imag/" exported="true"/>
+    <image id="xrnq6" name="bg_frame.png" path="/Imag/" exported="true"/>
+    <image id="xrnq9" name="character_xinling.png" path="/Imag/" exported="true"/>
+    <image id="xrnq3" name="icon_1.png" path="/Imag/" exported="true"/>
+    <image id="xrnq4" name="icon_calendar.png" path="/Imag/" exported="true"/>
+    <image id="xrnq7" name="icon_triangle.png" path="/Imag/" exported="true"/>
+    <component id="xrnqb" name="btn_calendar.xml" path="/Comp/" exported="true"/>
+    <component id="xrnqc" name="btn_choice.xml" path="/Comp/" exported="true"/>
+    <component id="xrnqa" name="btn_random.xml" path="/Comp/" exported="true"/>
+    <image id="ple615" name="bg_info(1).png" path="/Imag/" exported="true"/>
+    <image id="ple616" name="bg_front(1).png" path="/Imag/"/>
+    <image id="dle517" name="talk_frame.png" path="/Imag/"/>
+  </resources>
+  <publish name="C_Creat role"/>
+</packageDescription>

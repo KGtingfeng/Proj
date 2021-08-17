@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="2ukrqw9r">
+  <resources>
+    <component id="otl70" name="Game_26.xml" path="/Comp/" exported="true"/>
+    <component id="otl74" name="Game26_scene.xml" path="/Comp/" exported="true"/>
+    <image id="otl75" name="ptn_move.png" path="/Imag/" exported="true"/>
+    <image id="otl76" name="Button_1.png" path="/Imag/" exported="true"/>
+    <image id="otl77" name="arrow.png" path="/Imag/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

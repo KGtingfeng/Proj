@@ -1,0 +1,34 @@
+
+tm2.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lizi
+  rotate: true
+  xy: 132, 2
+  size: 92, 108
+  orig: 92, 108
+  offset: 0, 0
+  index: -1
+tm2_1
+  rotate: false
+  xy: 2, 12
+  size: 128, 82
+  orig: 128, 82
+  offset: 0, 0
+  index: -1
+tm2_1.5
+  rotate: false
+  xy: 242, 32
+  size: 50, 62
+  orig: 50, 62
+  offset: 0, 0
+  index: -1
+tm2_2
+  rotate: false
+  xy: 294, 40
+  size: 46, 54
+  orig: 46, 54
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624" designImage="ui://uluoyg28t40526">
+  <controller name="c1" pages="0,赠送礼物,1,制作礼物,2,学习制作" selected="0"/>
+  <displayList>
+    <component id="n0_t405" name="n0" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="0,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n2_t405" name="n2" src="t4052f" fileName="Imag/frame_gifts.png" pkg="82yrhfjg" xy="288,393" size="644,838" group="n28_tma0">
+      <gearXY controller="c1" pages="0,1,2" values="288,393|288,393|288,393"/>
+      <gearSize controller="c1" pages="0,1,2" values="644,838,1,1|644,838,1,1|644,838,1,1"/>
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="n3_t405" name="n3" src="t4052i" fileName="Imag/popnamebg.png" pkg="82yrhfjg" xy="478,503" size="358,102" group="n28_tma0">
+      <relation target="n2_t405" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n4_t405" name="n4" src="t4052j" fileName="Imag/popnumberbg.png" pkg="82yrhfjg" xy="526,598" size="260,56" group="n28_tma0">
+      <relation target="n2_t405" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n26_jlkx" name="n5" src="jlkxq3m" fileName="Comp/Icon_pop.xml" pkg="82yrhfjg" xy="345,524" group="n28_tma0">
+      <relation target="n7_t405" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n7_t405" name="n7" src="7vvy1b" fileName="Imag/frame_liwu2.png" xy="327,508" group="n28_tma0">
+      <relation target="n2_t405" sidePair="center-center,top-top"/>
+    </image>
+    <text id="n8_t405" name="n8" xy="503,532" size="308,46" group="n28_tma0" font="ui://bs2uwwz8flzz0" fontSize="34" color="#a58670" align="center" autoSize="none" text="道具名称">
+      <relation target="n3_t405" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n9_t405" name="n9" xy="536,603" size="240,46" group="n28_tma0" font="ui://bs2uwwz8flzz2" fontSize="26" color="#83706d" align="center" vAlign="middle" autoSize="none" text="拥有数量：20">
+      <relation target="n4_t405" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n10_t405" name="n10" xy="339,692" size="542,122" group="n28_tma0" font="ui://bs2uwwz8flzz2" fontSize="30" color="#645757" letterSpacing="3" autoSize="none" text="这里是道具描述这里是道具描述这里是道具描述这里是道具描述这里">
+      <relation target="n2_t405" sidePair=""/>
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n15_t405" name="n15" xy="523,428" size="173,54" group="n28_tma0" font="ui://bs2uwwz8flzz0" fontSize="40" color="#ffffff" letterSpacing="3" text="赠送礼物">
+      <gearText controller="c1" pages="1,2" values="制作礼物|学习制作" default="赠送礼物"/>
+      <relation target="n2_t405" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n17_t405" name="n17" src="rj5h23" fileName="Comp/Button2_blue.xml" pkg="82yrhfjg" xy="622,1096" group="n28_tma0">
+      <relation target="n2_t405" sidePair="right-right,bottom-bottom"/>
+      <Button title="确定"/>
+    </component>
+    <component id="n18_t405" name="n18" src="rj5h22" fileName="Comp/Button2_red.xml" pkg="82yrhfjg" xy="341,1098" group="n28_tma0">
+      <relation target="n2_t405" sidePair="left-left%,bottom-bottom"/>
+      <Button title="取消"/>
+    </component>
+    <text id="n11_t405" name="n11" xy="380,1012" size="133,42" group="n20_t405" font="ui://bs2uwwz8flzz2" fontSize="30" color="#645757" letterSpacing="3" text="赠送数量">
+      <gearText controller="c1" pages="1" values="制作数量" default="赠送数量"/>
+    </text>
+    <component id="n12_t405" name="n12" src="t405q3d" fileName="Comp/Button_jia.xml" pkg="82yrhfjg" xy="791,1009" group="n20_t405">
+      <gearDisplay controller="c1" pages="0,1"/>
+    </component>
+    <component id="n13_t405" name="n13" src="t405q3e" fileName="Comp/Button_jian.xml" pkg="82yrhfjg" xy="529,1009" group="n20_t405">
+      <gearDisplay controller="c1" pages="0,1"/>
+    </component>
+    <image id="n14_t405" name="n14" src="t405q3f" fileName="Imag/ptn_buyunmberbg.png" pkg="82yrhfjg" xy="588,1007" size="194,52" group="n20_t405"/>
+    <text id="n16_t405" name="n16" xy="589,1008" size="193,50" group="n20_t405" font="ui://bs2uwwz8flzz2" fontSize="26" color="#645757" align="center" vAlign="middle" letterSpacing="3" autoSize="none" text="1"/>
+    <group id="n20_t405" name="n20" xy="380,1007" size="459,52" group="n28_tma0" advanced="true">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="n2_t405" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <image id="n21_t405" name="n21" src="t405q3g" fileName="Imag/ptn_sline.png" xy="369,856" size="478,2" group="n28_tma0">
+      <gearDisplay controller="c1" pages="1,2"/>
+      <relation target="n25_t405" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n22_t405" name="n22" xy="379,775" size="170,42" group="n25_t405" font="ui://bs2uwwz8flzz2" fontSize="30" color="#645757" letterSpacing="4" text="学习费用：">
+      <gearText controller="c1" pages="1" values="制作费用：" default="学习费用："/>
+    </text>
+    <text id="n23_t405" name="n23" xy="586,775" size="253,42" group="n25_t405" font="ui://bs2uwwz8flzz2" fontSize="30" color="#645757" letterSpacing="4" text="999999999999"/>
+    <loader id="n27_exzo" name="n24" xy="537,769" size="100,100" group="n25_t405" scale="0.53,0.53" url="ui://82yrhfjgvdqrc" autoSize="true"/>
+    <group id="n25_t405" name="n25" xy="379,769" size="460,100" group="n28_tma0" advanced="true">
+      <gearDisplay controller="c1" pages="1,2"/>
+      <gearXY controller="c1" pages="0,1,2" values="379,769|379,852|379,857"/>
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <group id="n28_tma0" name="n28" xy="288,393" size="644,838"/>
+  </displayList>
+</component>

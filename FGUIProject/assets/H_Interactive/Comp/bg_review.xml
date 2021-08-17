@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="777,1200" overflow="hidden">
+  <displayList>
+    <loader id="n0_hnnp" name="n0" xy="-211,-212" size="1200,1624" url="ui://uluoyg28hnnp2i" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+</component>

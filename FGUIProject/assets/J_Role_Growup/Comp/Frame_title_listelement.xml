@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="669,106">
+  <controller name="c1" pages="0,更换,1,卸下,2,未获得" selected="2"/>
+  <displayList>
+    <text id="n59_rj5h" name="n59" xy="24,24" size="136,32" font="ui://bs2uwwz8flzz0" fontSize="22" color="#71635d" align="center" text="净水湖的客人"/>
+    <text id="n60_rj5h" name="n60" xy="204,4" size="114,32" font="ui://bs2uwwz8flzz0" fontSize="22" color="#71635d" text="水王子缘分"/>
+    <text id="n61_rj5h" name="n61" xy="354,4" size="48,32" alpha="0.8" font="ui://bs2uwwz8flzz0" fontSize="22" color="#71635d" align="right" text="灵丹"/>
+    <image id="n62_rj5h" name="n62" src="lnqm0" fileName="Imag/ptn_attributebg.png" pkg="82yrhfjg" xy="199,38" size="331,56" scale="0.64,0.64"/>
+    <loader id="n63_rj5h" name="n63" xy="209,43" size="120,120" scale="0.25,0.25" url="ui://82yrhfjglnqmn"/>
+    <text id="n64_rj5h" name="n64" xy="248,40" size="61,32" font="ui://bs2uwwz8flzz2" fontSize="22" color="#a18a86" autoSize="none" text="魅力："/>
+    <text id="n65_rj5h" name="n65" xy="308,40" size="95,32" font="ui://bs2uwwz8flzz2" fontSize="22" color="#a18a86" align="right" autoSize="none" text="+9999999"/>
+    <component id="n66_rj5h" name="n66" src="rj5h23" fileName="Comp/Button2_blue.xml" pkg="82yrhfjg" xy="427,14">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button title="更换"/>
+    </component>
+    <component id="n70_mjv5" name="n70" src="rj5h22" fileName="Comp/Button2_red.xml" pkg="82yrhfjg" xy="515,11">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="卸下"/>
+    </component>
+    <text id="n71_mjv5" name="n71" xy="544,25" size="70,32" alpha="0.6" font="Yuanti SC" fontSize="22" text="未获得">
+      <gearDisplay controller="c1" pages="2"/>
+    </text>
+    <image id="n72_gab6" name="n72" src="gab6q2t" fileName="Imag/ptn_common_split line2.png" pkg="82yrhfjg" xy="427,10"/>
+    <image id="n73_gab6" name="n73" src="gab6q2t" fileName="Imag/ptn_common_split line2.png" pkg="82yrhfjg" xy="178,10"/>
+  </displayList>
+</component>

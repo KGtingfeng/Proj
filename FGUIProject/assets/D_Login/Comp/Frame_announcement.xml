@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <displayList>
+    <image id="n8_kl10" name="n8" src="hsbv1v" fileName="Imag/ptn_mask.png" pkg="82yrhfjg" xy="0,0" size="1220,1624">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_9pfj" name="n1" src="lnqm12" fileName="Imag/frame1_common.png" pkg="82yrhfjg" xy="303,304" size="613,840" group="n9_kl10"/>
+    <text id="n2_9pfj" name="n2" xy="526,378" size="168,49" group="n9_kl10" font="ui://bs2uwwz8flzz0" fontSize="32" color="#603f4c" align="center" autoSize="none" text="公告"/>
+    <list id="n4_jz00" name="n4" xy="347,446" size="510,561" group="n9_kl10" overflow="scroll" defaultItem="ui://t0kqvihp9pfji" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <image id="n5_hsbv" name="n5" src="hsbv1s" fileName="Imag/frame_bg_line.png" xy="599,1136" group="n9_kl10">
+      <relation target="n1_9pfj" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n6_hsbv" name="n6" src="hsbv1u" fileName="Comp/Button_close.xml" xy="576,1254" group="n9_kl10">
+      <relation target="n1_9pfj" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n9_kl10" name="n9" xy="303,304" size="613,1016" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

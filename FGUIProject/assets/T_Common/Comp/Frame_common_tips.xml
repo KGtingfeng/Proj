@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="609,173">
+  <displayList>
+    <image id="n34_vy2y" name="n34" src="vy2y1t" fileName="Imag/frame_commom_tips.png" xy="4,2" pivot="0.5,0.5" size="600,168">
+      <relation target="n35_vy2y" sidePair="bottomext-bottom"/>
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <text id="n35_vy2y" name="n35" xy="85,28" pivot="0.5,0.5" size="434,122" alpha="0.8" font="ui://wkrcryqms5cu5" fontSize="30" color="#ffffff" align="center" autoSize="height" text="根据健康系统限制,您本次进行充值的金额已达到系统上线,请降低金额或选择更低价格商品">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <relation target="n34_vy2y" sidePair="height-height"/>
+</component>

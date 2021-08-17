@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,591">
+  <controller name="c1" pages="0,回复,1,发布" selected="1"/>
+  <displayList>
+    <image id="n0_ufhu" name="n0" src="ufhu2j" fileName="Image/frame_postreply.png" xy="48,29" pivot="0.5,0" size="652,546">
+      <gearSize controller="c1" pages="0" values="585,463,1,1" default="652,546,1,1"/>
+    </image>
+    <list id="n3_ufhu" name="n3" xy="75,156" size="596,362" layout="flow_hz" overflow="scroll" scrollBarFlags="2048" clipSoftness="30,30" lineGap="27" colGap="13" defaultItem="ui://srheglvmufhu2n" align="center" vAlign="middle" autoClearItems="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <item title="二月河乳液人"/>
+      <item title="也和艺人也好"/>
+      <item title="如核桃"/>
+      <item title="让他和他很入味后"/>
+    </list>
+    <list id="n4_ufhu" name="n4" xy="91,132" size="575,318" layout="flow_hz" clipSoftness="30,30" lineGap="42" defaultItem="ui://srheglvmufhu2n" align="center" vAlign="middle" autoClearItems="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <item title="热个哥哥rather"/>
+      <item title="如同核问题和问题"/>
+      <item title="而后让他很认同"/>
+    </list>
+    <text id="n5_t19t" name="n5" xy="167,62" size="423,69" font="ui://bs2uwwz8flzz0" fontSize="41" color="#ffffff" align="center" autoSize="none" text="此时此刻在想些什么？">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearText controller="c1" pages="1" values="此时此刻在想些什么？" default="回复"/>
+    </text>
+  </displayList>
+  <relation target="n0_ufhu" sidePair="bottomext-bottom"/>
+</component>

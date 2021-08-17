@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="280,420">
+  <controller name="c1" pages="0,客人光临,7,制作成功,8,制作失败" selected="0"/>
+  <displayList>
+    <image id="n9_vvaw" name="n9" src="vvaw6" fileName="Imap/bg_talk.png" xy="6,-11" size="264,471">
+      <gearDisplay controller="c1" pages="7,8"/>
+      <gearXY controller="c1" pages="0,7,8" values="6,-11|-97,133|-97,133"/>
+      <gearSize controller="c1" pages="0,7,8" values="264,471,1,1|474,260,1,1|474,260,1,1"/>
+    </image>
+    <image id="n16_7afj" name="n16" src="7afj1n" fileName="Imap/bubble_1.png" xy="-20,-19">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <component id="n13_vvaw" name="n13" src="7afj1l" fileName="Comp/doll_character.xml" xy="-133,-315" pivot="0.5,0.5" scale="0.422,0.422">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <text id="n14_vvaw" name="n14" xy="-9,190" size="301,105" font="ui://bs2uwwz8flzz2" fontSize="33" color="#9f6772" align="center" leading="20" text="这就是我想要的娃娃&#xA;做得真好！">
+      <gearDisplay controller="c1" pages="7"/>
+    </text>
+    <text id="n15_vvaw" name="n15" xy="-23,221" size="334,45" fontSize="33" color="#9f6772" align="center" text="这不是我想要的娃娃。">
+      <gearDisplay controller="c1" pages="8"/>
+    </text>
+  </displayList>
+</component>

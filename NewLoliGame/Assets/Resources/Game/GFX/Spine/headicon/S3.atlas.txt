@@ -1,0 +1,27 @@
+
+S3.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+s3_1
+  rotate: false
+  xy: 1, 96
+  size: 304, 324
+  orig: 304, 324
+  offset: 0, 0
+  index: -1
+s3_2
+  rotate: false
+  xy: 1, 1
+  size: 132, 94
+  orig: 132, 94
+  offset: 0, 0
+  index: -1
+s3_3
+  rotate: true
+  xy: 134, 47
+  size: 48, 110
+  orig: 48, 110
+  offset: 0, 0
+  index: -1

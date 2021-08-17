@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="5sqxgclf">
+  <resources>
+    <component id="xrnq2" name="Sign_the_contract.xml" path="/Comp/" exported="true"/>
+    <image id="xrnq5" name="icon_heart.png" path="/Imag/" exported="true"/>
+    <image id="xrnq8" name="talk_frame.png" path="/Imag/" exported="true"/>
+    <component id="xrnqf" name="talk_with_xinling.xml" path="/Comp/" exported="true"/>
+    <image id="xrnqh" name="tap2.png" path="/Imag/" exported="true"/>
+    <image id="xrnqi" name="tap1.png" path="/Imag/" exported="true"/>
+    <component id="xrnqj" name="tap.xml" path="/Comp/" exported="true"/>
+    <component id="iejnk" name="frame_talk.xml" path="/Comp/" exported="true"/>
+    <component id="iejnl" name="frame_tap.xml" path="/Comp/" exported="true"/>
+    <component id="mjrqq" name="frame_content.xml" path="/Comp/" exported="true"/>
+    <component id="cb7er" name="frame_tip.xml" path="/Comp/" exported="true"/>
+    <image id="mam9s" name="bg_contractbook.png" path="/Imag/"/>
+    <image id="mam9t" name="bg_front.png" path="/Imag/"/>
+    <image id="mam9u" name="bg_frame.png" path="/Imag/"/>
+    <image id="mam9v" name="icon_triangle.png" path="/Imag/"/>
+    <image id="mam9w" name="character_xinling.png" path="/Imag/" exported="true"/>
+    <image id="mam9x" name="bg_info.png" path="/Imag/"/>
+    <image id="mam9y" name="icon_calendar.png" path="/Imag/"/>
+    <image id="mam9z" name="icon_1.png" path="/Imag/"/>
+    <image id="mam910" name="bg_book2.png" path="/Imag/"/>
+    <component id="iogk11" name="frame_newbie.xml" path="/Comp/" exported="true"/>
+    <image id="wxqs12" name="bubble_big.png" path="/Imag/"/>
+    <component id="wxqs13" name="bubble_big.xml" path="/Comp/"/>
+    <component id="h9g514" name="frame_pop.xml" path="/Comp/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

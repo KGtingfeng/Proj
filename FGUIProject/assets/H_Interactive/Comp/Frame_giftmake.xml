@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,570" overflow="hidden">
+  <controller name="c1" pages="0,有礼物,1,无礼物" selected="1"/>
+  <displayList>
+    <image id="n58_7vvy" name="n58" src="7vvy19" fileName="Imag/bg_songli.png" xy="0,0"/>
+    <text id="n59_7vvy" name="n59" xy="44,34" size="46,53" font="ui://bs2uwwz8flzz0" fontSize="20" color="#ffffff" leading="0" letterSpacing="2" text="现有&#xA;礼物"/>
+    <image id="n60_7vvy" name="n60" src="7vvy1k" fileName="Imag/ptn_redcloth.png" xy="472,28"/>
+    <list id="n61_7vvy" name="n61" xy="59,137" size="641,431" layout="flow_hz" overflow="scroll" clipSoftness="60,60" lineGap="31" colGap="-10" lineItemCount="4" defaultItem="ui://jq7r9soh7vvy1c" autoClearItems="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n62_jlkx" name="n62" xy="69,234" size="605,98" font="ui://bs2uwwz8flzz0" fontSize="30" color="#605f5f" align="center" vAlign="middle" leading="8" letterSpacing="-2" autoSize="none" text="当前你还没有礼物，快去获取礼物吧！">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+  </displayList>
+</component>

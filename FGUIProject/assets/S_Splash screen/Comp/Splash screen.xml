@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n7_vy2y" name="n7" xy="-235,0" size="1220,1624" align="center" vAlign="middle">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n8_ybsm" name="n8" src="flzzz5" fileName="Comp/BG_Splash2.xml" xy="-235,0">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="155,32">
+  <displayList>
+    <image id="n23_m11d" name="n23" src="m11dq62" fileName="Imge/kelingqu.png" xy="0,0" alpha="0.996"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1" frameRate="60">
+    <item time="0" type="Alpha" target="n23_m11d" tween="true" startValue="0" endValue="1" duration="24"/>
+    <item time="24" type="Alpha" target="n23_m11d" tween="true" startValue="1" endValue="0" duration="24"/>
+  </transition>
+</component>

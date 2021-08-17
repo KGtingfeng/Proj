@@ -1,0 +1,221 @@
+
+shuyan.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shuya_zuixing_O0
+  rotate: false
+  xy: 761, 939
+  size: 89, 67
+  orig: 89, 67
+  offset: 0, 0
+  index: -1
+shuya_zuixing_O1
+  rotate: false
+  xy: 852, 939
+  size: 89, 67
+  orig: 89, 67
+  offset: 0, 0
+  index: -1
+shuya_zuixing_O2
+  rotate: true
+  xy: 943, 917
+  size: 89, 67
+  orig: 89, 67
+  offset: 0, 0
+  index: -1
+shuya_zuixing_a
+  rotate: false
+  xy: 257, 953
+  size: 77, 53
+  orig: 77, 53
+  offset: 0, 0
+  index: -1
+shuya_zuixing_a1
+  rotate: false
+  xy: 2, 902
+  size: 89, 67
+  orig: 89, 67
+  offset: 0, 0
+  index: -1
+shuya_zuixing_a2
+  rotate: false
+  xy: 93, 889
+  size: 89, 67
+  orig: 89, 67
+  offset: 0, 0
+  index: -1
+shuya_zuixing_bizui
+  rotate: false
+  xy: 58, 971
+  size: 68, 35
+  orig: 68, 35
+  offset: 0, 0
+  index: -1
+shuya_zuixing_o
+  rotate: false
+  xy: 678, 943
+  size: 81, 63
+  orig: 81, 63
+  offset: 0, 0
+  index: -1
+shuyan_shangyi
+  rotate: true
+  xy: 2, 150
+  size: 318, 407
+  orig: 318, 407
+  offset: 0, 0
+  index: -1
+shuyan_shoubi_l1
+  rotate: false
+  xy: 577, 566
+  size: 396, 199
+  orig: 396, 199
+  offset: 0, 0
+  index: -1
+shuyan_shoubi_l2
+  rotate: true
+  xy: 743, 767
+  size: 148, 273
+  orig: 148, 273
+  offset: 0, 0
+  index: -1
+shuyan_shoubi_r1
+  rotate: false
+  xy: 2, 742
+  size: 314, 132
+  orig: 314, 132
+  offset: 0, 0
+  index: -1
+shuyan_shoubi_r2
+  rotate: true
+  xy: 2, 538
+  size: 202, 307
+  orig: 202, 307
+  offset: 0, 0
+  index: -1
+shuyan_shoulian1
+  rotate: true
+  xy: 128, 958
+  size: 48, 127
+  orig: 48, 127
+  offset: 0, 0
+  index: -1
+shuyan_shoulian2
+  rotate: true
+  xy: 549, 947
+  size: 59, 127
+  orig: 59, 127
+  offset: 0, 0
+  index: -1
+shuyan_tou
+  rotate: true
+  xy: 311, 470
+  size: 202, 217
+  orig: 202, 217
+  offset: 0, 0
+  index: -1
+shuyan_toufa1
+  rotate: false
+  xy: 530, 360
+  size: 219, 204
+  orig: 219, 204
+  offset: 0, 0
+  index: -1
+shuyan_toufa2
+  rotate: false
+  xy: 336, 952
+  size: 67, 54
+  orig: 67, 54
+  offset: 0, 0
+  index: -1
+shuyan_toufa3
+  rotate: true
+  xy: 350, 870
+  size: 77, 130
+  orig: 77, 130
+  offset: 0, 0
+  index: -1
+shuyan_toufa4
+  rotate: true
+  xy: 482, 848
+  size: 93, 259
+  orig: 93, 259
+  offset: 0, 0
+  index: -1
+shuyan_toufa6
+  rotate: true
+  xy: 405, 949
+  size: 57, 142
+  orig: 57, 142
+  offset: 0, 0
+  index: -1
+shuyan_weiqun
+  rotate: false
+  xy: 411, 2
+  size: 407, 356
+  orig: 407, 356
+  offset: 0, 0
+  index: -1
+shuyan_yanbai
+  rotate: false
+  xy: 184, 876
+  size: 164, 74
+  orig: 164, 74
+  offset: 0, 0
+  index: -1
+shuyan_yanjing
+  rotate: true
+  xy: 318, 674
+  size: 172, 257
+  orig: 172, 257
+  offset: 0, 0
+  index: -1
+shuyan_yanl
+  rotate: false
+  xy: 2, 986
+  size: 26, 20
+  orig: 26, 20
+  offset: 0, 0
+  index: -1
+shuyan_yanr
+  rotate: false
+  xy: 30, 986
+  size: 26, 20
+  orig: 26, 20
+  offset: 0, 0
+  index: -1
+
+shuyan2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shuyan_shangshen
+  rotate: true
+  xy: 2, 2
+  size: 392, 515
+  orig: 392, 515
+  offset: 0, 0
+  index: -1
+shuyan_tui_l
+  rotate: true
+  xy: 2, 396
+  size: 334, 850
+  orig: 334, 850
+  offset: 0, 0
+  index: -1
+
+shuyan3.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shuyan_tui_r 
+  rotate: false
+  xy: 2, 2
+  size: 442, 830
+  orig: 442, 830
+  offset: 0, 0
+  index: -1

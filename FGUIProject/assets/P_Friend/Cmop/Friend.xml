@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,好友,1,查找好友,2,好友申请" selected="0"/>
+  <displayList>
+    <loader id="n17_qk9f" name="n17" xy="-235,0" size="1220,1624" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n5_ms0g" name="n5" src="k7ir9" fileName="Cmop/look_friend.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n16_ms0g" name="n16" src="k7irc" fileName="Cmop/add_friend.xml" xy="0,1">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n10_ms0g" name="n10" src="ms0gn" fileName="Cmop/friend1.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <list id="n6_ms0g" name="n6" xy="-6,177" size="763,101" layout="flow_hz" overflow="hidden" defaultItem="ui://82yrhfjgbvfrq63" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,top-top"/>
+      <item title="好友"/>
+      <item title="查找好友"/>
+      <item title="好友申请"/>
+    </list>
+    <component id="n4_ms0g" name="n4" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" scale="0.8,0.8">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n26_bvfr" name="n26" src="bvfrq64" fileName="Comp/star_diamond.xml" pkg="82yrhfjg" xy="220,60">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+</component>

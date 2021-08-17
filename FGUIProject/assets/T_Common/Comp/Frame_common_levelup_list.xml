@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="464,72">
+  <controller name="c1" pages="0,Up,1,Down" selected="0"/>
+  <displayList>
+    <image id="n2_dd7o" name="n2" src="dd7o2j" fileName="Imag/frame_common_levelup1.png" xy="0,0"/>
+    <loader id="n15_p7i4" name="n6" xy="97,11" size="120,120" scale="0.4,0.4" url="ui://82yrhfjglnqmn" autoSize="true"/>
+    <text id="n10_dd7o" name="n10" xy="161,18" size="82,36" font="ui://bs2uwwz8flzz2" fontSize="26" color="#ffffff" shadowColor="#000000" shadowOffset="1,1" text="魅力："/>
+    <text id="n14_dd7o" name="n14" xy="249,18" size="113,36" font="ui://bs2uwwz8flzz2" fontSize="26" color="#ffffff" align="right" autoSize="none" shadowColor="#000000" shadowOffset="1,1" text="+999999"/>
+    <image id="n16_q821" name="n16" src="q821q5l" fileName="Imag/ptn_down.png" xy="365,8">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n17_q821" name="n17" src="q821q5m" fileName="Imag/ptn_up.png" xy="365,7">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+  </displayList>
+</component>

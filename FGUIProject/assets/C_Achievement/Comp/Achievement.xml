@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImageAlpha="100">
+  <controller name="c1" pages="0,首页,1,角色,2,任务" selected="0"/>
+  <displayList>
+    <loader id="n10_ubai" name="n10" xy="-235,0" size="1220,1624" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n8_ubai" name="n8" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" scale="0.8,0.8">
+      <relation target="" sidePair="left-left%,top-top%"/>
+    </component>
+    <list id="n9_ubai" name="n9" xy="0,183" size="750,1440" layout="flow_hz" lineGap="-8" align="center">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item url="ui://6yzrrqpsubaid"/>
+      <item url="ui://6yzrrqpsubaie"/>
+      <item url="ui://6yzrrqpsubaif"/>
+      <item url="ui://6yzrrqpsubaig"/>
+    </list>
+    <image id="n12_mqef" name="n12" src="ubaib" fileName="Imag/title.png" pkg="82yrhfjg" xy="202,202" group="n15_mqef">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </image>
+    <image id="n13_mqef" name="n13" src="ubaib" fileName="Imag/title.png" pkg="82yrhfjg" xy="445,201" group="n15_mqef">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </image>
+    <text id="n14_mqef" name="n14" xy="317,190" size="118,42" group="n15_mqef" font="ui://bs2uwwz8flzz0" fontSize="30" color="#9385a8" align="center" letterSpacing="-2" autoSize="none" text="成长之路">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </text>
+    <group id="n15_mqef" name="n15" xy="202,190" size="345,42" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <list id="n16_mqef" name="n16" xy="0,238" size="750,1386" layout="flow_hz" overflow="scroll" clipSoftness="40,40" defaultItem="ui://6yzrrqpsubaih" align="center" autoClearItems="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n17_mqef" name="n17" xy="0,252" size="750,1257" layout="flow_hz" overflow="scroll" clipSoftness="40,40" lineGap="35" defaultItem="ui://6yzrrqpsubaik" align="center">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n18_mqef" name="n18" src="s8t3q6a" fileName="Comp/Button1_tifred.xml" pkg="82yrhfjg" xy="519,1536" scale="1.2,1.2">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="middle-middle,right-right%"/>
+      <Button title="一键领取" titleFontSize="25"/>
+    </component>
+    <text id="n19_mqef" name="n19" xy="41,1553" size="181,34" font="ui://bs2uwwz8flzz2" fontSize="24" color="#ffffff" letterSpacing="1" strokeColor="#90acec" strokeSize="2" shadowColor="#aba5e1" shadowOffset="0,3" text="成就进度：20%">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="middle-middle,left-left%"/>
+    </text>
+    <image id="n20_mqef" name="n20" src="ubaio" fileName="Imag/line.png" xy="0,1505" size="750,8">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </image>
+    <component id="n21_ple6" name="n21" src="bvfrq64" fileName="Comp/star_diamond.xml" pkg="82yrhfjg" xy="220,60">
+      <gearDisplay controller="c1" pages="0,1,2"/>
+      <relation target="" sidePair="right-right%"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="715,211">
+  <displayList>
+    <component id="n46_urj1" name="n5" src="zee8e" fileName="Comp/headicon.xml" xy="-55,-9" pivot="0.5,0.5" scale="0.33,0.33">
+      <relation target="n45_urj1" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n45_urj1" name="n45" src="urj11i" fileName="Imag/frame_message.png" xy="0,63" size="715,144"/>
+    <image id="n47_urj1" name="n47" src="urj11j" fileName="Imag/ptn_fenge.png" xy="243,78" pivot="0.5,0.5" size="2,102">
+      <relation target="n48_urj1" sidePair="left-right"/>
+    </image>
+    <text id="n48_urj1" name="n48" xy="144,102" size="84,54" font="ui://wkrcryqms5cu5" fontSize="40" color="#333333" text="名字"/>
+    <richtext id="n49_urj1" name="n49" xy="262,107" size="403,43" font="ui://wkrcryqms5cu5" fontSize="30" color="#333333" autoSize="none" text="短信内容这里最多十二个字...">
+      <relation target="n47_urj1" sidePair="left-right"/>
+    </richtext>
+  </displayList>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="126,126">
+  <controller name="c1" pages="0,女,1,男" selected="1"/>
+  <displayList>
+    <image id="n4_ry7w" name="n4" src="ry7w3s" fileName="Image/headframe_fen.png" xy="0,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n5_ry7w" name="n5" src="ry7w3t" fileName="Image/headframe_lan.png" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+  </displayList>
+</component>

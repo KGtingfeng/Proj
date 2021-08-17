@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <loader id="n2_8noa" name="n2" xy="-235,0" size="1220,1624" url="ui://e2byfvw9w1na1r" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n1_vvaw" name="n1" src="vvaw1" fileName="Comp/Game23_scene.xml" xy="0,0" size="750,1624">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n0_vvaw" name="n0" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" scale="0.8,0.8">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+  </displayList>
+</component>

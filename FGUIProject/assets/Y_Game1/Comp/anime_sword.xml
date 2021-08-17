@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="696,1120">
+  <displayList>
+    <image id="n31_ej9f" name="n31" src="ej9fe1z" fileName="Imag/ptn_light_anime.png" xy="408,-1" rotation="-228"/>
+    <image id="n30_ej9f" name="n30" src="ej9fe1y" fileName="Imag/ptn_sword_anime.png" xy="153,41" pivot="0.5,0.5" rotation="129"/>
+    <image id="n29_ej9f" name="n29" src="gxb8q6l" fileName="Imag/tap_finger.png" pkg="17rhwh28" xy="0,1054"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1" frameRate="60">
+    <item time="0" type="Alpha" target="n29_ej9f" value="1"/>
+    <item time="0" type="Alpha" target="n29_ej9f" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="Alpha" target="n30_ej9f" value="0"/>
+    <item time="0" type="Alpha" target="n31_ej9f" tween="true" startValue="0" endValue="0" duration="133"/>
+    <item time="0" type="Rotation" target="n30_ej9f" value="129"/>
+    <item time="0" type="Scale" target="n29_ej9f" value="1,1"/>
+    <item time="0" type="Scale" target="n29_ej9f" value="1,1"/>
+    <item time="0" type="XY" target="n29_ej9f" value="0,1054"/>
+    <item time="0" type="XY" target="n29_ej9f" value="80,1004"/>
+    <item time="0" type="XY" target="n30_ej9f" value="153,41"/>
+    <item time="21" type="Scale" target="n29_ej9f" tween="true" startValue="1,1" endValue="0.76,0.76" duration="7"/>
+    <item time="28" type="Alpha" target="n30_ej9f" value="0"/>
+    <item time="29" type="Alpha" target="n30_ej9f" value="1"/>
+    <item time="29" type="XY" target="n29_ej9f" tween="true" startValue="80,1004" endValue="247,195" duration="68"/>
+    <item time="29" type="XY" target="n30_ej9f" tween="true" startValue="-22,839" endValue="153,41" duration="68"/>
+    <item time="96" type="Scale" target="n29_ej9f" tween="true" startValue="0.76,0.76" endValue="1,1" duration="17"/>
+    <item time="109" type="Alpha" target="n29_ej9f" tween="true" startValue="1" endValue="0" duration="4"/>
+    <item time="115" type="Rotation" target="n30_ej9f" tween="true" startValue="129" endValue="175.97" duration="18"/>
+    <item time="133" type="Alpha" target="n31_ej9f" tween="true" startValue="0" endValue="1" duration="17" ease="Quad.InOut"/>
+    <item time="133" type="Rotation" target="n30_ej9f" tween="true" startValue="175.97" endValue="31.73" duration="17" ease="Quad.InOut"/>
+  </transition>
+</component>

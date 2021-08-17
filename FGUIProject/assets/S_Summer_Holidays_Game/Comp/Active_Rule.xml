@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <displayList>
+    <component id="n56_b05h" name="n56" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="0,0" size="1220,1624">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n57_b05h" name="n57" src="b05hp" fileName="Imag/frame_libaoreview.png" xy="270,517" size="679,557"/>
+    <image id="n60_b05h" name="n60" src="b05hq" fileName="Imag/bg_title.png" xy="290,542" size="640,71"/>
+    <text id="n61_b05h" name="n61" xy="518,548" size="184,60" font="ui://bs2uwwz8flzz0" fontSize="45" color="#ffffff" align="center" text="活动规则"/>
+    <text id="n62_b05h" name="n62" xy="324,637" size="600,254" font="ui://bs2uwwz8flzz2" fontSize="32" color="#997392" autoSize="height" text="暑假向前冲活动限时开放！&#xD;活动时间：8月1日-8月31日23：59&#xD;活动规则：&#xD;1、活动规则描述巴拉巴拉~&#xD;2、活动规则描述巴拉巴拉~&#xD;3、活动规则描述巴拉巴拉~"/>
+    <text id="n63_b05h" name="n63" xy="324,940" size="600,86" font="ui://bs2uwwz8flzz2" fontSize="32" color="#997392" autoSize="none" text="以上活动规则所有解释权归时辰砂手游&#xD;所有；有任何问题请联系客服；"/>
+  </displayList>
+</component>

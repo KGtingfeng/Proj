@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="778,1624">
+  <controller name="c1" pages="0,首页,2,好感,5,内榜,6,属性榜" selected="3"/>
+  <displayList>
+    <loader id="n0_dkwi" name="n0" xy="-221,0" size="1220,1624" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <graph id="n68_wgdl" name="n68" xy="-235,0" size="1220,1624" type="rect" lineSize="0" fillColor="#00ffffff">
+      <gearDisplay controller="c1" pages="2,5,6"/>
+    </graph>
+    <image id="n1_dkwi" name="n1" src="dkwid" fileName="Imag/ptn_rank.png" xy="176,50">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n6_dkwi" name="n6" xy="440,1564" size="308,35" font="ui://bs2uwwz8flzz2" fontSize="25" color="#886761" strokeColor="#ffffff" text="排行榜：每10分钟刷新一次">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </text>
+    <list id="n7_dkwi" name="n7" xy="14,253" size="750,997" layout="flow_vt" overflow="scroll" lineGap="40" align="center">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item url="ui://vsypkz7idkwir"/>
+      <item url="ui://vsypkz7idkwis"/>
+      <item url="ui://vsypkz7idkwit"/>
+    </list>
+    <component id="n25_dkwi" name="n3" src="dkwiy" fileName="Comp/rank1.xml" xy="219,179">
+      <gearDisplay controller="c1" pages="2,5,6"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n10_dkwi" name="n4" src="dkwix" fileName="Comp/rank2.xml" xy="-10,272">
+      <gearDisplay controller="c1" pages="2,5,6"/>
+      <relation target="" sidePair="center-center%,middle-middle"/>
+    </component>
+    <component id="n32_dkwi" name="n5" src="dkwiz" fileName="Comp/rank3.xml" xy="490,275">
+      <gearDisplay controller="c1" pages="2,5,6"/>
+      <relation target="" sidePair="center-center%,middle-middle"/>
+    </component>
+    <component id="n2_dkwi" name="n2" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" scale="0.8,0.8">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <image id="n33_dkwi" name="n33" src="dkwi3" fileName="Imag/framebg.png" xy="4,596" size="774,78">
+      <gearDisplay controller="c1" pages="2,6"/>
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </image>
+    <text id="n34_dkwi" name="n34" xy="32,610" size="274,42" font="ui://bs2uwwz8flzz0" fontSize="30" color="#534848" align="center" text="角色总好感度排行榜">
+      <gearDisplay controller="c1" pages="2,6"/>
+      <relation target="n33_dkwi" sidePair="middle-middle,left-left%"/>
+    </text>
+    <component id="n35_dkwi" name="n35" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="549,596">
+      <gearDisplay controller="c1" pages="2,6"/>
+      <relation target="n33_dkwi" sidePair="middle-middle,right-right%"/>
+      <Button title="查看详情" titleFontSize="20"/>
+    </component>
+    <list id="n48_dkwi" name="n48" xy="0,682" size="778,942" overflow="scroll" margin="0,0,6,0" clipSoftness="30,30" defaultItem="ui://vsypkz7idkwi13" autoClearItems="true">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="width-width,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n56_dkwi" name="n56" src="nu56q45" fileName="Comp/list_allrank.xml" xy="0,679" size="778,787">
+      <gearDisplay controller="c1" pages="5"/>
+      <relation target="" sidePair="width-width"/>
+    </component>
+    <component id="n61_dkwi" name="n61" src="dkwi17" fileName="Comp/list_mine.xml" xy="0,1469" size="778,148">
+      <gearDisplay controller="c1" pages="5"/>
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </component>
+    <list id="n67_dkwi" name="n67" xy="0,682" size="778,942" overflow="scroll" margin="0,0,6,0" clipSoftness="30,30">
+      <gearDisplay controller="c1" pages="6"/>
+      <relation target="" sidePair="width-width,middle-middle"/>
+      <item url="ui://vsypkz7idkwi1a"/>
+      <item url="ui://vsypkz7idkwi1b"/>
+      <item url="ui://vsypkz7idkwi19"/>
+      <item url="ui://vsypkz7idkwi1c"/>
+    </list>
+    <text id="n8_dkwi" name="n8" xy="281,103" size="214,42" group="n82_ple6" font="ui://bs2uwwz8flzz0" fontSize="30" color="#9385a8" align="center" vAlign="middle" autoSize="none" text="角色好感度排行">
+      <gearDisplay controller="c1" pages="2,5,6"/>
+    </text>
+    <image id="n80_980g" name="n80" src="ubaib" fileName="Imag/title.png" pkg="82yrhfjg" xy="174,114" group="n82_ple6">
+      <gearDisplay controller="c1" pages="2,5,6"/>
+    </image>
+    <image id="n81_980g" name="n81" src="ubaib" fileName="Imag/title.png" pkg="82yrhfjg" xy="502,114" group="n82_ple6">
+      <gearDisplay controller="c1" pages="2,5,6"/>
+    </image>
+    <group id="n82_ple6" name="n82" xy="174,103" size="430,42" advanced="true">
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </group>
+    <text id="n83_a9ez" name="n83" xy="312,85" size="154,66" font="ui://bs2uwwz8flzz0" fontSize="50" color="#ffffff" strokeColor="#f89ac1" strokeSize="3" text="排行榜">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

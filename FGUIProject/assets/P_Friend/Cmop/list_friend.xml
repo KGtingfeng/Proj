@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="724,934" mask="n5_pfkm">
+  <displayList>
+    <graph id="n5_pfkm" name="n5" xy="0,0" size="724,934" type="rect">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <list id="n4_k7ir" name="n4" xy="0,0" size="724,934" overflow="scroll" clipSoftness="22,22" lineGap="1" defaultItem="ui://714w6k4uk7ira" align="center">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

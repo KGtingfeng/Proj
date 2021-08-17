@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="58,46">
+  <displayList>
+    <image id="n17_rzdk" name="n17" src="rzdkm" fileName="Imag/arrow.png" xy="0,0" pivot="0.5,0.5"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1" frameRate="60">
+    <item time="0" type="XY" target="n17_rzdk" tween="true" startValue="-4,-4" endValue="3,3" duration="42"/>
+    <item time="42" type="XY" target="n17_rzdk" tween="true" startValue="3,3" endValue="-4,-4" duration="42"/>
+  </transition>
+</component>

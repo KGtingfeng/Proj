@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://onkcgv3mb05hs" designImageOffsetX="-258" designImageAlpha="0">
+  <displayList>
+    <image id="n64_b05h" name="n64" src="vdqr1c" fileName="Imag/ptn_ongratulations.png" pkg="82yrhfjg" xy="170,81"/>
+    <image id="n65_b05h" name="n65" src="lnqm0" fileName="Imag/ptn_attributebg.png" pkg="82yrhfjg" xy="478,311" size="262,56"/>
+    <image id="n66_b05h" name="n66" src="b05ht" fileName="Imag/ptn_ice.png" xy="517,320"/>
+    <text id="n67_b05h" name="n67" xy="315,142" size="158,58" font="ui://bs2uwwz8flzz0" fontSize="43" color="#ffffff" text="分数：0"/>
+    <text id="n68_b05h" name="n68" xy="527,310" size="210,58" font="ui://bs2uwwz8flzz2" fontSize="28" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="冰棍儿：10"/>
+  </displayList>
+</component>

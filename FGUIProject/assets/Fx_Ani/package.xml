@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="s8fuhyw2">
+  <resources>
+    <component id="ro8rq2l" name="Ani_zhuanchang.xml" path="/Comp/" exported="true"/>
+    <image id="ro8rq2m" name="ptn_zhuanchang.png" path="/Imag/" exported="true" scale="9grid" scale9grid="12,5,-9,10"/>
+    <component id="ro8r0" name="Ani_zhuanchang_final.xml" path="/Comp/" exported="true"/>
+    <component id="ro8r1" name="Ani_zhuanchangwithfit.xml" path="/Comp/" exported="true"/>
+    <component id="v302q2n" name="shanbai.xml" path="/Comp/" exported="true"/>
+    <component id="r9d7q2q" name="Ani_zhuanchangwithfit1.xml" path="/Comp/" exported="true"/>
+  </resources>
+  <publish name="Fx_Ani"/>
+</packageDescription>

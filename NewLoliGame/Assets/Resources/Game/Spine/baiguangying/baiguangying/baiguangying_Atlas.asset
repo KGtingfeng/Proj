@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: baiguangying_Atlas
+  m_EditorClassIdentifier: 
+  atlasFile: {fileID: 4900000, guid: 0a51b4dfd077145bea73c6decaf668a9, type: 3}
+  materials:
+  - {fileID: 2100000, guid: 3ea4f1db8556045379243afee2ceb2cc, type: 2}
+  - {fileID: 2100000, guid: 71349beb659f04d8281db105539a837c, type: 2}
+  - {fileID: 2100000, guid: a5db7d4db7d1c4293a941d4ca36e7f92, type: 2}
+  - {fileID: 2100000, guid: 4d61037a6f8b94154b9e9b4c28403107, type: 2}

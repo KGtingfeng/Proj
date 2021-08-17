@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://uluoyg28bvfr32">
+  <controller name="c1" pages="0,查找好友,1,查找结果,2,查找结果为空" selected="0"/>
+  <displayList>
+    <image id="n0_k7ir" name="n0" src="k7ir5" fileName="Imag/btn2_common_yellow.png" xy="0,256" size="750,1368">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n18_bvfr" name="n18" src="bvfrq" fileName="Imag/bg_3.png" xy="0,256" size="750,1368">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n19_bvfr" name="n19" src="bvfrr" fileName="Imag/bg_huawen.png" xy="1,255" size="742,1289">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n4_k7ir" name="n4" src="pfkm1f" fileName="Cmop/list_friend.xml" xy="17,512">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <text id="n5_k7ir" name="n5" xy="81,448" size="128,43" font="ui://bs2uwwz8flzz0" fontSize="27" color="#916b8f" autoSize="none" text="推荐好友">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n9_k7ir" name="n9" src="k7ir1" fileName="Imag/ptn_levelup1.png" xy="81,333" size="566,74">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n7_k7ir" name="n7" src="y3w41a" fileName="Cmop/Button1_look.xml" xy="499,338">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n14_k7ir" name="n14" src="k7ira" fileName="Cmop/bg_addfriend.xml" xy="17,583">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n16_td78" name="n16" xy="-33,695" size="817,74" font="ui://bs2uwwz8flzz2" fontSize="26" color="#877d80" align="center" vAlign="middle" autoSize="none" text="没有搜索到该玩家名称，请换一个试试！">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n17_pazs" name="n11" xy="146,340" size="360,60" font="ui://bs2uwwz8flzz2" fontSize="25" color="#ffffff" vAlign="middle" autoSize="none" text="" input="true" prompt="[color=#FFFFFF]请输入好友的游戏名称[/color]">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n20_y3w4" name="n20" src="y3w41c" fileName="Imag/line.png" xy="200,468" size="357,3" visible="false">
+      <gearDisplay controller="c1" pages="0,1"/>
+    </image>
+    <component id="n21_y3w4" name="n21" src="y3w41d" fileName="Cmop/Button_changeanother.xml" xy="549,443" visible="false" touchable="false">
+      <gearDisplay controller="c1" pages="0,1"/>
+    </component>
+  </displayList>
+</component>

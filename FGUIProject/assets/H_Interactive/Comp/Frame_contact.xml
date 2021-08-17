@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <displayList>
+    <component id="n0_jlkx" name="n0" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="0,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n1_jlkx" name="n1" src="jlkxq3j" fileName="Imag/frame_contact.png" xy="259,559" size="702,472" group="n12_c9tr"/>
+    <text id="n2_jlkx" name="n2" xy="451,600" size="318,54" group="n12_c9tr" font="ui://xk3nrdkvkki50" fontSize="40" color="#ffffff" align="center" letterSpacing="3" autoSize="none" text="暂未取得联系">
+      <relation target="n1_jlkx" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n3_jlkx" name="n3" xy="470,752" size="273,42" group="n12_c9tr" font="ui://xk3nrdkvkki51" fontSize="30" color="#645757" align="center" autoSize="none" text="是否联系TA？"/>
+    <component id="n6_jlkx" name="n6" src="rj5h23" fileName="Comp/Button2_blue.xml" pkg="82yrhfjg" xy="631,848" size="245,82" group="n12_c9tr">
+      <Button title="取得联系"/>
+    </component>
+    <component id="n7_jlkx" name="n7" src="rj5h22" fileName="Comp/Button2_red.xml" pkg="82yrhfjg" xy="334,848" size="245,82" group="n12_c9tr">
+      <Button title="取消"/>
+    </component>
+    <text id="n8_jlkx" name="n8" xy="734,929" size="84,42" group="n12_c9tr" font="ui://xk3nrdkvkki51" fontSize="30" color="#645757" letterSpacing="4" text="9999">
+      <relation target="n6_jlkx" sidePair="center-center,top-top"/>
+    </text>
+    <image id="n9_jlkx" name="n9" src="vdqrc" fileName="Imag/icon_common_zuanshi.png" pkg="82yrhfjg" xy="684,926" size="50,50" group="n12_c9tr">
+      <relation target="n8_jlkx" sidePair="middle-middle,left-left"/>
+    </image>
+    <group id="n12_c9tr" name="n12" xy="259,559" size="702,472" advanced="true">
+      <relation target="" sidePair="center-center%,middle-middle"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ost49ql7">
+  <resources>
+    <component id="rn790" name="Game.xml" path="/Comp/" exported="true"/>
+    <image id="rn791" name="ptn_m.png" path="/Imag/" exported="true"/>
+    <image id="rn792" name="ptn_h.png" path="/Imag/" exported="true"/>
+    <image id="rn793" name="ptn_clock.png" path="/Imag/" exported="true"/>
+    <component id="rn795" name="Tips.xml" path="/Comp/" exported="true"/>
+    <image id="y40b6" name="tips.png" path="/Imag/" exported="true"/>
+    <component id="d0j67" name="Fail.xml" path="/Comp/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

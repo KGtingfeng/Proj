@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <loader id="n1_dd7o" name="n1" xy="-235,0" size="1220,1624" url="ui://geym4w1ivdqr0" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <list id="n26_dd7o" name="n26" xy="86,350" size="577,1064" overflow="scroll" defaultItem="ui://6f05wxg5g6pvz">
+      <relation target="" sidePair="center-center,top-top"/>
+      <item title="我为什么要回到过去？我为什么要回到过去？我为什么要回到过去？我为什么要回到过去？我为什么要回到过去？我为什么要回到过去？"/>
+      <item title="我为什么要回到过去？我为什么要回到过去？"/>
+      <item title="我为什么要回到过去？我为什么要回到过去？我为什么要回到过去？我为什么要回到过去？我为什么要回到过去？我为什么要回到过去？"/>
+    </list>
+    <image id="n0_dd7o" name="n0" src="dd7oq1z" fileName="Imag/ptn_attributebg.png" xy="0,1351" size="750,273">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+    <image id="n18_dd7o" name="n18" src="rj5h1x" fileName="Imag/ptn_propbumberbg.png" pkg="82yrhfjg" xy="728,1329" size="116,37" alpha="0.4" rotation="180">
+      <relation target="n22_dd7o" sidePair="center-center,middle-middle"/>
+    </image>
+    <loader id="n20_dd7o" name="n20" xy="627,1294" size="100,100" scale="0.32,0.32" url="ui://82yrhfjgvdqrd" autoSize="true">
+      <relation target="n21_dd7o" sidePair="left-left,top-top"/>
+    </loader>
+    <text id="n21_dd7o" name="n21" xy="664,1292" size="44,66" font="ui://wkrcryqms5cu3" fontSize="24" color="#ffffff" align="center" text="256&#xA;">
+      <relation target="n22_dd7o" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="bottom-top"/>
+    </text>
+    <component id="n22_dd7o" name="n22" src="rj5h23" fileName="Comp/Button2_blue.xml" pkg="82yrhfjg" xy="606,1318">
+      <relation target="" sidePair="right-right"/>
+      <Button title="跳过"/>
+    </component>
+    <component id="n23_dd7o" name="n23" src="dd7o2m" fileName="Comp/Frame_common_attributes.xml" pkg="82yrhfjg" xy="93,1420">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <image id="n24_dd7o" name="n24" src="mjv5l" fileName="Imag/ptn_answer.png" xy="3,124">
+      <relation target="" sidePair="left-left,top-top"/>
+    </image>
+    <text id="n25_dd7o" name="n25" xy="289,231" size="172,34" font="ui://wkrcryqms5cu5" fontSize="24" color="#ffffff" text="你打算怎么做？">
+      <relation target="n24_dd7o" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n27_dd7o" name="n27" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="34,87">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+  </displayList>
+</component>

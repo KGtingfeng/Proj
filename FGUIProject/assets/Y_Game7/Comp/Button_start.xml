@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="432,152" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_k8n8" name="n0" src="k8n81" fileName="Imag/begingame.png" xy="0,17">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_k8n8" name="n1" src="k8n81" fileName="Imag/begingame.png" xy="0,17">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_c9tr" name="title" xy="60,37" size="312,78" font="ui://xk3nrdkvkki51" fontSize="59" color="#ffffff" align="center" vAlign="middle" ubb="true" autoSize="none" shadowColor="#6568d8" shadowOffset="1,1" singleLine="true" text="开始游戏">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".97"/>
+</component>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="6yzrrqps">
+  <resources>
+    <image id="ubai4" name="circle.png" path="/Imag/" exported="true"/>
+    <image id="ubai5" name="icon_chengzhang.png" path="/Imag/" exported="true"/>
+    <image id="ubai6" name="icon_juese.png" path="/Imag/" exported="true"/>
+    <image id="ubai7" name="icon_shouji.png" path="/Imag/" exported="true"/>
+    <image id="ubai8" name="icon_tiyan.png" path="/Imag/" exported="true"/>
+    <image id="ubai9" name="jindu.png" path="/Imag/" exported="true" scale="9grid" scale9grid="5,0,4,10"/>
+    <image id="ubaia" name="taskframebg.png" path="/Imag/" exported="true"/>
+    <component id="ubaic" name="Achievement.xml" path="/Comp/" exported="true"/>
+    <component id="ubaid" name="Button_chengzhang.xml" path="/Comp/" exported="true"/>
+    <component id="ubaie" name="Button_tiyan.xml" path="/Comp/" exported="true"/>
+    <component id="ubaif" name="Button_juese.xml" path="/Comp/" exported="true"/>
+    <component id="ubaig" name="Button_shouji.xml" path="/Comp/" exported="true"/>
+    <component id="ubaih" name="headicon.xml" path="/Comp/" exported="true"/>
+    <component id="ubaii" name="Component_juese.xml" path="/Comp/" exported="true"/>
+    <component id="ubaij" name="ProgressBar.xml" path="/Comp/" exported="true"/>
+    <component id="ubaik" name="list_renwu.xml" path="/Comp/" exported="true"/>
+    <image id="ubaim" name="yijian.png" path="/Imag/" exported="true"/>
+    <component id="ubain" name="Button_yijian.xml" path="/Comp/" exported="true"/>
+    <image id="ubaio" name="line.png" path="/Imag/" exported="true" scale="9grid" scale9grid="2,0,4,8"/>
+    <image id="ego8p" name="title.png" path="/Imag/"/>
+    <image id="t19tq" name="wanhceng.png" path="/Imag/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

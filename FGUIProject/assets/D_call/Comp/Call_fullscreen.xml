@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://uluoyg28kr0533">
+  <controller name="c1" pages="0,来电,1,呼叫,2,选择对话,3,对话" selected="3"/>
+  <displayList>
+    <loader id="n21_h8ry" name="n21" xy="240,581" pivot="0.5,0.5" size="270,270" scale="1.529,1.529" url="ui://82yrhfjgvdqr1" autoSize="true">
+      <relation target="n1_kr05" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n1_kr05" name="n1" xy="-235,0" size="1220,1624" url="ui://uluoyg28h8ryq3s">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n3_kr05" name="n3" src="kr05k" fileName="Comp/Button_accept1.xml" xy="114,1258">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="left-left%,bottom-bottom"/>
+    </component>
+    <component id="n4_kr05" name="n4" src="kr05l" fileName="Comp/Button_refuse1.xml" xy="471,1260">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="right-right%,bottom-bottom"/>
+    </component>
+    <text id="n5_kr05" name="n5" xy="291,158" pivot="0.5,0.5" size="160,102" font="ui://bs2uwwz8flzz0" fontSize="78" color="#ffffff" align="center" text="舒言">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <image id="n6_kr05" name="n6" src="kr05h" fileName="Image/ptn_call1.png" xy="443,184" pivot="0.5,0.5">
+      <relation target="n5_kr05" sidePair="middle-middle,left-right"/>
+    </image>
+    <image id="n7_kr05" name="n7" src="kr05h" fileName="Image/ptn_call1.png" xy="216,184" pivot="0.5,0.5" scale="-1,1">
+      <relation target="n5_kr05" sidePair="right-left"/>
+    </image>
+    <component id="n10_kr05" name="n10" src="kr05l" fileName="Comp/Button_refuse1.xml" xy="288,1255">
+      <gearDisplay controller="c1" pages="1,2,3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <list id="n13_kr05" name="n13" xy="81,771" pivot="0.5,0.5" size="588,389" lineGap="22" defaultItem="ui://93v5gurnkr05o" align="center" vAlign="middle" autoClearItems="true">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center"/>
+      <item title="俄各位"/>
+      <item title="让他依然如同内容提要"/>
+      <item title="让他忽然他会让他很热。"/>
+    </list>
+    <component id="n17_urj1" name="n17" src="kr05q" fileName="Comp/Frame_call_dialogue.xml" xy="28,847">
+      <gearDisplay controller="c1" pages="3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n19_s5zb" name="n18" src="boeiq4y" fileName="Comp/Button_autoplay.xml" xy="494,58" scale="0.7,0.7">
+      <gearDisplay controller="c1" pages="3"/>
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+    <text id="n22_a9ez" name="n8" xy="295,293" size="160,54" font="ui://bs2uwwz8flzz2" fontSize="40" color="#ffffff" text="来电中...">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n23_a9ez" name="n19" xy="295,293" size="160,54" font="ui://bs2uwwz8flzz2" fontSize="40" color="#ffffff" text="呼叫中...">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n24_a9ez" name="n20" xy="295,294" size="160,54" font="ui://bs2uwwz8flzz2" fontSize="40" color="#ffffff" text="通话中...">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,214">
+  <displayList>
+    <component id="n0_zee8" name="n5" src="zee8e" fileName="Comp/headicon.xml" pkg="82yrhfjg" xy="-32,-73" pivot="0.5,0.5" scale="0.47,0.47"/>
+    <loader id="n5_f8rr" name="n9" xy="155,7" size="395,194" url="ui://srheglvmf8rrw"/>
+    <text id="n6_f8rr" name="n6" xy="188,163" size="160,32" font="ui://bs2uwwz8flzz2" fontSize="22" color="#706266" letterSpacing="1" text="来自XXX的红包"/>
+    <image id="n7_f8rr" name="n7" src="f8rrx" fileName="Image/ptn_hongbao_textbg.png" xy="376,77" pivot="0.5,0.5" size="50,36">
+      <relation target="n8_f8rr" sidePair="width-width,center-center,middle-middle"/>
+    </image>
+    <text id="n8_f8rr" name="n8" xy="385,76" pivot="0.5,0.5" size="32,39" font="ui://bs2uwwz8flzz0" fontSize="28" color="#ffffff" align="center" text="最"/>
+    <component id="n9_ry7w" name="n10" src="ry7w3u" fileName="Comp/headframe.xml" xy="39,1"/>
+  </displayList>
+</component>

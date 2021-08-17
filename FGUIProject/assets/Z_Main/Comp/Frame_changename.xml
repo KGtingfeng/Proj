@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="582,401">
+  <controller name="c1" pages="0,首次免费,1,第二次修改" selected="0"/>
+  <displayList>
+    <image id="n46_gab6" name="n46" src="r5hl1w" fileName="Imag/frame_tipsbg.png" pkg="82yrhfjg" xy="3,-18" size="585,437"/>
+    <text id="n47_gab6" name="n47" xy="231,21" size="124,42" font="ui://wkrcryqms5cu3" fontSize="30" color="#ffffff" align="center" text="修改名字"/>
+    <text id="n48_gab6" name="n48" xy="217,243" size="148,34" font="ui://wkrcryqms5cu5" fontSize="24" color="#758095" align="center" text="首次修改免费">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <component id="n49_gab6" name="n49" src="wf3bq5o" fileName="Comp/Button1_red.xml" pkg="82yrhfjg" xy="43,306">
+      <Button title="取消"/>
+    </component>
+    <component id="n50_gab6" name="n50" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="345,306">
+      <Button title="确认"/>
+    </component>
+    <image id="n51_gab6" name="n51" src="gab61t" fileName="Imag/ptn_changenamebg.png" xy="65,150" size="455,58"/>
+    <text id="n52_gab6" name="n52" xy="123,159" size="339,41" font="ui://wkrcryqms5cu5" fontSize="26" color="#4a4847" align="center" vAlign="middle" ubb="true" autoSize="none" text="" input="true" prompt="[color=#b09595]请输入2-6个字符[/color]" maxLength="6"/>
+    <text id="n53_gab6" name="n53" xy="298,244" size="43,34" font="ui://wkrcryqms5cu5" fontSize="24" color="#758095" align="center" text="100">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <loader id="n54_gab6" name="n20" xy="240,233" size="100,100" scale="0.5,0.5" url="ui://82yrhfjgvdqrd" fill="scale">
+      <gearDisplay controller="c1" pages="1"/>
+    </loader>
+  </displayList>
+</component>

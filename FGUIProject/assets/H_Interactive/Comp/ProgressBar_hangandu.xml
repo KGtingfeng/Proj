@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="210,18" extention="ProgressBar">
+  <displayList>
+    <image id="n0_kki5" name="n0" src="kki59" fileName="Imag/jindutiao2.png" xy="0,0" size="210,18">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_kki5" name="bar" src="kki58" fileName="Imag/jindutiao1.png" xy="0,0" size="210,18" fillMethod="hz"/>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

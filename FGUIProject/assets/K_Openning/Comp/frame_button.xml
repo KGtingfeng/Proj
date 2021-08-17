@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,靠近封印,1,伸出右手,2,我愿意" selected="2"/>
+  <displayList>
+    <component id="n0_q7dz" name="n0" src="q7dz1" fileName="Comp/Button.xml" xy="186,1242">
+      <gearXY controller="c1" pages="0,1,2" values="187,1242,0.249,0.765|187,1242,0.249,0.765|187,1242,0.249,0.765" positionsInPercent="true"/>
+      <gearText controller="c1" pages="1,2" values="伸出右手|我愿意" default="靠近封印"/>
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+      <Button title="我愿意"/>
+    </component>
+  </displayList>
+</component>

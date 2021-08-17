@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <displayList>
+    <image id="n4_k8n8" name="n4" src="k8n84" fileName="Imag/mid.png" xy="290,595" pivot="0.5,0.5" scale="0.213,0.213"/>
+    <image id="n5_wf3b" name="n5" src="wf3b17" fileName="Comp/图层2.png" xy="304,749" pivot="0.5,0.5" scale="0.213,0.213"/>
+    <component id="n3_k8n8" name="n3" src="k8n8f" fileName="Comp/Ani_door.xml" xy="290,595" pivot="0.5,0.5"/>
+    <loader id="n1_k8n8" name="n1" xy="0,0" size="1220,1624" url="ui://53vpi2djk8n81" autoSize="true"/>
+    <image id="n2_k8n8" name="n2" src="k8n87" fileName="Imag/upbg.png" xy="290,595" pivot="0.5,0.5" aspect="true" scale="0.213,0.213"/>
+  </displayList>
+  <transition name="t0" frameRate="60">
+    <item time="0" type="XY" target="n3_k8n8" tween="true" startValue="290,595" endValue="159,595" duration="144" ease="Quad.InOut"/>
+  </transition>
+</component>

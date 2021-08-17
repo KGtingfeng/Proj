@@ -1,0 +1,298 @@
+
+feiling.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fl_eh01
+  rotate: true
+  xy: 168, 840
+  size: 23, 49
+  orig: 23, 49
+  offset: 0, 0
+  index: -1
+fl_eh02
+  rotate: true
+  xy: 218, 840
+  size: 23, 50
+  orig: 23, 50
+  offset: 0, 0
+  index: -1
+fl_eh03
+  rotate: true
+  xy: 1, 846
+  size: 17, 40
+  orig: 17, 40
+  offset: 0, 0
+  index: -1
+fl_eh04
+  rotate: true
+  xy: 42, 846
+  size: 17, 40
+  orig: 17, 40
+  offset: 0, 0
+  index: -1
+fl_hy00
+  rotate: false
+  xy: 200, 716
+  size: 263, 100
+  orig: 263, 100
+  offset: 0, 0
+  index: -1
+fl_idle
+  rotate: false
+  xy: 328, 822
+  size: 65, 41
+  orig: 65, 41
+  offset: 0, 0
+  index: -1
+fl_talk
+  rotate: false
+  xy: 394, 817
+  size: 70, 46
+  orig: 70, 46
+  offset: 0, 0
+  index: -1
+fl_tf01
+  rotate: true
+  xy: 693, 674
+  size: 114, 241
+  orig: 114, 241
+  offset: 0, 0
+  index: -1
+fl_tf02
+  rotate: true
+  xy: 725, 789
+  size: 74, 203
+  orig: 74, 203
+  offset: 0, 0
+  index: -1
+fl_tf03
+  rotate: true
+  xy: 464, 696
+  size: 101, 228
+  orig: 101, 228
+  offset: 0, 0
+  index: -1
+fl_tf04
+  rotate: true
+  xy: 1, 742
+  size: 97, 198
+  orig: 97, 198
+  offset: 0, 0
+  index: -1
+fl_tf05
+  rotate: true
+  xy: 181, 569
+  size: 146, 244
+  orig: 146, 244
+  offset: 0, 0
+  index: -1
+fl_tf06
+  rotate: false
+  xy: 1, 6
+  size: 218, 248
+  orig: 218, 248
+  offset: 0, 0
+  index: -1
+fl_tou01
+  rotate: true
+  xy: 1, 255
+  size: 181, 230
+  orig: 181, 230
+  offset: 0, 0
+  index: -1
+fl_tou02
+  rotate: true
+  xy: 232, 199
+  size: 181, 229
+  orig: 181, 229
+  offset: 0, 0
+  index: -1
+fl_tou03
+  rotate: true
+  xy: 462, 155
+  size: 181, 229
+  orig: 181, 229
+  offset: 0, 0
+  index: -1
+fl_ts01
+  rotate: false
+  xy: 692, 153
+  size: 266, 183
+  orig: 266, 183
+  offset: 0, 0
+  index: -1
+fl_yan001
+  rotate: false
+  xy: 126, 842
+  size: 41, 21
+  orig: 41, 21
+  offset: 0, 0
+  index: -1
+fl_yan002
+  rotate: false
+  xy: 83, 843
+  size: 42, 20
+  orig: 42, 20
+  offset: 0, 0
+  index: -1
+fl_yanl1
+  rotate: false
+  xy: 269, 836
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+fl_yanl2
+  rotate: false
+  xy: 465, 811
+  size: 52, 52
+  orig: 52, 52
+  offset: 0, 0
+  index: -1
+fl_yanr1
+  rotate: false
+  xy: 297, 834
+  size: 30, 29
+  orig: 30, 29
+  offset: 0, 0
+  index: -1
+fl_yanr2
+  rotate: true
+  xy: 518, 811
+  size: 52, 53
+  orig: 52, 53
+  offset: 0, 0
+  index: -1
+fl_yf01
+  rotate: true
+  xy: 323, 381
+  size: 161, 215
+  orig: 161, 215
+  offset: 0, 0
+  index: -1
+fl_yf02
+  rotate: true
+  xy: 539, 337
+  size: 177, 322
+  orig: 177, 322
+  offset: 0, 0
+  index: -1
+fl_ys01
+  rotate: false
+  xy: 1, 620
+  size: 179, 121
+  orig: 179, 121
+  offset: 0, 0
+  index: -1
+fl_ys03
+  rotate: true
+  xy: 426, 543
+  size: 130, 294
+  orig: 130, 294
+  offset: 0, 0
+  index: -1
+fl_ys04
+  rotate: true
+  xy: 721, 515
+  size: 158, 160
+  orig: 158, 160
+  offset: 0, 0
+  index: -1
+fl_yt01
+  rotate: true
+  xy: 220, 1
+  size: 151, 758
+  orig: 151, 758
+  offset: 0, 0
+  index: -1
+fl_zs01
+  rotate: true
+  xy: 572, 798
+  size: 65, 152
+  orig: 65, 152
+  offset: 0, 0
+  index: -1
+fl_zs03
+  rotate: true
+  xy: 1, 437
+  size: 131, 321
+  orig: 131, 321
+  offset: 0, 0
+  index: -1
+
+feiling2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fl_yf03
+  rotate: true
+  xy: 1, 110
+  size: 271, 532
+  orig: 271, 532
+  offset: 0, 0
+  index: -1
+fl_yf06
+  rotate: true
+  xy: 534, 1
+  size: 380, 461
+  orig: 380, 461
+  offset: 0, 0
+  index: -1
+fl_yf07
+  rotate: false
+  xy: 307, 382
+  size: 369, 247
+  orig: 369, 247
+  offset: 0, 0
+  index: -1
+fl_ys02
+  rotate: true
+  xy: 1, 436
+  size: 193, 305
+  orig: 193, 305
+  offset: 0, 0
+  index: -1
+fl_zs02
+  rotate: false
+  xy: 780, 513
+  size: 220, 293
+  orig: 220, 293
+  offset: 0, 0
+  index: -1
+fl_zt01
+  rotate: true
+  xy: 1, 630
+  size: 176, 778
+  orig: 176, 778
+  offset: 0, 0
+  index: -1
+
+feiling3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fl_st01
+  rotate: true
+  xy: 325, 1
+  size: 374, 523
+  orig: 374, 523
+  offset: 0, 0
+  index: -1
+fl_yf04
+  rotate: false
+  xy: 1, 182
+  size: 323, 715
+  orig: 323, 715
+  offset: 0, 0
+  index: -1
+fl_yf08
+  rotate: false
+  xy: 325, 376
+  size: 486, 521
+  orig: 486, 521
+  offset: 0, 0
+  index: -1

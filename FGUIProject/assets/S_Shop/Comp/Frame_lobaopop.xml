@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="177,177">
+  <displayList>
+    <image id="n39_vycm" name="n39" src="exzoq" fileName="Imag/frame_pop3.png" xy="0,0" size="177,177"/>
+    <loader id="n40_vycm" name="n26" xy="15,18" size="162,161" scale="0.884,0.9" url="ui://f738c2kbexzoqa" fill="scale" shrinkOnly="true"/>
+    <image id="n42_980g" name="n42" src="ubaiq55" fileName="Imag/number_bg(1).png" pkg="82yrhfjg" xy="11,126" size="153,40"/>
+    <text id="n41_vycm" name="n41" xy="13,127" size="148,42" font="ui://bs2uwwz8flzz0" fontSize="30" color="#ffffff" align="center" autoSize="none" strokeColor="#000000" text="x4"/>
+  </displayList>
+</component>

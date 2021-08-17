@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="254,401" restrictSize="15,0,0,0" pivot="0.5,0.5" anchor="true">
+  <controller name="c1" pages="0,,1,find" selected="0"/>
+  <displayList>
+    <image id="n11_vvaw" name="n11" src="s8t32p" fileName="Imag/bild4(1).png" xy="-14,-15">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n12_s8t3" name="n12" src="vvawf" fileName="Imag/piece4.png" xy="-57,-60"/>
+  </displayList>
+</component>

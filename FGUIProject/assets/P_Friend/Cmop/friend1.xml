@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://uluoyg28bvfr31" designImageAlpha="0">
+  <controller name="c1" pages="0,好友列表,1,列表为空" selected="0"/>
+  <displayList>
+    <image id="n10_ms0g" name="n10" src="k7ir5" fileName="Imag/btn2_common_yellow.png" xy="0,256" size="750,1368">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n17_bvfr" name="n17" src="bvfrq" fileName="Imag/bg_3.png" xy="0,256" size="750,1368">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n18_bvfr" name="n18" src="bvfrr" fileName="Imag/bg_huawen.png" xy="1,255" size="742,1289">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n12_ms0g" name="n12" xy="45,310" size="204,53" font="ui://bs2uwwz8flzz2" fontSize="27" color="#485671" autoSize="none" text="好友数量10/30">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="n17_bvfr" sidePair="left-left,top-top"/>
+      <relation target="n18_bvfr" sidePair="left-left,top-top"/>
+    </text>
+    <component id="n13_ms0g" name="n13" src="pfkm1g" fileName="Cmop/list_friend1.xml" xy="19,430">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n14_ms0g" name="n14" src="s8t3q6a" fileName="Comp/Button1_tifred.xml" pkg="82yrhfjg" xy="87,1543">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="一键领取" titleFontSize="25"/>
+    </component>
+    <component id="n15_ms0g" name="n15" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="499,1544">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="一键赠送" titleFontSize="25"/>
+    </component>
+    <text id="n16_sw58" name="n16" xy="120,779" size="509,66" font="ui://bs2uwwz8flzz2" fontSize="27" color="#877d80" align="center" vAlign="middle" autoSize="none" text="当前没有好友哦，快去添加吧！">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

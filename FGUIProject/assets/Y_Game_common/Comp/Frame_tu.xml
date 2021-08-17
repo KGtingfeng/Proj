@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <component id="n27_o31q" name="n27" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-235,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n24_li84" name="n24" src="t4052f" fileName="Imag/frame_gifts.png" pkg="82yrhfjg" xy="53,407" size="644,809">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n26_li84" name="n26" xy="333,444" size="84,54" font="ui://bs2uwwz8flzz0" fontSize="40" color="#ffffff" align="center" vAlign="middle" text="原图">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n28_o31q" name="n28" xy="120,536" size="510,614" fill="scale" shrinkOnly="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+</component>

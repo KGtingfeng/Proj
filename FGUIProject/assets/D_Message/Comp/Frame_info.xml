@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,992">
+  <displayList>
+    <component id="n18_am6o" name="n22" src="zee8e" fileName="Comp/headicon.xml" pkg="82yrhfjg" xy="-27,0" pivot="0.5,0.5" scale="0.47,0.47">
+      <relation target="" sidePair="left-left%,top-top"/>
+    </component>
+    <component id="n19_am6o" name="n19" src="am6o36" fileName="Comp/Frame_mingzi.xml" xy="209,67" size="483,137">
+      <relation target="" sidePair="width-width,top-top"/>
+    </component>
+    <component id="n23_am6o" name="n23" src="ufhu2v" fileName="Comp/ProgressBar1.xml" xy="57,269" size="551,28">
+      <relation target="" sidePair="width-width%,top-top"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <image id="n24_am6o" name="n24" src="m7ftq3t" fileName="Imag/star_jinduze.png" pkg="82yrhfjg" xy="642,259" pivot="0.5,0.5">
+      <relation target="n25_am6o" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n25_am6o" name="n25" src="kki5w" fileName="Comp/ProgressBar_xin.xml" pkg="82yrhfjg" xy="631,250">
+      <relation target="" sidePair="right-right%,top-top"/>
+    </component>
+    <image id="n26_am6o" name="n31" src="ufhu2w" fileName="Image/line.png" xy="36,475" size="680,5">
+      <relation target="" sidePair="width-width%"/>
+    </image>
+    <list id="n27_am6o" name="n27" xy="49,324" size="650,141" layout="flow_vt" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="width-width%"/>
+      <item url="ui://srheglvmam6o3c"/>
+      <item url="ui://srheglvmam6o3a"/>
+      <item url="ui://srheglvmam6o3b"/>
+    </list>
+    <component id="n28_am6o" name="n28" src="am6o3i" fileName="Comp/Button_luyin.xml" xy="66,720">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n29_am6o" name="n29" src="am6o3g" fileName="Comp/Button_pengyouquan.xml" xy="66,892">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n30_am6o" name="n30" src="am6o3h" fileName="Comp/Button_liaotian.xml" xy="66,548">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

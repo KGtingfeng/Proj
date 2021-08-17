@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,120">
+  <displayList>
+    <richtext id="n0_dd7o" name="n0" xy="10,65" size="580,36" font="ui://bs2uwwz8flzz2" fontSize="26" color="#ffffff" autoSize="height" text="我们为什么要回到过去？">
+      <relation target="" sidePair="width-width"/>
+    </richtext>
+    <text id="n1_w8uf" name="n1" xy="10,22" size="30,36" font="ui://bs2uwwz8flzz0" fontSize="26" color="#fde87b" text="我"/>
+  </displayList>
+  <relation target="n0_dd7o" sidePair="bottomext-bottom"/>
+</component>

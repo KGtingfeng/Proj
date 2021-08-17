@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,170">
+  <displayList>
+    <image id="n48_7vvy" name="n48" src="7vvy17" fileName="Imag/ptn_hangandubg.png" xy="0,16" pivot="0.5,0.5" size="750,136" group="n56_7vvy">
+      <relation target="" sidePair="width-width,center-center"/>
+    </image>
+    <image id="n54_7vvy" name="n54" src="7vvy18" fileName="Imag/ptn_hangandubg1.png" xy="300,0" group="n56_7vvy">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n48_7vvy" sidePair="middle-middle"/>
+    </image>
+    <text id="n49_7vvy" name="n49" xy="171,61" size="276,46" group="n56_7vvy" fontSize="34" color="#97556e" strokeColor="#ffffff" strokeSize="2" text="你与舒言的好感度">
+      <relation target="n48_7vvy" sidePair="center-center%,middle-middle"/>
+    </text>
+    <text id="n51_7vvy" name="n51" xy="522,62" size="62,46" group="n56_7vvy" font="ui://xk3nrdkvkki51" fontSize="34" color="#97556e" text="+99">
+      <relation target="n52_7vvy" sidePair="left-left"/>
+    </text>
+    <loader id="n52_7vvy" name="n52" xy="426,26" pivot="0.5,0.5" size="120,120" group="n56_7vvy" scale="0.5,0.5" url="ui://82yrhfjglnqmn" autoSize="true">
+      <relation target="n49_7vvy" sidePair="left-right"/>
+    </loader>
+    <group id="n56_7vvy" name="n56" xy="0,0" size="750,170" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle%"/>
+    </group>
+  </displayList>
+</component>

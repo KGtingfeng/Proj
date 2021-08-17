@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="67,57">
+  <displayList>
+    <image id="n15_v302" name="n15" src="v302q54" fileName="Imag/larrow2.png" xy="1,38" pivot="0.5,0.5"/>
+    <image id="n14_v302" name="n14" src="v302q53" fileName="Imag/larrow1.png" xy="0,0" pivot="0.5,0.5"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1" frameRate="60">
+    <item time="0" type="Scale" target="n15_v302" tween="true" startValue="1,1" endValue="0.7,0.7" duration="24" ease="Quad.InOut"/>
+    <item time="0" type="XY" target="n14_v302" tween="true" startValue="0,0" endValue="0,-14" duration="24" ease="Quad.InOut"/>
+    <item time="24" type="Scale" target="n15_v302" tween="true" startValue="0.7,0.7" endValue="1,1" duration="24" ease="Quad.InOut"/>
+    <item time="24" type="XY" target="n14_v302" tween="true" startValue="0,-14" endValue="0,0" duration="24" ease="Quad.InOut"/>
+  </transition>
+</component>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <controller name="c1" pages="0,普通,1,带消耗" selected="1"/>
+  <displayList>
+    <component id="n7_jdwl" name="n7" src="e2l7q2z" fileName="Comp/mask_Component.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height%"/>
+    </component>
+    <image id="n6_r5hl" name="n6" src="r5hl1w" fileName="Imag/frame_tipsbg.png" xy="300,621" size="624,466" group="n8_jdwl"/>
+    <text id="n2_izqh" name="n2" xy="450,652" size="320,55" group="n8_jdwl" font="ui://bs2uwwz8flzz0" fontSize="41" color="#ffffff" align="center" vAlign="middle" letterSpacing="5" autoSize="none" text="更新提示"/>
+    <text id="n3_izqh" name="n3" xy="349,716" size="521,232" group="n8_jdwl" alpha="0.954" font="ui://bs2uwwz8flzz2" fontSize="34" color="#b9788f" align="center" vAlign="middle" autoSize="none" text="需要下载XXXMB更新资源&#xA;请在WiFi环境下载&#xA;是否继续">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <component id="n4_izqh" name="n4" src="wf3bq5o" fileName="Comp/Button1_red.xml" xy="361,957" group="n8_jdwl">
+      <Button title="取消"/>
+    </component>
+    <component id="n5_izqh" name="n5" src="7cz7a" fileName="Comp/Button1_blue.xml" xy="646,957" group="n8_jdwl">
+      <Button title="确认"/>
+    </component>
+    <loader id="n11_k323" name="n11" xy="569,809" pivot="0.5,0.5" size="100,100" group="n16_k323" scale="0.45,0.45" url="ui://82yrhfjgvdqrd" autoSize="true">
+      <relation target="n12_k323" sidePair="middle-middle,right-right"/>
+    </loader>
+    <text id="n12_k323" name="n12" xy="523,841" pivot="0.5,0.5" size="72,42" group="n16_k323" font="ui://bs2uwwz8flzz2" fontSize="30" color="#645757" align="center" text="2222"/>
+    <text id="n13_k323" name="n13" xy="455,841" size="64,42" group="n16_k323" font="ui://bs2uwwz8flzz2" fontSize="30" color="#645757" text="花费">
+      <relation target="n12_k323" sidePair="middle-middle,left-left"/>
+    </text>
+    <text id="n14_k323" name="n14" xy="644,840" size="124,42" group="n16_k323" font="ui://bs2uwwz8flzz2" fontSize="30" color="#645757" text="获得线索">
+      <relation target="n11_k323" sidePair="middle-middle,left-left"/>
+    </text>
+    <group id="n16_k323" name="n16" xy="455,809" size="313,100" group="n8_jdwl" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n6_r5hl" sidePair="center-center,middle-middle"/>
+    </group>
+    <group id="n8_jdwl" name="n8" xy="300,621" size="624,466" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

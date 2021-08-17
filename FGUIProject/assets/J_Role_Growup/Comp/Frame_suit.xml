@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <displayList>
+    <image id="n39_e2l7" name="n41" src="hsbv1v" fileName="Imag/ptn_mask.png" pkg="82yrhfjg" xy="0,0" size="1220,1624">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n37_w8uf" name="n42" xy="224,232" size="784,1380" group="n40_e2l7" url="ui://uluoyg28w8ufy" autoSize="true"/>
+    <graph id="n36_jz00" name="n36" xy="225,160" size="781,1452" group="n40_e2l7" type="rect" lineSize="0" fillColor="#00ffffff"/>
+    <image id="n22_gerr" name="n22" src="lnqmi" fileName="Imag/ptn_common_split line.png" pkg="82yrhfjg" xy="305,1119" size="611,4" group="n40_e2l7"/>
+    <loader id="n35_kw6k" name="n27" xy="386,376" size="564,1024" group="n40_e2l7" scale="0.75,0.75" url="ui://gztqkmmpizqho">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <loader id="n38_w8uf" name="n39" xy="247,159" size="730,1118" group="n40_e2l7" url="ui://uluoyg28w8ufx" autoSize="true"/>
+    <image id="n28_gerr" name="n28" src="lq3mq2x" fileName="Imag/ptn_attributebg1.png" pkg="82yrhfjg" xy="464,1125" size="300,89" group="n40_e2l7"/>
+    <component id="n6_gerr" name="n6" src="gerr2a" fileName="Comp/Button_shift.xml" pkg="82yrhfjg" xy="291,750" group="n40_e2l7"/>
+    <component id="n7_gerr" name="n7" src="gerr2a" fileName="Comp/Button_shift.xml" pkg="82yrhfjg" xy="844,750" group="n40_e2l7" scale="-1,1"/>
+    <component id="n19_gerr" name="n19" src="lnqmy" fileName="Comp/Button_shop window.xml" pkg="68tbb4zq" xy="763,536" group="n40_e2l7" scale="0.62,0.62" visible="false"/>
+    <text id="n30_gerr" name="n30" xy="540,1155" size="82,36" group="n40_e2l7" font="Source Han Sans CN Bold" fontSize="26" color="#ffffff" align="right" shadowColor="#6666ff" shadowOffset="1,1" text="魔法："/>
+    <text id="n31_gerr" name="n31" xy="639,1155" size="97,36" group="n40_e2l7" font="Source Han Sans CN Bold" fontSize="26" color="#ffffff" align="right" shadowColor="#6666ff" shadowOffset="1,1" text="999999"/>
+    <list id="n33_gerr" name="n33" xy="308,1207" size="607,310" group="n40_e2l7" layout="row" overflow="scroll" scroll="horizontal" margin="0,0,-3,0" clipSoftness="30,30" colGap="4" defaultItem="ui://65jpza8ygerr2f" align="center">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n20_gerr" name="n20" xy="455,295" size="133,52" group="n40_e2l7" font="ui://bs2uwwz8flzz0" fontSize="38" color="#ffffff" align="right" autoSize="none" text="罗丽"/>
+    <text id="n21_gerr" name="n21" xy="628,294" size="105,52" group="n40_e2l7" font="ui://bs2uwwz8flzz0" fontSize="38" color="#ffffff" align="center" text="Lv.12"/>
+    <component id="n34_o2bo" name="n34" src="o2bo2h" fileName="Comp/Button_common_close.xml" pkg="82yrhfjg" xy="839,189" group="n40_e2l7"/>
+    <loader id="n41_7vvy" name="n29" xy="478,1143" size="120,120" group="n40_e2l7" scale="0.5,0.5" url="ui://82yrhfjglnqmm" fill="scaleMatchHeight" autoSize="true"/>
+    <group id="n40_e2l7" name="n40" xy="224,159" size="784,1453" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

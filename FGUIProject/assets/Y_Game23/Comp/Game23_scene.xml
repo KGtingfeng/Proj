@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,客人光临,1,开始制作,2,完成特效,5,娃娃原图,9,制作完成" selected="0"/>
+  <displayList>
+    <component id="n14_vvaw" name="n14" src="10xzq14" fileName="Comp/Button_tips.xml" pkg="82yrhfjg" xy="576,148" group="n25_vvaw">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+    <list id="n16_vvaw" name="n16" xy="-1,1006" size="727,105" group="n25_vvaw" layout="row" defaultItem="ui://e2byfvw9vvaw10" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item url="ui://e2byfvw9k9eb1e"/>
+      <item/>
+      <item url="ui://e2byfvw9k9eb1d"/>
+      <item url="ui://e2byfvw9k9eb1b"/>
+      <item url="ui://e2byfvw9k9eb1c"/>
+    </list>
+    <list id="n24_vvaw" name="n24" xy="-139,1115" size="1025,513" group="n25_vvaw" layout="flow_hz" overflow="scroll" scrollBarFlags="2048" margin="21,0,0,0" clipSoftness="60,60" lineGap="11" colGap="9" lineItemCount="4" defaultItem="ui://e2byfvw9vvawf" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item title="头发1"/>
+      <item title="头发2"/>
+      <item title="头发3"/>
+      <item title="头发4"/>
+      <item title="头发5"/>
+      <item title="头发6"/>
+      <item title="头发7"/>
+      <item title="头发8"/>
+      <item title="头发9"/>
+      <item title="头发10"/>
+      <item/>
+      <item/>
+    </list>
+    <graph id="n33_yphc" name="n33" xy="352,353" pivot="0.5,0.5" anchor="true" size="94,100" group="n25_vvaw" type="rect" lineColor="#00000000" fillColor="#23ffffff">
+      <relation target="n32_jh8v" sidePair="center-center,middle-middle"/>
+    </graph>
+    <component id="n32_jh8v" name="n32" src="7afj1l" fileName="Comp/doll_character.xml" xy="111,-1" group="n25_vvaw">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n10_vvaw" name="n10" src="7afj1m" fileName="Imap/bg_small.png" xy="71,270" group="n25_vvaw">
+      <relation target="" sidePair="left-left%"/>
+    </image>
+    <component id="n31_7afj" name="n31" src="7afj1l" fileName="Comp/doll_character.xml" xy="90,278" group="n25_vvaw" scale="0.115,0.115">
+      <relation target="n10_vvaw" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n15_vvaw" name="n15" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="539,932" group="n25_vvaw">
+      <relation target="" sidePair="right-right%"/>
+      <Button title="完成搭配"/>
+    </component>
+    <group id="n25_vvaw" name="n25" xy="-139,-1" size="1025,1629" advanced="true">
+      <gearDisplay controller="c1" pages="1,2,5"/>
+    </group>
+    <component id="n20_vvaw" name="n20" src="vvaw8" fileName="Comp/doll.xml" xy="-235,0">
+      <gearDisplay controller="c1" pages="5"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n1_vvaw" name="n1" src="vvaw3" fileName="Imap/ptn_character.png" xy="187,698" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="c1" pages="0,9"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n2_vvaw" name="n2" src="vvaw4" fileName="Imap/ptn_character2.png" xy="206,923" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="c1" pages="0,9"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n3_vvaw" name="n3" src="vvaw5" fileName="Imap/ptn_character3.png" xy="350,1053" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="c1" pages="0,9"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n0_vvaw" name="n0" src="vvaw2" fileName="Imap/ptn_dask.png" xy="-235,1034" size="1220,590">
+      <gearDisplay controller="c1" pages="0,9"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n4_vvaw" name="n4" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="281,1528" group="n22_vvaw" scale="1.5,1.5">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="制作娃娃"/>
+    </component>
+    <component id="n9_vvaw" name="n9" src="vvawv" fileName="Comp/frame_talk.xml" xy="446,322" group="n22_vvaw">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n26_w5su" name="n26" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="2,298" size="750,788" group="n22_vvaw">
+      <gearDisplay controller="c1" pages="9"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n22_vvaw" name="n22" xy="2,298" size="750,1298" advanced="true">
+      <gearDisplay controller="c1" pages="0,9"/>
+    </group>
+    <image id="n29_k9eb" name="n29" src="k9eb1i" fileName="Imap/bg_dollfinish.png" xy="-235,1018" size="1220,606">
+      <gearDisplay controller="c1" pages="9"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n23_vvaw" name="n23" src="vvawx" fileName="Comp/dollinish.xml" xy="288,1148">
+      <gearDisplay controller="c1" pages="0,9"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n30_k9eb" name="n30" xy="137,1028" size="475,54" font="ui://bs2uwwz8flzz2" fontSize="25" color="#ffffff" align="center" autoSize="none" text="将已完成的娃娃，拖动给客人">
+      <gearDisplay controller="c1" pages="9"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n19_vvaw" name="n19" src="k9eb1g" fileName="Comp/doll_finish_effect.xml" xy="-235,0">
+      <gearDisplay controller="c1" pages="2,9"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

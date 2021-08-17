@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0," selected="0"/>
+  <displayList>
+    <component id="n0_vvaw" name="n0" src="vvaw8" fileName="Comp/ProgressBar.xml" xy="390,912" pivot="0.5,0.5" rotation="-90">
+      <relation target="" sidePair="middle-middle,right-right"/>
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <component id="n23_o31q" name="n23" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="-235,0" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n17_l3se" name="n17" xy="557,464" size="165,160" fontSize="105" color="#ffc1f8" align="center" autoSize="none" strokeColor="#ffffff" strokeSize="4" text="5">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n22_o31q" name="n22" src="xrnqj" fileName="Comp/tap.xml" pkg="5sqxgclf" xy="419,1149" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n25_dle5" name="n5" src="dle5h" fileName="Comp/talk_frame.xml" xy="221,476" scale="0.8,0.8"/>
+  </displayList>
+</component>

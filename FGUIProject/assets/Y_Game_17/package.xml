@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="eld9nvbe">
+  <resources>
+    <component id="vvaw3" name="Game17.xml" path="/Comp/" exported="true"/>
+    <component id="vvaw28" name="Game17_scene.xml" path="/Comp/" exported="true"/>
+    <image id="vvaw4" name="bild1.png" path="/Imag/" exported="true"/>
+    <image id="vvaw5" name="bild2.png" path="/Imag/" exported="true"/>
+    <image id="vvaw6" name="bild3.png" path="/Imag/" exported="true"/>
+    <image id="vvaw7" name="bild4.png" path="/Imag/" exported="true"/>
+    <image id="vvaw8" name="bild5.png" path="/Imag/" exported="true"/>
+    <image id="vvaw9" name="bild6.png" path="/Imag/" exported="true"/>
+    <image id="vvawa" name="piece1.png" path="/Imag/" exported="true"/>
+    <image id="vvawb" name="piece2.png" path="/Imag/" exported="true"/>
+    <image id="vvawc" name="piece3.png" path="/Imag/" exported="true"/>
+    <image id="vvawd" name="piece6.png" path="/Imag/" exported="true"/>
+    <image id="vvawe" name="piece5.png" path="/Imag/" exported="true"/>
+    <image id="vvawf" name="piece4.png" path="/Imag/" exported="true"/>
+    <component id="vvawh" name="ptn_bild1.xml" path="/Comp/" exported="true"/>
+    <component id="vvawi" name="ptn_bild2.xml" path="/Comp/" exported="true"/>
+    <component id="vvawj" name="ptn_bild3.xml" path="/Comp/" exported="true"/>
+    <component id="vvawk" name="ptn_bild4.xml" path="/Comp/" exported="true"/>
+    <component id="vvawl" name="ptn_bild5.xml" path="/Comp/" exported="true"/>
+    <component id="vvawm" name="ptn_bild6.xml" path="/Comp/" exported="true"/>
+    <component id="vvawn" name="ptn_piece1.xml" path="/Comp/" exported="true"/>
+    <component id="vvawo" name="ptn_piece2.xml" path="/Comp/" exported="true"/>
+    <component id="vvawp" name="ptn_piece3.xml" path="/Comp/" exported="true"/>
+    <component id="vvawq" name="ptn_piece4.xml" path="/Comp/" exported="true"/>
+    <component id="vvaws" name="ptn_piece5.xml" path="/Comp/" exported="true"/>
+    <component id="vvawt" name="ptn_piece6.xml" path="/Comp/" exported="true"/>
+    <image id="vvaww" name="frame_below.png" path="/Imag/" exported="true"/>
+    <component id="s8t32g" name="ptn_door1.xml" path="/Comp/" exported="true"/>
+    <component id="s8t32h" name="ptn_door2.xml" path="/Comp/" exported="true"/>
+    <component id="s8t32i" name="ptn_door3.xml" path="/Comp/" exported="true"/>
+    <component id="s8t32j" name="ptn_door4.xml" path="/Comp/" exported="true"/>
+    <component id="s8t32k" name="ptn_door5.xml" path="/Comp/" exported="true"/>
+    <component id="s8t32l" name="ptn_door6.xml" path="/Comp/" exported="true"/>
+    <image id="s8t32m" name="bild1(1).png" path="/Imag/" exported="true"/>
+    <image id="s8t32n" name="bild2(1).png" path="/Imag/" exported="true"/>
+    <image id="s8t32o" name="bild3(1).png" path="/Imag/" exported="true"/>
+    <image id="s8t32p" name="bild4(1).png" path="/Imag/" exported="true"/>
+    <image id="s8t32q" name="bild5(1).png" path="/Imag/" exported="true"/>
+    <image id="s8t32r" name="bild6(1).png" path="/Imag/" exported="true"/>
+    <image id="t19t2s" name="tip1.png" path="/Imag/"/>
+    <image id="t19t2t" name="tip3.png" path="/Imag/"/>
+    <image id="t19t2u" name="tip4.png" path="/Imag/"/>
+    <image id="t19t2v" name="tip5.png" path="/Imag/"/>
+    <image id="t19t2w" name="tip2.png" path="/Imag/"/>
+    <image id="t19t2x" name="tip.png" path="/Imag/"/>
+    <image id="t19t2y" name="tip6.png" path="/Imag/"/>
+    <image id="t19t30" name="character1.png" path="/Imag/"/>
+    <image id="h9g533" name="39.png" path="/Imag/"/>
+    <component id="c6pw34" name="frame_tap.xml" path="/Comp/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

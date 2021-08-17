@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://uluoyg28qm2328" designImageAlpha="100">
+  <controller name="c1" pages="0,角色信息,1,角色升级,2,更换称号,3,属性升级,4,娃娃升级,5,选择时装,6,未获得,7,故事,8,升级弹框,9,属性升级修改" selected="0"/>
+  <displayList>
+    <loader id="n12_mwdm" name="n12" xy="-235,0" size="1220,1624">
+      <gearDisplay controller="c1" pages="0,1,2,3,4,5,6,7,8,9"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n0_lnqm" name="n0" src="lnqm1o" fileName="Comp/Role_info.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="0,1,4"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n13_nn7k" name="n13" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" scale="0.8,0.8">
+      <gearDisplay controller="c1" pages="0,1,4"/>
+    </component>
+    <component id="n14_nn7k" name="n14" src="bvfrq64" fileName="Comp/star_diamond.xml" pkg="82yrhfjg" xy="220,60">
+      <gearDisplay controller="c1" pages="0,1,4"/>
+      <relation target="" sidePair="middle-middle,right-right%"/>
+    </component>
+    <component id="n1_rj5h" name="n1" src="ouy21p" fileName="Comp/Frame_levelup.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n3_rj5h" name="n3" src="rj5h1r" fileName="Comp/Frame_changetitle.xml" pkg="82yrhfjg" xy="0,0">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n4_j6m7" name="n4" src="rj5h1u" fileName="Comp/Frame_attribute_levelup.xml" xy="-234,0">
+      <gearDisplay controller="c1" pages="3"/>
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </component>
+    <component id="n5_gerr" name="n5" src="gerr26" fileName="Comp/Frame_growup.xml" xy="-235,0">
+      <gearDisplay controller="c1" pages="4"/>
+      <relation target="" sidePair="center-center,middle-middle%"/>
+    </component>
+    <component id="n6_gerr" name="n6" src="gerr2d" fileName="Comp/Frame_suit.xml" xy="-235,0">
+      <gearDisplay controller="c1" pages="5"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n7_gerr" name="n7" src="gerr2h" fileName="Comp/Frame_unopened.xml" xy="-21,66">
+      <gearDisplay controller="c1" pages="6,7"/>
+    </component>
+    <graph id="n9_gerr" name="n9" xy="0,0" size="750,1624" alpha="0.2" type="rect" fillColor="#ff000000">
+      <gearDisplay controller="c1" pages="7"/>
+    </graph>
+    <component id="n8_gerr" name="n8" src="gerr2i" fileName="Comp/Frame_story.xml" pkg="82yrhfjg" xy="-235,0">
+      <gearDisplay controller="c1" pages="7"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n10_dd7o" name="n10" src="dd7o2k" fileName="Comp/Frame_common_levelup.xml" pkg="82yrhfjg" xy="-235,0" size="1220,1624">
+      <gearDisplay controller="c1" pages="8"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n11_nuqx" name="n11" src="nuqx3e" fileName="Comp/Frame_attribute_levelup2.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="9"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

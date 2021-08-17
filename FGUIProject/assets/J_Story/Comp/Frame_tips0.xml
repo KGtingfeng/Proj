@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,表盘,1,表盘_提示" selected="1"/>
+  <displayList>
+    <graph id="n35_ro8r" name="n35" xy="0,0" size="750,1624" alpha="0" type="rect">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n34_ro8r" name="n34" src="ikcrq1s" fileName="Comp/Frame_tips.xml" xy="13,285" pkg="82yrhfjg">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

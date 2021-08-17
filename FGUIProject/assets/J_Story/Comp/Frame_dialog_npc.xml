@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImageAlpha="0">
+  <displayList>
+    <loader id="n5_g6pv" name="n5" xy="375,812" pivot="0.5,0.5" anchor="true" size="1220,1624" url="ui://uluoyg28f62n1u" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <graph id="n17_ktm3" name="n17" xy="-235,0" size="1220,1624" type="rect" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <graph id="n18_fy2z" name="n18" xy="-235,0" pivot="0.5,0.5" size="1220,1624" type="rect" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <graph id="n7_p7i4" name="n7" xy="-235,0" pivot="0.5,0.5" size="1220,1624" type="rect" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <component id="n14_ro8r" name="n14" src="ro8rq2q" fileName="Comp/Btn_other_father.xml" xy="-235,0" size="1220,1624">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <graph id="n12_ro8r" name="n12" xy="-235,0" pivot="0.5,0.5" size="1220,1624" type="rect" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <component id="n10_ro8r" name="n10" src="mq08q52" fileName="Comp/Frame_dialog_ani.xml" xy="-26,840" size="800,448">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n3_g6pv" name="n3" src="mjv5h" fileName="Comp/Button_review.xml" xy="575,1497">
+      <relation target="" sidePair="right-right,bottom-bottom%"/>
+    </component>
+    <component id="n4_g6pv" name="n4" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" pivot="0.449,0.5" scale="0.8,0.8">
+      <relation target="" sidePair="left-left%,top-top%"/>
+    </component>
+    <component id="n16_kflh" name="n2" src="f9t3q39" fileName="Comp/Button_autoplay.xml" xy="576,69">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+  </displayList>
+  <transition name="t0" frameRate="60">
+    <item time="0" type="Alpha" target="n10_ro8r" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="0" type="Scale" target="n10_ro8r" tween="true" startValue="1,0" endValue="1,1" duration="18"/>
+  </transition>
+</component>

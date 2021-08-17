@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="508,78" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <image id="n0_rqgg" name="n0" src="rqggl" fileName="Imag/shoose.png" xy="367,20">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+    <text id="n1_rqgg" name="title" xy="54,21" size="194,42" font="ui://bs2uwwz8flzz2" fontSize="30" color="#875b9e" vAlign="middle" autoSize="none" singleLine="true" text="角色名字"/>
+    <image id="n2_rqgg" name="n2" src="rqggi" fileName="Imag/line.png" xy="1,74"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

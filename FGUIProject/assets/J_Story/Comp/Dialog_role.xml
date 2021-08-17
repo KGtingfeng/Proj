@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,168">
+  <displayList>
+    <richtext id="n0_dd7o" name="n0" xy="10,54" size="579,88" font="ui://bs2uwwz8flzz2" fontSize="26" color="#ffffff" autoSize="none" text="拉住我的手！我们在时间隧道里！&#xA;眼前斯文帅气的男子，正是舒言。他紧紧的握着我的手。我们飞悬在未知的空间里……">
+      <relation target="" sidePair="width-width"/>
+    </richtext>
+    <text id="n1_w8uf" name="n1" xy="10,13" size="56,36" font="ui://bs2uwwz8flzz0" fontSize="26" color="#7af1f5" text="舒言"/>
+  </displayList>
+  <relation target="n0_dd7o" sidePair="bottomext-bottom"/>
+</component>

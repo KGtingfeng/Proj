@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://68tbb4zqlnqm1i">
+  <controller name="c1" pages="0,头像,1,头像框" selected="0"/>
+  <displayList>
+    <component id="n25_e2l7" name="n25" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-235,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n0_lnqm" name="n0" src="lnqm12" fileName="Imag/frame1_common.png" pkg="82yrhfjg" xy="68,312" size="614,1062" group="n128_980g"/>
+    <image id="n3_lnqm" name="n3" src="lnqm15" fileName="Imag/ptn_freme_playerinfo.png" xy="75,445" size="601,47" group="n128_980g" alpha="0.41"/>
+    <component id="n5_lnqm" name="n5" src="lnqm14" fileName="Comp/Icon_head.xml" xy="107,381" size="271,269" group="n128_980g" scale="0.67,0.67"/>
+    <text id="n8_lnqm" name="n8" xy="303,408" size="48,32" group="n128_980g" font="ui://wkrcryqms5cu5" fontSize="22" color="#8d837b" align="right" text="ID："/>
+    <text id="n10_lnqm" name="n10" xy="351,448" size="154,42" group="n128_980g" font="ui://wkrcryqms5cu3" fontSize="30" color="#6e6054" text="仙境百事通"/>
+    <image id="n19_gab6" name="n19" src="gab61p" fileName="Imag/ptn_line.png" pkg="82yrhfjg" xy="75,623" size="600,273" group="n128_980g"/>
+    <text id="n11_lnqm" name="n11" xy="351,408" size="192,32" group="n128_980g" font="ui://wkrcryqms5cu5" fontSize="22" color="#8d837b" text="666666666666666"/>
+    <list id="n13_lnqm" name="n13" xy="98,567" size="381,57" group="n128_980g" layout="pagination" colGap="-31">
+      <item url="ui://82yrhfjglnqm1h" title="头像"/>
+      <item url="ui://82yrhfjglnqm1h" title="头像框"/>
+    </list>
+    <component id="n16_lnqm" name="n16" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="275,1214" size="200,67" group="n128_980g">
+      <Button title="确认"/>
+    </component>
+    <component id="n18_gab6" name="n18" src="gab61o" fileName="Comp/frame_title.xml" pkg="82yrhfjg" xy="342,511" size="239,43" group="n128_980g"/>
+    <image id="n20_gab6" name="n20" src="gab61l" fileName="Imag/ptn_lv.png" pkg="82yrhfjg" xy="109,506" size="51,46" group="n128_980g" aspect="true"/>
+    <text id="n21_gab6" name="n21" xy="110,514" size="49,28" group="n128_980g" font="ui://wkrcryqms5cu3" fontSize="20" color="#ffffff" align="center" autoSize="none" strokeColor="#c65959" text="99"/>
+    <text id="n22_mrko" name="n22" xy="461,533" pivot="0.5,0.5" anchor="true" size="134,36" group="n128_980g" font="ui://wkrcryqms5cu3" fontSize="26" color="#ffffff" align="center" text="仙境百事通"/>
+    <component id="n29_rkmi" name="n29" src="rdz1q45" fileName="Comp/list_frame.xml" xy="84,654" size="579,522" group="n128_980g">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n30_980g" name="n30" src="o2bo2h" fileName="Comp/Button_common_close.xml" pkg="82yrhfjg" xy="582,249" size="97,105" group="n128_980g"/>
+    <group id="n128_980g" name="n128" xy="68,249" size="614,1125" group="n26_ls1a"/>
+    <list id="n15_lnqm" name="n15" xy="84,631" size="581,525" group="n26_ls1a" layout="flow_hz" overflow="scroll" margin="0,0,11,0" clipSoftness="67,67" lineGap="-11" colGap="-10" defaultItem="ui://68tbb4zqlnqm1i" align="center">
+      <gearDisplay controller="c1" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n26_ls1a" name="n26" xy="68,249" size="614,1125" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

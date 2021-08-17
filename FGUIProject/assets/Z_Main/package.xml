@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="68tbb4zq">
+  <resources>
+    <image id="vdqr2" name="icon_main_welfare.png" path="/Imag/" exported="true"/>
+    <image id="vdqr3" name="icon_main_story.png" path="/Imag/" exported="true"/>
+    <image id="vdqr4" name="icon_main_shop.png" path="/Imag/" exported="true"/>
+    <image id="vdqr5" name="icon_main_shop window.png" path="/Imag/" exported="true"/>
+    <image id="vdqr6" name="icon_main_rank.png" path="/Imag/" exported="true"/>
+    <image id="vdqr7" name="icon_main_phone.png" path="/Imag/" exported="true"/>
+    <image id="vdqr8" name="icon_main_mail.png" path="/Imag/" exported="true"/>
+    <image id="vdqr9" name="icon_main_interactive.png" path="/Imag/" exported="true"/>
+    <image id="vdqra" name="icon_main_grow up.png" path="/Imag/" exported="true"/>
+    <image id="vdqrb" name="icon_main_friend.png" path="/Imag/" exported="true"/>
+    <image id="vdqrc" name="icon_main_First charge.png" path="/Imag/" exported="true"/>
+    <image id="vdqrd" name="icon_main_collect.png" path="/Imag/" exported="true"/>
+    <image id="vdqre" name="icon_main_activity.png" path="/Imag/" exported="true"/>
+    <image id="vdqrf" name="icon_main_achievement.png" path="/Imag/" exported="true"/>
+    <image id="vdqrg" name="icon_main_a&amp;a.png" path="/Imag/" exported="true"/>
+    <image id="vdqrh" name="ptn_headbg.png" path="/Imag/" exported="true"/>
+    <image id="vdqri" name="ptn_levelbg.png" path="/Imag/" exported="true"/>
+    <component id="vdqrj" name="Main.xml" path="/Comp/" exported="true"/>
+    <component id="vdqrl" name="Button_main_shop.xml" path="/Comp/" exported="true"/>
+    <component id="vdqrm" name="Button_main_first charge.xml" path="/Comp/" exported="true"/>
+    <component id="lnqmn" name="Button_main_welfare.xml" path="/Comp/" exported="true"/>
+    <component id="lnqmo" name="Button_main_activity.xml" path="/Comp/" exported="true"/>
+    <component id="lnqmp" name="Button_main_a&amp;a.xml" path="/Comp/" exported="true"/>
+    <component id="lnqmq" name="Button_main_achievement.xml" path="/Comp/" exported="true"/>
+    <component id="lnqmr" name="Button_main_mail.xml" path="/Comp/" exported="true"/>
+    <component id="lnqms" name="Button_main_friend.xml" path="/Comp/" exported="true"/>
+    <component id="lnqmt" name="Button_main_rank.xml" path="/Comp/" exported="true"/>
+    <component id="lnqmu" name="Button_main_collect.xml" path="/Comp/" exported="true"/>
+    <component id="lnqmv" name="Button_main_phone.xml" path="/Comp/" exported="true"/>
+    <component id="lnqmw" name="Button_main_interactive.xml" path="/Comp/" exported="true"/>
+    <component id="lnqmx" name="Button_grow up.xml" path="/Comp/" exported="true"/>
+    <component id="lnqmy" name="Button_shop window.xml" path="/Comp/" exported="true"/>
+    <component id="lnqmz" name="Button_main_story.xml" path="/Comp/" exported="true"/>
+    <component id="lnqm13" name="Frame_playerinfo.xml" path="/Comp/" exported="true"/>
+    <component id="lnqm14" name="Icon_head.xml" path="/Comp/" exported="true"/>
+    <image id="lnqm15" name="ptn_freme_playerinfo.png" path="/Imag/" exported="true" scale="9grid" scale9grid="12,12,24,24"/>
+    <image id="lnqm16" name="ptn_freme_playerinfo_headbg.png" path="/Imag/" exported="true"/>
+    <component id="lnqm17" name="Button_changehead.xml" path="/Comp/" exported="true"/>
+    <image id="lnqm1a" name="button_setting.png" path="/Imag/" exported="true"/>
+    <component id="lnqm1b" name="Button_setting.xml" path="/Comp/" exported="true"/>
+    <image id="lnqm1c" name="btn_back2login.png" path="/Imag/" exported="true"/>
+    <component id="lnqm1d" name="Button_back2login.xml" path="/Comp/" exported="true"/>
+    <component id="lnqm1f" name="Frame_changehead.xml" path="/Comp/" exported="true"/>
+    <component id="lnqm1i" name="Button_choosehead.xml" path="/Comp/" exported="true"/>
+    <image id="gab61k" name="btn_changehead.png" path="/Imag/" exported="true"/>
+    <image id="gab61q" name="ptn_mainheadbg.png" path="/Imag/" exported="true"/>
+    <component id="gab61s" name="Frame_changename.xml" path="/Comp/" exported="true"/>
+    <image id="gab61t" name="ptn_changenamebg.png" path="/Imag/" exported="true" scale="9grid" scale9grid="15,14,27,31"/>
+    <component id="gab61u" name="Frame_changename_father.xml" path="/Comp/" exported="true"/>
+    <component id="hnnp1v" name="Frame_xingxingduihuan.xml" path="/Comp/" exported="true"/>
+    <image id="hnnpq3u" name="ptn_baoshi.png" path="/Imag/" exported="true"/>
+    <image id="hnnpq3t" name="ptn_xing.png" path="/Imag/" exported="true"/>
+    <image id="hnnp1w" name="ptn_jiantou.png" path="/Imag/" exported="true" scale="9grid" scale9grid="19,4,22,8"/>
+    <component id="u7g1q3w" name="Frame_kong.xml" path="/Comp/" exported="true"/>
+    <image id="h4v2q3x" name="icon_main_task.png" path="/Imag/" exported="true"/>
+    <component id="h4v2q3y" name="Button_main_task.xml" path="/Comp/" exported="true"/>
+    <component id="h4v2q3z" name="Frame_bubble.xml" path="/Comp/" exported="true"/>
+    <image id="h4v2q40" name="ptn_bubble.png" path="/Imag/" exported="true"/>
+    <image id="h4v2q41" name="ptn_titlebg.png" path="/Imag/" exported="true"/>
+    <component id="rkmiq42" name="Button_chooseheadframe.xml" path="/Comp/" exported="true"/>
+    <image id="rkmiq43" name="ptn_freme_playerinfo_headframe.png" path="/Imag/" exported="true"/>
+    <component id="o8grq40" name="Button_main_task.xml" path="/Comp/" exported="true"/>
+    <image id="o8grq41" name="icon_main_task.png" path="/Imag/" exported="true"/>
+    <image id="hig3q44" name="kuangsuo.png" path="/Imag/" exported="true"/>
+    <component id="rdz1q45" name="list_frame.xml" path="/Comp/" exported="true"/>
+    <image id="k7irq46" name="advertising.png" path="/Imag/" exported="true"/>
+    <component id="k7ir2f" name="Frame_event.xml" path="/Comp/" exported="true"/>
+    <component id="k7irq47" name="Frame_adverststing.xml" path="/Comp/" exported="true"/>
+    <component id="k7irq49" name="Frame_activecode.xml" path="/Comp/" exported="true"/>
+    <component id="k7irq4a" name="Text_huodonghsuoming.xml" path="/Comp/" exported="true"/>
+    <image id="k7irq4d" name="ptn_infoinput.png" path="/Imag/" exported="true" scale="9grid" scale9grid="166,15,10,30"/>
+    <component id="npkcq4f" name="Frame_download.xml" path="/Comp/" exported="true"/>
+    <component id="npkcq4h" name="download.xml" path="/Comp/" exported="true"/>
+    <image id="bvfrq4j" name="line.png" path="/Imag/" exported="true"/>
+    <component id="bvfrq62" name="Button_activity.xml" path="/Comp/" exported="true"/>
+    <image id="bvfrq4k" name="bg_activecode.png" path="/Imag/" exported="true" scale="9grid" scale9grid="12,6,8,6"/>
+    <image id="rpjzq63" name="title_firstbuy.png" path="/Imag/" exported="true"/>
+    <component id="rpjzq65" name="Button1_firstbuy_shuangbei.xml" path="/Comp/" exported="true"/>
+    <image id="rpjzq64" name="bt_firstbuy_blue.png" path="/Imag/" exported="true"/>
+    <image id="rpjzq66" name="bt_firstbuy.png" path="/Imag/" exported="true"/>
+    <component id="rpjzq67" name="Button1_firstbuy_lingqu.xml" path="/Comp/" exported="true"/>
+    <image id="rpjzq68" name="bt_yilingqu.png" path="/Imag/" exported="true"/>
+    <image id="rpjzq69" name="bg_shouchong.png" path="/Imag/" exported="true"/>
+    <image id="rpjzq6a" name="progress_bar.png" path="/Imag/" exported="true"/>
+    <image id="rpjzq6b" name="bg_adverststing.png" path="/Imag/" exported="true" scale="9grid" scale9grid="169,73,340,20"/>
+    <image id="rpjzq6c" name="bg_adversstsingpost.png" path="/Imag/" exported="true"/>
+    <component id="h4fsq6d" name="Frame_first_buy.xml" path="/Comp/"/>
+    <image id="d1okq6e" name="icon_main_helpxinling.png" path="/Imag/" exported="true"/>
+    <component id="d1okq6f" name="Button_main_helpxinling.xml" path="/Comp/" exported="true"/>
+    <component id="xrnqg" name="Talk_small.xml" path="/Comp/" exported="true"/>
+    <component id="cf6411" name="Talk_small1.xml" path="/Comp/" exported="true"/>
+    <image id="xrnqd" name="ptn_xinlingsmall.png" path="/Imag/" exported="true"/>
+    <image id="xrnqe" name="talk_small.png" path="/Imag/" exported="true" scale="9grid" scale9grid="75,28,150,56"/>
+    <image id="t19tq6p" name="ptn_lv.png" path="/Imag/"/>
+    <image id="ov6wq6q" name="bg_front_dark.png" path="/Imag/" scale="9grid" scale9grid="9,64,6,128"/>
+  </resources>
+  <publish name="Z_Main"/>
+</packageDescription>

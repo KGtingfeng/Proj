@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="147,156">
+  <displayList>
+    <image id="n5_k7ir" name="n5" src="vdqri" fileName="Imag/ptn_levelbg.png" pkg="68tbb4zq" xy="0,0" size="127,111"/>
+    <text id="n8_k7ir" name="n8" xy="44,69" size="62,45" font="ui://7d236hrsk7ir2" fontSize="31" autoSize="none" bold="true" text="10"/>
+    <text id="n9_k7ir" name="n9" xy="5,120" size="142,36" font="Source Han Sans CN" fontSize="25" autoSize="none" bold="true" text="中级经验瓶"/>
+  </displayList>
+</component>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <displayList>
+    <component id="n5_exzo" name="n5" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="0,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n4_exzo" name="n4" src="exzoq3l" fileName="Imag/frame_buytips.png" xy="312,631" size="595,361" group="n6_exzo"/>
+    <text id="n0_exzo" name="n0" xy="451,672" size="318,54" group="n6_exzo" font="ui://bs2uwwz8flzz0" fontSize="30" color="#ffffff" align="center" letterSpacing="3" autoSize="none" text="暂未取得联系"/>
+    <text id="n1_exzo" name="n1" xy="411,803" size="398,42" group="n6_exzo" font="ui://bs2uwwz8flzz2" fontSize="30" color="#645757" align="center" autoSize="none" text="确认消费6元，获得60钻石？"/>
+    <component id="n2_exzo" name="n2" src="rj5h23" fileName="Comp/Button2_blue.xml" pkg="82yrhfjg" xy="613,867" size="245,82" group="n6_exzo" scale="0.7,0.7">
+      <Button title="确定"/>
+    </component>
+    <component id="n3_exzo" name="n3" src="rj5h22" fileName="Comp/Button2_red.xml" pkg="82yrhfjg" xy="368,867" size="245,82" group="n6_exzo" scale="0.7,0.7">
+      <Button title="取消"/>
+    </component>
+    <group id="n6_exzo" name="n6" xy="312,631" size="595,361" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

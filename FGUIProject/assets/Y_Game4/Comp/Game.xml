@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,选择时间,1,完成,2,获得" selected="0"/>
+  <displayList>
+    <loader id="n0_rn79" name="n0" xy="-235,0" size="1220,1624" url="ui://ost49ql7rn794" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <graph id="n17_5xyh" name="n17" xy="-235,0" size="1220,1624" touchable="false" type="rect" lineSize="0" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <graph id="n18_5xyh" name="n18" xy="-235,0" size="1220,1624" touchable="false" type="rect" lineSize="0" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <component id="n22_o31q" name="n19" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="-235,0" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <graph id="n20_5xyh" name="n20" xy="-235,0" size="1220,1624" touchable="false" type="rect" lineSize="0" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <image id="n11_rn79" name="n11" src="rn793" fileName="Imag/ptn_clock.png" xy="11,391">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearXY controller="c1" pages="1,2" values="11,391|11,391" default="11,391" tween="true"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n14_rn79" name="n14" src="rn792" fileName="Imag/ptn_h.png" xy="119,662" pivot="0.5,0.5">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="n11_rn79" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n15_rn79" name="n15" src="rn791" fileName="Imag/ptn_m.png" xy="119,662" pivot="0.5,0.5">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="n11_rn79" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n1_rn79" name="n1" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" scale="0.8,0.8">
+      <relation target="" sidePair="left-left%,top-top"/>
+    </component>
+    <component id="n2_rn79" name="n2" src="10xzq14" fileName="Comp/Button_tips.xml" pkg="82yrhfjg" xy="576,69">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+    <component id="n3_rn79" name="n3" src="10xzq15" fileName="Comp/Button_skip.xml" pkg="82yrhfjg" xy="576,146">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+    <image id="n12_rn79" name="n12" src="w8ufq4e" fileName="Imag/ptn_textbg.png" pkg="82yrhfjg" xy="64,378" size="622,69">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n13_rn79" name="n13" xy="78,361" size="593,96" font="ui://bs2uwwz8flzz2" fontSize="26" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="选择你要去的时间">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="n12_rn79" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n10_rn79" name="n10" src="w8ufq4e" fileName="Imag/ptn_textbg.png" pkg="82yrhfjg" xy="64,1312" size="622,97">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearXY controller="c1" pages="0,1,2" values="64,1312|64,1342|64,1312" tween="true"/>
+      <gearSize controller="c1" pages="1" values="622,64,1,1" default="622,97,1,1"/>
+      <gearLook controller="c1" pages="2" values="0,0,0,0" default="1,0,0,0"/>
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <text id="n4_rn79" name="n4" xy="75,1313" size="593,96" font="ui://bs2uwwz8flzz2" fontSize="26" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="在倒计时结束前&#xD;点击按钮转动表针到准确的时间点">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearText controller="c1" pages="0,1" values="在倒计时结束前&#xD;点击按钮转动表针到准确的时间点|长按按钮可顺时针转动对应的表针" default="请长按转动分针与时针，确认时间！&#xA;请长按转动分针与时针，确认时间！"/>
+      <relation target="n10_rn79" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n5_rn79" name="n5" src="w8ufq4f" fileName="Imag/ptn_timebg.png" pkg="82yrhfjg" xy="60,184">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n6_rn79" name="n6" xy="307,278" size="220,52" font="ui://bs2uwwz8flzz0" fontSize="38" color="#fca1a7" strokeColor="#ffffff" text="倒计时：56s">
+      <relation target="n5_rn79" sidePair="center-center%,middle-middle"/>
+    </text>
+    <component id="n7_rn79" name="n40" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="275,1451" scale="1.2,1.2">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle%"/>
+      <Button title="开始操作"/>
+    </component>
+    <component id="n8_rn79" name="n8" src="tat8q3j" fileName="Comp/Frame_shifenzhen.xml" pkg="82yrhfjg" xy="117,1218">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle%"/>
+    </component>
+    <component id="n9_rn79" name="n9" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="275,1451" scale="1.2,1.2">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle%"/>
+      <Button title="确认"/>
+    </component>
+    <image id="n16_rn79" name="n16" src="hee6q4o" fileName="Imag/ptn_findtime.png" pkg="6f05wxg5" xy="169,1405">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <text id="n21_o31q" name="n21" xy="251,1368" size="247,38" font="ui://bs2uwwz8flzz0" fontSize="27" color="#ffffff" text="找到了正确的时间！">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="653,308" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <controller name="c1" pages="0,normal,1,littlered" selected="0"/>
+  <displayList>
+    <image id="n0_ubai" name="n0" src="ubai8" fileName="Imag/icon_tiyan.png" xy="-10,-17" pivot="0.5,0.5">
+      <gearDisplay controller="button" pages="0,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n2_mgpz" name="n2" src="lnqm1e" fileName="Comp/Littlered.xml" pkg="82yrhfjg" xy="607,30">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <text id="n3_q821" name="n3" xy="515,55" size="115,44" font="ui://wkrcryqms5cu3" fontSize="32" color="#ffffff" align="right" autoSize="none" shadowColor="#7065b4" shadowOffset="1,1" text="32%"/>
+    <text id="n4_a9ez" name="n4" xy="390,139" size="154,49" font="ui://bs2uwwz8flzz0" fontSize="36" color="#ffffff" letterSpacing="2" shadowColor="#6231c0" shadowOffset="1,1" text="首次体验"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".98"/>
+</component>

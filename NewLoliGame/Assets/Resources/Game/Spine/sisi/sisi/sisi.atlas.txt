@@ -1,0 +1,333 @@
+
+sisi.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sisi_fashi
+  rotate: false
+  xy: 244, 897
+  size: 125, 75
+  orig: 125, 75
+  offset: 0, 0
+  index: -1
+sisi_idle
+  rotate: false
+  xy: 381, 973
+  size: 57, 46
+  orig: 57, 46
+  offset: 0, 0
+  index: -1
+sisi_qun1
+  rotate: false
+  xy: 424, 781
+  size: 295, 93
+  orig: 295, 93
+  offset: 0, 0
+  index: -1
+sisi_qun12
+  rotate: true
+  xy: 502, 964
+  size: 55, 98
+  orig: 55, 98
+  offset: 0, 0
+  index: -1
+sisi_qun2
+  rotate: true
+  xy: 288, 974
+  size: 45, 91
+  orig: 45, 91
+  offset: 0, 0
+  index: -1
+sisi_qun3
+  rotate: true
+  xy: 602, 960
+  size: 59, 107
+  orig: 59, 107
+  offset: 0, 0
+  index: -1
+sisi_qun4
+  rotate: true
+  xy: 839, 952
+  size: 67, 126
+  orig: 67, 126
+  offset: 0, 0
+  index: -1
+sisi_qun7
+  rotate: true
+  xy: 475, 315
+  size: 146, 350
+  orig: 146, 350
+  offset: 0, 0
+  index: -1
+sisi_qun8
+  rotate: true
+  xy: 267, 674
+  size: 105, 309
+  orig: 105, 309
+  offset: 0, 0
+  index: -1
+sisi_qun9
+  rotate: true
+  xy: 721, 741
+  size: 102, 301
+  orig: 102, 301
+  offset: 0, 0
+  index: -1
+sisi_shangshen
+  rotate: true
+  xy: 2, 170
+  size: 242, 394
+  orig: 242, 394
+  offset: 0, 0
+  index: -1
+sisi_shoubi_l1
+  rotate: true
+  xy: 558, 463
+  size: 163, 171
+  orig: 163, 171
+  offset: 0, 0
+  index: -1
+sisi_shoubi_l2
+  rotate: false
+  xy: 837, 845
+  size: 118, 105
+  orig: 118, 105
+  offset: 0, 0
+  index: -1
+sisi_shoubi_l3
+  rotate: true
+  xy: 578, 628
+  size: 111, 230
+  orig: 111, 230
+  offset: 0, 0
+  index: -1
+sisi_shoubi_r1
+  rotate: true
+  xy: 265, 537
+  size: 135, 291
+  orig: 135, 291
+  offset: 0, 0
+  index: -1
+sisi_shoubi_r2
+  rotate: true
+  xy: 2, 553
+  size: 147, 261
+  orig: 147, 261
+  offset: 0, 0
+  index: -1
+sisi_talk
+  rotate: false
+  xy: 112, 978
+  size: 54, 41
+  orig: 54, 41
+  offset: 0, 0
+  index: -1
+sisi_tou2
+  rotate: true
+  xy: 810, 596
+  size: 143, 192
+  orig: 143, 192
+  offset: 0, 0
+  index: -1
+sisi_toufa1
+  rotate: true
+  xy: 711, 956
+  size: 63, 126
+  orig: 63, 126
+  offset: 0, 0
+  index: -1
+sisi_toufa10
+  rotate: true
+  xy: 398, 164
+  size: 149, 582
+  orig: 149, 582
+  offset: 0, 0
+  index: -1
+sisi_toufa12
+  rotate: false
+  xy: 440, 971
+  size: 60, 48
+  orig: 60, 48
+  offset: 0, 0
+  index: -1
+sisi_toufa2
+  rotate: true
+  xy: 168, 975
+  size: 44, 118
+  orig: 44, 118
+  offset: 0, 0
+  index: -1
+sisi_toufa3
+  rotate: true
+  xy: 551, 876
+  size: 78, 176
+  orig: 78, 176
+  offset: 0, 0
+  index: -1
+sisi_toufa4
+  rotate: true
+  xy: 2, 702
+  size: 109, 263
+  orig: 109, 263
+  offset: 0, 0
+  index: -1
+sisi_toufa5
+  rotate: true
+  xy: 94, 901
+  size: 72, 148
+  orig: 72, 148
+  offset: 0, 0
+  index: -1
+sisi_toufa6
+  rotate: true
+  xy: 2, 813
+  size: 82, 306
+  orig: 82, 306
+  offset: 0, 0
+  index: -1
+sisi_tui_l
+  rotate: true
+  xy: 2, 2
+  size: 160, 537
+  orig: 160, 537
+  offset: 0, 0
+  index: -1
+sisi_tui_r
+  rotate: true
+  xy: 2, 414
+  size: 121, 471
+  orig: 121, 471
+  offset: 0, 0
+  index: -1
+sisi_yanl1
+  rotate: false
+  xy: 72, 1002
+  size: 18, 17
+  orig: 18, 17
+  offset: 0, 0
+  index: -1
+sisi_yanl2
+  rotate: false
+  xy: 2, 1004
+  size: 33, 15
+  orig: 33, 15
+  offset: 0, 0
+  index: -1
+sisi_yanr1
+  rotate: false
+  xy: 92, 1001
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+sisi_yanr2
+  rotate: false
+  xy: 37, 1003
+  size: 33, 16
+  orig: 33, 16
+  offset: 0, 0
+  index: -1
+sisi_yifu
+  rotate: false
+  xy: 729, 856
+  size: 106, 98
+  orig: 106, 98
+  offset: 0, 0
+  index: -1
+sisi_yifu1
+  rotate: false
+  xy: 2, 927
+  size: 90, 72
+  orig: 90, 72
+  offset: 0, 0
+  index: -1
+sisi_yifu2
+  rotate: false
+  xy: 371, 892
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+sisi_yifu3
+  rotate: false
+  xy: 310, 782
+  size: 112, 108
+  orig: 112, 108
+  offset: 0, 0
+  index: -1
+sisi_yifu4
+  rotate: true
+  xy: 450, 881
+  size: 81, 99
+  orig: 81, 99
+  offset: 0, 0
+  index: -1
+
+sisi2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sisi_qun10
+  rotate: true
+  xy: 255, 630
+  size: 283, 573
+  orig: 283, 573
+  offset: 0, 0
+  index: -1
+sisi_toufa11
+  rotate: true
+  xy: 2, 2
+  size: 287, 595
+  orig: 287, 595
+  offset: 0, 0
+  index: -1
+sisi_toufa7
+  rotate: false
+  xy: 599, 87
+  size: 264, 541
+  orig: 264, 541
+  offset: 0, 0
+  index: -1
+sisi_toufa8
+  rotate: false
+  xy: 2, 291
+  size: 251, 622
+  orig: 251, 622
+  offset: 0, 0
+  index: -1
+
+sisi3.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sisi_qun11
+  rotate: false
+  xy: 736, 13
+  size: 171, 483
+  orig: 171, 483
+  offset: 0, 0
+  index: -1
+sisi_qun5
+  rotate: false
+  xy: 2, 2
+  size: 242, 494
+  orig: 242, 494
+  offset: 0, 0
+  index: -1
+sisi_qun6
+  rotate: false
+  xy: 246, 7
+  size: 238, 489
+  orig: 238, 489
+  offset: 0, 0
+  index: -1
+sisi_toufa9
+  rotate: false
+  xy: 486, 47
+  size: 248, 449
+  orig: 248, 449
+  offset: 0, 0
+  index: -1

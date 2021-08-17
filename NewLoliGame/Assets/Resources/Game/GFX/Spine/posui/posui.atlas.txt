@@ -1,0 +1,132 @@
+
+posui.png
+size: 1184,185
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bao
+  rotate: true
+  xy: 543, 13
+  size: 170, 169
+  orig: 188, 187
+  offset: 9, 8
+  index: -1
+light
+  rotate: false
+  xy: 364, 6
+  size: 177, 177
+  orig: 179, 179
+  offset: 1, 1
+  index: -1
+nvwang/nvwang
+  rotate: false
+  xy: 2, 4
+  size: 179, 179
+  orig: 179, 179
+  offset: 0, 0
+  index: -1
+nvwang/nw (1)
+  rotate: false
+  xy: 876, 91
+  size: 45, 92
+  orig: 45, 92
+  offset: 0, 0
+  index: -1
+nvwang/nw (2)
+  rotate: false
+  xy: 876, 2
+  size: 55, 87
+  orig: 55, 87
+  offset: 0, 0
+  index: -1
+nvwang/nw (3)
+  rotate: false
+  xy: 714, 75
+  size: 79, 108
+  orig: 79, 108
+  offset: 0, 0
+  index: -1
+nvwang/nw (4)
+  rotate: false
+  xy: 1135, 104
+  size: 47, 79
+  orig: 47, 79
+  offset: 0, 0
+  index: -1
+nvwang/nw (5)
+  rotate: false
+  xy: 1052, 97
+  size: 61, 86
+  orig: 61, 86
+  offset: 0, 0
+  index: -1
+nvwang/nw (6)
+  rotate: true
+  xy: 970, 95
+  size: 88, 80
+  orig: 88, 80
+  offset: 0, 0
+  index: -1
+nvwang/nw (7)
+  rotate: true
+  xy: 714, 5
+  size: 68, 79
+  orig: 68, 79
+  offset: 0, 0
+  index: -1
+xinling/xinling
+  rotate: false
+  xy: 183, 4
+  size: 179, 179
+  orig: 179, 179
+  offset: 0, 0
+  index: -1
+xinling/xl (1)
+  rotate: false
+  xy: 923, 91
+  size: 45, 92
+  orig: 45, 92
+  offset: 0, 0
+  index: -1
+xinling/xl (2)
+  rotate: false
+  xy: 933, 2
+  size: 55, 87
+  orig: 55, 87
+  offset: 0, 0
+  index: -1
+xinling/xl (3)
+  rotate: false
+  xy: 795, 75
+  size: 79, 108
+  orig: 79, 108
+  offset: 0, 0
+  index: -1
+xinling/xl (4)
+  rotate: false
+  xy: 1135, 23
+  size: 47, 79
+  orig: 47, 79
+  offset: 0, 0
+  index: -1
+xinling/xl (5)
+  rotate: false
+  xy: 1072, 9
+  size: 61, 86
+  orig: 61, 86
+  offset: 0, 0
+  index: -1
+xinling/xl (6)
+  rotate: true
+  xy: 990, 5
+  size: 88, 80
+  orig: 88, 80
+  offset: 0, 0
+  index: -1
+xinling/xl (7)
+  rotate: true
+  xy: 795, 6
+  size: 67, 79
+  orig: 67, 79
+  offset: 0, 0
+  index: -1

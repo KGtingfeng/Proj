@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,引导,1,游戏" selected="1"/>
+  <displayList>
+    <component id="n9_k8n8" name="n9" src="k8n8c" fileName="Comp/bg.xml" xy="-235,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n6_k8n8" name="n6" src="k8n85" fileName="Imag/mask.png" xy="70,406" pivot="0.5,0.5" scale="2,2" alpha="0.5">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <graph id="n11_cytc" name="n11" xy="-235,0" size="1220,1624" type="rect" lineSize="0" fillColor="#00ffffff">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <component id="n1_k8n8" name="n1" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" scale="0.8,0.8">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n2_k8n8" name="n2" src="10xzq14" fileName="Comp/Button_tips.xml" pkg="82yrhfjg" xy="576,69">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+    <component id="n3_k8n8" name="n3" src="10xzq15" fileName="Comp/Button_skip.xml" pkg="82yrhfjg" xy="576,146">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+    <component id="n4_k8n8" name="n4" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="275,1380" scale="1.5,1.5">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="开始游戏"/>
+    </component>
+    <image id="n5_k8n8" name="n5" src="k8n815" fileName="Imag/texbg.png" xy="42,1088">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="n7_k8n8" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n7_k8n8" name="n7" xy="98,1093" size="553,95" font="ui://bs2uwwz8flzz2" fontSize="32" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="请用仙力将舒言的经脉接好，当光圈扩散得最大时，点击它！">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

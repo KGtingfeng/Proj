@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="36,674" pivot="0.5,1" anchor="true">
+  <displayList>
+    <image id="n12_sdw4" name="n12" src="n8t1a" fileName="Imag/line2.png" xy="-3,0" size="42,674" color="#6060ff"/>
+    <image id="n10_n8t1" name="n10" src="n8t19" fileName="Imag/line1.png" xy="10,276" size="16,370"/>
+  </displayList>
+</component>

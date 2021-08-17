@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://eld9nvbet19t2z" designImageOffsetX="-224" designImageAlpha="0">
+  <controller name="c1" pages="0,找碎片" selected="0"/>
+  <displayList>
+    <image id="n4_g0xm" name="n4" src="vvaww" fileName="Imag/frame_below.png" xy="42,1303" size="665,152" group="n50_vvaw"/>
+    <component id="n12_g0xm" name="n12" src="s8t32g" fileName="Comp/ptn_door1.xml" xy="120,1374" group="n50_vvaw" scale="0.28,0.28"/>
+    <component id="n13_g0xm" name="n13" src="s8t32h" fileName="Comp/ptn_door2.xml" xy="210,1374" group="n50_vvaw" scale="0.16,0.16"/>
+    <component id="n14_g0xm" name="n14" src="s8t32i" fileName="Comp/ptn_door3.xml" xy="305,1378" group="n50_vvaw" scale="0.22,0.22" rotation="2"/>
+    <component id="n15_g0xm" name="n15" src="s8t32j" fileName="Comp/ptn_door4.xml" xy="408,1377" group="n50_vvaw" scale="0.2,0.2"/>
+    <component id="n16_g0xm" name="n16" src="s8t32k" fileName="Comp/ptn_door5.xml" xy="506,1376" group="n50_vvaw" scale="0.26,0.26" rotation="61"/>
+    <component id="n17_g0xm" name="n17" src="s8t32l" fileName="Comp/ptn_door6.xml" xy="600,1372" group="n50_vvaw" scale="0.3,0.3" rotation="2"/>
+    <group id="n50_vvaw" name="n50" xy="-4,1123" size="739,502" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n5_g0xm" name="n5" src="vvawh" fileName="Comp/ptn_bild1.xml" xy="649,770" group="n52_c6pw"/>
+    <component id="n6_g0xm" name="n6" src="vvawj" fileName="Comp/ptn_bild3.xml" xy="602,601" group="n52_c6pw"/>
+    <component id="n7_g0xm" name="n7" src="vvawk" fileName="Comp/ptn_bild4.xml" xy="36,969" group="n52_c6pw"/>
+    <component id="n8_g0xm" name="n8" src="vvawl" fileName="Comp/ptn_bild5.xml" xy="148,792" group="n52_c6pw"/>
+    <component id="n9_g0xm" name="n9" src="vvawi" fileName="Comp/ptn_bild2.xml" xy="62,480" group="n52_c6pw"/>
+    <component id="n10_g0xm" name="n10" src="vvawm" fileName="Comp/ptn_bild6.xml" xy="527,1067" group="n52_c6pw"/>
+    <group id="n52_c6pw" name="n52" xy="36,480" size="660,689" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

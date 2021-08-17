@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="eq86i8lr">
+  <resources>
+    <component id="dkaw0" name="Game2.xml" path="/Comp/" exported="true"/>
+    <image id="dkaw1" name="componentbg.png" path="/imag/" exported="true"/>
+    <image id="dkaw2" name="component1.png" path="/imag/" exported="true"/>
+    <image id="dkaw3" name="component3.png" path="/imag/" exported="true"/>
+    <image id="dkaw4" name="component5.png" path="/imag/" exported="true"/>
+    <image id="dkaw5" name="component2.png" path="/imag/" exported="true"/>
+    <image id="dkaw6" name="component4.png" path="/imag/" exported="true"/>
+    <image id="dkaw7" name="component6.png" path="/imag/" exported="true"/>
+    <image id="dkaw8" name="suipian1.png" path="/imag/" exported="true"/>
+    <image id="dkaw9" name="suipian3.png" path="/imag/" exported="true"/>
+    <image id="dkawa" name="suipian5.png" path="/imag/" exported="true"/>
+    <image id="dkawb" name="suipian2.png" path="/imag/" exported="true"/>
+    <image id="dkawc" name="suipian6y.png" path="/imag/" exported="true"/>
+    <image id="dkawd" name="suipian4.png" path="/imag/" exported="true"/>
+    <image id="dkawe" name="suipian6.png" path="/imag/" exported="true"/>
+    <component id="dkawf" name="suipian1.xml" path="/Comp/" exported="true"/>
+    <component id="dkawg" name="suipian2.xml" path="/Comp/" exported="true"/>
+    <component id="dkawh" name="suipian3.xml" path="/Comp/" exported="true"/>
+    <component id="dkawi" name="suipian4.xml" path="/Comp/" exported="true"/>
+    <component id="dkawj" name="suipian5.xml" path="/Comp/" exported="true"/>
+    <component id="dkawk" name="suipian6.xml" path="/Comp/" exported="true"/>
+    <component id="dkawl" name="Component1.xml" path="/Comp/" exported="true"/>
+    <component id="dkawm" name="Component2.xml" path="/Comp/" exported="true"/>
+    <component id="dkawn" name="Component3.xml" path="/Comp/" exported="true"/>
+    <component id="dkawo" name="Component4.xml" path="/Comp/" exported="true"/>
+    <component id="dkawp" name="Component5.xml" path="/Comp/" exported="true"/>
+    <component id="dkawq" name="Component6.xml" path="/Comp/" exported="true"/>
+    <component id="dkawr" name="tips.xml" path="/Comp/" exported="true"/>
+    <image id="dkaws" name="btn_gofind.png" path="/imag/" exported="true"/>
+    <component id="dkawt" name="Button_gofind.xml" path="/Comp/" exported="true"/>
+    <image id="dkawu" name="frame_chuan1.png" path="/imag/" exported="true"/>
+    <image id="dkawv" name="frame_chuan.png" path="/imag/" exported="true" scale="9grid" scale9grid="95,92,4,15"/>
+    <image id="dkaww" name="outline.png" path="/imag/" exported="true"/>
+    <image id="dkawx" name="textbg.png" path="/imag/" exported="true"/>
+    <image id="dkawy" name="final.png" path="/imag/" exported="true"/>
+    <component id="m2y6z" name="Frame_click.xml" path="/Comp/" exported="true"/>
+    <component id="ifsv11" name="Game2_scene.xml" path="/Comp/" exported="true"/>
+    <image id="s7t612" name="ptn.png" path="/imag/" exported="true"/>
+    <component id="suo013" name="Game3.xml" path="/Comp/" exported="true"/>
+    <image id="suo01m" name="xuanwo.png" path="/imag/" exported="true"/>
+    <image id="suo01o" name="chilun2.png" path="/imag/" exported="true"/>
+    <image id="suo01p" name="chilun1.png" path="/imag/" exported="true"/>
+    <component id="suo01q" name="zhangai_chilun.xml" path="/Comp/" exported="true"/>
+    <component id="suo01r" name="zhangai_xuanwo.xml" path="/Comp/" exported="true"/>
+    <component id="suo01t" name="tips2.xml" path="/Comp/" exported="true"/>
+    <component id="rvpf1v" name="ship.xml" path="/Comp/" exported="true"/>
+    <image id="r8fu1w" name="3.png" path="/imag/" exported="true"/>
+    <image id="r8fu1x" name="2.png" path="/imag/" exported="true"/>
+    <image id="r8fu1y" name="1.png" path="/imag/" exported="true"/>
+    <image id="r8fu1z" name="312frame.png" path="/imag/" exported="true"/>
+    <component id="r8fu20" name="321.xml" path="/Comp/" exported="true"/>
+    <component id="r8fu21" name="Ani_321.xml" path="/Comp/" exported="true"/>
+    <image id="l67t22" name="ptn_guide_tip.png" path="/imag/" exported="true"/>
+    <image id="l67t24" name="ptn_finger.png" path="/imag/" exported="true"/>
+    <component id="l67t25" name="anime.xml" path="/Comp/" exported="true"/>
+    <component id="l67t26" name="anime_finger.xml" path="/Comp/" exported="true"/>
+    <image id="l67t27" name="ptn_finger2.png" path="/imag/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

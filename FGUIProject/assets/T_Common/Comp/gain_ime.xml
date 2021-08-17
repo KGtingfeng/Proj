@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <loader id="n10_v302" name="n10" xy="-235,0" size="1220,1624" url="ui://bgqjmy3sv3023" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <graph id="n11_v302" name="n12" xy="-235,0" size="1220,1624" visible="false" blend="multiply" type="rect" lineSize="0" fillColor="#ff000099">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n0_v302" name="n0" src="dyo5q6o" fileName="Comp/time.xml" xy="-235,0" pivot="0.5,0.5">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n12_c6pw" name="n13" src="f54j1i" fileName="Comp/kong.xml" xy="-235,0" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n1_v302" name="n1" src="vdqr1b" fileName="Comp/Button_sontinue.xml" xy="587,1547" pivot="0.5,0.5" anchor="true">
+      <relation target="" sidePair="right-right%,bottom-bottom%"/>
+    </component>
+    <component id="n2_v302" name="n2" src="dyo5q6q" fileName="Comp/xiaohua_ani.xml" xy="-169,97" pivot="0.5,0.5" group="n4_v302"/>
+    <image id="n5_v302" name="n11" src="vdqr1c" fileName="Imag/ptn_ongratulations.png" xy="144,88" group="n4_v302"/>
+    <text id="n9_v302" name="n9" xy="293,148" size="164,54" group="n4_v302" font="ui://bs2uwwz8flzz0" fontSize="40" color="#ffffff" text="解锁时刻"/>
+    <component id="n3_v302" name="n3" src="dyo5q6q" fileName="Comp/xiaohua_ani.xml" xy="530,97" pivot="0.5,0.5" group="n4_v302" scale="-1,1"/>
+    <group id="n4_v302" name="n4" xy="-169,88" size="1083,451" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n6_v302" name="n5" src="d44rq5y" fileName="Comp/Button_continue2.xml" xy="224,1402" scale="0.741,0.741" visible="false">
+      <relation target="" sidePair="center-center,bottom-bottom%"/>
+    </component>
+    <image id="n7_v302" name="n7" src="d44rq5z" fileName="Imag/ptn_namebg.png" xy="35,1240">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n8_v302" name="n8" xy="283,1304" size="184,60" font="ui://bs2uwwz8flzz0" fontSize="45" color="#c267af" strokeColor="#ffffff" text="时刻名字">
+      <relation target="n7_v302" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="t2" autoPlay="true" frameRate="60">
+    <item time="0" type="Alpha" target="n0_v302" tween="true" startValue="0" endValue="1" duration="65"/>
+    <item time="0" type="Alpha" target="n11_v302" tween="true" startValue="0" endValue="1" duration="65"/>
+    <item time="0" type="Rotation" target="n0_v302" tween="true" startValue="-480" endValue="0" duration="65"/>
+    <item time="0" type="Scale" target="n0_v302" tween="true" startValue="0.14,0.14" endValue="1,1" duration="65" ease="Quart.In"/>
+    <item time="0" type="XY" target="n1_v302" value="-,1671"/>
+    <item time="0" type="XY" target="n4_v302" value="-,-491"/>
+    <item time="0" type="XY" target="n6_v302" value="-,1642"/>
+    <item time="0" type="XY" target="n7_v302" value="-,1660"/>
+    <item time="65" type="Scale" target="n0_v302" tween="true" startValue="1,1" endValue="1.11,1.11" duration="295"/>
+    <item time="65" type="XY" target="n4_v302" tween="true" startValue="-,-510" endValue="-169,84" duration="25" ease="Back.Out"/>
+    <item time="65" type="XY" target="n7_v302" tween="true" startValue="-,1690" endValue="-,1240" duration="25" ease="Back.Out"/>
+    <item time="72" type="XY" target="n6_v302" tween="true" startValue="-,1672" endValue="-,1402" duration="25" ease="Back.Out"/>
+    <item time="78" type="XY" target="n1_v302" tween="true" startValue="-,1661" endValue="-,1501" duration="24" ease="Back.Out"/>
+  </transition>
+</component>

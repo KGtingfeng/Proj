@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="301,310">
+  <controller name="c1" pages="0,有,1,无" selected="1"/>
+  <displayList>
+    <image id="n32_dkwi" name="n10" src="dkwin" fileName="Imag/rank3bg.png" xy="33,0"/>
+    <component id="n33_dkwi" name="n26" src="dkwi10" fileName="Comp/headicon.xml" xy="66,33" scale="0.632,0.632">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <image id="n34_dkwi" name="n34" src="dkwiq" fileName="Imag/xuwei.png" xy="65,32">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n26_dkwi" name="n25" src="dkwi2" fileName="Imag/attributebg.png" xy="56,185"/>
+    <component id="n35_tzni" name="n28" src="gab61o" fileName="Comp/frame_title.xml" pkg="82yrhfjg" xy="31,225"/>
+    <text id="n27_dkwi" name="n22" xy="56,187" size="186,29" font="ui://bs2uwwz8flzz2" fontSize="20" color="#ffffff" align="center" autoSize="none" shadowColor="#ffa6dc" shadowOffset="1,1" text="玩家名字"/>
+    <text id="n28_dkwi" name="n23" xy="56,232" size="186,29" font="ui://bs2uwwz8flzz0" fontSize="20" color="#ffffff" align="center" autoSize="none" text="玩家称号"/>
+    <text id="n29_dkwi" name="n24" xy="56,278" size="186,29" font="ui://bs2uwwz8flzz2" fontSize="20" color="#ffffff" align="center" autoSize="none" shadowColor="#ffa6dc" shadowOffset="1,1" text="好感度:999999"/>
+    <image id="n30_dkwi" name="n30" src="dkwim" fileName="Imag/rank3.png" xy="54,23"/>
+    <text id="n36_a9ez" name="n36" xy="90,101" size="129,35" fontSize="25" color="#ffffff" align="center" text="虚位以待～">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <text id="n37_a9ez" name="n37" xy="75,42" size="19,35" font="ui://bs2uwwz8flzz0" fontSize="25" color="#ffffff" align="center" text="3"/>
+  </displayList>
+</component>

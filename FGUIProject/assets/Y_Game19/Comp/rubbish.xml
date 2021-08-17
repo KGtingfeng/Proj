@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="110,106">
+  <displayList>
+    <loader id="n4_h4fs" name="n4" xy="4,7" size="102,92" url="ui://esksx6yivvaw3" fill="scale" shrinkOnly="true"/>
+    <text id="n5_h4fs" name="n5" xy="1,106" size="108,25" fontSize="17" color="#dd6c8b" align="center" autoSize="none" text="陶瓷制品"/>
+  </displayList>
+</component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="479,527">
+  <displayList>
+    <graph id="n0_ipzc" name="n0" xy="0,0" size="479,527" type="rect" lineSize="0" fillColor="#00ffffff">
+      <relation target="" sidePair="rightext-right,topext-top,bottomext-bottom,leftext-left"/>
+    </graph>
+  </displayList>
+</component>

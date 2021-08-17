@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="505,164">
+  <displayList>
+    <image id="n0_lnqm" name="n0" src="lnqm10" fileName="Imag/ptn_bubble.png" xy="0,0"/>
+    <text id="n1_lnqm" name="n1" xy="44,51" size="398,100" font="ui://wkrcryqms5cu5" fontSize="28" color="#585858" vAlign="middle" leading="4" autoSize="none" text="XXXXXX，你这样子，我会害羞的......"/>
+  </displayList>
+  <relation target="n0_lnqm" sidePair="bottomext-bottom"/>
+</component>

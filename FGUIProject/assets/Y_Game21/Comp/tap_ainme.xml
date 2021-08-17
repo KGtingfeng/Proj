@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="574,1042">
+  <displayList>
+    <component id="n2_pri5" name="n2" src="vvawm" fileName="Comp/ptn_door1.xml" xy="85,1003" scale="0.3,0.3"/>
+    <image id="n0_pri5" name="n0" src="gxb8q6l" fileName="Imag/tap_finger.png" pkg="17rhwh28" xy="80,1004" pivot="0.262,0.032"/>
+  </displayList>
+  <transition name="t1" autoPlay="true" autoPlayRepeat="-1" frameRate="60">
+    <item time="0" type="Alpha" target="n0_pri5" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="Alpha" target="n2_pri5" value="1"/>
+    <item time="0" type="Scale" target="n0_pri5" value="1,1"/>
+    <item time="0" type="Scale" target="n2_pri5" value="0.3,0.3"/>
+    <item time="0" type="XY" target="n0_pri5" value="80,1004"/>
+    <item time="0" type="XY" target="n2_pri5" value="85,1003"/>
+    <item time="21" type="Scale" target="n0_pri5" tween="true" startValue="1,1" endValue="0.76,0.76" duration="7"/>
+    <item time="28" type="Scale" target="n2_pri5" tween="true" startValue="0.3,0.3" endValue="1,1" duration="85"/>
+    <item time="28" type="XY" target="n0_pri5" tween="true" startValue="80,1004" endValue="213,165" duration="68"/>
+    <item time="28" type="XY" target="n2_pri5" tween="true" startValue="85,1003" endValue="211,132" duration="68"/>
+    <item time="96" type="Scale" target="n0_pri5" tween="true" startValue="0.76,0.76" endValue="1,1" duration="17"/>
+    <item time="109" type="Alpha" target="n0_pri5" tween="true" startValue="1" endValue="0" duration="4"/>
+    <item time="110" type="Alpha" target="n2_pri5" tween="true" startValue="1" endValue="0" duration="3"/>
+  </transition>
+</component>

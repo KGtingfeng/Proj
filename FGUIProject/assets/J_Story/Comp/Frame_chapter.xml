@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <image id="n12_w8uf" name="n12" src="hsbv1v" fileName="Imag/ptn_mask.png" pkg="82yrhfjg" xy="-235,0" size="1220,1624">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n15_ple6" name="n15" src="lnqm12" fileName="Imag/frame1_common.png" pkg="82yrhfjg" xy="32,159" size="683,1313" group="n17_ple6">
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </image>
+    <group id="n17_ple6" name="n17" xy="32,159" size="683,1313" group="n19_ple6"/>
+    <loader id="n11_w8uf" name="n11" xy="20,231" size="710,1284" group="n13_w8uf" url="ui://uluoyg28w8uf15" autoSize="true"/>
+    <text id="n7_mjv5" name="n7" xy="303,252" size="144,48" group="n13_w8uf" font="ui://bs2uwwz8flzz0" fontSize="35" color="#be609c" align="center" strokeColor="#ffffff" strokeSize="2" text="章节切换"/>
+    <list id="n8_mjv5" name="n8" xy="94,322" size="560,1065" group="n13_w8uf" layout="flow_hz" overflow="scroll" clipSoftness="30,30" lineGap="-29" defaultItem="ui://6f05wxg5mjv5d" align="center" autoClearItems="true">
+      <item title="南风知我意  吹梦到西洲"/>
+      <item url="ui://6f05wxg5w8ufq47" title="南风知我意  吹梦到西洲"/>
+      <item title="南风知我意  吹梦到西洲"/>
+      <item url="ui://6f05wxg5w8ufq47" title="南风知我意  吹梦到西洲"/>
+    </list>
+    <component id="n18_ple6" name="n18" src="o2bo2h" fileName="Comp/Button_common_close.xml" pkg="82yrhfjg" xy="615,108" group="n13_w8uf"/>
+    <group id="n13_w8uf" name="n13" xy="20,108" size="710,1407" group="n19_ple6" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle%"/>
+    </group>
+    <group id="n19_ple6" name="n19" xy="20,108" size="710,1407"/>
+  </displayList>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="332,336">
+  <controller name="c1" pages="0,normal,1,littlered" selected="0"/>
+  <displayList>
+    <component id="n16_ubai" name="n5" src="zee8f" fileName="Comp/headicon_zhezhao.xml" pkg="82yrhfjg" xy="14,9" scale="1.133,1.133"/>
+    <image id="n15_ubai" name="n15" src="ubai4" fileName="Imag/circle.png" xy="0,0"/>
+    <text id="n17_ubai" name="n17" xy="242,29" pivot="0.5,0.5" size="47,29" rotation="28" font="ui://bs2uwwz8flzz0" fontSize="20" color="#ffffff" strokeColor="#877ec3" text="20%"/>
+    <component id="n18_mgpz" name="n18" src="lnqm1e" fileName="Comp/Littlered.xml" pkg="82yrhfjg" xy="260,55">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,34 @@
+
+hi5.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+5_1
+  rotate: true
+  xy: 1, 41
+  size: 111, 175
+  orig: 111, 175
+  offset: 0, 0
+  index: -1
+5_3
+  rotate: false
+  xy: 1, 153
+  size: 292, 335
+  orig: 292, 335
+  offset: 0, 0
+  index: -1
+5_4
+  rotate: false
+  xy: 177, 78
+  size: 166, 74
+  orig: 166, 74
+  offset: 0, 0
+  index: -1
+5_5
+  rotate: false
+  xy: 1, 1
+  size: 227, 39
+  orig: 227, 39
+  offset: 0, 0
+  index: -1

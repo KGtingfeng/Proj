@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,开始前,1,放宝石,2,完成,3,开门" selected="1"/>
+  <displayList>
+    <component id="n0_k8n8" name="n0" src="k8n88" fileName="Comp/bg_sub.xml" xy="-235,-189" pivot="0.5,0.562" aspect="true" scale="4.63,4.63">
+      <gearXY controller="c1" pages="0,1,2,3" values="-235,0|-235,-189|-235,-189|-235,-58" tween="true" ease="Quad.InOut" duration=".7"/>
+      <gearSize controller="c1" pages="0,2,3" values="1220,1624,1,1|1220,1624,4.63,4.63|1220,1624,2.66,2.66" default="1220,1624,4.63,4.63" tween="true" ease="Quad.InOut" duration=".7"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <graph id="n38_uaoe" name="n38" xy="-235,0" size="1220,1624" type="rect" lineSize="0" fillColor="#00ffffff">
+      <gearDisplay controller="c1" pages="2"/>
+    </graph>
+    <graph id="n39_uaoe" name="n39" xy="-235,0" size="1220,1624" type="rect" lineSize="0" fillColor="#00ffffff">
+      <gearDisplay controller="c1" pages="3"/>
+    </graph>
+    <image id="n1_k8n8" name="n1" src="k8n8a" fileName="Imag/frame_before.png" xy="41,1139" alpha="0">
+      <gearDisplay controller="c1" pages="0"/>
+      <gearLook controller="c1" pages="1,2,3" values="0,0,0,0|0,0,0,0|0,0,0,0" default="1,0,0,0" tween="true"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n2_k8n8" name="n2" xy="112,1180" size="533,144" alpha="0" font="ui://bs2uwwz8flzz2" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="前面的墙在发着光，&#xD;点击墙壁放大查看。">
+      <gearDisplay controller="c1" pages="0"/>
+      <gearLook controller="c1" pages="1,2,3" values="0,0,0,0|0,0,0,0|0,0,0,0" default="1,0,0,0" tween="true"/>
+      <relation target="n1_k8n8" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n4_k8n8" name="n4" src="k8n8c" fileName="Imag/ tipsbg.png" xy="37,1153">
+      <gearDisplay controller="c1" pages="1,2"/>
+      <gearXY controller="c1" pages="0,1,2,3" values="37,1287|37,1153|37,1287|37,1287" tween="true"/>
+      <gearLook controller="c1" pages="0,3" values="0,0,0,0|0,0,0,0" default="1,0,0,0" tween="true"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n5_k8n8" name="n5" xy="202,1160" size="342,42" font="ui://xk3nrdkvkki50" fontSize="30" color="#ffffff" align="center" vAlign="middle" text="摆放宝石的顺序全部正确!">
+      <gearDisplay controller="c1" pages="1,2"/>
+      <gearLook controller="c1" pages="0,3" values="0,0,0,0|0,0,0,0" default="1,0,0,0" tween="true"/>
+      <relation target="n4_k8n8" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n37_uaoe" name="n37" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="-235,0">
+      <gearDisplay controller="c1" pages="0,1"/>
+    </component>
+    <image id="n3_k8n8" name="n3" src="k8n83" fileName="Imag/frame_dym.png" xy="24,1215" group="n22_k8n8"/>
+    <component id="n6_k8n8" name="n6" src="k8n8d" fileName="Comp/diamond.xml" xy="138,1275" pivot="0.5,0.5" size="73,72" group="n22_k8n8"/>
+    <component id="n7_k8n8" name="n7" src="k8n8d" fileName="Comp/diamond.xml" xy="305,1275" pivot="0.5,0.5" size="73,72" group="n22_k8n8"/>
+    <component id="n8_k8n8" name="n8" src="k8n8d" fileName="Comp/diamond.xml" xy="472,1275" pivot="0.5,0.5" size="73,72" group="n22_k8n8"/>
+    <component id="n9_k8n8" name="n9" src="k8n8d" fileName="Comp/diamond.xml" xy="639,1275" pivot="0.5,0.5" group="n22_k8n8"/>
+    <component id="n14_k8n8" name="n10" src="k8n8d" fileName="Comp/diamond.xml" xy="54,1342" pivot="0.5,0.5" size="73,72" group="n22_k8n8"/>
+    <component id="n15_k8n8" name="n11" src="k8n8d" fileName="Comp/diamond.xml" xy="220,1342" pivot="0.5,0.5" size="73,72" group="n22_k8n8"/>
+    <component id="n16_k8n8" name="n12" src="k8n8d" fileName="Comp/diamond.xml" xy="387,1342" pivot="0.5,0.5" size="73,72" group="n22_k8n8"/>
+    <component id="n17_k8n8" name="n13" src="k8n8d" fileName="Comp/diamond.xml" xy="554,1342" pivot="0.5,0.5" group="n22_k8n8"/>
+    <component id="n18_k8n8" name="n14" src="k8n8d" fileName="Comp/diamond.xml" xy="138,1409" pivot="0.5,0.5" size="73,72" group="n22_k8n8"/>
+    <component id="n19_k8n8" name="n15" src="k8n8d" fileName="Comp/diamond.xml" xy="304,1409" pivot="0.5,0.5" size="73,72" group="n22_k8n8"/>
+    <component id="n20_k8n8" name="n16" src="k8n8d" fileName="Comp/diamond.xml" xy="471,1409" pivot="0.5,0.5" size="73,72" group="n22_k8n8"/>
+    <component id="n21_k8n8" name="n17" src="k8n8d" fileName="Comp/diamond.xml" xy="638,1409" pivot="0.5,0.5" group="n22_k8n8"/>
+    <group id="n22_k8n8" name="n22" xy="24,1215" size="702,312" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <gearXY controller="c1" pages="0,1,2,3" values="24,1635|24,1215|24,1215|24,1215" tween="true" duration=".7"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n24_uaoe" name="n24" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="338,543" pivot="0.5,0.5" size="60,60" group="n36_uaoe" pageController="c1">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n25_uaoe" name="n25" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="417,564" pivot="0.5,0.5" size="60,60" group="n36_uaoe" pageController="c1">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n26_uaoe" name="n26" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="477,622" pivot="0.5,0.5" size="60,60" group="n36_uaoe" pageController="c1">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n27_uaoe" name="n27" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="500,700" pivot="0.5,0.5" size="60,60" group="n36_uaoe" pageController="c1">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n28_uaoe" name="n28" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="477,777" pivot="0.5,0.5" size="60,60" group="n36_uaoe" pageController="c1">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n29_uaoe" name="n29" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="417,835" pivot="0.5,0.5" size="60,60" group="n36_uaoe" pageController="c1">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n30_uaoe" name="n30" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="337,855" pivot="0.5,0.5" size="60,60" group="n36_uaoe" pageController="c1">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n31_uaoe" name="n31" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="262,837" pivot="0.5,0.5" size="60,60" group="n36_uaoe" pageController="c1">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n32_uaoe" name="n32" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="203,779" pivot="0.5,0.5" size="60,60" group="n36_uaoe" pageController="c1">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n33_uaoe" name="n33" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="184,703" pivot="0.5,0.5" size="60,60" group="n36_uaoe" pageController="c1">
+      <gearDisplay controller="c1" pages=""/>
+    </component>
+    <component id="n34_uaoe" name="n34" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="203,622" pivot="0.5,0.5" size="60,60" group="n36_uaoe" pageController="c1">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n35_uaoe" name="n35" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="262,567" pivot="0.5,0.5" size="60,60" group="n36_uaoe" pageController="c1">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <group id="n36_uaoe" name="n36" xy="184,543" size="376,372" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n23_uaoe" name="n23" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="-235,0" size="1220,1624">
+      <gearDisplay controller="c1" pages="0,2,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n40_k7i8" name="n40" src="xrnqj" fileName="Comp/tap.xml" pkg="5sqxgclf" xy="259,650" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n41_k7i8" name="n41" src="xrnqj" fileName="Comp/tap.xml" pkg="5sqxgclf" xy="191,1320" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

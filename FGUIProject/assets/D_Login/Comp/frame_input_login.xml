@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="464,64">
+  <controller name="c1" pages="0,未点击,1,点击" selected="0"/>
+  <displayList>
+    <image id="n22_zw9n" name="n22" src="7cz7m" fileName="Imag/frame_input_login.png" xy="0,0" size="464,64">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n23_gab6" name="n23" src="zw9n1y" fileName="Imag/frame_input_login_active.png" xy="0,0" size="464,64">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+  </displayList>
+</component>

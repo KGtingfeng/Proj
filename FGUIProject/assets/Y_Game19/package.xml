@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="esksx6yi">
+  <resources>
+    <image id="vvaw0" name="ptn_harmfulwaste.png" path="/Imag/" exported="true"/>
+    <image id="vvaw1" name="ptn_other.png" path="/Imag/" exported="true"/>
+    <image id="vvaw2" name="ptn_rest.png" path="/Imag/" exported="true"/>
+    <image id="vvaw3" name="ptn_rubbish.png" path="/Imag/" exported="true"/>
+    <component id="vvaw4" name="Game19.xml" path="/Comp/" exported="true"/>
+    <component id="vvaw5" name="Game19_scene.xml" path="/Comp/" exported="true"/>
+    <image id="vvaw6" name="ptn_recoverable.png" path="/Imag/" exported="true"/>
+    <component id="vvaw8" name="Button1.xml" path="/Comp/" exported="true"/>
+    <component id="vvaw9" name="other.xml" path="/Comp/" exported="true"/>
+    <component id="vvawa" name="rest.xml" path="/Comp/" exported="true"/>
+    <component id="vvawb" name="recoverable.xml" path="/Comp/" exported="true"/>
+    <component id="vvawc" name="harmfulwaste.xml" path="/Comp/" exported="true"/>
+    <image id="h4fsd" name="bg_laji.png" path="/Imag/" scale="9grid" scale9grid="0,299,744,13"/>
+    <component id="h4fse" name="rubbish.xml" path="/Comp/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

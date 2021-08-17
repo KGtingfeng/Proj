@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624" mask="n4_dkwi">
+  <displayList>
+    <loader id="n2_dkwi" name="n2" xy="0,0" pivot="0.5,0.5" size="1220,1624" url="ui://uluoyg28dkwiq4d" autoSize="true"/>
+    <graph id="n4_dkwi" name="n4" xy="286,235" pivot="0.5,0.5" size="647,1154" scale="1.321,1.321" type="polygon" points="0,0,545,4,585.6,13.336,614.4641,36.608,635.0001,65.00003,646.0001,94.00003,647.7219,1154.002,93.48032,1147.729,46.42725,1134.464,23.61024,1112.291,6.703102,1083.946,0,1048,0,100"/>
+  </displayList>
+</component>

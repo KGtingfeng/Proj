@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="e7d29eoo">
+  <resources>
+    <image id="vvaw0" name="bild1.png" path="/Imag/" exported="true"/>
+    <image id="vvaw1" name="bild2.png" path="/Imag/" exported="true"/>
+    <component id="vvaw2" name="Game24.xml" path="/Comp/" exported="true"/>
+    <image id="vvaw3" name="ptn_question.png" path="/Imag/" exported="true"/>
+    <image id="vvaw4" name="ptn.png" path="/Imag/" exported="true"/>
+    <component id="vvaw5" name="Game24_scene.xml" path="/Comp/" exported="true"/>
+    <component id="vvaw6" name="tag.xml" path="/Comp/" exported="true"/>
+    <component id="vvaw7" name="bild1.xml" path="/Comp/" exported="true"/>
+    <component id="vvaw8" name="bild2.xml" path="/Comp/" exported="true"/>
+    <image id="vvaw9" name="ptn_find.png" path="/Imag/" exported="true"/>
+    <image id="vvawa" name="ptn_wrong.png" path="/Imag/" exported="true"/>
+    <component id="e6xib" name="Right.xml" path="/Comp/" exported="true"/>
+    <component id="e6xic" name="Wrong.xml" path="/Comp/" exported="true"/>
+    <image id="kfofe" name="bg.png" path="/Imag/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

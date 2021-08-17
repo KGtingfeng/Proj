@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: shuyan_Atlas
+  m_EditorClassIdentifier: 
+  atlasFile: {fileID: 4900000, guid: 6439fd785de414f6fb161bca46c13710, type: 3}
+  materials:
+  - {fileID: 2100000, guid: 9e016192a95cd4f59b44fcbd21413f0b, type: 2}
+  - {fileID: 2100000, guid: f4e5839dd262b4ac78c6491069352fb4, type: 2}
+  - {fileID: 2100000, guid: 1f7f447c593f1fe479af3fd46640a3ea, type: 2}

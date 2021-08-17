@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="432,72">
+  <displayList>
+    <image id="n35_am6o" name="n35" src="p9u327" fileName="Image/namebg.png" xy="0,0" size="432,72">
+      <relation target="n39_u33s" sidePair="rightext-right"/>
+    </image>
+    <text id="n38_u33s" name="n36" xy="62,3" size="134,66" font="ui://bs2uwwz8flzz0" fontSize="50" color="#ffffff" align="center" letterSpacing="30" strokeColor="#d25271" strokeSize="2" text="舒言"/>
+    <text id="n39_u33s" name="n37" xy="215,3" size="158,66" font="ui://bs2uwwz8flzz0" fontSize="50" color="#ffffff" align="center" letterSpacing="2" strokeColor="#d25271" strokeSize="2" text="朋友圈">
+      <relation target="n38_u33s" sidePair="left-right"/>
+    </text>
+  </displayList>
+  <relation target="n35_am6o" sidePair="width-width"/>
+</component>

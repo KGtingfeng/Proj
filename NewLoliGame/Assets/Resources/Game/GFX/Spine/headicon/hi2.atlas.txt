@@ -1,0 +1,76 @@
+
+hi2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2_3
+  rotate: false
+  xy: 336, 106
+  size: 71, 92
+  orig: 71, 92
+  offset: 0, 0
+  index: -1
+2_4
+  rotate: false
+  xy: 408, 125
+  size: 23, 21
+  orig: 23, 21
+  offset: 0, 0
+  index: -1
+2_5
+  rotate: false
+  xy: 1, 2
+  size: 334, 320
+  orig: 334, 320
+  offset: 0, 0
+  index: -1
+2_6
+  rotate: false
+  xy: 336, 199
+  size: 105, 123
+  orig: 105, 123
+  offset: 0, 0
+  index: -1
+hudie1
+  rotate: false
+  xy: 380, 9
+  size: 35, 47
+  orig: 35, 47
+  offset: 0, 0
+  index: -1
+hudie2
+  rotate: true
+  xy: 336, 1
+  size: 55, 43
+  orig: 55, 43
+  offset: 0, 0
+  index: -1
+hudie3
+  rotate: false
+  xy: 336, 57
+  size: 45, 48
+  orig: 45, 48
+  offset: 0, 0
+  index: -1
+hudie4
+  rotate: true
+  xy: 408, 147
+  size: 25, 42
+  orig: 25, 42
+  offset: 0, 0
+  index: -1
+hudie5
+  rotate: true
+  xy: 408, 173
+  size: 25, 44
+  orig: 25, 44
+  offset: 0, 0
+  index: -1
+hudie6
+  rotate: false
+  xy: 382, 72
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1

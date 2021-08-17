@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="65jpza8y">
+  <resources>
+    <image id="lnqm1" name="ProgressBar_rolelv2.png" path="/Imag/" exported="true" scale="9grid" scale9grid="81,0,162,30"/>
+    <image id="lnqm2" name="ProgressBar_rolelv1.png" path="/Imag/" exported="true"/>
+    <image id="lnqm3" name="frame_rolebg.png" path="/Imag/" exported="true"/>
+    <image id="lnqm4" name="ptn_namebg.png" path="/Imag/" exported="true" scale="9grid" scale9grid="11,11,18,17"/>
+    <component id="lnqm5" name="ProgressBar_rolelv.xml" path="/Comp/" exported="true"/>
+    <image id="lnqm6" name="btn_rolelevelup.png" path="/Imag/" exported="true"/>
+    <component id="lnqm7" name="Button_levelup.xml" path="/Comp/" exported="true"/>
+    <image id="lnqm8" name="icon_levelup.png" path="/Imag/" exported="true"/>
+    <component id="lnqm9" name="Frame_roleshow.xml" path="/Comp/" exported="true"/>
+    <component id="lnqm1o" name="Role_info.xml" path="/Comp/" exported="true"/>
+    <component id="lnqma" name="Role.xml" path="/Comp/" exported="true"/>
+    <component id="ouy21p" name="Frame_levelup.xml" path="/Comp/" exported="true"/>
+    <image id="rj5h1s" name="ptn_meilibg.png" path="/Imag/" exported="true" scale="9grid" scale9grid="23,10,1,23"/>
+    <component id="rj5h1u" name="Frame_attribute_levelup.xml" path="/Comp/" exported="true"/>
+    <image id="rj5h1v" name="btn_attribute_levelupbg4.png" path="/Imag/" exported="true"/>
+    <image id="rj5h1w" name="btn_attribute_levelupbg3.png" path="/Imag/" exported="true"/>
+    <image id="rj5h1x" name="btn_attribute_levelupbg2.png" path="/Imag/" exported="true"/>
+    <image id="rj5h1y" name="btn_attribute_levelupbg1.png" path="/Imag/" exported="true"/>
+    <component id="rj5h1z" name="btn_attribute_levelupbg1.xml" path="/Comp/" exported="true"/>
+    <image id="rj5h21" name="btn_arrow.png" path="/Imag/" exported="true"/>
+    <component id="j6m723" name="btn_attribute_levelupbg2.xml" path="/Comp/" exported="true"/>
+    <component id="j6m724" name="btn_attribute_levelupbg3.xml" path="/Comp/" exported="true"/>
+    <component id="j6m725" name="btn_attribute_levelupbg4.xml" path="/Comp/" exported="true"/>
+    <component id="gerr26" name="Frame_growup.xml" path="/Comp/" exported="true"/>
+    <image id="gerr27" name="btn_growup_suit.png" path="/Imag/" exported="true"/>
+    <image id="gerr28" name="btn_growup_reward.png" path="/Imag/" exported="true"/>
+    <image id="gerr29" name="btn_growup_story.png" path="/Imag/" exported="true"/>
+    <component id="gerr2a" name="Button-story.xml" path="/Comp/" exported="true"/>
+    <component id="gerr2b" name="Button_reward.xml" path="/Comp/" exported="true"/>
+    <component id="gerr2c" name="Button_suit.xml" path="/Comp/" exported="true"/>
+    <component id="gerr2d" name="Frame_suit.xml" path="/Comp/" exported="true"/>
+    <image id="gerr2e" name="frame_suitchoose.png" path="/Imag/" exported="true"/>
+    <component id="gerr2f" name="Frame_suitchoose.xml" path="/Comp/" exported="true"/>
+    <image id="gerr2g" name="ptn_pricebg.png" path="/Imag/" exported="true"/>
+    <component id="gerr2h" name="Frame_unopened.xml" path="/Comp/" exported="true"/>
+    <image id="phej10" name="ptn_none.png" path="/Imag/" exported="true" scale="9grid" scale9grid="12,12,1,1"/>
+    <image id="gab62i" name="frame_rolebg1.png" path="/Imag/" exported="true"/>
+    <image id="mrko2j" name="frame_rolebg2.png" path="/Imag/" exported="true"/>
+    <image id="mrko2k" name="frame_rolebg3.png" path="/Imag/" exported="true"/>
+    <image id="mrko2l" name="btn_gain.png" path="/Imag/" exported="true"/>
+    <component id="mrko2m" name="Button_gain.xml" path="/Comp/" exported="true"/>
+    <image id="w8uf2n" name="btn_rolelevelup1.png" path="/Imag/" exported="true"/>
+    <component id="w8uf2o" name="Button_rolelevelup.xml" path="/Comp/" exported="true"/>
+    <component id="w8uf2q" name="Frame_rolepose.xml" path="/Comp/"/>
+    <image id="w8uf2r" name="frame_suitchoose1.png" path="/Imag/" exported="true" scale9grid="48,191,96,30"/>
+    <image id="w8uf2s" name="ptn_currentsuit.png" path="/Imag/" exported="true" scale9grid="33,0,9,32"/>
+    <image id="w8uf2t" name="ptn_sunitnamebg.png" path="/Imag/" exported="true"/>
+    <image id="w8uf2u" name="btn_buy.png" path="/Imag/" exported="true"/>
+    <image id="w8uf2v" name="btn_change.png" path="/Imag/" exported="true"/>
+    <component id="w8uf2w" name="Button_change.xml" path="/Comp/" exported="true"/>
+    <component id="w8uf2x" name="Button_buy.xml" path="/Comp/" exported="true"/>
+    <image id="j8n42z" name="frame_suitchoose1_active.png" path="/Imag/" exported="true" scale="9grid" scale9grid="54,175,108,18"/>
+    <component id="j8n430" name="Button_suitchoose.xml" path="/Comp/" exported="true"/>
+    <image id="7vvy32" name="frame_suitchoose0.png" path="/Imag/" exported="true" scale="9grid" scale9grid="46,170,92,3"/>
+    <image id="7vvy33" name="suit.png" path="/Imag/" exported="true"/>
+    <image id="7vvy34" name="jingqingqidai.png" path="/Imag/" exported="true"/>
+    <image id="nuqx35" name="book_meili.png" path="/Imag/" exported="true"/>
+    <image id="nuqx36" name="book_huanbai.png" path="/Imag/" exported="true"/>
+    <image id="nuqx37" name="book_mofa.png" path="/Imag/" exported="true"/>
+    <image id="nuqx38" name="book_zhihui.png" path="/Imag/" exported="true"/>
+    <component id="nuqx39" name="Button_book_huanjing.xml" path="/Comp/" exported="true"/>
+    <component id="nuqx3a" name="Button_book_meili.xml" path="/Comp/" exported="true"/>
+    <component id="nuqx3b" name="Button_book_mofa.xml" path="/Comp/" exported="true"/>
+    <component id="nuqx3d" name="Button_book_zhihui.xml" path="/Comp/" exported="true"/>
+    <component id="nuqx3e" name="Frame_attribute_levelup2.xml" path="/Comp/"/>
+    <component id="nuqx3f" name="Frame_leveltimes.xml" path="/Comp/"/>
+    <component id="nuqx3g" name="Component1Frame_attribute_levelup2_final.xml" path="/Comp/"/>
+    <image id="nuqx3h" name="btn_attribute_leveluptextbg.png" path="/Imag/" exported="true"/>
+    <image id="nuqx3i" name="ani_sheng.png" path="/Imag/" exported="true"/>
+    <image id="nuqx3j" name="ani_ji.png" path="/Imag/" exported="true"/>
+    <image id="nuqx3k" name="ani_cheng.png" path="/Imag/" exported="true"/>
+    <image id="nuqx3l" name="ani_gong.png" path="/Imag/" exported="true"/>
+    <component id="urgs3m" name="frame_fazhen.xml" path="/Comp/" exported="true"/>
+    <component id="s7t63n" name="cha_banshen.xml" path="/Comp/"/>
+    <image id="s7t63o" name="ptn_rolelevelupbg.png" path="/Imag/"/>
+    <component id="ikv13p" name="Frame_title_listelement.xml" path="/Comp/"/>
+    <component id="ikv13q" name="Frame_changetitle.xml" path="/Comp/"/>
+    <image id="s5cu3r" name="n2.png" path="/"/>
+    <image id="k9eb3s" name="bg_topname.png" path="/Imag/" scale="9grid" scale9grid="19,17,3,34"/>
+    <image id="k9eb3t" name="bg_front.png" path="/Imag/" scale="9grid" scale9grid="3,231,6,462"/>
+    <image id="lp6x3u" name="bg_growupfront.png" path="/Imag/"/>
+  </resources>
+  <publish name="J_Role_Growup"/>
+</packageDescription>

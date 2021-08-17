@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,50">
+  <controller name="c1" pages="0,hot,1,new" selected="0"/>
+  <displayList>
+    <image id="n16_exzo" name="n16" src="exzom" fileName="Imag/hotnew.png" xy="1,1"/>
+    <text id="n17_exzo" name="n17" xy="4,10" size="43,29" font="ui://bs2uwwz8flzz0" fontSize="20" color="#ffffff" align="center" vAlign="middle" letterSpacing="-1" text="热卖">
+      <gearXY controller="c1" pages="0,1" values="4,10|5,11"/>
+      <gearText controller="c1" pages="0,1" values="热卖|新品"/>
+      <relation target="n16_exzo" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

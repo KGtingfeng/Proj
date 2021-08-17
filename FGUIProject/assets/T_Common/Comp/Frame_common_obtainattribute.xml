@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="464,72" opaque="false">
+  <displayList>
+    <image id="n20_dd7o" name="n20" src="dd7o2j" fileName="Imag/frame_common_levelup1.png" xy="0,0" group="n25_bw8u"/>
+    <text id="n22_dd7o" name="n22" xy="98,18" size="82,36" group="n25_bw8u" font="ui://wkrcryqms5cu3" fontSize="26" color="#ffffff" text="获得："/>
+    <text id="n23_dd7o" name="n23" xy="239,17" size="63,36" group="n25_bw8u" font="ui://wkrcryqms5cu5" fontSize="26" color="#ffffff" align="right" text="9999"/>
+    <loader id="n24_dd7o" name="n24" xy="314,2" size="120,120" group="n25_bw8u" scale="0.5,0.5" url="ui://6q5yp7siib4nq3v" fill="scale"/>
+    <group id="n25_bw8u" name="n25" xy="0,0" size="464,122" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

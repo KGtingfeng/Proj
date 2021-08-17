@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="329,448">
+  <displayList>
+    <image id="n0_oo7g" name="n0" src="oo7gq3s" fileName="Imag/cardyue.png" xy="-8,-5"/>
+    <loader id="n1_oo7g" name="n1" xy="50,236" pivot="0.5,0.5" size="100,100" scale="0.78,0.78" url="ui://82yrhfjgvdqrc" autoSize="true"/>
+    <loader id="n2_oo7g" name="n2" xy="174,236" pivot="0.5,0.5" size="100,100" scale="0.78,0.78" url="ui://82yrhfjgvdqrc" autoSize="true"/>
+    <text id="n4_oo7g" name="n4" xy="49,338" size="103,22" font="ui://bs2uwwz8flzz0" fontSize="14" color="#a77c91" align="center" autoSize="none" shadowColor="#ffffff" shadowOffset="1,1" text="立即获得"/>
+    <text id="n5_oo7g" name="n5" xy="170,338" size="102,22" font="ui://bs2uwwz8flzz0" fontSize="14" color="#a77c91" align="center" autoSize="none" shadowColor="#ffffff" shadowOffset="1,1" text="每日登陆领"/>
+    <text id="n8_oo7g" name="n8" xy="47,379" size="98,52" font="ui://wkrcryqms5cu3" fontSize="38" color="#ffedfb" align="center" autoSize="none" shadowColor="#cd40b2" shadowOffset="-1,1" text="30"/>
+    <text id="n9_oo7g" name="n9" xy="94,393" size="72,34" font="ui://wkrcryqmbvfr5" fontSize="22" color="#ffedfb" align="center" autoSize="none" shadowColor="#cd40b2" shadowOffset="-1,1" text="元"/>
+    <text id="n10_oo7g" name="n10" xy="52,458" size="248,32" font="ui://bs2uwwz8flzz0" fontSize="20" color="#b29ba5" align="center" autoSize="none" strokeColor="#ffffff" text="有效期：0天"/>
+    <image id="n12_980g" name="n12" src="ubaiq55" fileName="Imag/number_bg(1).png" pkg="82yrhfjg" xy="57,308" size="87,22"/>
+    <image id="n13_980g" name="n13" src="ubaiq55" fileName="Imag/number_bg(1).png" pkg="82yrhfjg" xy="178,307" size="87,23"/>
+    <text id="n7_oo7g" name="n7" xy="85,309" size="32,22" font="ui://bs2uwwz8flzz0" fontSize="14" color="#ffffff" align="center" autoSize="none" strokeColor="#da8686" text="300&#xA;"/>
+    <text id="n11_oo7g" name="n11" xy="210,309" size="32,22" font="ui://bs2uwwz8flzz0" fontSize="14" color="#ffffff" align="center" autoSize="none" strokeColor="#da8686" text="300&#xA;"/>
+    <text id="n14_a9ez" name="n14" xy="40,139" size="58,35" rotation="46" font="ui://bs2uwwz8flzz0" fontSize="25" color="#d2759d" text="30天"/>
+    <text id="n15_a9ez" name="n15" xy="260,228" size="30,33" font="ui://bs2uwwz8flzz2" fontSize="23" color="#cba460" text="30"/>
+    <text id="n16_a9ez" name="n16" xy="285,240" size="15,18" font="ui://bs2uwwz8flzz2" fontSize="11" color="#a77c91" text="天"/>
+    <text id="n17_a9ez" name="n17" xy="205,80" size="90,58" font="ui://bs2uwwz8flzz0" fontSize="43" color="#ffffff" text="月卡"/>
+    <text id="n18_a9ez" name="n18" xy="163,388" size="116,39" font="ui://bs2uwwz8flzz0" fontSize="28" color="#ffedfb" shadowColor="#cd40b2" shadowOffset="1,1" text="购买月卡"/>
+  </displayList>
+</component>

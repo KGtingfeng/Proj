@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="464,448">
+  <displayList>
+    <loader id="n6_kr05" name="n6" xy="95,47" pivot="0.5,0.5" size="270,270" scale="0.529,0.529" url="ui://82yrhfjgvdqr1" autoSize="true"/>
+    <image id="n0_kr05" name="n0" src="kr050" fileName="Imag/frame_call.png" xy="0,0"/>
+    <image id="n1_kr05" name="n1" src="kr053" fileName="Imag/btn_call.png" xy="261,29" pivot="0.5,0.5">
+      <relation target="n11_kr05" sidePair="middle-middle,left-right"/>
+    </image>
+    <image id="n2_kr05" name="n2" src="kr053" fileName="Imag/btn_call.png" xy="168,29" pivot="0.5,0.5" scale="-1,1">
+      <relation target="n11_kr05" sidePair="middle-middle,right-left"/>
+    </image>
+    <component id="n4_kr05" name="n4" src="kr056" fileName="Comp/Button_accept.xml" xy="28,330"/>
+    <component id="n5_kr05" name="n5" src="kr057" fileName="Comp/Button_refuse.xml" xy="253,330"/>
+    <movieclip id="n10_kr05" name="n10" src="kr05e" fileName="Comp/MovieClip_callin.jta" xy="172,296">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </movieclip>
+    <text id="n11_kr05" name="n11" xy="200,21" size="64,42" font="ui://xk3nrdkvkki50" fontSize="30" color="#ffffff" align="center" text="名字">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

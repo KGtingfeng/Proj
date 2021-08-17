@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,选择时间,2,完成,3,获得" selected="0"/>
+  <displayList>
+    <loader id="n0_dd7o" name="n0" xy="-235,0" size="1220,1624" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <graph id="n32_ro8r" name="n32" xy="0,0" size="750,1624" type="rect" lineColor="#03000000" fillColor="#03ffffff">
+      <gearDisplay controller="c1" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n1_dd7o" name="n1" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" pivot="0.449,0.5" scale="0.8,0.8">
+      <relation target="" sidePair="left-left%,top-top"/>
+    </component>
+    <component id="n2_dd7o" name="n2" src="10xzq14" fileName="Comp/Button_tips.xml" pkg="82yrhfjg" xy="576,69">
+      <gearDisplay controller="c1" pages="0,2"/>
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+    <component id="n3_dd7o" name="n3" src="10xzq15" fileName="Comp/Button_skip.xml" pkg="82yrhfjg" xy="576,146">
+      <gearDisplay controller="c1" pages="0,2"/>
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+    <image id="n43_w8uf" name="n43" src="w8ufq4e" fileName="Imag/ptn_textbg.png" pkg="82yrhfjg" xy="64,1229" size="622,97">
+      <gearDisplay controller="c1" pages="0,2"/>
+      <gearXY controller="c1" pages="2,3" values="64,1269|64,1229" default="64,1229"/>
+      <relation target="" sidePair="center-center,middle-middle%"/>
+    </image>
+    <text id="n4_dd7o" name="n4" xy="75,1230" size="593,96" font="ui://bs2uwwz8flzz2" fontSize="26" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="请长按转动分针与时针，确认时间！&#xA;请长按转动分针与时针，确认时间！">
+      <gearDisplay controller="c1" pages="0,2"/>
+      <relation target="n43_w8uf" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n25_dd7o" name="n25" src="dd7oq2d" fileName="Imag/watchtime_final.png" xy="101,374" pivot="0.5,0.5">
+      <gearDisplay controller="c1" pages="3"/>
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="n33_n3xv" name="n33" src="n3xvq3g" fileName="Imag/game_1.png" xy="151,459">
+      <gearDisplay controller="c1" pages="0,2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n34_n3xv" name="n34" src="n3xvq3i" fileName="Imag/game_2.png" xy="222,555" pivot="0.5,0.5">
+      <gearDisplay controller="c1" pages="0,2"/>
+      <relation target="n33_n3xv" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n35_n3xv" name="n35" src="n3xvq3h" fileName="Imag/game_3.png" xy="222,555" pivot="0.5,0.5">
+      <gearDisplay controller="c1" pages="0,2"/>
+      <relation target="n33_n3xv" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n36_n3xv" name="n36" src="n3xvq3f" fileName="Imag/game_4.png" xy="87,527">
+      <gearDisplay controller="c1" pages="0,2"/>
+      <relation target="n33_n3xv" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n37_n3xv" name="n37" src="tat8q3j" fileName="Comp/Frame_shifenzhen.xml" pkg="82yrhfjg" xy="117,1108">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle%"/>
+    </component>
+    <image id="n42_w8uf" name="n42" src="w8ufq4f" fileName="Imag/ptn_timebg.png" pkg="82yrhfjg" xy="60,234">
+      <gearDisplay controller="c1" pages="0,2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n41_tat8" name="n41" xy="309,328" size="220,52" font="ui://bs2uwwz8flzz0" fontSize="38" color="#fca1a7" strokeColor="#ffffff" strokeSize="2" text="倒计时：56s">
+      <gearDisplay controller="c1" pages="0,2"/>
+      <relation target="n42_w8uf" sidePair="center-center%,middle-middle"/>
+    </text>
+    <component id="n44_w8uf" name="n40" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="275,1430" scale="1.5,1.5">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle%"/>
+      <Button title="开始操作"/>
+    </component>
+    <component id="n45_w8uf" name="n45" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="275,1451" scale="1.5,1.5">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle%"/>
+      <Button title="确定"/>
+    </component>
+    <image id="n47_hee6" name="n47" src="hee6q4o" fileName="Imag/ptn_findtime.png" xy="169,1465">
+      <gearDisplay controller="c1" pages="3"/>
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <text id="n48_s8t3" name="n48" xy="259,1426" size="247,38" font="ui://bs2uwwz8flzz0" fontSize="27" color="#ffffff" text="找到了正确的时间！">
+      <gearDisplay controller="c1" pages="3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

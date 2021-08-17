@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,132">
+  <controller name="c1" pages="0,未读,1,已读" selected="1"/>
+  <displayList>
+    <component id="n0_zee8" name="n5" src="zee8e" fileName="Comp/headicon.xml" pkg="82yrhfjg" xy="506,-70" pivot="0.5,0.5" scale="0.47,0.47">
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </component>
+    <loader id="n1_zee8" name="n1" xy="130,3" size="451,125" url="ui://srheglvmzee8r" fill="scaleFree">
+      <relation target="n2_zee8" sidePair="width-width,height-height,right-right"/>
+    </loader>
+    <text id="n2_zee8" name="n2" xy="238,44" size="292,44" font="ui://bs2uwwz8flzz2" fontSize="32" color="#814684" align="right" strokeColor="#ffffff" strokeSize="2" faceDilate="0.197" underlaySoftness="1" text="本次通话：西周梦啊">
+      <relation target="n0_zee8" sidePair="right-left"/>
+    </text>
+    <text id="n3_f8rr" name="n3" xy="90,24" size="48,32" font="ui://bs2uwwz8flzz2" fontSize="22" color="#706266" text="已读">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n1_zee8" sidePair="right-left,top-top"/>
+    </text>
+    <image id="n4_f8rr" name="n4" src="zee8j" fileName="Image/ptn_video.png" xy="170,42">
+      <relation target="n2_zee8" sidePair="right-left"/>
+    </image>
+    <component id="n5_ry7w" name="n10" src="ry7w3u" fileName="Comp/headframe.xml" xy="578,3">
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </component>
+  </displayList>
+  <relation target="n1_zee8" sidePair="height-height"/>
+</component>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="365,177">
+  <displayList>
+    <image id="n1_xrnq" name="n1" src="xrnqe" fileName="Imag/talk_small.png" xy="0,4" pivot="0.984,0.599">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n2_xrnq" name="n2" xy="98,87" pivot="1.151,0.446" size="228,38" font="ui://bs2uwwz8flzz0" fontSize="22" color="#ffffff" align="center" autoSize="none" shadowColor="#000000" shadowOffset="1,1" text="来帮帮我吧~">
+      <relation target="n1_xrnq" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="t0" frameRate="60">
+    <item time="0" type="Alpha" target="n1_xrnq" tween="true" startValue="0" endValue="1" duration="30"/>
+    <item time="0" type="Alpha" target="n2_xrnq" value="1"/>
+    <item time="0" type="Alpha" target="n2_xrnq" tween="true" startValue="0" endValue="1" duration="30"/>
+    <item time="0" type="Scale" target="n1_xrnq" tween="true" startValue="0.76,0.76" endValue="1,1" duration="30" ease="Back.Out"/>
+    <item time="0" type="Scale" target="n2_xrnq" value="1,1"/>
+    <item time="0" type="Scale" target="n2_xrnq" tween="true" startValue="0.76,0.76" endValue="1,1" duration="30" ease="Back.Out"/>
+    <item time="30" type="Alpha" target="n1_xrnq" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="30" type="Alpha" target="n2_xrnq" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="30" type="Scale" target="n1_xrnq" tween="true" startValue="1,1" endValue="1,0" duration="12"/>
+    <item time="30" type="Scale" target="n2_xrnq" tween="true" startValue="1,1" endValue="1,0" duration="12"/>
+  </transition>
+</component>

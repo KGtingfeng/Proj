@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="745,1074">
+  <displayList>
+    <image id="n15_kw5t" name="n15" src="kw5tq3k" fileName="Imag/fx_1.png" xy="0,0" size="400,576" scale="1.86,1.86"/>
+    <loader id="n11_m44f" name="n6" xy="243,781" pivot="0.5,0.76" size="262,112" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+  <transition name="t0" frameRate="60">
+    <item time="0" type="Alpha" target="n11_m44f" value="0"/>
+    <item time="0" type="Alpha" target="n15_kw5t" value="0"/>
+    <item time="0" type="Scale" target="n11_m44f" value="1,1"/>
+    <item time="24" type="Alpha" target="n11_m44f" value="1"/>
+    <item time="24" type="Alpha" target="n15_kw5t" value="0"/>
+    <item time="24" type="Scale" target="n11_m44f" tween="true" startValue="2,2" endValue="1,1" duration="30" ease="Quad.In"/>
+    <item time="84" type="Alpha" target="n15_kw5t" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="102" type="Alpha" target="n15_kw5t" tween="true" startValue="1" endValue="0" duration="20"/>
+    <item time="122" type="Alpha" target="n15_kw5t" tween="true" startValue="0" endValue="1" duration="22"/>
+    <item time="144" type="Alpha" target="n15_kw5t" tween="true" startValue="1" endValue="0" duration="24"/>
+  </transition>
+</component>

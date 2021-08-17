@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="581,30">
+  <displayList>
+    <image id="n1_vvaw" name="bar" src="vvaw0" fileName="Imag/progressbar_in.png" xy="0,0" size="580,26">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <component id="n2_h4fs" name="n2" src="h4fsc" fileName="Comp/bar_bubble.xml" xy="0,-25" size="585,77">
+      <relation target="" sidePair="width-width"/>
+    </component>
+  </displayList>
+</component>

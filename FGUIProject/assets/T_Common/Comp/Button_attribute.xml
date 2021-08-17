@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="204,138" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_gab6" name="n0" src="gab6q2r" fileName="Imag/btn_up.png" xy="0,0">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_gab6" name="n1" src="gab6q2r" fileName="Imag/btn_up.png" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_gab6" name="title" xy="0,53" size="204,85" font="ui://bs2uwwz8flzz0" fontSize="26" color="#ffffff" align="center" vAlign="middle" autoSize="none" shadowColor="#6d6de2" shadowOffset="1,1" singleLine="true" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

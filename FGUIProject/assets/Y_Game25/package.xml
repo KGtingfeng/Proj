@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="7620gjcv">
+  <resources>
+    <component id="k1a10" name="Game25.xml" path="/Comp/" exported="true"/>
+    <image id="k1a11" name="btn_purple.png" path="/Imag/" exported="true"/>
+    <image id="k1a12" name="btn_green.png" path="/Imag/" exported="true"/>
+    <image id="k1a13" name="btn_pink.png" path="/Imag/" exported="true"/>
+    <image id="k1a14" name="ptn_nolight.png" path="/Imag/" exported="true"/>
+    <image id="k1a15" name="ptn_light.png" path="/Imag/" exported="true"/>
+    <image id="k1a16" name="bg_talk.png" path="/Imag/" exported="true"/>
+    <image id="k1a17" name="btn_blue.png" path="/Imag/" exported="true"/>
+    <component id="k1a18" name="Button_blue.xml" path="/Comp/" exported="true"/>
+    <component id="k1a19" name="Button_pink.xml" path="/Comp/" exported="true"/>
+    <component id="k1a1a" name="Button_green.xml" path="/Comp/" exported="true"/>
+    <component id="k1a1b" name="Button_purple.xml" path="/Comp/" exported="true"/>
+    <component id="k1a1c" name="light.xml" path="/Comp/" exported="true"/>
+    <image id="k1a1d" name="ptn_music.png" path="/Imag/" exported="true"/>
+    <image id="k1a1e" name="ptn_timebg.png" path="/Imag/" exported="true"/>
+    <component id="k1a1f" name="music.xml" path="/Comp/" exported="true"/>
+    <component id="k1a1h" name="Game25_scene.xml" path="/Comp/" exported="true"/>
+    <image id="k1a1i" name="MISS.png" path="/Imag/" exported="true"/>
+    <component id="k1a1j" name="Miss.xml" path="/Comp/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

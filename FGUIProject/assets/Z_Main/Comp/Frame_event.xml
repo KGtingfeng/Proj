@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <image id="n0_k7ir" name="n0" src="gab6q2u" fileName="Imag/frame1_common3.png" pkg="82yrhfjg" xy="64,358" size="636,786">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n2_ms0g" name="n2" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-235,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n1_k7ir" name="n1" xy="205,397" size="339,54" font="ui://wkrcryqmbvfr3" fontSize="40" color="#ffffff" align="center" letterSpacing="5" autoSize="none" text="活动活动活动">
+      <relation target="n0_k7ir" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n5_bvfr" name="n5" src="bvfrq4j" fileName="Imag/line.png" xy="103,914">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n6_bvfr" name="n6" xy="144,462" size="461,67" font="ui://wkrcryqmbvfr3" fontSize="23" color="#948787" align="center" vAlign="middle" autoSize="none" text="活动时间：2020/10/13-2020/10/13">
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </text>
+    <text id="n7_bvfr" name="n7" xy="143,941" size="474,66" font="ui://wkrcryqmbvfr3" fontSize="23" color="#948787" align="center" autoSize="none" text="购买后，可随机获得其中一件物品购买后&#xD;可随机获得其中一件物品，获得其中一件物品">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n9_bvfr" name="n9" src="bvfrq62" fileName="Comp/Button_activity.xml" xy="158,1017">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <loader id="n10_bvfr" name="n10" xy="104,530" size="561,354" url="ui://6q5yp7sik7irq46" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+</component>

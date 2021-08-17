@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="364,140" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_gggm" name="n0" src="gggms" fileName="Imag/btn_naqijian.png" xy="0,20">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_gggm" name="n1" src="gggms" fileName="Imag/btn_naqijian.png" xy="0,20">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n3_c9tr" name="title" xy="82,37" size="199,66" font="ui://xk3nrdkvkki51" fontSize="50" color="#ffffff" align="center" vAlign="middle" ubb="true" autoSize="none" shadowColor="#6568d8" shadowOffset="1,1" singleLine="true" text="拿起剑">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

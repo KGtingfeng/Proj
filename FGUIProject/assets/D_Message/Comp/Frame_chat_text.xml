@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,100">
+  <displayList>
+    <component id="n0_zee8" name="n5" src="zee8e" fileName="Comp/headicon.xml" pkg="82yrhfjg" xy="-32,-85" pivot="0.5,0.5" scale="0.47,0.47"/>
+    <image id="n1_zee8" name="n1" src="zee8q" fileName="Image/frame_dialogue_other.png" xy="159,4" size="502,93">
+      <relation target="n2_zee8" sidePair="width-width,height-height"/>
+    </image>
+    <richtext id="n2_zee8" name="n2" xy="215,29" size="388,44" font="ui://bs2uwwz8flzz2" fontSize="32" color="#814684" strokeColor="#ffffff" strokeSize="2" faceDilate="0.197" underlaySoftness="1" text="这里是说话文字内容字内容"/>
+    <component id="n3_ry7w" name="n10" src="ry7w3u" fileName="Comp/headframe.xml" xy="39,-11"/>
+  </displayList>
+  <relation target="n1_zee8" sidePair="height-height"/>
+</component>

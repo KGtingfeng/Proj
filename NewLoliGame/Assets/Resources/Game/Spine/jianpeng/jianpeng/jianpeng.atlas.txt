@@ -1,0 +1,390 @@
+
+jianpeng.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jp_guashi1
+  rotate: true
+  xy: 556, 852
+  size: 42, 67
+  orig: 42, 67
+  offset: 0, 0
+  index: -1
+jp_guashi10
+  rotate: true
+  xy: 657, 780
+  size: 65, 229
+  orig: 65, 229
+  offset: 0, 0
+  index: -1
+jp_guashi11
+  rotate: true
+  xy: 547, 783
+  size: 67, 109
+  orig: 67, 109
+  offset: 0, 0
+  index: -1
+jp_guashi2
+  rotate: true
+  xy: 1, 634
+  size: 106, 110
+  orig: 106, 110
+  offset: 0, 0
+  index: -1
+jp_guashi3
+  rotate: false
+  xy: 754, 679
+  size: 113, 100
+  orig: 113, 100
+  offset: 0, 0
+  index: -1
+jp_guashi4
+  rotate: true
+  xy: 388, 856
+  size: 38, 54
+  orig: 38, 54
+  offset: 0, 0
+  index: -1
+jp_guashi5
+  rotate: true
+  xy: 502, 853
+  size: 41, 53
+  orig: 41, 53
+  offset: 0, 0
+  index: -1
+jp_guashi6
+  rotate: true
+  xy: 63, 878
+  size: 16, 51
+  orig: 16, 51
+  offset: 0, 0
+  index: -1
+jp_guashi7
+  rotate: true
+  xy: 115, 878
+  size: 16, 51
+  orig: 16, 51
+  offset: 0, 0
+  index: -1
+jp_guashi8
+  rotate: true
+  xy: 167, 878
+  size: 16, 51
+  orig: 16, 51
+  offset: 0, 0
+  index: -1
+jp_guashi9
+  rotate: true
+  xy: 210, 797
+  size: 58, 225
+  orig: 58, 225
+  offset: 0, 0
+  index: -1
+jp_idle
+  rotate: false
+  xy: 682, 847
+  size: 69, 47
+  orig: 69, 47
+  offset: 0, 0
+  index: -1
+jp_qunbai1
+  rotate: true
+  xy: 192, 478
+  size: 110, 412
+  orig: 110, 412
+  offset: 0, 0
+  index: -1
+jp_qunbai2
+  rotate: true
+  xy: 308, 589
+  size: 96, 338
+  orig: 96, 338
+  offset: 0, 0
+  index: -1
+jp_qunbai3
+  rotate: true
+  xy: 647, 568
+  size: 102, 302
+  orig: 102, 302
+  offset: 0, 0
+  index: -1
+jp_qunbai4
+  rotate: false
+  xy: 201, 344
+  size: 205, 133
+  orig: 205, 133
+  offset: 0, 0
+  index: -1
+jp_qunbai5
+  rotate: true
+  xy: 771, 19
+  size: 259, 194
+  orig: 259, 194
+  offset: 0, 0
+  index: -1
+jp_qunbai6
+  rotate: false
+  xy: 1, 495
+  size: 190, 115
+  orig: 190, 115
+  offset: 0, 0
+  index: -1
+jp_shou_l1
+  rotate: true
+  xy: 752, 846
+  size: 48, 55
+  orig: 48, 55
+  offset: 0, 0
+  index: -1
+jp_shou_l2
+  rotate: true
+  xy: 808, 846
+  size: 48, 80
+  orig: 48, 80
+  offset: 0, 0
+  index: -1
+jp_shou_r1
+  rotate: true
+  xy: 93, 741
+  size: 79, 91
+  orig: 79, 91
+  offset: 0, 0
+  index: -1
+jp_shoubi_l1
+  rotate: true
+  xy: 801, 279
+  size: 155, 185
+  orig: 155, 185
+  offset: 0, 0
+  index: -1
+jp_shoubi_l2
+  rotate: true
+  xy: 599, 296
+  size: 138, 201
+  orig: 138, 201
+  offset: 0, 0
+  index: -1
+jp_shoubi_r1
+  rotate: true
+  xy: 333, 158
+  size: 169, 190
+  orig: 169, 190
+  offset: 0, 0
+  index: -1
+jp_shoubi_r2
+  rotate: true
+  xy: 407, 328
+  size: 149, 191
+  orig: 149, 191
+  offset: 0, 0
+  index: -1
+jp_talk
+  rotate: false
+  xy: 889, 846
+  size: 69, 48
+  orig: 69, 48
+  offset: 0, 0
+  index: -1
+jp_tou1
+  rotate: true
+  xy: 605, 435
+  size: 132, 199
+  orig: 132, 199
+  offset: 0, 0
+  index: -1
+jp_tou2
+  rotate: true
+  xy: 805, 435
+  size: 132, 199
+  orig: 132, 199
+  offset: 0, 0
+  index: -1
+jp_tou3
+  rotate: true
+  xy: 1, 345
+  size: 132, 199
+  orig: 132, 199
+  offset: 0, 0
+  index: -1
+jp_toufa1
+  rotate: false
+  xy: 312, 702
+  size: 97, 94
+  orig: 97, 94
+  offset: 0, 0
+  index: -1
+jp_toufa10
+  rotate: false
+  xy: 1, 827
+  size: 83, 50
+  orig: 83, 50
+  offset: 0, 0
+  index: -1
+jp_toufa11
+  rotate: true
+  xy: 410, 691
+  size: 91, 143
+  orig: 91, 143
+  offset: 0, 0
+  index: -1
+jp_toufa12
+  rotate: false
+  xy: 868, 671
+  size: 129, 103
+  orig: 129, 103
+  offset: 0, 0
+  index: -1
+jp_toufa13
+  rotate: true
+  xy: 554, 686
+  size: 93, 199
+  orig: 93, 199
+  offset: 0, 0
+  index: -1
+jp_toufa14
+  rotate: true
+  xy: 112, 611
+  size: 101, 195
+  orig: 101, 195
+  offset: 0, 0
+  index: -1
+jp_toufa15
+  rotate: false
+  xy: 185, 713
+  size: 126, 83
+  orig: 126, 83
+  offset: 0, 0
+  index: -1
+jp_toufa16
+  rotate: true
+  xy: 524, 102
+  size: 193, 246
+  orig: 193, 246
+  offset: 0, 0
+  index: -1
+jp_toufa2
+  rotate: true
+  xy: 436, 791
+  size: 61, 110
+  orig: 61, 110
+  offset: 0, 0
+  index: -1
+jp_toufa3
+  rotate: true
+  xy: 1, 742
+  size: 78, 91
+  orig: 78, 91
+  offset: 0, 0
+  index: -1
+jp_toufa4
+  rotate: true
+  xy: 85, 821
+  size: 56, 124
+  orig: 56, 124
+  offset: 0, 0
+  index: -1
+jp_toufa5
+  rotate: true
+  xy: 443, 855
+  size: 39, 58
+  orig: 39, 58
+  offset: 0, 0
+  index: -1
+jp_toufa6
+  rotate: true
+  xy: 263, 869
+  size: 25, 50
+  orig: 25, 50
+  offset: 0, 0
+  index: -1
+jp_toufa7
+  rotate: false
+  xy: 887, 775
+  size: 109, 70
+  orig: 109, 70
+  offset: 0, 0
+  index: -1
+jp_toufa8
+  rotate: false
+  xy: 314, 858
+  size: 73, 36
+  orig: 73, 36
+  offset: 0, 0
+  index: -1
+jp_toufa9
+  rotate: false
+  xy: 624, 851
+  size: 57, 43
+  orig: 57, 43
+  offset: 0, 0
+  index: -1
+jp_tui_r
+  rotate: true
+  xy: 1, 1
+  size: 156, 500
+  orig: 156, 500
+  offset: 0, 0
+  index: -1
+jp_weiqun2
+  rotate: true
+  xy: 1, 197
+  size: 146, 331
+  orig: 146, 331
+  offset: 0, 0
+  index: -1
+jp_yanl1
+  rotate: false
+  xy: 241, 873
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+jp_yanl2
+  rotate: false
+  xy: 32, 879
+  size: 30, 15
+  orig: 30, 15
+  offset: 0, 0
+  index: -1
+jp_yanr1
+  rotate: true
+  xy: 219, 874
+  size: 20, 21
+  orig: 20, 21
+  offset: 0, 0
+  index: -1
+jp_yanr2
+  rotate: false
+  xy: 1, 880
+  size: 30, 14
+  orig: 30, 14
+  offset: 0, 0
+  index: -1
+
+jianpeng2.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jp_shangshen
+  rotate: true
+  xy: 1, 46
+  size: 353, 449
+  orig: 353, 449
+  offset: 0, 0
+  index: -1
+jp_tui_l
+  rotate: true
+  xy: 451, 226
+  size: 173, 500
+  orig: 173, 500
+  offset: 0, 0
+  index: -1
+jp_weiqun1
+  rotate: true
+  xy: 451, 1
+  size: 224, 339
+  orig: 224, 339
+  offset: 0, 0
+  index: -1

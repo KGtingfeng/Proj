@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <displayList>
+    <graph id="n0_gggm" name="n0" xy="0,0" size="1220,1624" type="rect" lineSize="0" fillColor="#9e060525">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <image id="n3_gggm" name="n3" src="gggmr" fileName="Imag/frame_gainsword1.png" xy="227,421" size="760,463"/>
+    <image id="n2_gggm" name="n2" src="gggmq" fileName="Imag/frame_gainsword.png" xy="226,394"/>
+    <graph id="n5_onqs" name="n5" xy="0,0" size="1220,1624" type="rect" lineSize="0" fillColor="#00ffffff"/>
+    <component id="n4_gggm" name="n4" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="510,799" scale="1.8,1.8">
+      <Button title="拿起剑"/>
+    </component>
+  </displayList>
+</component>

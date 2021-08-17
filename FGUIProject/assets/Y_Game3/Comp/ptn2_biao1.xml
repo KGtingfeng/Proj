@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="133,90">
+  <displayList>
+    <image id="n13_g0xm" name="n12" src="g0xmz" fileName="Imag/ptn_tip1.png" xy="-24,-24"/>
+    <image id="n12_g0xm" name="n12" src="g0xmc" fileName="Imag/ptn2_biao1.png" xy="0,0"/>
+  </displayList>
+  <transition name="t0" frameRate="60">
+    <item time="0" type="Alpha" target="n13_g0xm" tween="true" startValue="0" endValue="1" duration="42"/>
+    <item time="42" type="Alpha" target="n13_g0xm" tween="true" startValue="1" endValue="0" duration="48"/>
+  </transition>
+</component>

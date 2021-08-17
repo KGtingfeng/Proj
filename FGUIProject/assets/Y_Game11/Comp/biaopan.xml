@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="506,496">
+  <displayList>
+    <image id="n15_cn0h" name="n15" src="cn0hf" fileName="Imag/baipan4.png" xy="0,0" pivot="0.5,0.5" size="505,496" color="#00ffff"/>
+    <image id="n14_cn0h" name="n14" src="cn0he" fileName="Imag/baipan1.png" xy="44,46"/>
+    <component id="n16_cn0h" name="n16" src="cn0hh" fileName="Comp/fenzhen.xml" xy="189,48" pivot="0.5,0.5"/>
+    <component id="n17_cn0h" name="n17" src="cn0hi" fileName="Comp/shizhen.xml" xy="189,48" pivot="0.5,0.5" rotation="90"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1" frameRate="60">
+    <item time="0" type="Rotation" target="n16_cn0h" tween="true" startValue="0" endValue="360" duration="180" ease="Linear"/>
+    <item time="0" type="Rotation" target="n17_cn0h" tween="true" startValue="90" endValue="450" duration="360" ease="Linear"/>
+    <item time="180" type="Rotation" target="n16_cn0h" tween="true" startValue="360" endValue="720" duration="180" ease="Linear"/>
+  </transition>
+</component>

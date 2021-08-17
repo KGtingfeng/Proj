@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="428,210">
+  <displayList>
+    <image id="n0_rzli" name="n0" src="rzlil" fileName="Imag/Drop-down_bg.png" xy="0,0" size="428,210">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="n1_rzli" name="list" xy="0,5" size="428,200" overflow="scroll" lineGap="1" defaultItem="ui://6ct0sutvrzlin">
+      <relation target="" sidePair="width-width"/>
+    </list>
+  </displayList>
+  <relation target="n1_rzli" sidePair="height-height"/>
+</component>

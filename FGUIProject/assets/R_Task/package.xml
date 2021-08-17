@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="1g573qgk">
+  <resources>
+    <component id="h4v20" name="Task.xml" path="/Comp/" exported="true"/>
+    <image id="h4v22" name="icon.png" path="/Imag/" exported="true"/>
+    <image id="h4v23" name="taskbg.png" path="/Imag/" exported="true"/>
+    <image id="h4v25" name="jindu_da0.png" path="/Imag/" exported="true" scale="9grid" scale9grid="13,0,29,20"/>
+    <image id="h4v26" name="jindu_da1.png" path="/Imag/" exported="true" scale="9grid" scale9grid="13,0,29,20"/>
+    <component id="h4v2a" name="ProgressBar1.xml" path="/Comp/" exported="true"/>
+    <image id="h4v2b" name="libao1.png" path="/Imag/" exported="true"/>
+    <image id="h4v2c" name="libao2.png" path="/Imag/" exported="true"/>
+    <image id="h4v2d" name="libao3.png" path="/Imag/" exported="true"/>
+    <component id="h4v2g" name="task_frame.xml" path="/Comp/" exported="true"/>
+    <image id="h4v2h" name="wancheng.png" path="/Imag/" exported="true"/>
+    <image id="h4v2i" name="btn_lingqu.png" path="/Imag/" exported="true"/>
+    <image id="h4v2j" name="btn_qianwang.png" path="/Imag/" exported="true"/>
+    <component id="h4v2k" name="Button_qianwang.xml" path="/Comp/" exported="true"/>
+    <component id="h4v2l" name="Button_lingqu.xml" path="/Comp/" exported="true"/>
+    <image id="h4v2m" name="btn_yijian.png" path="/Imag/" exported="true"/>
+    <component id="h4v2n" name="Button_yijian.xml" path="/Comp/" exported="true"/>
+    <component id="h4v2o" name="libao.xml" path="/Comp/" exported="true"/>
+    <image id="hupep" name="jing.png" path="/Imag/" exported="true"/>
+    <image id="hupeq" name="libao22.png" path="/Imag/" exported="true"/>
+    <component id="huper" name="libao2.xml" path="/Comp/"/>
+    <component id="v2qzp" name="ProgressBar(1).xml" path="/Comp/" exported="true"/>
+    <image id="v2qzs" name="jindu.png" path="/Imag/" exported="true" scale="9grid" scale9grid="5,2,4,4"/>
+    <component id="7o7mt" name="Frame_taskreview.xml" path="/Comp/" exported="true"/>
+    <image id="t19tu" name="bg_task.png" path="/Imag/"/>
+    <image id="t19tv" name="bg.png" path="/Imag/" scale="9grid" scale9grid="30,25,17,9"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

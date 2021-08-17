@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,基本信息,1,选择职业,2,选择日期,3,选择完成" selected="0"/>
+  <displayList>
+    <loader id="n4_vy2y" name="n4" xy="-235,0" size="1220,1624" align="center" vAlign="middle">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n9_auup" name="n9" src="h4fs2e" fileName="Imag/xinling.png" pkg="82yrhfjg" xy="332,158" size="420,1231">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n10_auup" name="n10" src="xrnq0" fileName="Imag/bg_contractbook.png" xy="0,288" size="750,1336">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n11_auup" name="n11" src="auup11" fileName="Imag/bg_book2.png" xy="380,725" size="338,766">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n12_auup" name="n12" src="auup11" fileName="Imag/bg_book2.png" xy="31,725" size="338,766" flip="both">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n13_auup" name="n13" src="auup12" fileName="Imag/bg_info.png" xy="90,987">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n0_izqh" name="n0" src="izqh3" fileName="BG_creatrole.jpg" pkg="geym4w1i" xy="-235,0"/>
+    <component id="n3_izqh" name="n3" src="izqh6" fileName="Comp/Frame_creatrole.xml" xy="92,763">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle%"/>
+    </component>
+    <component id="n5_lq3m" name="n5" src="kr02w" fileName="Comp/frame_chooseshenfen.xml" xy="-3,3">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle%"/>
+    </component>
+    <component id="n6_w8uf" name="n6" src="iua3q" fileName="Comp/Frame_Scrollselection.xml" pkg="82yrhfjg" xy="19,815">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle%"/>
+    </component>
+    <component id="n8_jf26" name="n8" src="vdqr17" fileName="Comp/Choose_doll_final.xml" pkg="82yrhfjg" xy="0,0">
+      <gearDisplay controller="c1" pages="3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n14_auup" name="n14" src="auup13" fileName="Imag/bg_front.png" xy="0,1394" size="750,230">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </image>
+    <image id="n15_auup" name="n15" src="auup13" fileName="Imag/bg_front.png" xy="0,1" size="750,230" flip="vt">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </image>
+    <image id="n16_auup" name="n16" src="hmq0q6k" fileName="Imag/talk_frame.png" pkg="82yrhfjg" xy="233,404" scale="0.8,0.8">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n17_auup" name="n17" xy="257,453" size="265,101" font="ui://bs2uwwz8flzz0" fontSize="27" color="#645439" vAlign="middle" autoSize="none" shadowColor="#e6e6e6" shadowOffset="1,1" text="在契约书中写下您的信息">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="n16_auup" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n7_f62n" name="n7" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" scale="0.8,0.8" visible="false">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="left-left%,top-top%"/>
+    </component>
+  </displayList>
+</component>

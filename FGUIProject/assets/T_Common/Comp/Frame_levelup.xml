@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <displayList>
+    <component id="n2_qaik" name="n2" src="e2l7q2z" fileName="Comp/mask_Component.xml" xy="0,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n3_qaik" name="n3" src="qaikq3u" fileName="Imag/ptn_shengji.png" xy="452,639">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n9_qaik" sidePair="middle-middle"/>
+    </image>
+    <image id="n14_qaik" name="n14" src="qaikq3x" fileName="Imag/ptn_levelup4.png" xy="236,734">
+      <relation target="n9_qaik" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n9_qaik" name="n9" src="qaikq42" fileName="Comp/Frame_ptn_levelup.xml" xy="0,751" pivot="0.5,0.5" size="1220,174">
+      <relation target="" sidePair="width-width,center-center,middle-middle"/>
+    </component>
+    <image id="n8_qaik" name="n8" src="qaikq3w" fileName="Imag/ptn_jiantouup.png" xy="803,636"/>
+    <image id="n4_qaik" name="n4" src="qaikq3t" fileName="Imag/ptn_jiantou3.png" xy="581,816" group="n17_qaik"/>
+    <text id="n5_qaik" name="n5" xy="424,795" size="142,68" group="n17_qaik" font="ui://wkrcryqms5cu3" fontSize="51" color="#8a8a8a" text="LV.58">
+      <relation target="n4_qaik" sidePair="middle-middle,right-right"/>
+    </text>
+    <text id="n6_qaik" name="n6" xy="639,794" size="142,68" group="n17_qaik" font="ui://wkrcryqms5cu3" fontSize="51" color="#df6060" text="LV.58">
+      <relation target="n4_qaik" sidePair="middle-middle,left-left"/>
+    </text>
+    <group id="n17_qaik" name="n17" xy="424,794" size="357,69" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+  <transition name="t1" frameRate="60">
+    <item time="0" type="Alpha" target="n14_qaik" tween="true" startValue="0" endValue="1" duration="36"/>
+    <item time="0" type="Alpha" target="n17_qaik" value="0"/>
+    <item time="0" type="Alpha" target="n3_qaik" tween="true" startValue="0" endValue="1" duration="36"/>
+    <item time="0" type="Alpha" target="n8_qaik" value="0"/>
+    <item time="0" type="Alpha" target="n9_qaik" tween="true" startValue="0" endValue="1" duration="36"/>
+    <item time="0" type="XY" target="n3_qaik" tween="true" startValue="452,770" endValue="452,599" duration="48"/>
+    <item time="48" type="Alpha" target="n8_qaik" tween="true" startValue="0" endValue="1" duration="16"/>
+    <item time="48" type="XY" target="n3_qaik" tween="true" startValue="452,599" endValue="452,631" duration="9" ease="Bounce.Out"/>
+    <item time="48" type="XY" target="n8_qaik" tween="true" startValue="803,636" endValue="803,576" duration="54"/>
+    <item time="51" type="Alpha" target="n17_qaik" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="64" type="Alpha" target="n8_qaik" tween="true" startValue="1" endValue="0" duration="38"/>
+  </transition>
+</component>

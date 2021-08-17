@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="520,113">
+  <controller name="c1" pages="0,查看涞源,1,佩戴,2,未佩戴" selected="0"/>
+  <controller name="c2" pages="0,normal,1,littlered" selected="0"/>
+  <displayList>
+    <image id="n81_pzu0" name="n81" src="pzu0q59" fileName="Imag/line.png" xy="0,110" size="519,1"/>
+    <loader id="n84_pzu0" name="n84" xy="299,32" size="120,120" scale="0.412,0.412" url="ui://82yrhfjglnqml"/>
+    <text id="n85_pzu0" name="n85" xy="353,42" size="50,29" font="ui://bs2uwwz8flzz2" fontSize="20" color="#71635d" text="+600"/>
+    <component id="n86_pzu0" name="n86" src="mgpzq5k" fileName="Comp/Button_laiyuan.xml" xy="356,30" scale="0.6,0.6">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="middle-middle,right-right%"/>
+      <Button title="查看来源"/>
+    </component>
+    <loader id="n89_pzu0" name="n89" xy="42,25" size="253,62" url="ui://f738c2kbrkmiq4i" autoSize="true"/>
+    <graph id="n92_nnz4" name="n92" xy="44,27" size="253,62" type="rect" lineSize="0" fillColor="#00ffffff"/>
+    <image id="n90_pzu0" name="n90" src="pzu0q5c" fileName="Imag/ptn_choose.png" xy="442,25" scale="2,2">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="middle-middle,right-right%"/>
+    </image>
+    <text id="n91_rkmi" name="n91" xy="155,56" pivot="0.5,0.5" anchor="true" size="84,29" font="ui://bs2uwwz8flzz0" fontSize="20" color="#ffffff" shadowColor="#557ab8" shadowOffset="1,1" text="称号名称">
+      <relation target="n89_pzu0" sidePair="middle-middle"/>
+    </text>
+    <component id="n93_g6jq" name="n93" src="lnqm1e" fileName="Comp/Littlered.xml" xy="240,17" scale="0.5,0.5">
+      <gearDisplay controller="c2" pages="1"/>
+    </component>
+    <image id="n80_pzu0" name="n80" src="pzu0q5a" fileName="Imag/ptn_weihuode.png" xy="0,0" size="38,107">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <text id="n94_a9ez" name="n94" xy="9,19" size="20,68" font="ui://bs2uwwz8flzz0" fontSize="16" color="#7a7248" align="center" shadowColor="#ffffff" shadowOffset="1,1" text="未&#xA;获&#xA;得">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+  </displayList>
+</component>

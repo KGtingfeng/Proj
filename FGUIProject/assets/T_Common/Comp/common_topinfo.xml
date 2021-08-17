@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,200">
+  <displayList>
+    <image id="n17_gab6" name="n17" src="gab61q" fileName="Imag/ptn_mainheadbg.png" pkg="68tbb4zq" xy="0,0">
+      <relation target="" sidePair="left-left"/>
+    </image>
+    <component id="n16_vdqr" name="n16" src="lnqm14" fileName="Comp/Icon_head.xml" pkg="68tbb4zq" xy="22,27" scale="0.48,0.48">
+      <relation target="n17_gab6" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n6_vdqr" name="n6" src="vdqri" fileName="Imag/ptn_levelbg.png" pkg="68tbb4zq" xy="12,112" size="50,47" aspect="true">
+      <relation target="n17_gab6" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n7_vdqr" name="n7" src="vdqre" fileName="Imag/ptn_common_Consumbg.png" xy="220,53">
+      <relation target="" sidePair="right-right%"/>
+    </image>
+    <image id="n8_vdqr" name="n8" src="vdqrd" fileName="Imag/icon_common_aixin.png" xy="231,61" size="50,50">
+      <relation target="n7_vdqr" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n9_vdqr" name="n9" src="vdqrc" fileName="Imag/icon_common_zuanshi.png" xy="492,62" size="50,50">
+      <relation target="n7_vdqr" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n10_vdqr" name="n10" src="vdqrg" fileName="Comp/Button_+aixin.xml" xy="426,71" size="37,36" scale="0.93,0.93">
+      <relation target="n7_vdqr" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n11_vdqr" name="n11" src="vdqrh" fileName="Comp/Button_+zuanshi.xml" xy="682,70" size="37,36" scale="0.93,0.93">
+      <relation target="n7_vdqr" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n12_vdqr" name="n12" xy="277,74" size="136,29" font="ui://bs2uwwz8flzz0" fontSize="20" color="#ffffff" autoSize="none" strokeColor="#7c688a" text="999">
+      <relation target="n7_vdqr" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n13_vdqr" name="n13" xy="543,73" size="129,29" font="ui://bs2uwwz8flzz0" fontSize="20" color="#ffffff" autoSize="none" strokeColor="#7c688a" text="9999999">
+      <relation target="n7_vdqr" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n14_vdqr" name="n14" xy="37,170" size="104,29" font="ui://bs2uwwz8flzz0" fontSize="20" color="#ffffff" align="center" strokeColor="#976c99" text="玩家的名字">
+      <relation target="n17_gab6" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n15_vdqr" name="n15" xy="22,121" size="28,29" font="ui://bs2uwwz8flzz0" fontSize="20" color="#ffffff" strokeColor="#c65959" text="99">
+      <relation target="n6_vdqr" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

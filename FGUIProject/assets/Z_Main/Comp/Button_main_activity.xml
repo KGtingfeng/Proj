@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="168,168" pivot="0.5,0.5" extention="Button" hitTest="n0_lnqm">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="statue" pages="0,normal,1,littlered" selected="0"/>
+  <controller name="open" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n0_lnqm" name="n0" src="vdqre" fileName="Imag/icon_main_activity.png" xy="0,0" size="168,168">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_lnqm" name="n1" src="vdqre" fileName="Imag/icon_main_activity.png" xy="0,0" size="168,168">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n2_lnqm" name="n2" src="lnqm1e" fileName="Comp/Littlered.xml" pkg="82yrhfjg" xy="94,0">
+      <gearDisplay controller="statue" pages="1"/>
+    </component>
+    <image id="n3_r2ii" name="n3" src="vdqre" fileName="Imag/icon_main_activity.png" xy="0,0" size="168,168" color="#8c8c8c">
+      <gearDisplay controller="open" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".96"/>
+</component>

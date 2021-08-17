@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="712,808">
+  <displayList>
+    <graph id="n20_kdzl" name="n20" xy="0,-89" size="712,889" group="n19_cmam" type="rect" lineSize="0" fillColor="#00ffffff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n5_lq3m" name="n5" src="vycmq3n" fileName="Imag/frame_shiming.png" xy="63,18" size="585,774" group="n19_cmam"/>
+    <list id="n9_lq3m" name="n9" xy="252,137" size="200,648" group="n19_cmam" lineGap="17" defaultItem="ui://82yrhfjglq3my" align="center">
+      <item title="学生"/>
+      <item title="公务员"/>
+      <item title="企业员工"/>
+      <item title="企业管理"/>
+      <item title="私营业主"/>
+      <item title="教师"/>
+      <item title="军人"/>
+      <item title="自由职业者"/>
+      <item title="其他"/>
+    </list>
+    <image id="n18_w8uf" name="n18" src="w8ufz" fileName="Imag/frame_chooseshenfen1.png" xy="104,699" group="n19_cmam"/>
+    <image id="n17_w8uf" name="n17" src="w8ufz" fileName="Imag/frame_chooseshenfen1.png" xy="104,629" group="n19_cmam"/>
+    <image id="n16_w8uf" name="n16" src="w8ufz" fileName="Imag/frame_chooseshenfen1.png" xy="104,559" group="n19_cmam"/>
+    <image id="n15_w8uf" name="n15" src="w8ufz" fileName="Imag/frame_chooseshenfen1.png" xy="104,489" group="n19_cmam"/>
+    <image id="n14_w8uf" name="n14" src="w8ufz" fileName="Imag/frame_chooseshenfen1.png" xy="104,419" group="n19_cmam"/>
+    <image id="n13_w8uf" name="n13" src="w8ufz" fileName="Imag/frame_chooseshenfen1.png" xy="104,349" group="n19_cmam"/>
+    <image id="n12_w8uf" name="n12" src="w8ufz" fileName="Imag/frame_chooseshenfen1.png" xy="104,279" group="n19_cmam"/>
+    <image id="n11_w8uf" name="n11" src="w8ufz" fileName="Imag/frame_chooseshenfen1.png" xy="104,209" group="n19_cmam"/>
+    <image id="n10_w8uf" name="n10" src="w8ufz" fileName="Imag/frame_chooseshenfen1.png" xy="104,139" group="n19_cmam"/>
+    <text id="n21_980g" name="n21" xy="264,66" size="184,42" group="n19_cmam" font="ui://wkrcryqms5cu3" fontSize="30" color="#ffffff" text="选择你的职业"/>
+    <group id="n19_cmam" name="n19" xy="0,-89" size="712,889" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

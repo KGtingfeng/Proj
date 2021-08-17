@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="483,137">
+  <controller name="c1" pages="0,修改前,1,修改后" selected="1"/>
+  <displayList>
+    <text id="n19_am6o" name="n19" xy="0,21" size="94,42" font="ui://bs2uwwz8flzz0" fontSize="30" color="#886175" text="名字啊">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n20_am6o" name="n20" xy="0,77" size="154,42" font="ui://xk3nrdkvkki50" fontSize="30" color="#886175" text="原名：XXX">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <component id="n21_am6o" name="n21" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="279,3">
+      <relation target="" sidePair="right-right"/>
+      <Button title="修改"/>
+    </component>
+    <component id="n22_am6o" name="n22" src="wf3bq5o" fileName="Comp/Button1_red.xml" pkg="82yrhfjg" xy="277,66">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="right-right"/>
+      <Button title="还原"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,资源下载中,1,提示" selected="0"/>
+  <displayList>
+    <image id="n0_npkc" name="n0" src="gab6q2u" fileName="Imag/frame1_common3.png" pkg="82yrhfjg" xy="22,512" size="706,484"/>
+    <component id="n2_npkc" name="n2" src="rj5h22" fileName="Comp/Button2_red.xml" pkg="82yrhfjg" xy="252,832">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button title="取消下载"/>
+    </component>
+    <component id="n4_npkc" name="n4" src="npkcq4h" fileName="Comp/download.xml" xy="54,656">
+      <gearDisplay controller="c1" pages="0"/>
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <text id="n6_npkc" name="n6" xy="215,558" size="320,56" font="ui://wkrcryqmbvfr3" fontSize="42" color="#ffffff" align="center" letterSpacing="2" autoSize="none" text="资源下载中">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <text id="n7_npkc" name="n7" xy="304,556" size="141,92" font="ui://wkrcryqmbvfr3" fontSize="42" color="#ffffff" align="center" letterSpacing="2" autoSize="none" text="提示">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <component id="n9_npkc" name="n9" src="rj5h23" fileName="Comp/Button2_blue.xml" pkg="82yrhfjg" xy="416,851">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="确认"/>
+    </component>
+    <component id="n10_npkc" name="n10" src="rj5h22" fileName="Comp/Button2_red.xml" pkg="82yrhfjg" xy="89,851">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="取消"/>
+    </component>
+    <text id="n11_npkc" name="n11" xy="117,639" size="515,202" fontSize="34" color="#b9788f" align="center" vAlign="middle" leading="12" letterSpacing="1" autoSize="none" text="即将开始下载资源，&#xA;推荐在WIFI环境下进行下载。&#xA;（资源文件大小：1000MB）">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+  </displayList>
+</component>

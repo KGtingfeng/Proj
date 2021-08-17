@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,80">
+  <controller name="c1" pages="0,未达成,1,达成未领取,2,已领取" selected="0"/>
+  <displayList>
+    <image id="n21_h4v2" name="n21" src="h4v2b" fileName="Imag/libao1.png" xy="5,8">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <component id="n22_h4v2" name="n22" src="huper" fileName="Comp/libao2.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <image id="n23_h4v2" name="n23" src="h4v2d" fileName="Imag/libao3.png" xy="5,4">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <image id="n25_h4v2" name="n25" src="h4v22" fileName="Imag/icon.png" xy="13,80" scale="0.5,0.5">
+      <relation target="n26_h4v2" sidePair="middle-middle,right-left"/>
+    </image>
+    <text id="n26_h4v2" name="n26" xy="31,77" size="31,23" font="ui://bs2uwwz8flzz0" fontSize="15" color="#b62771" leading="-5" strokeColor="#cccccc" text="100">
+      <relation target="" sidePair="center-center%,middle-middle"/>
+    </text>
+  </displayList>
+</component>

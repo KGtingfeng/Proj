@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="732,758" designImage="ui://uluoyg28gab6l">
+  <displayList>
+    <image id="n1_dd7o" name="n1" src="lnqm12" fileName="Imag/frame1_common.png" xy="64,81" size="603,595">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <list id="n18_p7i4" name="n18" xy="130,182" size="471,371" lineGap="24" defaultItem="ui://82yrhfjgp7i4q2h" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n20_rrsc" name="n17" src="xmr3q43" fileName="Comp/Gcom_EffectGraph.xml" xy="-198,-447" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

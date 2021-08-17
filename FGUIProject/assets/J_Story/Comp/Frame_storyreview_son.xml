@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="696,1278">
+  <displayList>
+    <graph id="n5_lq3m" name="n5" xy="-252,-173" size="1200,1624" alpha="0" type="rect"/>
+    <loader id="n4_gab6" name="n4" xy="15,15" pivot="0.5,0.5" size="666,1248" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle%"/>
+    </loader>
+    <list id="n3_dd7o" name="n3" xy="62,74" size="572,1095" overflow="scroll" clipSoftness="3,3">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item url="ui://6f05wxg5dd7oq25"/>
+      <item url="ui://6f05wxg5dd7oq26"/>
+      <item url="ui://6f05wxg5dd7oq27"/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="x03va7jn">
+  <resources>
+    <component id="rqgg0" name="Room.xml" path="/Comp/" exported="true"/>
+    <image id="rqgg1" name="frame_clock.png" path="/Imag/" exported="true"/>
+    <component id="rqgg2" name="Frame_clock.xml" path="/Comp/" exported="true"/>
+    <image id="rqgg3" name="btn_anrrow2.png" path="/Imag/" exported="true"/>
+    <image id="rqgg4" name="input_unmber.png" path="/Imag/" exported="true"/>
+    <image id="rqgg5" name="btn_anrrow.png" path="/Imag/" exported="true"/>
+    <image id="rqgg6" name="btn_day2.png" path="/Imag/" exported="true"/>
+    <image id="rqgg7" name="btn_day1.png" path="/Imag/" exported="true"/>
+    <image id="rqgg8" name="btn_open3.png" path="/Imag/" exported="true"/>
+    <image id="rqgg9" name="btn_open1.png" path="/Imag/" exported="true"/>
+    <image id="rqgga" name="btn_open2.png" path="/Imag/" exported="true"/>
+    <component id="rqggb" name="Button_open.xml" path="/Comp/" exported="true"/>
+    <component id="rqggd" name="Button_chooseday.xml" path="/Comp/" exported="true"/>
+    <component id="rqgge" name="number.xml" path="/Comp/" exported="true"/>
+    <component id="rqggf" name="Button_lingsheng.xml" path="/Comp/" exported="true"/>
+    <component id="rqggg" name="Frame_choosesound.xml" path="/Comp/" exported="true"/>
+    <image id="rqggh" name="frame_choosesound.png" path="/Imag/" exported="true" scale="9grid" scale9grid="0,95,590,2"/>
+    <image id="rqggi" name="line.png" path="/Imag/" exported="true"/>
+    <image id="rqggl" name="shoose.png" path="/Imag/" exported="true"/>
+    <component id="rqggm" name="Button_shoosesound.xml" path="/Comp/" exported="true"/>
+    <image id="lol4n" name="ptn_nz.png" path="/Imag/" exported="true"/>
+    <image id="lol4o" name="ptn_xc.png" path="/Imag/" exported="true"/>
+    <image id="lol4p" name="ptn_hs.png" path="/Imag/" exported="true"/>
+    <image id="lol4q" name="btn_xc.png" path="/Imag/" exported="true"/>
+    <image id="lol4r" name="btn_hs.png" path="/Imag/" exported="true"/>
+    <image id="lol4s" name="btn_nz.png" path="/Imag/" exported="true"/>
+    <component id="lol4t" name="Button_nz.xml" path="/Comp/" exported="true"/>
+    <component id="lol4u" name="Button_hs.xml" path="/Comp/" exported="true"/>
+    <component id="lol4v" name="Button_xc.xml" path="/Comp/" exported="true"/>
+    <image id="lol4w" name="ptn_sk.png" path="/Imag/" exported="true"/>
+    <image id="lol4x" name="ptn_hb.png" path="/Imag/" exported="true"/>
+    <component id="lol4y" name="Button_sk.xml" path="/Comp/" exported="true"/>
+    <component id="lol4z" name="Button_hb.xml" path="/Comp/" exported="true"/>
+    <component id="r9ph10" name="Frame_collection.xml" path="/Comp/" exported="true"/>
+    <image id="r9ph11" name="01.png" path="/Imag/" exported="true"/>
+    <image id="r9ph12" name="02.png" path="/Imag/" exported="true"/>
+    <image id="r9ph13" name="03.png" path="/Imag/" exported="true"/>
+    <image id="r9ph14" name="04.png" path="/Imag/" exported="true"/>
+    <image id="r9ph15" name="05.png" path="/Imag/" exported="true"/>
+    <image id="r9ph16" name="06.png" path="/Imag/" exported="true"/>
+    <image id="r9ph17" name="07.png" path="/Imag/" exported="true"/>
+    <image id="r9ph18" name="08.png" path="/Imag/" exported="true"/>
+    <image id="r9ph19" name="09.png" path="/Imag/" exported="true"/>
+    <image id="r9ph1a" name="10.png" path="/Imag/" exported="true"/>
+    <image id="r9ph1b" name="12.png" path="/Imag/" exported="true"/>
+    <image id="r9ph1c" name="13.png" path="/Imag/" exported="true"/>
+    <image id="r9ph1d" name="16.png" path="/Imag/" exported="true"/>
+    <image id="r9ph1e" name="18.png" path="/Imag/" exported="true"/>
+    <image id="r9ph1f" name="19.png" path="/Imag/" exported="true"/>
+    <image id="r9ph1g" name="21.png" path="/Imag/" exported="true"/>
+    <image id="r9ph1h" name="22.png" path="/Imag/" exported="true"/>
+    <image id="r9ph1i" name="23.png" path="/Imag/" exported="true"/>
+    <image id="r9ph1j" name="26.png" path="/Imag/" exported="true"/>
+    <image id="r9ph1k" name="11.png" path="/Imag/" exported="true"/>
+    <image id="r9ph1l" name="logo.png" path="/Imag/" exported="true"/>
+    <image id="r9ph1m" name="btn_share.png" path="/Imag/" exported="true"/>
+    <component id="k80a1o" name="Frame_xiangce.xml" path="/Comp/" exported="true"/>
+    <image id="zh3o1p" name="ptn_huawen.png" path="/Imag/" exported="true"/>
+    <image id="zh3o1q" name="ptn_select.png" path="/Imag/" exported="true"/>
+    <image id="zh3o1r" name="btn_f.png" path="/Imag/" exported="true"/>
+    <image id="zh3o1s" name="btn_l.png" path="/Imag/" exported="true"/>
+    <component id="zh3o1t" name="Button_fenlei.xml" path="/Comp/" exported="true"/>
+    <component id="zh3o1w" name="list_shike1.xml" path="/Comp/" exported="true"/>
+    <component id="zh3o1x" name="list_shike2.xml" path="/Comp/" exported="true"/>
+    <image id="zh3o1y" name="qidai.png" path="/Imag/" exported="true"/>
+    <image id="zh3o20" name="jiesuo.png" path="/Imag/" exported="true"/>
+    <component id="zh3o21" name="list_shike.xml" path="/Comp/" exported="true"/>
+    <image id="zh3o22" name="textbg.png" path="/Imag/" exported="true"/>
+    <image id="k80aq4w" name="biaoti.png" path="/Imag/" exported="true" scale="9grid" scale9grid="271,0,4,76"/>
+    <image id="k80aq4x" name="ptn_xiangce.png" path="/Imag/" exported="true" scale="9grid" scale9grid="1,0,2,1020"/>
+    <component id="h4v2q4y" name="frame_shikedatu.xml" path="/Comp/" exported="true"/>
+    <component id="dkwiq50" name="shike_review.xml" path="/Comp/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

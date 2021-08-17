@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <displayList>
+    <component id="n22_7afj" name="n22" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="0,0" size="1220,1624">
+      <relation target="" sidePair="width-width,height-height%"/>
+    </component>
+    <component id="n19_vvaw" name="n19" src="n6wn1p" fileName="Comp/doll_finish_effect_sub.xml" xy="209,161" pivot="0.5,0.5"/>
+  </displayList>
+  <transition name="t0" frameRate="60">
+    <item time="0" type="XY" target="n19_vvaw" tween="true" startValue="209,1647" endValue="209,141" duration="30" ease="Back.Out"/>
+  </transition>
+  <transition name="t1" autoPlay="true" frameRate="60">
+    <item time="0" type="Alpha" target="n19_vvaw" value="1"/>
+    <item time="0" type="Rotation" target="n19_vvaw" tween="true" startValue="0" endValue="360" duration="90" ease="Quad.In"/>
+    <item time="0" type="Scale" target="n19_vvaw" tween="true" startValue="1,1" endValue="0.18,0.18" duration="90" ease="Quad.In"/>
+    <item time="0" type="XY" target="n19_vvaw" tween="true" startValue="209,161" endValue="220,633" duration="90" ease="Linear" path="2,0,0,464,-517,-287,422,1,2,11,472,0,0,0,0,1"/>
+    <item time="90" type="Alpha" target="n19_vvaw" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="90" type="Scale" target="n19_vvaw" tween="true" startValue="0.18,0.18" endValue="0.24,0.24" duration="6"/>
+  </transition>
+</component>

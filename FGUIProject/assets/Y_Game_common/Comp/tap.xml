@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="82,66">
+  <controller name="c1" pages="0,,1,成功" selected="0"/>
+  <displayList>
+    <image id="n40_qfcc" name="n40" src="qfcc1s" fileName="Imag/tap1.png" xy="19,-9" rotation="28">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+  </displayList>
+</component>

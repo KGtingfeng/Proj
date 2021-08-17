@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="146,146" extention="Button" hitTest="n1_7cz7">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_7cz7" name="n0" src="7cz7v" fileName="Imag/login_icon_logout.png" xy="0,0" size="146,146">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_7cz7" name="n1" src="7cz7w" fileName="Imag/login_icon_logout_active.png" xy="0,0" size="146,146">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_7cz7" name="title" xy="0,68" size="146,70" font="ui://bs2uwwz8flzz0" fontSize="14" color="#ffffff" align="center" vAlign="middle" autoSize="none" singleLine="true" text="注销">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

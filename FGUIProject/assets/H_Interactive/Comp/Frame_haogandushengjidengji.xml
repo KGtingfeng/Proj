@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="270,60">
+  <displayList>
+    <text id="n1_qaik" name="n1" xy="0,1" size="103,59" group="n4_qaik" font="ui://xk3nrdkvkki51" fontSize="44" color="#ffffff" align="right" text="lV.12">
+      <relation target="n2_qaik" sidePair="middle-middle,right-right"/>
+    </text>
+    <image id="n2_qaik" name="n2" src="qaikq4n" fileName="Imag/ptn_jiantou2.png" xy="104,6" group="n4_qaik"/>
+    <text id="n3_qaik" name="n3" xy="152,0" size="117,59" group="n4_qaik" font="ui://xk3nrdkvkki51" fontSize="44" color="#ffffff" text="LV.13">
+      <relation target="n2_qaik" sidePair="middle-middle,left-left"/>
+    </text>
+    <group id="n4_qaik" name="n4" xy="0,0" size="270,60" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

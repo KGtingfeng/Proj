@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="72,62">
+  <displayList>
+    <image id="n22_m7ft" name="n22" src="m7ftq3r" fileName="Imag/star_jindu2.png" xy="1,0"/>
+    <component id="n23_m7ft" name="n23" src="m7ftq3u" fileName="Comp/redheart.xml" xy="1,1"/>
+    <image id="n20_kki5" name="n20" src="kki5b" fileName="Imag/star_jindu.png" xy="1,0"/>
+    <text id="n21_kki5" name="n21" xy="8,1" size="56,56" font="ui://bs2uwwz8flzz2" fontSize="30" color="#a7dbff" align="center" vAlign="middle" autoSize="none" strokeColor="#ffffff" text="12"/>
+  </displayList>
+</component>

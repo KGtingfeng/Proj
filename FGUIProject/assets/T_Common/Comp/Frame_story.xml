@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624" designImageOffsetX="232" designImageAlpha="0" designImageLayer="1">
+  <displayList>
+    <component id="n17_9h34" name="n16" src="e2l7q2z" fileName="Comp/mask_Component.xml" xy="0,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n18_qm23" name="n18" src="qm23q3g" fileName="Imag/frame_common_story.png" xy="317,311" size="585,1002" group="n15_e2l7"/>
+    <text id="n8_gerr" name="n8" xy="564,356" size="82,53" group="n15_e2l7" font="ui://bs2uwwz8flzz0" fontSize="39" color="#ffffff" align="center" text="故事"/>
+    <component id="n11_gerr" name="n11" src="gerr2j" fileName="Comp/Text_story.xml" xy="358,457" size="508,745" group="n15_e2l7"/>
+    <group id="n15_e2l7" name="n15" xy="317,311" size="585,1002" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,148">
+  <controller name="c1" pages="0,在榜,1,未上榜" selected="1"/>
+  <displayList>
+    <image id="n56_dkwi" name="n56" src="dkwia" fileName="Imag/myrankbg.png" xy="0,-35" size="750,191">
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </image>
+    <image id="n50_dkwi" name="n50" src="dkwih" fileName="Imag/rank.png" xy="36,12">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </image>
+    <component id="n62_tzni" name="n62" src="gab61o" fileName="Comp/frame_title.xml" pkg="82yrhfjg" xy="289,72" pivot="0.5,0.5" scale="0.827,0.827"/>
+    <text id="n51_dkwi" name="n51" xy="46,40" size="50,49" font="ui://bs2uwwz8flzz0" fontSize="30" color="#ffffff" align="center" autoSize="none" shadowColor="#71d7e1" shadowOffset="1,1" text="71">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="n50_dkwi" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n53_dkwi" name="n53" xy="328,34" size="162,36" font="ui://bs2uwwz8flzz0" fontSize="26" color="#534848" align="center" autoSize="none" text="玩家名字">
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </text>
+    <text id="n54_dkwi" name="n54" xy="328,75" size="162,36" font="ui://bs2uwwz8flzz0" fontSize="26" color="#ffffff" align="center" autoSize="none" text="玩家名字">
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </text>
+    <text id="n55_dkwi" name="n55" xy="523,58" size="207,36" font="ui://bs2uwwz8flzz0" fontSize="26" color="#a28291" align="right" autoSize="none" text="好感度:321654">
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </text>
+    <image id="n57_dkwi" name="n57" src="dkwi16" fileName="Imag/ptn_myrank.png" xy="242,-38">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n58_r4ik" name="n58" xy="29,54" size="90,39" font="ui://bs2uwwz8flzz0" fontSize="28" color="#534848" autoSize="none" text="未上榜">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </text>
+    <component id="n61_nu56" name="n61" src="dkwi10" fileName="Comp/headicon.xml" xy="135,2" size="270,270" scale="0.505,0.505"/>
+  </displayList>
+</component>

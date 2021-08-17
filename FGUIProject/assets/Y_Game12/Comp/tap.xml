@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="129,113">
+  <displayList>
+    <graph id="n5_su52" name="n5" xy="-50,-39" size="126,112" type="rect" lineColor="#00000000" fillColor="#00ffffff"/>
+    <image id="n3_xrnq" name="n3" src="xrnqi" fileName="Imag/tap1.png" xy="16,35" pivot="1,1" pkg="5sqxgclf"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n3_xrnq" tween="true" startValue="-1,0" endValue="-39,-39" duration="12"/>
+    <item time="12" type="XY" target="n3_xrnq" tween="true" startValue="-39,-39" endValue="-1,0" duration="12"/>
+  </transition>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,406">
+  <displayList>
+    <image id="n62_dkwi" name="n62" src="dkwig" fileName="Imag/ptn_xuwei.png" xy="454,25" pivot="0.5,0.5" group="n65_dkwi"/>
+    <image id="n63_dkwi" name="n63" src="dkwig" fileName="Imag/ptn_xuwei.png" xy="12,25" pivot="0.5,0.5" group="n65_dkwi" scale="-1,1"/>
+    <text id="n64_dkwi" name="n64" xy="237,0" size="272,39" group="n65_dkwi" font="ui://bs2uwwz8flzz2" fontSize="28" color="#886175" text="更多排名，虚位以待~"/>
+    <group id="n65_dkwi" name="n65" xy="12,0" size="725,406" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <controller name="c1" pages="0,提示,1,完成提示,2,消费提示" selected="0"/>
+  <displayList>
+    <component id="n22_dkaw" name="n22" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="0,0">
+      <relation target="" sidePair="width-width,height-height%"/>
+    </component>
+    <image id="n21_dkaw" name="n21" src="t4052f" fileName="Imag/frame_gifts.png" pkg="82yrhfjg" xy="288,466" size="644,512">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n23_dkaw" name="n23" xy="567,501" size="64,54" font="ui://wkrcryqms5cu3" fontSize="30" color="#ffffff" vAlign="middle" autoSize="none" text="提示">
+      <relation target="n21_dkaw" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n24_dkaw" name="n24" xy="342,671" size="516,103" font="ui://bs2uwwz8flzz2" fontSize="32" color="#cf6aa5" align="center" leading="20" autoSize="none" text="请找到碎片&#xA; 修复钟楼！">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="n21_dkaw" sidePair="center-center,middle-middle%"/>
+    </text>
+    <text id="n26_dkaw" name="n26" xy="413,694" size="393,103" font="ui://xk3nrdkvkki51" fontSize="32" color="#cf6aa5" align="center" vAlign="middle" leading="20" autoSize="none" text="你已经找到了所有碎片">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n21_dkaw" sidePair="center-center,middle-middle%"/>
+    </text>
+    <text id="n30_g0xm" name="n30" xy="456,645" size="122,44" group="n33_g0xm" font="ui://xk3nrdkvkki51" fontSize="32" color="#cf6aa5" align="center" leading="20" text="花费100">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="n31_g0xm" sidePair="middle-middle,right-left"/>
+    </text>
+    <image id="n31_g0xm" name="n31" src="vdqrc" fileName="Imag/icon_common_zuanshi.png" pkg="82yrhfjg" xy="557,616" pivot="0.5,0.5" group="n33_g0xm" scale="0.549,0.549">
+      <relation target="n21_dkaw" sidePair="center-center%,middle-middle"/>
+    </image>
+    <text id="n32_g0xm" name="n32" xy="632,645" size="132,44" group="n33_g0xm" font="ui://xk3nrdkvkki51" fontSize="32" color="#cf6aa5" align="center" leading="20" text="获得提示">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="n31_g0xm" sidePair="middle-middle,left-right"/>
+    </text>
+    <group id="n33_g0xm" name="n33" xy="456,616" size="308,100" advanced="true">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="n21_dkaw" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n35_g0xm" name="n35" src="rj5h23" fileName="Comp/Button2_blue.xml" pkg="82yrhfjg" xy="344,794">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="n21_dkaw" sidePair="middle-middle,left-left"/>
+      <Button title="取消"/>
+    </component>
+    <component id="n36_g0xm" name="n36" src="rj5h22" fileName="Comp/Button2_red.xml" pkg="82yrhfjg" xy="623,794">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="n21_dkaw" sidePair="middle-middle,right-right"/>
+      <Button title="确认"/>
+    </component>
+  </displayList>
+</component>

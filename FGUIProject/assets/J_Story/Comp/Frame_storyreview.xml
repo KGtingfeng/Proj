@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <loader id="n1_dd7o" name="n1" xy="-235,0" size="1220,1624" url="ui://uluoyg28gab6q" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <graph id="n5_w8uf" name="n5" xy="-235,0" size="1220,1624" type="rect" lineSize="0" fillColor="#00ffffff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n4_gab6" name="n4" src="gab6q3q" fileName="Comp/Frame_storyreview_son.xml" xy="23,234">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n2_dd7o" name="n2" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" pivot="0.449,0.5" scale="0.8,0.8">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+  </displayList>
+</component>

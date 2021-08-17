@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="116,65">
+  <displayList>
+    <image id="n20_gggm" name="n20" src="gggmd" fileName="Imag/sword1.png" xy="0,12" pivot="0.5,0.5">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+</component>

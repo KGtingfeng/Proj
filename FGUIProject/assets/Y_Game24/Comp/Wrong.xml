@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="122,122" pivot="0.5,0.5" anchor="true">
+  <displayList>
+    <image id="n3_e6xi" name="n3" src="vvawa" fileName="Imag/ptn_wrong.png" xy="24,24"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" frameRate="60">
+    <item time="0" type="Alpha" target="n3_e6xi" tween="true" startValue="0" endValue="1" duration="9" ease="Linear"/>
+    <item time="9" type="Alpha" target="n3_e6xi" tween="true" startValue="1" endValue="0" duration="9" ease="Linear"/>
+    <item time="18" type="Alpha" target="n3_e6xi" tween="true" startValue="0" endValue="1" duration="9" ease="Linear"/>
+    <item time="27" type="Alpha" target="n3_e6xi" tween="true" startValue="1" endValue="0" duration="9" ease="Linear"/>
+  </transition>
+</component>

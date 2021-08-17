@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,选择书,1,选择升级,2,升级成功,3,升级特效" selected="0"/>
+  <displayList>
+    <loader id="n11_nuqx" name="n11" xy="-235,0" size="1220,1624" url="ui://uluoyg28mgpzq4i">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n13_nuqx" name="n13" src="nuqx39" fileName="Comp/Button_book_huanjing.xml" xy="453,532">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n14_nuqx" name="n14" src="nuqx3a" fileName="Comp/Button_book_meili.xml" xy="120,528">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n15_nuqx" name="n15" src="nuqx3b" fileName="Comp/Button_book_mofa.xml" xy="459,868">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n16_nuqx" name="n16" src="nuqx3d" fileName="Comp/Button_book_zhihui.xml" xy="130,872">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n17_nuqx" name="n17" xy="80,491" size="74,34" font="ui://bs2uwwz8flzz0" fontSize="24" color="#ffffff" shadowColor="#000000" shadowOffset="1,1" text="等级:1">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n18_nuqx" name="n18" xy="217,491" size="109,34" font="ui://bs2uwwz8flzz0" fontSize="24" color="#ffffff" align="right" vAlign="middle" shadowColor="#000000" shadowOffset="1,1" text="魅力+200">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n19_nuqx" name="n19" xy="411,491" size="74,34" font="ui://bs2uwwz8flzz0" fontSize="24" color="#ffffff" shadowColor="#000000" shadowOffset="1,1" text="等级:1">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n20_nuqx" name="n20" xy="548,491" size="109,34" font="ui://bs2uwwz8flzz0" fontSize="24" color="#ffffff" align="right" vAlign="middle" shadowColor="#000000" shadowOffset="1,1" text="魅力+200">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n21_nuqx" name="n21" xy="80,831" size="74,34" font="ui://bs2uwwz8flzz0" fontSize="24" color="#ffffff" shadowColor="#000000" shadowOffset="1,1" text="等级:1">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n22_nuqx" name="n22" xy="217,831" size="109,34" font="ui://bs2uwwz8flzz0" fontSize="24" color="#ffffff" align="right" vAlign="middle" shadowColor="#000000" shadowOffset="1,1" text="魅力+200">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n23_nuqx" name="n23" xy="411,831" size="74,34" font="ui://bs2uwwz8flzz0" fontSize="24" color="#ffffff" shadowColor="#000000" shadowOffset="1,1" text="等级:1">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n24_nuqx" name="n24" xy="548,831" size="109,34" font="ui://bs2uwwz8flzz0" fontSize="24" color="#ffffff" align="right" vAlign="middle" shadowColor="#000000" shadowOffset="1,1" text="魅力+200">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n25_nuqx" name="n25" src="lnqmn" fileName="Imag/icon_common_meili.png" pkg="82yrhfjg" xy="173,490" size="36,36">
+      <relation target="n18_nuqx" sidePair="left-left"/>
+    </image>
+    <image id="n26_nuqx" name="n26" src="lnqmo" fileName="Imag/icon_common_zhihui.png" pkg="82yrhfjg" xy="173,830" size="36,36">
+      <relation target="n22_nuqx" sidePair="left-left"/>
+    </image>
+    <image id="n27_nuqx" name="n27" src="lnqml" fileName="Imag/icon_common_huanbao.png" pkg="82yrhfjg" xy="505,490" size="36,36">
+      <relation target="n20_nuqx" sidePair="left-left"/>
+    </image>
+    <image id="n28_nuqx" name="n28" src="lnqmm" fileName="Imag/icon_common_mofa.png" pkg="82yrhfjg" xy="504,829" size="36,36">
+      <relation target="n24_nuqx" sidePair="left-left"/>
+    </image>
+    <component id="n29_nuqx" name="n29" src="nuqx3f" fileName="Comp/Frame_leveltimes.xml" xy="-235,0">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n30_nuqx" name="n30" src="nuqx3g" fileName="Comp/Component1Frame_attribute_levelup2_final.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n31_lsol" name="n31" src="vdqre" fileName="Imag/ptn_common_Consumbg.png" pkg="82yrhfjg" xy="224,53" group="n38_lsol"/>
+    <image id="n32_lsol" name="n32" src="vdqrd" fileName="Imag/icon_common_aixin.png" pkg="82yrhfjg" xy="240,61" size="50,50" group="n38_lsol"/>
+    <image id="n33_lsol" name="n33" src="vdqrc" fileName="Imag/icon_common_zuanshi.png" pkg="82yrhfjg" xy="513,62" size="50,50" group="n38_lsol"/>
+    <component id="n34_lsol" name="n34" src="vdqrg" fileName="Comp/Button_+aixin.xml" pkg="82yrhfjg" xy="424,67" group="n38_lsol"/>
+    <component id="n35_lsol" name="n35" src="vdqrh" fileName="Comp/Button_+zuanshi.xml" pkg="82yrhfjg" xy="685,67" group="n38_lsol"/>
+    <text id="n36_lsol" name="n36" xy="288,72" size="86,29" group="n38_lsol" font="ui://wkrcryqms5cu3" fontSize="20" color="#ffffff" text="9999999"/>
+    <text id="n37_lsol" name="n37" xy="563,72" size="86,29" group="n38_lsol" font="ui://wkrcryqms5cu3" fontSize="20" color="#ffffff" text="9999999"/>
+    <group id="n38_lsol" name="n38" xy="224,53" size="523,59" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n39_lsol" name="n39" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" scale="0.8,0.8">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n40_9n3r" name="n40" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-235,0">
+      <gearDisplay controller="c1" pages="3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n41_9n3r" name="n41" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-235,0">
+      <gearDisplay controller="c1" pages="3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n44_urgs" name="n44" src="urgs3m" fileName="Comp/frame_fazhen.xml" xy="-235,0" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

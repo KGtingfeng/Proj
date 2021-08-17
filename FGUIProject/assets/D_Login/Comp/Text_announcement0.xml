@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="509,646">
+  <displayList>
+    <text id="n0_n8oq" name="n0" xy="0,54" size="509,641" font="ui://bs2uwwz8flzz2" fontSize="23" color="#55626a" leading="10" letterSpacing="1" ubb="true" autoSize="height" text="《叶罗丽恋茶会》将于[color=#ff5887]*月*日*:**-*:**[/color]进行停服维护，根据实际情况可能会提前或延后开服。维护期间暂时无法进入游戏，给您带来的不便我们深表歉意。&#xA;维护结束后将会通过游戏内小邮件奉上维护补偿一份，届时请大家查收。&#xA;补偿邮件内容：[color=#ff5887]【钻石*60，体力*60，仙境许愿券*5】[/color]&#xA;维护邮件有效期至****年*月**日**:**，请小主人注意及时领取。&#xA;&#xA;更新包大小：iOS：约21.56MB 安卓：约22.50MB&#xA;&#xA;1.许愿树[color=#ff5887]【夜色岛屿】[/color]活动开启。&#xA;2.特权卡充值送、每日充值活动开启，详情更新后可前往精彩活动界面查看。"/>
+    <text id="n1_n8oq" name="n1" xy="108,0" size="292,34" font="ui://bs2uwwz8flzz0" fontSize="24" color="#d23f6c" text="叶罗丽恋茶会关于维护预告">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,80">
+  <displayList>
+    <image id="n24_hupe" name="n24" src="hupeq" fileName="Imag/libao22.png" xy="-13,-12" pivot="0.5,0.5" size="106,104" alpha="0.503"/>
+    <image id="n22_h4v2" name="n22" src="h4v2c" fileName="Imag/libao2.png" xy="4,5" pivot="0.5,0.5"/>
+    <image id="n23_hupe" name="n23" src="hupep" fileName="Imag/jing.png" xy="48,6"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1" frameRate="60">
+    <item time="0" type="Alpha" target="n24_hupe" tween="true" startValue="0.503" endValue="1" duration="30"/>
+    <item time="0" type="Scale" target="n22_h4v2" tween="true" startValue="1,1" endValue="0.92,1.16" duration="15" ease="Quart.Out"/>
+    <item time="0" type="Scale" target="n24_hupe" tween="true" startValue="1,1" endValue="0.92,1.16" duration="15" ease="Quart.Out"/>
+    <item time="0" type="XY" target="n22_h4v2" tween="true" startValue="0,0" endValue="0,-6" duration="30"/>
+    <item time="0" type="XY" target="n23_hupe" tween="true" startValue="-,0" endValue="-,-6" duration="30"/>
+    <item time="0" type="XY" target="n24_hupe" tween="true" startValue="-16,-18" endValue="-16,-24" duration="30"/>
+    <item time="15" type="Scale" target="n22_h4v2" tween="true" startValue="0.92,1.16" endValue="1.12,0.93" duration="30" ease="Quad.InOut"/>
+    <item time="15" type="Scale" target="n24_hupe" tween="true" startValue="0.92,1.16" endValue="1.12,0.93" duration="30" ease="Quad.InOut"/>
+    <item time="30" type="Alpha" target="n24_hupe" tween="true" startValue="1" endValue="0.503" duration="30"/>
+    <item time="30" type="XY" target="n22_h4v2" tween="true" startValue="0,-6" endValue="0,0" duration="30" ease="Quad.InOut"/>
+    <item time="30" type="XY" target="n23_hupe" tween="true" startValue="-,-6" endValue="-,0" duration="30" ease="Quad.InOut"/>
+    <item time="30" type="XY" target="n24_hupe" tween="true" startValue="-16,-24" endValue="-15,-17" duration="30" ease="Quad.InOut"/>
+    <item time="45" type="Scale" target="n22_h4v2" tween="true" startValue="1.12,0.93" endValue="1,1" duration="15"/>
+    <item time="45" type="Scale" target="n24_hupe" tween="true" startValue="1.12,0.93" endValue="1,1" duration="15"/>
+  </transition>
+</component>

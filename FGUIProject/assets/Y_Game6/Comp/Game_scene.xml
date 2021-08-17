@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,填词,1,完成" selected="0"/>
+  <displayList>
+    <component id="n4_ufcb" name="n4" src="ufcbl" fileName="Comp/Button1_ans1.xml" xy="140,1062" pivot="0.5,0.5" anchor="true" group="n16_ufcb"/>
+    <component id="n5_ufcb" name="n5" src="ufcbm" fileName="Comp/Button1_ans2.xml" xy="378,1062" pivot="0.5,0.5" anchor="true" group="n16_ufcb"/>
+    <component id="n6_ufcb" name="n6" src="ufcbn" fileName="Comp/Button1_ans3.xml" xy="616,1062" pivot="0.5,0.5" anchor="true" group="n16_ufcb"/>
+    <component id="n7_ufcb" name="n7" src="ufcbo" fileName="Comp/Button1_ans4.xml" xy="140,1202" pivot="0.5,0.5" anchor="true" group="n16_ufcb"/>
+    <component id="n8_ufcb" name="n8" src="ufcbp" fileName="Comp/Button1_ans5.xml" xy="378,1202" pivot="0.5,0.5" anchor="true" group="n16_ufcb"/>
+    <component id="n9_ufcb" name="n9" src="ufcbq" fileName="Comp/Button1_ans6.xml" xy="616,1202" pivot="0.5,0.5" anchor="true" group="n16_ufcb"/>
+    <group id="n16_ufcb" name="n16" xy="24,1024" size="709,216" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n10_ufcb" name="n10" src="ufcbt" fileName="Comp/ans1.xml" xy="572,340" group="n17_ufcb"/>
+    <component id="n11_ufcb" name="n11" src="ufcb10" fileName="Comp/ans2.xml" xy="486,385" group="n17_ufcb"/>
+    <component id="n12_ufcb" name="n12" src="ufcb11" fileName="Comp/ans3.xml" xy="481,475" group="n17_ufcb"/>
+    <component id="n13_ufcb" name="n13" src="ufcb12" fileName="Comp/ans4.xml" xy="458,520" group="n17_ufcb"/>
+    <component id="n14_ufcb" name="n14" src="ufcb13" fileName="Comp/ans5.xml" xy="98,609" group="n17_ufcb"/>
+    <component id="n15_ufcb" name="n15" src="ufcb14" fileName="Comp/ans6.xml" xy="567,790" group="n17_ufcb"/>
+    <group id="n17_ufcb" name="n17" xy="98,340" size="580,486" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n18_ufcb" name="n18" src="ufcbk" fileName="Imag/texbg.png" xy="41,1205" alpha="0" touchable="false">
+      <gearDisplay controller="c1" pages="1"/>
+      <gearXY controller="c1" pages="0" values="41,1205" default="41,1135" tween="true"/>
+      <gearLook controller="c1" pages="0" values="0,0,0,0" default="1,0,0,0" tween="true"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n19_ufcb" name="n19" xy="98,1236" size="553,44" alpha="0" touchable="false" font="ui://xk3nrdkvkki50" fontSize="32" color="#ffffff" align="center" autoSize="none" text="你输入的词汇全部正确！">
+      <gearDisplay controller="c1" pages="1"/>
+      <gearLook controller="c1" pages="0" values="0,0,0,0" default="1,0,0,0"/>
+      <relation target="n18_ufcb" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n21_qxg9" name="n21" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="560,319" size="143,67" group="n28_qxg9"/>
+    <component id="n22_qxg9" name="n22" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="465,378" size="143,67" group="n28_qxg9"/>
+    <component id="n23_qxg9" name="n23" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="465,452" size="143,67" group="n28_qxg9"/>
+    <component id="n24_qxg9" name="n24" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="445,518" size="143,67" group="n28_qxg9"/>
+    <component id="n25_qxg9" name="n25" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="78,592" size="143,67" group="n28_qxg9"/>
+    <component id="n26_qxg9" name="n26" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="542,777" size="143,67" group="n28_qxg9"/>
+    <group id="n28_qxg9" name="n28" xy="78,319" size="625,525" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

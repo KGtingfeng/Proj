@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="995,1624" overflow="hidden">
+  <displayList>
+    <loader id="n5_f8rr" name="n5" xy="-112,0" pivot="0.5,0.5" size="1220,1624" url="ui://uluoyg28jhz339" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+  <transition name="t0" frameRate="60">
+    <item time="0" type="Alpha" target="n5_f8rr" tween="true" startValue="0" endValue="1" duration="24"/>
+    <item time="0" type="Scale" target="n5_f8rr" tween="true" startValue="0.5,0.5" endValue="1,1" duration="24"/>
+  </transition>
+</component>

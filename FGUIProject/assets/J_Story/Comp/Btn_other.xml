@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="140,140">
+  <displayList>
+    <loader id="n1_ro8r" name="n1" xy="0,0" size="140,140" autoSize="true"/>
+  </displayList>
+  <relation target="n1_ro8r" sidePair="width-width,height-height"/>
+</component>

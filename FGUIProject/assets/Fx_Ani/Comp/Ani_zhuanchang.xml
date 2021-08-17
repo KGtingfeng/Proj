@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2491,1624">
+  <displayList>
+    <image id="n46_ro8r" name="n46" src="ro8rq2m" fileName="Imag/ptn_zhuanchang.png" xy="1041,0" size="1450,1624">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n47_ro8r" name="n47" src="ro8rq2m" fileName="Imag/ptn_zhuanchang.png" xy="1451,0" size="1450,1624" scale="-1,1">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+</component>

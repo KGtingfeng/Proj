@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" opaque="false">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <component id="n0_cb7e" name="n0" src="cf6411" fileName="Comp/Talk_small1.xml" pkg="68tbb4zq" xy="151,913"/>
+    <component id="n1_cb7e" name="n1" src="xrnqg" fileName="Comp/Talk_small.xml" pkg="68tbb4zq" xy="345,1118">
+      <gearDisplay controller="c1" pages="0,1,2"/>
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="168,162">
+  <displayList>
+    <image id="n61_7vvy" name="n61" src="ubaiq54" fileName="Imag/frame_liwu1(1).png" xy="17,11" size="133,133"/>
+    <loader id="n62_7vvy" name="n62" xy="20,15" size="192,192" scale="0.66,0.66" fill="scale" shrinkOnly="true"/>
+    <image id="n60_7vvy" name="n60" src="exzoq" fileName="Imag/frame_pop3.png" pkg="dtk856dw" xy="5,1" size="158,155"/>
+    <image id="n63_7vvy" name="n63" src="ubaiq55" fileName="Imag/number_bg(1).png" xy="15,102" size="136,49"/>
+    <text id="n64_7vvy" name="n64" xy="15,102" size="131,42" font="ui://bs2uwwz8flzz2" fontSize="25" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" text="1/55"/>
+  </displayList>
+</component>

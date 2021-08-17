@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="132,132" mask="n2_qaik">
+  <displayList>
+    <loader id="n3_qaik" name="n3" xy="-1,-1" size="134,134" url="ui://uluoyg28qaik2n" fill="scale"/>
+    <image id="n2_qaik" name="n2" src="qaikq43" fileName="Imag/frame_haogandu_mask.png" xy="2,2" size="128,128"/>
+  </displayList>
+</component>

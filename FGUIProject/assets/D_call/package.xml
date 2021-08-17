@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="93v5gurn">
+  <resources>
+    <component id="kr054" name="Call.xml" path="/Comp/" exported="true"/>
+    <image id="kr05f" name="ptn_callout.png" path="/Image/" exported="true"/>
+    <image id="kr05g" name="btn_calling.png" path="/Image/" exported="true"/>
+    <image id="kr05h" name="ptn_call1.png" path="/Image/" exported="true"/>
+    <image id="kr05i" name="btn_accept1.png" path="/Image/" exported="true"/>
+    <image id="kr05j" name="btn_refuse1.png" path="/Image/" exported="true"/>
+    <component id="kr05k" name="Button_accept1.xml" path="/Comp/" exported="true"/>
+    <component id="kr05l" name="Button_refuse1.xml" path="/Comp/" exported="true"/>
+    <component id="kr05m" name="Call_fullscreen.xml" path="/Comp/" exported="true"/>
+    <image id="kr05n" name="frame_calltext.png" path="/Image/" exported="true" scale="9grid" scale9grid="0,57,509,10"/>
+    <component id="kr05o" name="Button_calltext.xml" path="/Comp/" exported="true"/>
+    <image id="kr05p" name="frame_call_dialogue.png" path="/Image/" exported="true" scale="9grid" scale9grid="96,54,5,2"/>
+    <component id="kr05q" name="Frame_call_dialogue.xml" path="/Comp/" exported="true"/>
+    <image id="boeiq4v" name="btn_autoplay.png" path="/Image/" exported="true"/>
+    <image id="boeiq4w" name="btn_autoplayx1.png" path="/Image/" exported="true"/>
+    <image id="boeiq4x" name="btn_autoplayx2.png" path="/Image/" exported="true"/>
+    <component id="boeiq4y" name="Button_autoplay.xml" path="/Comp/" exported="true"/>
+    <image id="kol4q4z" name="ptn_calling.png" path="/Image/" exported="true"/>
+    <image id="oi2kq50" name="ptn_wanjia.png" path="/Image/" exported="true" scale="9grid" scale9grid="73,15,1,30"/>
+    <image id="oi2kq51" name="ptn_juese.png" path="/Image/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

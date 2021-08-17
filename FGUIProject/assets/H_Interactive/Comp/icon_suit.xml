@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="274,369">
+  <controller name="c1" pages="2,购买,0,当前,1,默认" selected="0"/>
+  <controller name="c2" pages="0,选中,1,未选中" selected="0"/>
+  <controller name="c3" pages="0,服装,1,背景" selected="1"/>
+  <controller name="c4" pages="0,normal,1,littlered" selected="0"/>
+  <displayList>
+    <image id="n5_vycm" name="n5" src="vycmq3k" fileName="Imag/ptn_suittype1.png" xy="55,249">
+      <gearDisplay controller="c1" pages="2,1"/>
+    </image>
+    <image id="n0_qqiz" name="n0" src="qqiz29" fileName="Imag/ptn_suittype.png" xy="55,249">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <loader id="n1_qqiz" name="n1" xy="113,115" pivot="0.5,0.5" size="50,30" url="ui://uluoyg28hnnp2k" autoSize="true" color="#9e9e9e">
+      <gearColor controller="c1" pages="2" values="#9e9e9e" default="#ffffff"/>
+    </loader>
+    <text id="n2_qqiz" name="n2" xy="95,254" size="92,29" font="ui://bs2uwwz8flzz2" fontSize="20" color="#ffffff" align="center" autoSize="none" text="当前时装">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearText controller="c1" pages="1" values="已拥有" default="当前时装"/>
+    </text>
+    <image id="n8_vycm" name="n8" src="vycmq3o" fileName="Imag/active.png" xy="217,33">
+      <gearDisplay controller="c2" pages="0"/>
+    </image>
+    <text id="n9_vycm" name="n9" xy="132,250" size="56,36" font="ui://bs2uwwz8flzz2" fontSize="26" color="#ffffff" letterSpacing="4" text="999">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="n5_vycm" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n10_vycm" name="n24" xy="91,247" size="100,100" scale="0.4,0.4" url="ui://82yrhfjgvdqrc" autoSize="true">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="n9_vycm" sidePair="middle-middle,left-left"/>
+    </loader>
+    <image id="n4_qqiz" name="n4" src="qqiz2e" fileName="Imag/text_bg.png" xy="69,-7" size="137,44">
+      <relation target="n3_qqiz" sidePair="width-width,center-center,middle-middle"/>
+    </image>
+    <image id="n7_vycm" name="n7" src="vycmq3n" fileName="Imag/lock.png" xy="117,100">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <text id="n3_qqiz" name="n3" xy="80,2" size="115,26" font="ui://bs2uwwz8flzz0" fontSize="18" color="#666666" align="center" autoSize="none" text="这里是是">
+      <gearXY controller="c3" pages="0,1" values="83,215|80,2"/>
+      <relation target="n5_vycm" sidePair="center-center,middle-middle"/>
+    </text>
+    <graph id="n11_v37g" name="n11" xy="0,0" size="274,369" type="rect" lineColor="#00000000" fillColor="#00ffffff"/>
+    <component id="n6_vycm" name="n6" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="37,290">
+      <gearDisplay controller="c1" pages="2"/>
+      <Button title="购买"/>
+    </component>
+    <component id="n12_mgpz" name="n12" src="lnqm1e" fileName="Comp/Littlered.xml" pkg="82yrhfjg" xy="196,13">
+      <gearDisplay controller="c4" pages="1"/>
+    </component>
+  </displayList>
+</component>

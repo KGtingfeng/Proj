@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <displayList>
+    <component id="n2_ls1a" name="n1" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="0,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n0_gab6" name="n0" src="gab61s" fileName="Comp/Frame_changename.xml" xy="319,495">
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1247">
+  <displayList>
+    <list id="n1_ufhu" name="n1" xy="0,0" pivot="0.5,0" size="750,1108" overflow="scroll" scrollBarFlags="2048" clipSoftness="40,40" lineGap="-11" defaultItem="ui://srheglvmufhu2s" align="center" autoClearItems="true">
+      <relation target="" sidePair="width-width,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n15_ufhu" name="n15" src="ufhu30" fileName="Comp/Button_mymoment.xml" xy="64,1147">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <image id="n16_ufhu" name="n16" src="ufhu2p" fileName="Image/momentline1.png" xy="0,1106" size="750,4">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+  </displayList>
+</component>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,200" mask="n79_7vvy">
+  <displayList>
+    <loader id="n78_7vvy" name="n78" xy="0,0" size="200,200" url="ui://uluoyg289h341r" autoSize="true"/>
+    <image id="n79_7vvy" name="n79" src="7vvy1z" fileName="Imag/icon_giftmask.png" xy="0,0"/>
+  </displayList>
+</component>

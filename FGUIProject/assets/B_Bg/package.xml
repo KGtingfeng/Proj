@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="geym4w1i">
+  <resources>
+    <image id="izqh3" name="BG_creatrole.jpg" path="/"/>
+    <image id="10fpz3" name="BG_Splash.png" path="/"/>
+    <image id="vdqr16" name="BG_choosedoll_final.png" path="/"/>
+    <image id="izqhg" name="BG_choosedoll_yeluoli.png" path="/"/>
+    <image id="vdqr0" name="BG_main.png" path="/"/>
+    <image id="kki5z4" name="角色互动-选择角色bg.png" path="/"/>
+  </resources>
+  <publish name="B_Bg" maxAtlasSize="2048" square="true" rotation="true"/>
+</packageDescription>

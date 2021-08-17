@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="gztqkmmp">
+  <resources>
+    <image id="izqhu" name="cha_baiguangying.png" path="/" exported="true"/>
+    <image id="izqht" name="cha_feiling.png" path="/" exported="true"/>
+    <image id="izqhs" name="cha_heixiangling.png" path="/" exported="true"/>
+    <image id="izqhr" name="cha_lankongque.png" path="/" exported="true"/>
+    <image id="izqhq" name="cha_liangcai.png" path="/" exported="true"/>
+    <image id="izqhp" name="cha_moli.png" path="/" exported="true"/>
+    <image id="izqho" name="cha_yeluoli.png" path="/" exported="true"/>
+    <image id="vdqrk" name="cha_shuyan.png" path="/" exported="true"/>
+    <image id="izqh4" name="cha_half_wangmo.png" path="/" exported="true"/>
+    <image id="jbt6v" name="cha_luolisuit1.png" path="/" exported="true"/>
+    <image id="jbt6w" name="cha_luolisuit2.png" path="/" exported="true"/>
+  </resources>
+  <publish name="" maxAtlasSize="2048" square="true" rotation="true"/>
+</packageDescription>

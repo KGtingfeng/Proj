@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://onkcgv3mb05hs" designImageOffsetX="-216" designImageAlpha="0" designImageLayer="1">
+  <controller name="c1" pages="0,首页,1,暑假小游戏,2,增加次数,3,活动规则,4,游戏" selected="0"/>
+  <displayList>
+    <component id="n0_b05h" name="n0" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" scale="0.8,0.8">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n1_b05h" name="n1" src="bvfrq64" fileName="Comp/star_diamond.xml" pkg="82yrhfjg" xy="220,60">
+      <gearDisplay controller="c1" pages="0,1,2,3"/>
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n2_b05h" name="n2" src="b05hb" fileName="Comp/Shouye.xml" xy="22,228">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n27_b05h" name="n27" src="b05hg" fileName="Comp/Button_shop.xml" xy="578,237">
+      <gearDisplay controller="c1" pages="1,2,3"/>
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n28_b05h" name="n28" src="b05hh" fileName="Comp/Button_tip.xml" xy="576,154">
+      <gearDisplay controller="c1" pages="1,2,3"/>
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n29_b05h" name="n29" src="b05hj" fileName="Comp/Summer_game.xml" xy="-1,300">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n39_b05h" name="n39" src="b05hn" fileName="Comp/Add_times.xml" xy="-235,0">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n56_b05h" name="n56" src="b05hr" fileName="Comp/Active_Rule.xml" xy="-235,0">
+      <gearDisplay controller="c1" pages="3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n64_b05h" name="n64" src="b05hu" fileName="Comp/Game.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="4"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n65_gxb8" name="n65" xy="428,1550" size="253,36" font="ui://bs2uwwz8flzz2" fontSize="26" color="#ffffff" align="center" text="今日还有0次游戏机会">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n66_gxb8" sidePair="right-left"/>
+    </text>
+    <image id="n66_gxb8" name="n66" src="t405q3c" fileName="Imag/icon_jia.png" pkg="82yrhfjg" xy="687,1543">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+</component>

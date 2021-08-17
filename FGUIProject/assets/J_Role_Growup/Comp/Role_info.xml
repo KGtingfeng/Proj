@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="756,1624" designImageOffsetX="-239" designImageAlpha="100" remark="n50,2,-500;n55,2,-500,1;n38,0,500,0.5;n37,3">
+  <displayList>
+    <loader id="n48_e2l7" name="n48" xy="169,267" size="50,30" group="n50_e2l7" url="ui://uluoyg28e2l71m" autoSize="true">
+      <relation target="n4_lnqm" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n1_lnqm" name="n1" src="mjv53" fileName="Imag/ptn_cha_frame.png" pkg="82yrhfjg" xy="-3,308" size="756,172" group="n50_e2l7">
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </image>
+    <image id="n62_lye8" name="n62" src="lye8q6i" fileName="Imag/bg_white.png" pkg="82yrhfjg" xy="-3,310" size="756,163" group="n50_e2l7">
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </image>
+    <image id="n59_k9eb" name="n59" src="k9eb3s" fileName="Imag/bg_topname.png" xy="80,363" size="674,68" group="n50_e2l7">
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </image>
+    <text id="n8_lnqm" name="n8" xy="291,369" size="224,53" group="n50_e2l7" font="ui://bs2uwwz8flzz0" fontSize="39" color="#b160ac" text="XXXXXXXXX">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n41_gab6" name="n41" src="gab61o" fileName="Comp/frame_title.xml" pkg="82yrhfjg" xy="550,377" size="234,44" group="n50_e2l7" scale="0.8,0.8">
+      <relation target="n59_k9eb" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n9_lnqm" name="n9" xy="553,382" size="187,32" group="n50_e2l7" font="ui://bs2uwwz8flzz0" fontSize="20" color="#ffffff" align="center" autoSize="none" text="仙境百事通">
+      <relation target="n59_k9eb" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n14_lnqm" name="n14" src="lnqm5" fileName="Comp/ProgressBar_rolelv.xml" xy="174,548" size="324,30" group="n50_e2l7" scale="1.276,1.276">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <ProgressBar value="20" max="100"/>
+    </component>
+    <component id="n15_lnqm" name="n15" src="lnqm7" fileName="Comp/Button_levelup.xml" xy="604,540" size="111,53" group="n50_e2l7" scale="1.2,1.2">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n16_lnqm" name="n16" xy="75,550" size="91,35" group="n50_e2l7" font="ui://bs2uwwz8flzz0" fontSize="21" color="#71635d" align="right" autoSize="none" text="LV.100">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n35_lnqm" name="n35" src="lnqmu" fileName="Comp/Button_special_blue.xml" pkg="82yrhfjg" xy="147,777" size="454,66" group="n50_e2l7">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="升级属性"/>
+    </component>
+    <component id="n40_dd7o" name="n40" src="dd7o2m" fileName="Comp/Frame_common_attributes.xml" pkg="82yrhfjg" xy="136,619" size="602,151" group="n50_e2l7" scale="0.8,0.8">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n46_gab6" name="n46" xy="291,331" size="48,32" group="n50_e2l7" visible="false" font="ui://bs2uwwz8flzz2" fontSize="22" color="#9c928f" align="right" text="ID：">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n47_gab6" name="n47" xy="339,331" size="192,32" group="n50_e2l7" visible="false" font="ui://bs2uwwz8flzz2" fontSize="22" color="#9c928f" text="666666666666666">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n58_k9eb" name="n58" src="w8ufq3w" fileName="Imag/btn_headbg.png" pkg="82yrhfjg" xy="37,293" size="204,204" group="n50_e2l7">
+      <relation target="n4_lnqm" sidePair="center-center,middle-middle%"/>
+    </image>
+    <component id="n4_lnqm" name="n4" src="lnqm1r" fileName="Comp/Icon_head.xml" pkg="t0kqvihp" xy="45,300" size="270,270" group="n50_e2l7" scale="0.693,0.697">
+      <relation target="" sidePair="middle-middle,left-left%"/>
+    </component>
+    <image id="n44_gab6" name="n44" src="gab61l" fileName="Imag/ptn_lv.png" pkg="82yrhfjg" xy="44,444" size="50,47" group="n50_e2l7" aspect="true">
+      <relation target="n4_lnqm" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n45_gab6" name="n45" xy="54,452" size="28,29" group="n50_e2l7" font="ui://bs2uwwz8flzz0" fontSize="20" color="#ffffff" strokeColor="#c65959" text="99">
+      <relation target="n44_gab6" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n50_e2l7" name="n50" xy="-3,267" size="787,576" advanced="true"/>
+    <image id="n55_k9eb" name="n55" src="k9ebq6g" fileName="Imag/bg_title.png" pkg="82yrhfjg" xy="18,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n56_k9eb" name="n56" xy="333,168" size="114,66" font="ui://bs2uwwz8flzz0" fontSize="50" color="#ff6699" align="center" letterSpacing="10" strokeColor="#ffffff" strokeSize="2" text="成长">
+      <relation target="n55_k9eb" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n60_k9eb" name="n60" src="k9eb3t" fileName="Imag/bg_front.png" xy="-234,698" size="1224,926">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <list id="n38_lnqm" name="n38" xy="9,922" pivot="0.053,0" size="629,493" scale="1.2,1.2" layout="row" overflow="scroll" scroll="horizontal" margin="3,0,-4,0" clipSoftness="3,3" colGap="-211" defaultItem="ui://65jpza8ylnqm9" align="center" vAlign="middle" renderOrder="arch" apex="1">
+      <relation target="n61_lp6x" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n61_lp6x" name="n61" src="lp6x3u" fileName="Imag/bg_growupfront.png" xy="-232,878" size="1220,746">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n37_lnqm" name="n37" src="lnqmv" fileName="Comp/Button_special_yellow.xml" pkg="82yrhfjg" xy="136,1546" touchable="false" customData="123">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="娃娃橱窗"/>
+    </component>
+  </displayList>
+  <transition name="t0" frameRate="60">
+    <item time="0" type="Alpha" target="n38_lnqm" value="0"/>
+    <item time="0" type="Alpha" target="n50_e2l7" value="0"/>
+    <item time="0" type="Alpha" target="n55_k9eb" tween="true" startValue="0" endValue="1" duration="30"/>
+    <item time="0" type="Alpha" target="n56_k9eb" value="1"/>
+    <item time="0" type="Alpha" target="n56_k9eb" tween="true" startValue="0" endValue="1" duration="30"/>
+    <item time="0" type="Alpha" target="n60_k9eb" value="0"/>
+    <item time="0" type="Alpha" target="n61_lp6x" value="0"/>
+    <item time="0" type="XY" target="n50_e2l7" value="-233,46"/>
+    <item time="0" type="XY" target="n55_k9eb" tween="true" startValue="15,-250" endValue="15,0" duration="30" ease="Back.Out"/>
+    <item time="12" type="Alpha" target="n50_e2l7" tween="true" startValue="0" endValue="1" duration="30"/>
+    <item time="12" type="XY" target="n50_e2l7" tween="true" startValue="-233,46.5" endValue="-233,256.5" duration="30" ease="Back.Out"/>
+    <item time="30" type="Alpha" target="n38_lnqm" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="30" type="Alpha" target="n60_k9eb" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="30" type="Alpha" target="n61_lp6x" tween="true" startValue="0" endValue="1" duration="18"/>
+  </transition>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,98">
+  <displayList>
+    <component id="n0_zee8" name="n5" src="zee8e" fileName="Comp/headicon.xml" pkg="82yrhfjg" xy="-32,-87" pivot="0.5,0.5" scale="0.47,0.47"/>
+    <loader id="n1_zee8" name="n1" xy="159,3" size="430,91" url="ui://srheglvmzee8q" fill="scaleFree">
+      <relation target="n2_zee8" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n2_zee8" name="n2" xy="275,29" size="260,44" font="ui://bs2uwwz8flzz2" fontSize="32" color="#814684" strokeColor="#ffffff" strokeSize="2" faceDilate="0.197" underlaySoftness="1" text="本次通话：西周梦"/>
+    <image id="n4_f8rr" name="n4" src="zee8j" fileName="Image/ptn_video.png" xy="203,26"/>
+    <component id="n5_ry7w" name="n10" src="ry7w3u" fileName="Comp/headframe.xml" xy="39,-13"/>
+  </displayList>
+  <relation target="n1_zee8" sidePair="height-height"/>
+</component>

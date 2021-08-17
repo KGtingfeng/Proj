@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="602,151" designImage="ui://uluoyg28bvfr33" designImageOffsetX="-80" designImageOffsetY="-752">
+  <displayList>
+    <image id="n32_dd7o" name="n32" src="lnqm0" fileName="Imag/ptn_attributebg.png" xy="9,2" size="283,69"/>
+    <image id="n33_dd7o" name="n33" src="lnqm0" fileName="Imag/ptn_attributebg.png" xy="306,2" size="283,69"/>
+    <image id="n34_dd7o" name="n34" src="lnqm0" fileName="Imag/ptn_attributebg.png" xy="10,82" size="283,69"/>
+    <image id="n35_dd7o" name="n35" src="lnqm0" fileName="Imag/ptn_attributebg.png" xy="308,82" size="283,69"/>
+    <image id="n36_dd7o" name="n36" src="lnqmn" fileName="Imag/icon_common_meili.png" xy="30,8" size="57,57"/>
+    <image id="n37_dd7o" name="n37" src="lnqmo" fileName="Imag/icon_common_zhihui.png" xy="30,84" size="57,57"/>
+    <image id="n38_dd7o" name="n38" src="lnqml" fileName="Imag/icon_common_huanbao.png" xy="324,8" size="57,57"/>
+    <image id="n39_dd7o" name="n39" src="lnqmm" fileName="Imag/icon_common_mofa.png" xy="328,84" size="57,57"/>
+    <text id="n40_dd7o" name="n40" xy="88,20" size="79,35" font="ui://bs2uwwz8flzz0" fontSize="25" color="#63433d" align="right" shadowColor="#cccccc" shadowOffset="1,1" text="魅力："/>
+    <text id="n41_dd7o" name="n41" xy="88,97" size="79,35" font="ui://bs2uwwz8flzz0" fontSize="25" color="#63433d" align="right" shadowColor="#cccccc" shadowOffset="1,1" text="智慧："/>
+    <text id="n42_dd7o" name="n42" xy="386,20" size="79,35" font="ui://bs2uwwz8flzz0" fontSize="25" color="#63433d" align="right" shadowColor="#cccccc" shadowOffset="1,1" text="环保："/>
+    <text id="n43_dd7o" name="n43" xy="386,99" size="79,35" font="ui://bs2uwwz8flzz0" fontSize="25" color="#63433d" align="right" shadowColor="#cccccc" shadowOffset="1,1" text="魔法："/>
+    <text id="n44_dd7o" name="n44" xy="172,20" size="92,35" font="ui://bs2uwwz8flzz0" fontSize="25" color="#63433d" align="right" shadowColor="#cccccc" shadowOffset="1,1" text="999999"/>
+    <text id="n45_dd7o" name="n45" xy="474,20" size="92,35" font="ui://bs2uwwz8flzz0" fontSize="25" color="#63433d" align="right" shadowColor="#cccccc" shadowOffset="1,1" text="999999"/>
+    <text id="n46_dd7o" name="n46" xy="173,97" size="92,35" font="ui://bs2uwwz8flzz0" fontSize="25" color="#63433d" align="right" shadowColor="#cccccc" shadowOffset="1,1" text="999999"/>
+    <text id="n47_dd7o" name="n47" xy="475,99" size="92,35" font="ui://bs2uwwz8flzz0" fontSize="25" color="#63433d" align="right" shadowColor="#cccccc" shadowOffset="1,1" text="999999"/>
+  </displayList>
+</component>

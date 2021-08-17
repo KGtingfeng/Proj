@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624" designImage="ui://uluoyg28w8uf14">
+  <displayList>
+    <image id="n16_w8uf" name="n16" src="lq3mv" fileName="Imag/frame_chooseshenfen.png" xy="254,813" group="n33_plbb"/>
+    <image id="n20_w8uf" name="n20" src="lnqm1p" fileName="Imag/ptn_freme_playerinfo.png" pkg="82yrhfjg" xy="303,916" size="603,71" group="n33_plbb" alpha="0.6"/>
+    <text id="n6_iua3" name="n6" xy="358,933" size="209,38" group="n33_plbb" font="Source Han Sans CN Medium" fontSize="34" color="#615852" text="选择你的生日"/>
+    <image id="n25_w8uf" name="n25" src="w8uf10" fileName="Imag/frame_chooseshenfen2.png" xy="397,1096" group="n33_plbb"/>
+    <image id="n26_w8uf" name="n26" src="w8uf10" fileName="Imag/frame_chooseshenfen2.png" xy="397,1227" group="n33_plbb"/>
+    <list id="n11_iua3" name="n11" xy="384,1029" size="132,296" group="n33_plbb" overflow="scroll" margin="20,0,0,0" lineGap="74" defaultItem="ui://82yrhfjgiua3q2n" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n14_iua3" name="n14" xy="540,1029" size="132,296" group="n33_plbb" overflow="scroll" margin="20,0,0,0" lineGap="74" defaultItem="ui://82yrhfjgiua3q2n" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n15_iua3" name="n15" xy="695,1029" size="132,298" group="n33_plbb" overflow="scroll" margin="20,0,0,0" lineGap="74" defaultItem="ui://82yrhfjgiua3q2n" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n23_w8uf" name="n10" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="642,1403" group="n33_plbb">
+      <Button title="确定"/>
+    </component>
+    <component id="n24_w8uf" name="n9" src="7cz79" fileName="Comp/Button1_red.xml" pkg="82yrhfjg" xy="371,1403" group="n33_plbb">
+      <Button title="取消"/>
+    </component>
+    <image id="n27_w8uf" name="n27" src="w8uf11" fileName="Imag/frame_chooseshenfen3.png" xy="342,1043" group="n33_plbb"/>
+    <image id="n28_w8uf" name="n28" src="w8uf11" fileName="Imag/frame_chooseshenfen3.png" xy="342,1158" group="n33_plbb"/>
+    <image id="n29_w8uf" name="n29" src="w8uf11" fileName="Imag/frame_chooseshenfen3.png" xy="342,1265" group="n33_plbb"/>
+    <image id="n30_w8uf" name="n30" src="w8uf11" fileName="Imag/frame_chooseshenfen3.png" xy="865,1043" group="n33_plbb" scale="-1,1"/>
+    <image id="n31_w8uf" name="n31" src="w8uf11" fileName="Imag/frame_chooseshenfen3.png" xy="865,1158" group="n33_plbb" scale="-1,1"/>
+    <image id="n32_w8uf" name="n32" src="w8uf11" fileName="Imag/frame_chooseshenfen3.png" xy="865,1265" group="n33_plbb" scale="-1,1"/>
+    <group id="n33_plbb" name="n33" xy="254,813" size="712,808" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

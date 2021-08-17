@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <controller name="c1" pages="2,成功" selected="0"/>
+  <displayList>
+    <component id="n15_vvaw" name="n15" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="0,0">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </component>
+    <image id="n25_vvaw" name="n25" src="lnqm12" fileName="Imag/frame1_common.png" pkg="82yrhfjg" xy="326,503" size="581,615" group="n29_vvaw"/>
+    <image id="n26_vvaw" name="n26" src="fpsfq6f" fileName="Imag/title_success.png" pkg="82yrhfjg" xy="309,528" group="n29_vvaw"/>
+    <text id="n27_vvaw" name="n27" xy="426,655" size="381,40" group="n29_vvaw" fontSize="29" color="#948787" align="center" text="辛灵姐姐非常感谢你的帮助！"/>
+    <component id="n28_vvaw" name="n28" src="rj5h23" fileName="Comp/Button2_blue.xml" pkg="82yrhfjg" xy="494,932" size="245,82" group="n29_vvaw">
+      <Button title="领取奖励"/>
+    </component>
+    <component id="n30_vvaw" name="n30" src="ubaiq58" fileName="Comp/Frame_liwupop(1).xml" pkg="82yrhfjg" xy="443,728" size="168,162" group="n29_vvaw"/>
+    <component id="n31_vvaw" name="n31" src="ubaiq58" fileName="Comp/Frame_liwupop(1).xml" pkg="82yrhfjg" xy="623,728" size="168,162" group="n29_vvaw"/>
+    <text id="n32_vvaw" name="n32" xy="492,876" size="70,32" group="n29_vvaw" fontSize="22" color="#867093" align="center" text="可乐好">
+      <relation target="n30_vvaw" sidePair="center-center,top-bottom"/>
+    </text>
+    <text id="n33_vvaw" name="n33" xy="672,878" size="70,32" group="n29_vvaw" fontSize="22" color="#867093" align="center" text="经验大">
+      <relation target="n31_vvaw" sidePair="center-center,top-bottom"/>
+    </text>
+    <group id="n29_vvaw" name="n29" xy="309,503" size="616,615" advanced="true">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

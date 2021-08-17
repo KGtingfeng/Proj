@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="490,68">
+  <controller name="c1" pages="0,主页,1,tips1,2,tips2,3,tips3,4,获得剑,5,获得剑后" selected="0"/>
+  <displayList>
+    <graph id="n44_q9g9" name="n37" xy="0,0" size="490,68" type="rect" lineSize="0" fillColor="#00ffffff"/>
+  </displayList>
+</component>

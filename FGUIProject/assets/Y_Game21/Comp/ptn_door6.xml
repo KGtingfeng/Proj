@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="269,211" pivot="0.5,0.5" anchor="true">
+  <displayList>
+    <image id="n9_vvaw" name="n9" src="vvawk" fileName="Imag/bild6.png" xy="-7,-10"/>
+    <image id="n10_s8t3" name="n10" src="vvaw5" fileName="Imag/piece6.png" xy="-57,-57" visible="false"/>
+  </displayList>
+</component>

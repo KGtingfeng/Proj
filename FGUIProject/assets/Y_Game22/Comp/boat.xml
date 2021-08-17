@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="512,270">
+  <displayList>
+    <image id="n1_vvaw" name="n1" src="vvaw7" fileName="Imag/ptn_boat.png" xy="0,0"/>
+  </displayList>
+</component>

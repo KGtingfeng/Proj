@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://es8rf0iss8t3t" designImageOffsetX="-224" designImageAlpha="0">
+  <controller name="c1" pages="0,,1,成功" selected="0"/>
+  <displayList>
+    <image id="n15_vvaw" name="n15" src="g0xm22" fileName="Imag/frame_chuan(1).png" pkg="82yrhfjg" xy="-10,316" size="771,981">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n32_t19t" name="n32" src="ple61k" fileName="Imag/ptn_doordark.png" xy="92,411">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n1_vvaw" name="n1" src="vvaw6" fileName="Imag/frame_below.png" xy="42,1373" size="665,152">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n2_vvaw" name="n2" src="vvaw9" fileName="Comp/ptn_piece1.xml" xy="248,565" group="n8_vvaw" scale="0.952,0.944" visible="false"/>
+    <component id="n3_vvaw" name="n3" src="vvawa" fileName="Comp/ptn_piece2.xml" xy="321,758" group="n8_vvaw" scale="0.97,0.962" visible="false"/>
+    <component id="n4_vvaw" name="n4" src="vvawb" fileName="Comp/ptn_piece3.xml" xy="504,596" group="n8_vvaw" scale="0.904,0.957" visible="false"/>
+    <component id="n5_vvaw" name="n5" src="vvawc" fileName="Comp/ptn_piece4.xml" xy="473,930" group="n8_vvaw" scale="0.974,0.923" visible="false"/>
+    <component id="n6_vvaw" name="n6" src="vvawd" fileName="Comp/ptn_piece5.xml" xy="231,1031" group="n8_vvaw" scale="0.994,0.907" visible="false"/>
+    <component id="n7_vvaw" name="n7" src="vvawe" fileName="Comp/ptn_piece6.xml" xy="522,1036" group="n8_vvaw" scale="1,0.898" visible="false" rotation="-33"/>
+    <group id="n8_vvaw" name="n8" xy="37,354" size="677,845" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n48_pri5" name="n48" src="pri51v" fileName="Comp/tap_ainme.xml" xy="38,443" touchable="false"/>
+    <component id="n9_vvaw" name="n9" src="vvawr" fileName="Comp/ptn_door6.xml" xy="599,1442" size="269,191" group="n16_vvaw" scale="0.35,0.35"/>
+    <component id="n10_vvaw" name="n10" src="vvawq" fileName="Comp/ptn_door5.xml" xy="508,1448" size="273,206" group="n16_vvaw" scale="0.3,0.3"/>
+    <component id="n11_vvaw" name="n11" src="vvawp" fileName="Comp/ptn_door4.xml" xy="410,1441" size="254,381" group="n16_vvaw" scale="0.25,0.25"/>
+    <component id="n12_vvaw" name="n12" src="vvawo" fileName="Comp/ptn_door3.xml" xy="303,1445" size="236,350" group="n16_vvaw" scale="0.25,0.25"/>
+    <component id="n13_vvaw" name="n13" src="vvawn" fileName="Comp/ptn_door2.xml" xy="214,1440" size="307,444" group="n16_vvaw" scale="0.2,0.2"/>
+    <component id="n14_vvaw" name="n14" src="vvawm" fileName="Comp/ptn_door1.xml" xy="121,1441" size="227,293" group="n16_vvaw" scale="0.3,0.3"/>
+    <group id="n16_vvaw" name="n16" xy="7,1218" size="726,444" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n20_vvaw" name="n20" src="vvaws" fileName="Imag/bg_tip.png" xy="62,1164" size="626,42">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n0_vvaw" name="n0" xy="69,1166" size="612,43" font="ui://bs2uwwz8flzz2" fontSize="27" color="#ffffff" align="center" autoSize="none" text="拖动碎片放置到正确位置，修复大门">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n17_vvaw" name="n17" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-235,0" group="n21_vvaw">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <image id="n19_vvaw" name="n19" src="vy2y1t" fileName="Imag/frame_commom_tips.png" pkg="82yrhfjg" xy="100,1406" size="550,64" group="n21_vvaw"/>
+    <text id="n18_vvaw" name="n18" xy="175,1414" size="400,45" group="n21_vvaw" font="ui://wkrcryqms8t39" fontSize="33" color="#ffffff" text="太棒了，大门被修复好了！"/>
+    <group id="n21_vvaw" name="n21" xy="-235,0" size="1220,1624" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <graph id="n59_cgg8" name="n59" xy="323,729" size="100,100" type="rect" lineColor="#00000000" fillColor="#00ffffff"/>
+    <component id="n53_cgg8" name="n53" src="f7ae1w" fileName="Comp/ptn_area1.xml" xy="213,389" group="n42_f7ae" scale="1.543,2.728" rotation="39"/>
+    <component id="n54_cgg8" name="n54" src="f7ae1w" fileName="Comp/ptn_area1.xml" xy="219,611" group="n42_f7ae" scale="2.189,3.145"/>
+    <component id="n55_cgg8" name="n55" src="f7ae1w" fileName="Comp/ptn_area1.xml" xy="389,468" group="n42_f7ae" scale="1.733,3.205" rotation="-23"/>
+    <component id="n56_cgg8" name="n56" src="f7ae1w" fileName="Comp/ptn_area1.xml" xy="491,773" group="n42_f7ae" scale="1.146,2.773" rotation="28"/>
+    <component id="n57_cgg8" name="n57" src="f7ae1w" fileName="Comp/ptn_area1.xml" xy="62,987" group="n42_f7ae" scale="1.241,3.001" rotation="-53"/>
+    <component id="n58_cgg8" name="n58" src="f7ae1w" fileName="Comp/ptn_area1.xml" xy="615,897" group="n42_f7ae" scale="1.537,3.205" rotation="47"/>
+    <group id="n42_f7ae" name="n42" xy="62,389" size="653,698"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1"/>
+</component>

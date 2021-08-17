@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="591,573" mask="n68_nnz4">
+  <displayList>
+    <graph id="n68_nnz4" name="n68" xy="0,0" size="591,562" type="rect"/>
+    <list id="n67_rj5h" name="n67" xy="0,0" size="591,564" layout="flow_hz" overflow="scroll" margin="0,0,-9,0" clipSoftness="30,30" lineGap="3" defaultItem="ui://82yrhfjgpzu03p" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

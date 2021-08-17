@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="" selected="-1"/>
+  <displayList>
+    <component id="n0_ro8r" name="n0" src="ro8r0" fileName="Comp/Ani_zhuanchang_final.xml" xy="0,0" size="750,1624" touchable="false">
+      <relation target="" sidePair=""/>
+    </component>
+  </displayList>
+</component>

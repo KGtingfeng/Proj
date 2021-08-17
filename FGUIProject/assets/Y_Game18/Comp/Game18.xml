@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <loader id="n4_h4fs" name="n3" xy="-235,0" size="1220,1624" url="ui://7t19s7qwsoh30">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n0_vvaw" name="n0" src="vvaw9" fileName="Comp/Game18_scene.xml" xy="0,0" size="750,1624">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n1_vvaw" name="n1" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" scale="0.8,0.8">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n2_vvaw" name="n2" src="10xzq15" fileName="Comp/Button_skip.xml" pkg="82yrhfjg" xy="576,69">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlayRepeat="-1" frameRate="60">
+    <item time="0" type="ColorFilter" target="n4_h4fs" tween="true" startValue="0,0.76,0,0" endValue="-0.3,0.65,0,0" duration="24" ease="Quart.Out"/>
+    <item time="24" type="ColorFilter" target="n4_h4fs" tween="true" startValue="-0.3,0.65,0,0" endValue="0,0.76,0,0" duration="36"/>
+  </transition>
+</component>

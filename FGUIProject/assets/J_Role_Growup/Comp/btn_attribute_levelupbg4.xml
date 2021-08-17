@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,187">
+  <displayList>
+    <image id="n13_j6m7" name="n13" src="rj5h1v" fileName="Imag/btn_attribute_levelupbg4.png" xy="0,0"/>
+    <text id="n14_j6m7" name="n14" xy="24,153" size="64,29" alpha="0.78" font="ui://bs2uwwz8flzz2" fontSize="20" text="等级："/>
+    <text id="n15_j6m7" name="n15" xy="88,153" size="27,29" alpha="0.78" font="ui://bs2uwwz8flzz2" fontSize="20" align="right" text="12"/>
+    <text id="n16_j6m7" name="n16" xy="150,153" size="44,29" alpha="0.78" font="ui://bs2uwwz8flzz2" fontSize="20" text="魔法"/>
+    <text id="n17_j6m7" name="n17" xy="202,153" size="38,29" alpha="0.78" font="ui://bs2uwwz8flzz2" fontSize="20" text="200">
+      <relation target="n16_j6m7" sidePair="left-right"/>
+    </text>
+    <image id="n18_j6m7" name="n18" src="rj5h21" fileName="Imag/btn_arrow.png" xy="244,157">
+      <relation target="n17_j6m7" sidePair="left-right"/>
+    </image>
+    <text id="n19_j6m7" name="n19" xy="272,153" size="38,29" alpha="0.78" font="ui://bs2uwwz8flzz2" fontSize="20" text="200">
+      <relation target="n18_j6m7" sidePair="left-right"/>
+    </text>
+    <image id="n20_j6m7" name="n20" src="rj5h1x" fileName="Imag/ptn_propbumberbg.png" pkg="82yrhfjg" xy="634,141" size="116,37" alpha="0.4" rotation="180"/>
+    <component id="n21_j6m7" name="n21" src="rj5h25" fileName="Comp/Button2_yellow.xml" pkg="82yrhfjg" xy="512,131">
+      <Button title="修炼"/>
+    </component>
+    <image id="n22_j6m7" name="n22" src="vdqrd" fileName="Imag/icon_common_aixin.png" pkg="82yrhfjg" xy="534,125" scale="0.32,0.32">
+      <relation target="n23_j6m7" sidePair="right-left"/>
+    </image>
+    <text id="n23_j6m7" name="n23" xy="571,104" size="45,66" font="ui://bs2uwwz8flzz2" fontSize="24" color="#ffffff" align="center" text="256&#xA;">
+      <relation target="n21_j6m7" sidePair="center-center"/>
+    </text>
+    <image id="n25_j6m7" name="n25" src="lnqmm" fileName="Imag/icon_common_mofa.png" pkg="82yrhfjg" xy="112,151" scale="0.29,0.29"/>
+    <text id="n26_xazz" name="n26" xy="17,12" size="148,34" font="ui://bs2uwwz8flzz0" fontSize="24" color="#ffffff" text="刀锋山崖修炼"/>
+  </displayList>
+</component>

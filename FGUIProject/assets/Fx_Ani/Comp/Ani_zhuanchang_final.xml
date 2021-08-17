@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <displayList>
+    <component id="n0_ro8r" name="n0" src="ro8rq2l" fileName="Comp/Ani_zhuanchang.xml" xy="-2592,0" size="2595,1624" touchable="false">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+  <transition name="t0" frameRate="60">
+    <item time="0" type="XY" target="n0_ro8r" tween="true" startValue="-2599,0" endValue="-627,0" duration="30" label2="change" ease="Linear"/>
+    <item time="30" type="XY" target="n0_ro8r" label="change" tween="true" startValue="-627,0" endValue="1226,0" duration="30" ease="Linear"/>
+    <item time="61" type="XY" target="n0_ro8r" label="over" value="-2126,0"/>
+  </transition>
+</component>

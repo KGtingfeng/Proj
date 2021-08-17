@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="716,167" designImage="ui://uluoyg28bvfr32" designImageOffsetX="-14" designImageOffsetY="-584" designImageAlpha="0" bgColorEnabled="true">
+  <controller name="c1" pages="0,添加,3,已申请,4,已添加,2,同意忽略" selected="3"/>
+  <displayList>
+    <image id="n0_k7ir" name="n0" src="bvfrs" fileName="Imag/bg_friend.png" xy="-7,-3" size="730,174"/>
+    <loader id="n1_k7ir" name="n1" xy="50,27" size="116,115" url="ui://82yrhfjgvdqr1" fill="scaleFree"/>
+    <graph id="n22_l049" name="n22" xy="48,27" size="116,115" type="rect" lineSize="0" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <text id="n4_k7ir" name="n4" xy="220,46" size="220,35" font="ui://bs2uwwz8flzz0" fontSize="25" color="#976c9e" autoSize="none" shadowColor="#ffffff" shadowOffset="1,1" text="玩家名称&#xA;">
+      <gearDisplay controller="c1" pages="0,3,4"/>
+    </text>
+    <component id="n23_l049" name="n23" src="gab61o" fileName="Comp/frame_title.xml" pkg="82yrhfjg" xy="207,89" size="224,44">
+      <gearDisplay controller="c1" pages="0,3,4"/>
+    </component>
+    <text id="n6_k7ir" name="n6" xy="211,96" size="233,36" font="ui://bs2uwwz8flzz0" fontSize="25" color="#ffffff" align="center" autoSize="none" text="称号啦啦啦阿拉">
+      <gearDisplay controller="c1" pages="0,3,4"/>
+    </text>
+    <graph id="n19_sw58" name="n19" xy="2,3" size="714,165" type="rect" lineColor="#00000000" fillColor="#00ffffff"/>
+    <component id="n13_k7ir" name="n13" src="ms0gl" fileName="Cmop/Button1_blue.xml" xy="475,48" size="222,76">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="right-right"/>
+      <Button title="申请好友" titleFontSize="20"/>
+    </component>
+    <component id="n14_k7ir" name="n14" src="bvfr15" fileName="Cmop/Button1_redsmall(1).xml" xy="465,58" scale="0.7,0.7">
+      <gearDisplay controller="c1" pages="2"/>
+    </component>
+    <component id="n16_k7ir" name="n16" src="bvfr14" fileName="Cmop/Button1_bluesmall.xml" xy="588,58" scale="0.7,0.7">
+      <gearDisplay controller="c1" pages="2"/>
+    </component>
+    <text id="n17_p567" name="n17" xy="569,68" size="85,38" font="ui://bs2uwwz8flzz0" fontSize="27" color="#948787" text="已申请">
+      <gearDisplay controller="c1" pages="3"/>
+    </text>
+    <text id="n18_p567" name="n18" xy="569,68" size="85,38" font="ui://bs2uwwz8flzz0" fontSize="27" color="#948787" text="已添加">
+      <gearDisplay controller="c1" pages="4"/>
+    </text>
+    <loader id="n21_bvfr" name="n21" xy="108,86" pivot="0.5,0.5" anchor="true" size="284,344" scale="0.43,0.43" url="ui://wkrcryqmchzbc" autoSize="true"/>
+    <image id="n2_k7ir" name="n2" src="k7ir7" fileName="Imag/frame_chuan(1).png" xy="122,110" size="49,44"/>
+    <text id="n3_k7ir" name="n3" xy="123,118" size="48,29" font="ui://bs2uwwz8flzz2" fontSize="20" color="#ffffff" align="center" autoSize="none" shadowColor="#d96987" shadowOffset="1,1" text="99"/>
+    <text id="n24_y3w4" name="n24" xy="207,24" size="161,35" font="ui://bs2uwwz8flzz0" fontSize="23" color="#976c9e" autoSize="none" text="玩家名称&#xA;">
+      <gearDisplay controller="c1" pages="2"/>
+    </text>
+    <component id="n25_y3w4" name="n25" src="gab61o" fileName="Comp/frame_title.xml" pkg="82yrhfjg" xy="206,70" size="238,44" scale="0.705,0.705">
+      <gearDisplay controller="c1" pages="2"/>
+    </component>
+    <text id="n26_y3w4" name="n26" xy="212,71" size="158,34" font="ui://bs2uwwz8flzz0" fontSize="18" color="#ffffff" align="center" autoSize="none" text="称号啦啦啦阿拉">
+      <gearDisplay controller="c1" pages="2"/>
+    </text>
+    <image id="n27_y3w4" name="n27" src="y3w41e" fileName="Imag/line2.png" xy="190,121" size="500,2">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <text id="n28_y3w4" name="n28" xy="207,124" size="243,28" font="ui://bs2uwwz8flzz2" fontSize="19" color="#737373" text="很高兴认识你，交个朋友吧~">
+      <gearDisplay controller="c1" pages="2"/>
+    </text>
+  </displayList>
+</component>

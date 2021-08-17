@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="696,1278">
+  <displayList>
+    <graph id="n11_lq3m" name="n11" xy="-252,-173" size="1200,1624" alpha="0" type="rect"/>
+    <image id="n13_tc0m" name="n13" src="tc0mq4u" fileName="Imag/frame_paibang.png" xy="0,474" size="700,318">
+      <relation target="n3_g6pv" sidePair="topext-top,bottomext-bottom"/>
+    </image>
+    <richtext id="n3_g6pv" name="n3" xy="80,533" size="536,174" font="ui://bs2uwwz8flzz2" fontSize="30" color="#6b547f" leading="7" autoSize="none" text="这里是d角色要说的话，布拉布拉布拉...这里是角色要说的话，布拉布拉布拉...这里是d角色要说的话，布拉布拉布拉...这里是角色要说的话，布拉布拉布拉...">
+      <relation target="" sidePair="middle-middle"/>
+    </richtext>
+  </displayList>
+</component>

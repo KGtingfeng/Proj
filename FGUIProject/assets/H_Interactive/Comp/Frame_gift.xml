@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,570">
+  <controller name="c1" pages="4,送礼,5,送礼完成" selected="0"/>
+  <displayList>
+    <image id="n57_7vvy" name="n57" src="7vvy19" fileName="Imag/bg_songli.png" xy="0,0"/>
+    <text id="n58_7vvy" name="n58" xy="44,34" size="46,53" font="ui://bs2uwwz8flzz0" fontSize="20" color="#ffffff" leading="0" letterSpacing="2" text="今日&#xA;心愿"/>
+    <text id="n59_7vvy" name="n59" xy="87,117" size="590,98" font="ui://bs2uwwz8flzz2" fontSize="30" color="#605f5f" vAlign="middle" leading="8" letterSpacing="-2" autoSize="none" text="舒颜近期因为学习的事情压力很大，需要补品水来补充能量！">
+      <gearDisplay controller="c1" pages="4"/>
+    </text>
+    <component id="n61_7vvy" name="n61" src="7vvy1c" fileName="Comp/Frame_liwupop.xml" xy="149,236">
+      <gearDisplay controller="c1" pages="4"/>
+    </component>
+    <image id="n63_7vvy" name="n63" src="7vvy1d" fileName="Imag/icon_shijian.png" xy="371,292">
+      <gearDisplay controller="c1" pages="4"/>
+    </image>
+    <text id="n64_7vvy" name="n64" xy="432,252" size="191,39" font="ui://wkrcryqms5cu3" fontSize="28" color="#fc7e99" leading="8" letterSpacing="-2" strokeColor="#ffffff" text="好感度增加：80">
+      <gearDisplay controller="c1" pages="4"/>
+    </text>
+    <text id="n65_7vvy" name="n65" xy="436,293" size="190,81" font="ui://wkrcryqms5cu5" fontSize="28" color="#605f5f" align="center" leading="8" letterSpacing="-2" autoSize="none" text="心愿倒计时：&#xA;23:59:25">
+      <gearDisplay controller="c1" pages="4"/>
+    </text>
+    <component id="n66_7vvy" name="n66" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="275,453" scale="1.5,1.5">
+      <gearDisplay controller="c1" pages="4"/>
+      <Button title="送给TA"/>
+    </component>
+    <image id="n67_7vvy" name="n67" src="7vvy1h" fileName="Imag/ptn_line.png" xy="162,253">
+      <gearDisplay controller="c1" pages="5"/>
+    </image>
+    <text id="n68_7vvy" name="n68" xy="71,195" size="608,46" font="ui://bs2uwwz8flzz0" fontSize="34" color="#605f5f" align="center" vAlign="middle" autoSize="none" text="今日的心愿礼物已达成，明天再送哦！">
+      <gearDisplay controller="c1" pages="5"/>
+    </text>
+  </displayList>
+</component>

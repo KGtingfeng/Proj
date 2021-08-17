@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <displayList>
+    <loader id="n0_v302" name="n0" xy="0,0" pivot="0.5,0.5" size="1220,1624" url="ui://bgqjmy3sv3026" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n1_v302" name="n1" src="dyo5q6v" fileName="Imag/timelight.png" xy="-52,-52" size="1323,1723" blend="add"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayDelay="1.083" frameRate="60">
+    <item time="0" type="Alpha" target="n1_v302" tween="true" startValue="1" endValue="0" duration="30"/>
+  </transition>
+</component>

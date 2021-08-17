@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="230,84" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_lnqm" name="n0" src="9pfj3" fileName="Imag/btn_login.png" xy="0,0" size="230,84">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_lnqm" name="n1" src="9pfj3" fileName="Imag/btn_login.png" xy="0,0" size="230,84">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_t19t" name="n2" xy="65,11" size="99,54" font="ui://bs2uwwz8flzz0" fontSize="40" color="#ffffff" letterSpacing="15" shadowColor="#8ba1bc" shadowOffset="1,1" text="注册"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".95"/>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <displayList>
+    <graph id="n1_k8n8" name="n1" xy="0,0" pivot="0.5,0.5" size="1220,1624" alpha="0.58" type="rect" lineSize="0" fillColor="#ff141d32">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n2_k8n8" name="n2" src="k8n8a" fileName="Comp/Ani_321.xml" xy="528,532">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n3_k8n8" name="n3" src="k8n84" fileName="Imag/tipframe.png" xy="272,945">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n5_k8n8" name="n5" xy="303,963" size="613,194" font="ui://bs2uwwz8flzz2" fontSize="31" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="你有40秒的时间回答四时钟的问题&#xA;共10题&#xA;回答错误即失败">
+      <relation target="n3_k8n8" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

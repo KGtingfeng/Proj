@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="onkcgv3m">
+  <resources>
+    <component id="b05h0" name="Summer_Holidays.xml" path="/Comp/" exported="true"/>
+    <image id="b05h1" name="btn_shop.png" path="/Imag/" exported="true"/>
+    <image id="b05h2" name="btn_tip.png" path="/Imag/" exported="true"/>
+    <image id="b05h3" name="bg_2.png" path="/Imag/" exported="true"/>
+    <image id="b05h4" name="bg_1.png" path="/Imag/" exported="true"/>
+    <image id="b05h5" name="ptn_1.png" path="/Imag/" exported="true"/>
+    <image id="b05h6" name="ptn_2.png" path="/Imag/" exported="true"/>
+    <component id="b05h8" name="Button_Summer_go.xml" path="/Comp/" exported="true"/>
+    <component id="b05h9" name="Button_Other.xml" path="/Comp/" exported="true"/>
+    <component id="b05ha" name="Login.xml" path="/Comp/" exported="true"/>
+    <component id="b05hb" name="Shouye.xml" path="/Comp/" exported="true"/>
+    <image id="b05hd" name="Cut_line.png" path="/Imag/" exported="true" scale="9grid" scale9grid="40,1,21,2"/>
+    <image id="b05he" name="ptn_3.png" path="/Imag/" exported="true"/>
+    <component id="b05hf" name="Login_advertising.xml" path="/Comp/" exported="true"/>
+    <component id="b05hg" name="Button_shop.xml" path="/Comp/" exported="true"/>
+    <component id="b05hh" name="Button_tip.xml" path="/Comp/" exported="true"/>
+    <image id="b05hi" name="bg_3.png" path="/Imag/" exported="true"/>
+    <component id="b05hj" name="Summer_game.xml" path="/Comp/" exported="true"/>
+    <image id="b05hl" name="bg_5.png" path="/Imag/" exported="true" scale="9grid" scale9grid="9,8,18,16"/>
+    <image id="b05hm" name="bg_4.png" path="/Imag/" exported="true" scale="9grid" scale9grid="9,9,18,18"/>
+    <component id="b05hn" name="Add_times.xml" path="/Comp/" exported="true"/>
+    <image id="b05hp" name="frame_libaoreview.png" path="/Imag/" exported="true" scale="9grid" scale9grid="27,24,2,7"/>
+    <image id="b05hq" name="bg_title.png" path="/Imag/" exported="true" scale="9grid" scale9grid="160,2,320,4"/>
+    <component id="b05hr" name="Active_Rule.xml" path="/Comp/" exported="true"/>
+    <image id="b05ht" name="ptn_ice.png" path="/Imag/" exported="true"/>
+    <component id="b05hu" name="Game.xml" path="/Comp/" exported="true"/>
+    <image id="gxb8v" name="ptn_obstacle.png" path="/Imag/" exported="true"/>
+    <image id="gxb8w" name="ptn_luoli.png" path="/Imag/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

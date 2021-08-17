@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="1a2mmzyz">
+  <resources>
+    <image id="rzdk0" name="shadow.png" path="/Imag/" exported="true"/>
+    <image id="rzdk2" name="suipian_2.png" path="/Imag/" exported="true"/>
+    <image id="rzdk3" name="suipian_3.png" path="/Imag/" exported="true"/>
+    <image id="rzdk4" name="suipian_4.png" path="/Imag/" exported="true"/>
+    <image id="rzdk5" name="suipian_5.png" path="/Imag/" exported="true"/>
+    <image id="rzdk6" name="suipian_6.png" path="/Imag/" exported="true"/>
+    <image id="rzdk7" name="suipian_7.png" path="/Imag/" exported="true"/>
+    <image id="rzdk8" name="suipian_8.png" path="/Imag/" exported="true"/>
+    <image id="rzdk9" name="suipian_9.png" path="/Imag/" exported="true"/>
+    <component id="rzdkc" name="Game.xml" path="/Comp/" exported="true"/>
+    <component id="rzdke" name="suipian2.xml" path="/Comp/" exported="true"/>
+    <component id="rzdkf" name="suipian3.xml" path="/Comp/" exported="true"/>
+    <component id="rzdkg" name="suipian4.xml" path="/Comp/" exported="true"/>
+    <component id="rzdkh" name="suipian5.xml" path="/Comp/" exported="true"/>
+    <component id="rzdki" name="suipian6.xml" path="/Comp/" exported="true"/>
+    <component id="rzdkj" name="suipian7.xml" path="/Comp/" exported="true"/>
+    <component id="rzdkk" name="suipian8.xml" path="/Comp/" exported="true"/>
+    <component id="rzdkl" name="suipian9.xml" path="/Comp/" exported="true"/>
+    <component id="rzdk5a" name="tips.xml" path="/Comp/" exported="true"/>
+    <image id="rzdkm" name="arrow.png" path="/Imag/" exported="true"/>
+    <component id="rzdkn" name="Arrowani.xml" path="/Comp/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

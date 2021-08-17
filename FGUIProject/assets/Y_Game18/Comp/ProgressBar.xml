@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="663,73" extention="ProgressBar">
+  <displayList>
+    <image id="n8_u5po" name="n8" src="u5pog" fileName="Imag/bg_progressbar.png" xy="1038,13" rotation="90"/>
+    <component id="n1_vvaw" name="bar" src="h4fsf" fileName="Comp/bar_inside.xml" xy="61,20"/>
+    <image id="n7_9hee" name="n7" src="h4fsa" fileName="Imag/bar_top.png" xy="620,19" pivot="0.5,0.5" rotation="90">
+      <relation target="n1_vvaw" sidePair="middle-middle,right-right"/>
+    </image>
+    <image id="n0_vvaw" name="n0" src="vvaw1" fileName="Imag/progressbar_out.png" xy="-261,5" pivot="0.5,0.5" size="1310,60" rotation="180">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

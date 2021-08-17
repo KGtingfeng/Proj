@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="240,236" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <controller name="c1" pages="0,no,1,finish,6,red" selected="0"/>
+  <displayList>
+    <image id="n0_vvaw" name="n0" src="gaiti" fileName="Imag/icon_lookdifferent.png" xy="0,0" pivot="0.5,0.5">
+      <gearDisplay controller="button" pages="0,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_xazz" name="n2" xy="72,198" size="96,37" font="ui://bs2uwwz8flzz0" fontSize="23" color="#ffffff" autoSize="none" shadowColor="#83a4df" shadowOffset="1,1" text="一起找茬"/>
+    <image id="n3_xazz" name="n3" src="vvaw4" fileName="Imag/icon_taskfinish.png" xy="51,98">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <text id="n4_xazz" name="n4" xy="72,101" size="96,37" font="ui://bs2uwwz8flzz2" fontSize="23" color="#ffffff" align="center" autoSize="none" shadowColor="#857297" shadowOffset="1,1" text="已完成">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <component id="n7_t19t" name="n7" src="lnqm1e" fileName="Comp/Littlered.xml" pkg="82yrhfjg" xy="176,15">
+      <gearDisplay controller="c1" pages="6"/>
+    </component>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".98"/>
+</component>

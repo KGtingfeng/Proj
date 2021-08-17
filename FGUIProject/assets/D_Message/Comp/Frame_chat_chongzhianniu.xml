@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,127">
+  <displayList>
+    <component id="n7_oi2k" name="n7" src="oi2k3z" fileName="Comp/Button_chongzhi.xml" xy="261,31">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://kzvhx58pcn0h40">
+  <controller name="c1" pages="0,拼碎片,1,完成,2,原图" selected="2"/>
+  <displayList>
+    <component id="n11_cn0h" name="n11" src="od9e5c" fileName="Comp/Game_scene_final.xml" xy="-235,0" pivot="0.5,0.5" size="1220,1624" scale="1.322,1.322">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearSize controller="c1" pages="1" values="1220,1624,1,1" default="1220,1624,1.322,1.322" tween="true" duration="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <graph id="n15_dobn" name="n15" xy="0,0" size="750,1624" type="rect" lineSize="0" fillColor="#00ffffff">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <component id="n9_cn0h" name="n9" src="cn0h4z" fileName="Comp/Frame_suipian.xml" xy="42,1273">
+      <gearDisplay controller="c1" pages="0"/>
+      <gearLook controller="c1" pages="1" values="0,0,0,1" default="1,0,0,1" tween="true"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n1_cn0h" name="n1" src="cn0h58" fileName="Comp/Component1.xml" xy="-23,269" pivot="0.5,0.5">
+      <gearDisplay controller="c1" pages="0"/>
+      <gearLook controller="c1" pages="1" values="0,0,0,1" default="1,0,0,1" tween="true"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n13_cn0h" name="n13" src="cn0h59" fileName="Imag/tipsbg(1).png" xy="49,1067">
+      <gearDisplay controller="c1" pages="1"/>
+      <gearLook controller="c1" pages="0" values="0,0,0,0" default="1,0,0,0" tween="true" delay=".5"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n14_cn0h" name="n14" xy="191,1095" size="367,45" font="ui://xk3nrdkvkki52" fontSize="33" color="#ffffff" align="center" text="恭喜你成功修复了钟楼！">
+      <gearDisplay controller="c1" pages="1"/>
+      <gearLook controller="c1" pages="0" values="0,0,0,0" default="1,0,0,0" tween="true" delay=".5"/>
+      <relation target="n13_cn0h" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n16_dobn" name="n16" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="24,493" size="326,216" group="n22_dobn" rotation="-25"/>
+    <component id="n17_dobn" name="n18" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="131,812" size="373,222" group="n22_dobn"/>
+    <component id="n18_dobn" name="n17" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="26,701" size="279,216" group="n22_dobn" rotation="-18"/>
+    <component id="n19_dobn" name="n19" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="321,591" size="184,216" group="n22_dobn"/>
+    <component id="n20_dobn" name="n20" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="511,636" size="200,345" group="n22_dobn"/>
+    <component id="n21_dobn" name="n21" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="320,434" size="197,345" group="n22_dobn" rotation="-44"/>
+    <group id="n22_dobn" name="n22" xy="24,434" size="687,600" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <graph id="n23_dobn" name="n23" xy="0,0" size="750,1624" type="rect" lineSize="0" fillColor="#00ffffff">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+  </displayList>
+</component>

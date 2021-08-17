@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <displayList>
+    <component id="n5_vvaw" name="n5" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="0,0"/>
+    <image id="n1_vvaw" name="n1" src="h4fs2e" fileName="Imag/xinling.png" pkg="82yrhfjg" xy="453,393" size="420,1231"/>
+    <image id="n3_vvaw" name="n3" src="h4fs2f" fileName="Imag/tall_bubble.png" xy="217,661"/>
+    <text id="n4_vvaw" name="n4" xy="251,729" size="415,158" font="ui://bs2uwwz8flzz2" fontSize="30" color="#575554" vAlign="middle" autoSize="none" shadowColor="#ffffff" shadowOffset="1,1" text="每天都可以帮助我完成这些任务哦"/>
+  </displayList>
+</component>

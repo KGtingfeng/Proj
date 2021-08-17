@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" opaque="false">
+  <controller name="c1" pages="0,短信,1,电话,2,朋友圈" selected="1"/>
+  <displayList>
+    <component id="n0_p9u3" name="n0" src="gyvjq5p" fileName="Comp/call_in2.xml" xy="10,65">
+      <gearDisplay controller="c1" pages="1"/>
+      <gearXY controller="c1" pages="0,1,2" values="10,-342|10,65|10,-342" tween="true" ease="Quint.Out" duration="1"/>
+      <gearLook controller="c1" pages="0,2" values="0,0,0,1|0,0,0,1" default="1,0,0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n1_p9u3" name="n1" src="urj11k" fileName="Comp/Frame_message.xml" xy="17,-226" alpha="0">
+      <gearDisplay controller="c1" pages="0"/>
+      <gearXY controller="c1" pages="0,1,2" values="17,13|17,-226|17,-226" tween="true" ease="Quint.Out" duration="1"/>
+      <gearLook controller="c1" pages="1,2" values="0,0,0,1|0,0,0,1" default="1,0,0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n2_oi2k" name="n2" src="oi2kq4x" fileName="Comp/Frame_pengyouquan.xml" xy="17,-226" alpha="0">
+      <gearDisplay controller="c1" pages="2"/>
+      <gearXY controller="c1" pages="0,1" values="17,-226|17,-226" default="17,13" tween="true" ease="Quint.Out" duration="1"/>
+      <gearLook controller="c1" pages="0,1" values="0,0,0,1|0,0,0,1" default="1,0,0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

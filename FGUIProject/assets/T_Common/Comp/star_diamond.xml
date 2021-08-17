@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="523,58">
+  <displayList>
+    <image id="n10_qk9f" name="n10" src="vdqre" fileName="Imag/ptn_common_Consumbg.png" xy="0,0" size="523,58" group="n17_qk9f"/>
+    <image id="n11_qk9f" name="n11" src="vdqrd" fileName="Imag/icon_common_aixin.png" xy="11,8" size="50,50" group="n17_qk9f"/>
+    <image id="n12_qk9f" name="n12" src="vdqrc" fileName="Imag/icon_common_zuanshi.png" xy="272,9" size="50,50" group="n17_qk9f"/>
+    <component id="n13_qk9f" name="n13" src="vdqrg" fileName="Comp/Button_+aixin.xml" xy="206,18" size="37,36" group="n17_qk9f" scale="0.93,0.93"/>
+    <component id="n14_qk9f" name="n14" src="vdqrh" fileName="Comp/Button_+zuanshi.xml" xy="462,16" size="37,36" group="n17_qk9f" scale="0.93,0.93"/>
+    <text id="n15_qk9f" name="n15" xy="57,21" size="138,29" group="n17_qk9f" font="ui://bs2uwwz8flzz0" fontSize="20" color="#ffffff" autoSize="none" text="9999999"/>
+    <text id="n16_qk9f" name="n16" xy="323,20" size="130,29" group="n17_qk9f" font="ui://bs2uwwz8flzz0" fontSize="20" color="#ffffff" autoSize="none" text="9999999"/>
+    <group id="n17_qk9f" name="n17" xy="0,0" size="523,59" advanced="true">
+      <relation target="" sidePair="right-right%,top-top"/>
+    </group>
+  </displayList>
+</component>

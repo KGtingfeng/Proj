@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <loader id="n0_r9ph" name="n0" xy="-235,0" pivot="0.5,0.5" size="1220,1624" url="ui://uluoyg28r9phq3y" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n1_r9ph" name="n1" src="r9ph11" fileName="Imag/01.png" xy="240,717" pivot="0.5,0.5">
+      <relation target="n0_r9ph" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n2_r9ph" name="n2" src="r9ph12" fileName="Imag/02.png" xy="220,1057">
+      <relation target="n0_r9ph" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n3_r9ph" name="n3" src="r9ph13" fileName="Imag/03.png" xy="124,557">
+      <relation target="n0_r9ph" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n4_r9ph" name="n4" src="r9ph14" fileName="Imag/04.png" xy="276,387">
+      <relation target="n0_r9ph" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n5_r9ph" name="n5" src="r9ph15" fileName="Imag/05.png" xy="76,304">
+      <relation target="n0_r9ph" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n6_r9ph" name="n6" src="r9ph16" fileName="Imag/06.png" xy="81,773">
+      <relation target="n0_r9ph" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n7_r9ph" name="n7" src="r9ph17" fileName="Imag/07.png" xy="165,1201">
+      <relation target="n0_r9ph" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n8_r9ph" name="n8" src="r9ph18" fileName="Imag/08.png" xy="196,678">
+      <relation target="n0_r9ph" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n9_r9ph" name="n9" src="r9ph19" fileName="Imag/09.png" xy="313,1182">
+      <relation target="n0_r9ph" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n10_r9ph" name="n10" src="r9ph1a" fileName="Imag/10.png" xy="83,669">
+      <relation target="n0_r9ph" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n11_r9ph" name="n12" src="r9ph1b" fileName="Imag/12.png" xy="131,426">
+      <relation target="n0_r9ph" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n12_r9ph" name="n13" src="r9ph1c" fileName="Imag/13.png" xy="76,505">
+      <relation target="n0_r9ph" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n13_r9ph" name="n16" src="r9ph1d" fileName="Imag/16.png" xy="241,887">
+      <relation target="n0_r9ph" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n14_r9ph" name="n18" src="r9ph1e" fileName="Imag/18.png" xy="214,209">
+      <relation target="n0_r9ph" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n15_r9ph" name="n19" src="r9ph1f" fileName="Imag/19.png" xy="264,515">
+      <relation target="n0_r9ph" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n16_r9ph" name="n21" src="r9ph1g" fileName="Imag/21.png" xy="122,1137">
+      <relation target="n0_r9ph" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n17_r9ph" name="n22" src="r9ph1h" fileName="Imag/22.png" xy="83,1010">
+      <relation target="n0_r9ph" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n18_r9ph" name="n23" src="r9ph1i" fileName="Imag/23.png" xy="95,883">
+      <relation target="n0_r9ph" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n19_r9ph" name="n26" src="r9ph1j" fileName="Imag/26.png" xy="279,936">
+      <relation target="n0_r9ph" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n20_r9ph" name="n11" src="r9ph1k" fileName="Imag/11.png" xy="200,299">
+      <relation target="n0_r9ph" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n21_r9ph" name="n27" src="r9ph1l" fileName="Imag/logo.png" xy="32,1317">
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </image>
+    <component id="n22_r9ph" name="n28" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="36,39" rotation="-90">
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </component>
+    <component id="n23_r9ph" name="n29" src="n3xv1j" fileName="Comp/Button_continue.xml" pkg="82yrhfjg" xy="667,233" scale="0.5,0.5" rotation="-90">
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </component>
+  </displayList>
+</component>

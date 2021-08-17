@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <component id="n0_vnhj" name="n0" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-235,0" size="1220,1624">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <graph id="n10_iv3y" name="n10" xy="381,542" pivot="0.5,0.5" anchor="true" size="100,100" type="rect">
+      <relation target="n1_vnhj" sidePair="center-center,middle-middle"/>
+    </graph>
+    <image id="n1_vnhj" name="n1" src="lnqm12" fileName="Imag/frame1_common.png" pkg="82yrhfjg" xy="84,516" size="581,512" group="n9_vnhj">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n2_vnhj" name="n2" src="fpsfq6f" fileName="Imag/title_success.png" pkg="82yrhfjg" xy="67,541" group="n9_vnhj">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n3_vnhj" name="n3" xy="199,704" size="352,40" group="n9_vnhj" fontSize="29" color="#948787" align="center" text="成功抵御了曼多拉的攻击！">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n4_vnhj" name="n4" src="rj5h23" fileName="Comp/Button2_blue.xml" pkg="82yrhfjg" xy="252,835" size="245,82" group="n9_vnhj">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="确定"/>
+    </component>
+    <group id="n9_vnhj" name="n9" xy="67,516" size="616,512" advanced="true"/>
+  </displayList>
+</component>

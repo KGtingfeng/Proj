@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="7t19s7qw">
+  <resources>
+    <image id="b6in0" name="104.png" path="/"/>
+    <image id="b6in1" name="100.png" path="/"/>
+    <image id="b6in2" name="30bg1.png" path="/"/>
+    <image id="b6in3" name="11bg2.png" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,85" pivot="0.5,0" anchor="true">
+  <displayList>
+    <loader id="n1_vvaw" name="n1" xy="1,-1" size="100,85" url="ui://equh1laqvvaw4" fill="scale">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+</component>

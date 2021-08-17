@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="391,181">
+  <controller name="c1" pages="1,文,0,图文" selected="0"/>
+  <displayList>
+    <richtext id="n2_ufhu" name="n2" xy="0,5" size="391,150" font="ui://bs2uwwz8flzz2" fontSize="28" color="#85788a" autoSize="height" text="这里是发送文字的这里是发送文字的这里是发送文字的这里这字的这里是发送文字的这里是发送文字的这里这"/>
+    <loader id="n3_ufhu" name="n3" xy="0,181" size="0,0" alpha="0" url="ui://uluoyg28h8ad3e" fill="scaleNoBorder" shrinkOnly="true">
+      <gearSize controller="c1" pages="1" values="0,0,1,1" default="244,422,1,1"/>
+      <gearLook controller="c1" pages="1" values="0,0,0,1" default="1,0,0,1"/>
+      <relation target="n2_ufhu" sidePair="top-bottom"/>
+    </loader>
+  </displayList>
+  <relation target="n3_ufhu" sidePair="bottomext-bottom"/>
+</component>

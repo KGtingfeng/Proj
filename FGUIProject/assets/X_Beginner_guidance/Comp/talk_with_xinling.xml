@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,手指,1,辛灵,2,全部,3,只有手指,5,手指和对话框,4,,6,蒙版,7,遮罩气泡,8,遮罩气泡手指,9,气泡,10,遮罩手指,11," selected="11"/>
+  <displayList>
+    <component id="n3_iejn" name="n3" src="c6pwq6w" fileName="Comp/mask_newbie.xml" pkg="82yrhfjg" xy="-235,0" size="1220,1624">
+      <gearDisplay controller="c1" pages="0,1,2,5,4,7,8,9,10"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <graph id="n7_h9g5" name="n7" xy="-233,-4" size="1220,1624" alpha="0.61" type="rect" lineSize="0" fillColor="#00000000">
+      <gearDisplay controller="c1" pages="4,6,11"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n0_xrnq" name="n0" src="iejnk" fileName="Comp/frame_talk.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="1,2,4"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n4_iejn" name="n4" src="iejnl" fileName="Comp/frame_tap.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="0,2,3,5,4,8,10"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <graph id="n5_dn09" name="n5" xy="-235,0" size="1220,1624" type="rect" lineSize="0" fillColor="#00ffffff">
+      <gearDisplay controller="c1" pages="4,6"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <component id="n8_h9g5" name="n8" src="wxqs13" fileName="Comp/bubble_big.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="5,4,7,8,9"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

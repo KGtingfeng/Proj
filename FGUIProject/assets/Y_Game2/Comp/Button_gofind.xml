@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="263,94" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <component id="n0_dkaw" name="n0" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="32,13" scale="1.2,1.2">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button title="开始修复"/>
+    </component>
+    <component id="n1_dkaw" name="n1" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="34,11" scale="1.2,1.2">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".96"/>
+</component>

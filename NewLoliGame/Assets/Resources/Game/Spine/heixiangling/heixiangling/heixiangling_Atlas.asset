@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: heixiangling_Atlas
+  m_EditorClassIdentifier: 
+  atlasFile: {fileID: 4900000, guid: c2c48796952724e30b0b418e598a1b3f, type: 3}
+  materials:
+  - {fileID: 2100000, guid: fb22ebcf59af14ee793a1f41312dcb44, type: 2}
+  - {fileID: 2100000, guid: 9782b3e6fa50e460888d7215153eef18, type: 2}
+  - {fileID: 2100000, guid: b5fe1365d4e384e8bb2771b85c51a153, type: 2}
+  - {fileID: 2100000, guid: d87bfff4b066a4ea2944ce81c17f2a61, type: 2}

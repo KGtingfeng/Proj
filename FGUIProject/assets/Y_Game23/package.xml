@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="e2byfvw9">
+  <resources>
+    <component id="vvaw0" name="Game23.xml" path="/Comp/" exported="true"/>
+    <component id="vvaw1" name="Game23_scene.xml" path="/Comp/" exported="true"/>
+    <image id="vvaw2" name="ptn_dask.png" path="/Imap/" exported="true"/>
+    <image id="vvaw3" name="ptn_character.png" path="/Imap/" exported="true"/>
+    <image id="vvaw4" name="ptn_character2.png" path="/Imap/" exported="true"/>
+    <image id="vvaw5" name="ptn_character3.png" path="/Imap/" exported="true"/>
+    <image id="vvaw6" name="bg_talk.png" path="/Imap/" exported="true" scale="9grid" scale9grid="147,118,185,11"/>
+    <image id="vvaw7" name="ptn_doll.png" path="/Imap/" exported="true"/>
+    <component id="vvaw8" name="doll.xml" path="/Comp/" exported="true"/>
+    <image id="vvaw9" name="ptn_makedoll.png" path="/Imap/" exported="true"/>
+    <image id="vvawe" name="bt_costume.png" path="/Imap/" exported="true"/>
+    <component id="vvawf" name="Button_costume.xml" path="/Comp/" exported="true"/>
+    <image id="vvawu" name="ptn_effect.png" path="/Imap/" exported="true"/>
+    <component id="vvawv" name="frame_talk.xml" path="/Comp/" exported="true"/>
+    <image id="vvaww" name="ptn_dollfinish.png" path="/Imap/" exported="true"/>
+    <component id="vvawx" name="dollinish.xml" path="/Comp/" exported="true"/>
+    <image id="vvawy" name="bt_costume1.png" path="/Imap/" exported="true"/>
+    <image id="vvawz" name="bt_accessoire.png" path="/Imap/" exported="true"/>
+    <component id="vvaw10" name="Button_accessoire.xml" path="/Comp/" exported="true"/>
+    <image id="k9eb12" name="bt_dress.png" path="/Imap/" exported="true"/>
+    <image id="k9eb13" name="bt_shose.png" path="/Imap/" exported="true"/>
+    <image id="k9eb14" name="bt_necklace.png" path="/Imap/" exported="true"/>
+    <image id="k9eb15" name="bt_head.png" path="/Imap/" exported="true"/>
+    <image id="k9eb16" name="bg_pitchup.png" path="/Imap/" exported="true"/>
+    <image id="k9eb17" name="bt_close2.png" path="/Imap/" exported="true"/>
+    <image id="k9eb18" name="bt_head2.png" path="/Imap/" exported="true"/>
+    <image id="k9eb19" name="bt_necklace2.png" path="/Imap/" exported="true"/>
+    <image id="k9eb1a" name="bt_shose2.png" path="/Imap/" exported="true"/>
+    <component id="k9eb1b" name="Button_dress.xml" path="/Comp/" exported="true"/>
+    <component id="k9eb1c" name="Button_shose.xml" path="/Comp/" exported="true"/>
+    <component id="k9eb1d" name="Button_necklace.xml" path="/Comp/" exported="true"/>
+    <component id="k9eb1e" name="Button_head.xml" path="/Comp/" exported="true"/>
+    <component id="k9eb1g" name="doll_finish_effect.xml" path="/Comp/" exported="true"/>
+    <image id="k9eb1h" name="bg_look_doll.png" path="/Imap/" exported="true" scale="9grid" scale9grid="141,62,284,16"/>
+    <image id="k9eb1i" name="bg_dollfinish.png" path="/Imap/" exported="true"/>
+    <image id="k9eb1j" name="bg_effect_top.png" path="/Imap/" exported="true"/>
+    <component id="k9eb1k" name="Button_costumetitle.xml" path="/Comp/" exported="true"/>
+    <component id="7afj1l" name="doll_character.xml" path="/Comp/" exported="true"/>
+    <image id="7afj1m" name="bg_small.png" path="/Imap/" exported="true"/>
+    <image id="7afj1n" name="bubble_1.png" path="/Imap/" exported="true"/>
+    <image id="7afj1o" name="bt_costume2.png" path="/Imap/" exported="true"/>
+    <component id="n6wn1p" name="doll_finish_effect_sub.xml" path="/Comp/" exported="true"/>
+    <component id="n6wn1q" name="path_ani.xml" path="/Comp/" exported="true"/>
+  </resources>
+  <publish name="" maxAtlasSize="2048" square="true" rotation="true"/>
+</packageDescription>

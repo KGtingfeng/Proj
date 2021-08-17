@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624" designImage="ui://f738c2kbvycmqe">
+  <controller name="c1" pages="0,认证,1,成功,2,检测提示" selected="0"/>
+  <displayList>
+    <component id="n7_vycm" name="n7" src="e2l7q2z" fileName="Comp/mask_Component.xml" xy="0,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <graph id="n17_xkyc" name="n17" xy="274,546" size="666,539" type="rect" lineSize="0" fillColor="#00ffffff"/>
+    <image id="n1_vycm" name="n1" src="vycmq3n" fileName="Imag/frame_shiming.png" xy="241,518" size="738,586">
+      <gearXY controller="c1" pages="0,1,2" values="241,518|241,518|241,518"/>
+      <gearSize controller="c1" pages="0,2" values="738,586,1,1|738,761,1,1" default="738,586,1,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n3_vycm" name="n3" xy="548,571" size="124,42" font="ui://wkrcryqms5cu3" fontSize="30" color="#ffffff" text="实名认证">
+      <gearText controller="c1" pages="2" values="温馨提示" default="实名认证"/>
+      <relation target="n1_vycm" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n11_vycm" name="n11" src="rj5h23" fileName="Comp/Button2_blue.xml" xy="487,951">
+      <gearText controller="c1" pages="1,2" values="确定|确定" default="提交"/>
+      <relation target="n1_vycm" sidePair="center-center,bottom-bottom"/>
+      <Button title="提交"/>
+    </component>
+    <text id="n4_vycm" name="n4" xy="304,656" size="583,108" group="n15_vycm" font="ui://wkrcryqms5cu5" fontSize="24" color="#8b3553" leading="8" autoSize="none" text="你的账号尚未进行实名认证，根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》的相关要求，网络游戏用户需要使用有效身份证进行实名认证。"/>
+    <image id="n5_vycm" name="n5" src="vycmq3p" fileName="Imag/shiming_type.png" xy="478,781" size="392,62" group="n15_vycm"/>
+    <text id="n6_vycm" name="n6" xy="323,793" size="147,34" group="n15_vycm" font="ui://xk3nrdkvkki51" fontSize="24" color="#8b3553" align="right" autoSize="none" text="真实姓名："/>
+    <text id="n8_vycm" name="n8" xy="311,882" size="171,34" group="n15_vycm" font="ui://wkrcryqms5cu3" fontSize="24" color="#8b3553" align="right" autoSize="none" text="身份证号码："/>
+    <image id="n9_vycm" name="n9" src="vycmq3p" fileName="Imag/shiming_type.png" xy="478,868" size="392,62" group="n15_vycm"/>
+    <text id="n13_vycm" name="n13" xy="485,783" size="378,57" group="n15_vycm" font="ui://wkrcryqms5cu5" fontSize="24" color="#8b3553" vAlign="middle" ubb="true" autoSize="none" text="" input="true" prompt="[color=#d6d6d6]请填写真实姓名[color=#d6d6d6]"/>
+    <text id="n14_vycm" name="n14" xy="485,871" size="378,57" group="n15_vycm" font="ui://wkrcryqms5cu5" fontSize="24" color="#8b3553" vAlign="middle" ubb="true" autoSize="none" text="" input="true" prompt="[color=#d6d6d6]请填写有效身份证号[color=#d6d6d6]"/>
+    <group id="n15_vycm" name="n15" xy="304,656" size="583,274" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="n1_vycm" sidePair="center-center,top-top"/>
+    </group>
+    <image id="n16_vycm" name="n16" src="vycmq3q" fileName="Imag/ptn_renzheng.png" xy="526,737">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n1_vycm" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n17_g2im" name="n19" xy="319,656" size="557,132" font="ui://xk3nrdkvkki51" fontSize="30" color="#8b3553" leading="8" letterSpacing="1" autoSize="height" text="根据健康系统限制,由于你是未成年玩家,每日22点-次日8点无法登录,注意休息明天再来吧。">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="n1_vycm" sidePair="center-center,top-top"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="412,78">
+  <displayList>
+    <image id="n38_ivfr" name="n38" src="ivfre1x" fileName="Imag/final.png" xy="0,0" pivot="0.5,0.5">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </image>
+    <image id="n39_wezj" name="n39" src="wezje24" fileName="Imag/final2.png" xy="-5,-7" pivot="0.5,0.5" blend="add" color="#ffff99">
+      <relation target="n38_ivfr" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+  <transition name="t0" autoPlayRepeat="0" frameRate="60">
+    <item time="0" type="Alpha" target="n38_ivfr" tween="true" startValue="0" endValue="1" duration="60"/>
+    <item time="0" type="Alpha" target="n39_wezj" value="0"/>
+    <item time="0" type="XY" target="n38_ivfr" tween="true" startValue="-70,0" endValue="0,0" duration="93" ease="Quart.Out"/>
+    <item time="93" type="Alpha" target="n39_wezj" tween="true" startValue="0" endValue="1" duration="15"/>
+    <item time="108" type="Alpha" target="n39_wezj" tween="true" startValue="1" endValue="0" duration="36"/>
+  </transition>
+</component>

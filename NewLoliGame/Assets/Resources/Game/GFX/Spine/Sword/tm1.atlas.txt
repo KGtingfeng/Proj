@@ -1,0 +1,34 @@
+
+tm1.png
+size: 128,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lizi
+  rotate: true
+  xy: 2, 2
+  size: 92, 108
+  orig: 92, 108
+  offset: 0, 0
+  index: -1
+tm1_1
+  rotate: true
+  xy: 2, 96
+  size: 66, 92
+  orig: 66, 92
+  offset: 0, 0
+  index: -1
+tm1_2
+  rotate: true
+  xy: 58, 164
+  size: 50, 56
+  orig: 50, 56
+  offset: 0, 0
+  index: -1
+tm1_3
+  rotate: true
+  xy: 2, 186
+  size: 28, 54
+  orig: 28, 54
+  offset: 0, 0
+  index: -1

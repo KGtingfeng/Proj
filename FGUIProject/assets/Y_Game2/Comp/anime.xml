@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="717,281">
+  <controller name="c1" pages="4,,5," selected="1"/>
+  <displayList>
+    <image id="n39_l67t" name="n39" src="l67t22" fileName="imag/ptn_guide_tip.png" xy="573,0">
+      <gearDisplay controller="c1" pages="5"/>
+    </image>
+    <image id="n41_l67t" name="n41" src="l67t22" fileName="imag/ptn_guide_tip.png" xy="0,0" flip="hz">
+      <gearDisplay controller="c1" pages="4"/>
+    </image>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1" frameRate="60">
+    <item time="0" type="XY" target="n41_l67t" tween="true" startValue="100,0" endValue="0,0" duration="48"/>
+  </transition>
+  <transition name="t1" autoPlay="true" autoPlayRepeat="-1" frameRate="60">
+    <item time="0" type="XY" target="n39_l67t" tween="true" startValue="473,0" endValue="573,0" duration="48"/>
+  </transition>
+</component>

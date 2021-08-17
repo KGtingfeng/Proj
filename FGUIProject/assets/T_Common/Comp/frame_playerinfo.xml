@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://uluoyg28bvfr33" designImageAlpha="0" designImageLayer="1">
+  <controller name="c1" pages="0,,1,删除,2,添加,3,已添加" selected="0"/>
+  <displayList>
+    <component id="n0_dkwi" name="n0" src="e2l7q2z" fileName="Comp/mask_Component.xml" xy="-226,0" size="1220,1624">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <graph id="n27_e98y" name="n27" xy="33,345" size="681,983" group="n35_ple6" type="rect" lineColor="#00000000" fillColor="#00ffffff"/>
+    <image id="n36_ple6" name="n36" src="o2bo2g" fileName="Imag/btn_common_close.png" xy="618,244" group="n35_ple6"/>
+    <image id="n1_dkwi" name="n1" src="lnqm12" fileName="Imag/frame1_common.png" xy="32,301" size="685,1077" group="n35_ple6"/>
+    <image id="n2_dkwi" name="n2" src="dkwiq42" fileName="Imag/ptn_freme_playerinfo(1).png" pkg="vsypkz7i" xy="109,441" size="585,48" group="n21_c9tr" alpha="0.41"/>
+    <component id="n38_vofa" name="n3" src="lnqm14" fileName="Comp/Icon_head.xml" pkg="68tbb4zq" xy="98,415" group="n21_c9tr" scale="0.48,0.48"/>
+    <text id="n4_dkwi" name="n4" xy="347,443" size="169,45" group="n21_c9tr" font="ui://bs2uwwz8flzz0" fontSize="33" color="#6e6054" text="仙境百事通"/>
+    <component id="n5_dkwi" name="n5" src="gab61o" fileName="Comp/frame_title.xml" xy="307,505" size="238,44" group="n21_c9tr"/>
+    <image id="n39_vofa" name="n6" src="vdqri" fileName="Imag/ptn_levelbg.png" pkg="68tbb4zq" xy="99,510" size="50,47" group="n21_c9tr" aspect="true"/>
+    <text id="n7_dkwi" name="n7" xy="106,518" size="35,29" group="n21_c9tr" font="ui://bs2uwwz8flzz0" fontSize="20" color="#ffffff" align="center" autoSize="none" strokeColor="#c65959" text="99"/>
+    <text id="n8_dkwi" name="n8" xy="424,527" pivot="0.5,0.5" anchor="true" size="134,36" group="n21_c9tr" font="ui://bs2uwwz8flzz0" fontSize="26" color="#ffffff" align="center" text="仙境百事通"/>
+    <component id="n10_dkwi" name="n10" src="dd7o2m" fileName="Comp/Frame_common_attributes.xml" xy="95,650" size="591,173" group="n21_c9tr"/>
+    <image id="n11_dkwi" name="n11" src="dkwip" fileName="Imag/titlebg.png" pkg="vsypkz7i" xy="58,593" size="297,48" group="n21_c9tr"/>
+    <text id="n9_dkwi" name="n9" xy="91,599" size="257,41" group="n21_c9tr" font="ui://bs2uwwz8flzz0" fontSize="25" color="#71635d" autoSize="none" text="总属性：9999999">
+      <relation target="n11_dkwi" sidePair="middle-middle,left-left"/>
+    </text>
+    <image id="n12_dkwi" name="n12" src="dkwip" fileName="Imag/titlebg.png" pkg="vsypkz7i" xy="58,834" size="365,48" group="n21_c9tr"/>
+    <text id="n13_dkwi" name="n13" xy="92,841" size="257,35" group="n21_c9tr" font="ui://bs2uwwz8flzz0" fontSize="25" color="#71635d" autoSize="none" text="总角色好感度：9999999">
+      <relation target="n12_dkwi" sidePair="middle-middle,left-left"/>
+    </text>
+    <image id="n14_dkwi" name="n14" src="dkwip" fileName="Imag/titlebg.png" pkg="vsypkz7i" xy="55,1199" size="332,48" group="n21_c9tr"/>
+    <text id="n15_dkwi" name="n15" xy="92,1204" size="257,35" group="n21_c9tr" font="ui://bs2uwwz8flzz0" fontSize="25" color="#71635d" autoSize="none" text="总收集时刻：9999999">
+      <relation target="n14_dkwi" sidePair="middle-middle,left-left"/>
+    </text>
+    <list id="n18_dkwi" name="n18" xy="106,898" size="569,275" group="n21_c9tr" layout="flow_hz" overflow="scroll" lineGap="-4" colGap="13" defaultItem="ui://82yrhfjgdkwi1e" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n21_c9tr" name="n21" xy="55,415" size="639,832" group="n37_ple6" advanced="true"/>
+    <graph id="n28_e98y" name="n28" xy="541,437" size="129,53" group="n31_e98y" type="rect" lineColor="#00000000" fillColor="#0033ff00">
+      <gearDisplay controller="c1" pages="2"/>
+    </graph>
+    <text id="n25_rpjz" name="n25" xy="579,443" size="108,42" group="n31_e98y" font="ui://wkrcryqms5cu5" fontSize="30" color="#877d80" align="center" autoSize="none" text="添加">
+      <gearDisplay controller="c1" pages="2"/>
+    </text>
+    <image id="n26_rpjz" name="n26" src="bvfr1d" fileName="Imag/icon_add.png" xy="557,447" group="n31_e98y">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <image id="n33_xv4h" name="n33" src="xv4hq67" fileName="Imag/icon_alreadyadd.png" xy="545,447" group="n31_e98y">
+      <gearDisplay controller="c1" pages="3"/>
+    </image>
+    <text id="n34_xv4h" name="n34" xy="584,444" size="108,42" group="n31_e98y" font="ui://wkrcryqmbvfr5" fontSize="30" color="#877d80" align="center" autoSize="none" text="已申请">
+      <gearDisplay controller="c1" pages="3"/>
+    </text>
+    <group id="n31_e98y" name="n31" xy="541,437" size="150,53" group="n37_ple6"/>
+    <graph id="n30_e98y" name="n30" xy="537,437" size="129,53" group="n32_e98y" type="rect" lineColor="#00000000" fillColor="#00ff0000">
+      <gearDisplay controller="c1" pages="1"/>
+    </graph>
+    <text id="n23_rpjz" name="n23" xy="573,443" size="108,42" group="n32_e98y" font="ui://wkrcryqms5cu5" fontSize="30" color="#877d80" align="center" autoSize="none" text="删除">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <image id="n22_rpjz" name="n22" src="bvfr17" fileName="Imag/icon_delete.png" xy="558,447" group="n32_e98y">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <group id="n32_e98y" name="n32" xy="537,437" size="143,53" group="n37_ple6"/>
+    <group id="n37_ple6" name="n37" xy="55,415" size="639,832" group="n35_ple6" advanced="true"/>
+    <group id="n35_ple6" name="n35" xy="32,244" size="685,1134" advanced="true">
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </group>
+  </displayList>
+</component>

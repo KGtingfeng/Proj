@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="578,76" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1_hnnp" name="n1" src="hnnpq40" fileName="Imag/btn_sources.png" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n0_hnnp" name="n0" src="hnnpq40" fileName="Imag/btn_sources.png" xy="0,0">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_hnnp" name="title" xy="51,0" size="297,76" font="ui://bs2uwwz8flzz2" fontSize="30" color="#ffffff" vAlign="middle" autoSize="none" shadowColor="#b766a2" shadowOffset="1,1" singleLine="true" text="制作工坊获得">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <component id="n3_bvfr" name="n3" src="bvfrq55" fileName="Comp/Button_qianwang.xml" xy="386,5">
+      <Button title="前往" titleFontSize="31"/>
+    </component>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

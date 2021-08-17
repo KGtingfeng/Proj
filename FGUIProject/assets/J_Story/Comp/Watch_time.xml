@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,346">
+  <displayList>
+    <loader id="n0_dd7o" name="n0" xy="0,0" size="300,346" url="ui://6f05wxg5dd7oq2c" autoSize="true"/>
+  </displayList>
+  <relation target="n0_dd7o" sidePair="width-width,height-height"/>
+</component>

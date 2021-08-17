@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="543,547" overflow="scroll">
+  <displayList>
+    <richtext id="n19_r8fu" name="n19" xy="0,2" size="543,32" font="ui://wkrcryqms5cu5" fontSize="22" color="#71635d" leading="10" autoSize="height" text="&lt;a href=&apos;http://192.168.0.183:5000/#/message/index&apos;&gt;link text&lt;/a&gt;"/>
+  </displayList>
+</component>

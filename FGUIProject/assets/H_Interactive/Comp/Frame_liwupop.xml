@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="168,162">
+  <displayList>
+    <image id="n61_7vvy" name="n61" src="7vvy1a" fileName="Imag/frame_liwu1.png" xy="18,15" size="132,131"/>
+    <loader id="n62_7vvy" name="n62" xy="18,15" size="200,200" scale="0.66,0.66" url="ui://uluoyg289h341r" autoSize="true"/>
+    <image id="n63_7vvy" name="n63" src="7vvy1i" fileName="Imag/number_bg.png" xy="19,105"/>
+    <image id="n60_7vvy" name="n60" src="7vvy1b" fileName="Imag/frame_liwu2.png" xy="0,0"/>
+    <text id="n64_7vvy" name="n64" xy="22,107" size="120,35" font="ui://bs2uwwz8flzz0" fontSize="25" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="1/55"/>
+    <text id="n65_tc0m" name="n65" xy="13,156" size="142,29" font="ui://bs2uwwz8flzz0" fontSize="20" color="#514c4e" align="center" autoSize="none" text="礼物名字"/>
+  </displayList>
+</component>

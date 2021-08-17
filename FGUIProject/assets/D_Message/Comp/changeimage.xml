@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <displayList>
+    <graph id="n65_jhz3" name="n65" xy="0,0" size="1220,1624" type="rect" lineSize="0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <loader id="n64_jhz3" name="n64" xy="0,0" size="1220,1624" url="ui://uluoyg28jhz339" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n63_jhz3" name="n63" xy="0,0" size="1220,1624" url="ui://uluoyg28jhz338">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+</component>

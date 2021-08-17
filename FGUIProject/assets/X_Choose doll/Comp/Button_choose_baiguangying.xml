@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="130,382" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_vdqr" name="n0" src="izqha" fileName="Imag/btn_choosedoll_baiguangying.png" xy="0,0" size="130,382">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_vdqr" name="n1" src="izqh8" fileName="Imag/btn_choosedoll_h.png" xy="0,0" size="130,382">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_vdqr" name="title" xy="-20,70" size="152,312" font="ui://bs2uwwz8flzz0" fontSize="36" color="#7da3dd" align="center" leading="-10" autoSize="none" singleLine="true" text="白&#xA;光&#xA;荧">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <image id="n0_k7ir" name="n0" src="r5hl1w" fileName="Imag/frame_tipsbg.png" pkg="82yrhfjg" xy="87,629" size="575,365">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n1_k7ir" name="n1" xy="323,657" size="103,63" font="ui://bs2uwwz8flzz0" fontSize="38" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="提示">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n2_k7ir" name="n2" xy="249,790" size="251,42" font="ui://bs2uwwz8flzz2" fontSize="30" color="#948787" align="center" letterSpacing="1" text="确认删除好友吗？">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n5_k7ir" name="n5" src="k7ir3" fileName="Cmop/Button1_blue1.xml" xy="405,882">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="确认"/>
+    </component>
+    <component id="n6_k7ir" name="n6" src="wf3bq5o" fileName="Comp/Button1_red.xml" pkg="82yrhfjg" xy="145,882">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="取消"/>
+    </component>
+  </displayList>
+</component>

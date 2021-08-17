@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="82yrhfjg" hasFavorites="true">
+  <resources>
+    <image id="7cz75" name="btn1_common_red_h.png" path="/Imag/" exported="true"/>
+    <image id="7cz76" name="btn1_common_red.png" path="/Imag/" exported="true" scale="9grid" scale9grid="30,12,130,39"/>
+    <image id="7cz77" name="btn1_common_blue_h.png" path="/Imag/" exported="true" scale="9grid" scale9grid="25,16,137,32"/>
+    <image id="7cz78" name="btn1_common_blue.png" path="/Imag/" exported="true" scale="9grid" scale9grid="11,16,163,32"/>
+    <component id="7cz7a" name="Button1_blue.xml" path="/Comp/" exported="true" favorite="true"/>
+    <component id="7cz7b" name="Button_checkcode.xml" path="/Comp/" exported="true"/>
+    <image id="vdqrc" name="icon_common_zuanshi.png" path="/Imag/" exported="true"/>
+    <image id="vdqrd" name="icon_common_aixin.png" path="/Imag/" exported="true"/>
+    <image id="vdqr1" name="icon_head_wangmo.png" path="/Imag/" exported="true"/>
+    <image id="vdqre" name="ptn_common_Consumbg.png" path="/Imag/" exported="true" scale="9grid" scale9grid="256,38,6,1"/>
+    <image id="vdqrf" name="btn_+.png" path="/Imag/" exported="true"/>
+    <component id="vdqrg" name="Button_+aixin.xml" path="/Comp/" exported="true"/>
+    <component id="vdqrh" name="Button_+zuanshi.xml" path="/Comp/" exported="true"/>
+    <image id="lnqmi" name="ptn_common_split line.png" path="/Imag/" exported="true" scale="9grid" scale9grid="3,1,6,2"/>
+    <image id="lnqm1d" name="ptn_littlered.png" path="/Imag/" exported="true"/>
+    <component id="lnqm1e" name="Littlered.xml" path="/Comp/" exported="true"/>
+    <image id="lnqm12" name="frame1_common.png" path="/Imag/" exported="true" favorite="true" scale="9grid" scale9grid="0,138,612,3"/>
+    <image id="lnqm18" name="btn_common_changeinfo.png" path="/Imag/" exported="true"/>
+    <image id="lnqmk" name="btn_common_changetitle.png" path="/Imag/" exported="true"/>
+    <component id="lnqm19" name="Button_changeinfo.xml" path="/Comp/" exported="true"/>
+    <image id="lnqml" name="icon_common_huanbao.png" path="/Imag/" exported="true"/>
+    <image id="lnqmm" name="icon_common_mofa.png" path="/Imag/" exported="true"/>
+    <image id="lnqmn" name="icon_common_meili.png" path="/Imag/" exported="true"/>
+    <image id="lnqmo" name="icon_common_zhihui.png" path="/Imag/" exported="true"/>
+    <image id="izqh2" name="btn_special_red.png" path="/Imag/" exported="true" scale9grid="233,18,35,36"/>
+    <component id="izqh7" name="Button_special_red.xml" path="/Comp/" exported="true"/>
+    <image id="lnqmp" name="btn_special_blue.png" path="/Imag/" exported="true" scale9grid="235,23,67,25"/>
+    <component id="lnqmq" name="Button_changetitle.xml" path="/Comp/" exported="true"/>
+    <image id="lnqmt" name="btn_special_yellow.png" path="/Imag/" exported="true" scale9grid="222,18,54,12"/>
+    <component id="lnqmu" name="Button_special_blue.xml" path="/Comp/" exported="true"/>
+    <component id="lnqmv" name="Button_special_yellow.xml" path="/Comp/" exported="true"/>
+    <image id="ouy21f" name="frame1_common_title_yellow.png" path="/Imag/" exported="true"/>
+    <image id="ouy21o" name="frame_common_props_h.png" path="/Imag/" exported="true"/>
+    <image id="ouy21p" name="frame_common_props_orange.png" path="/Imag/" exported="true"/>
+    <image id="ouy21q" name="frame_common_props_purple.png" path="/Imag/" exported="true"/>
+    <image id="ouy21r" name="frame_common_props_blue.png" path="/Imag/" exported="true"/>
+    <image id="ouy21s" name="frame_common_props_green.png" path="/Imag/" exported="true"/>
+    <image id="ouy21t" name="frame_common_props_white.png" path="/Imag/" exported="true"/>
+    <image id="ouy21u" name="frame_common_props_unmberbg.png" path="/Imag/" exported="true"/>
+    <component id="ouy21v" name="Button_common_porp_EXP.xml" path="/Comp/" exported="true"/>
+    <image id="ouy21w" name="props_exp.png" path="/Imag/" exported="true"/>
+    <image id="rj5h1x" name="ptn_propbumberbg.png" path="/Imag/" exported="true" scale="9grid" scale9grid="12,7,3,5"/>
+    <image id="lnqm1q" name="ptn_freme_playerinfo_headbg.png" path="/Imag/" exported="true"/>
+    <image id="lnqm1p" name="ptn_freme_playerinfo.png" path="/Imag/" exported="true" scale="9grid" scale9grid="12,12,24,24"/>
+    <image id="lnqm1g" name="btn_common_bookmark.png" path="/Imag/" exported="true" scale="9grid" scale9grid="56,30,11,5"/>
+    <component id="lnqm1h" name="Button_common_bookmark.xml" path="/Comp/" exported="true"/>
+    <component id="rj5h1z" name="Button_common_bookmark_title.xml" path="/Comp/" exported="true"/>
+    <image id="rj5h20" name="btn2_common_red.png" path="/Imag/" exported="true"/>
+    <image id="rj5h21" name="btn2_common_blue.png" path="/Imag/" exported="true"/>
+    <component id="rj5h22" name="Button2_red.xml" path="/Comp/" exported="true"/>
+    <component id="rj5h23" name="Button2_blue.xml" path="/Comp/" exported="true"/>
+    <image id="rj5h24" name="btn2_common_yellow.png" path="/Imag/" exported="true"/>
+    <component id="rj5h25" name="Button2_yellow.xml" path="/Comp/" exported="true"/>
+    <image id="gerr26" name="frame1_common2.png" path="/Imag/" exported="true" scale="9grid" scale9grid="259,125,2,5"/>
+    <image id="gerr27" name="frame1_common2_ptn2.png" path="/Imag/" exported="true"/>
+    <image id="gerr28" name="frame1_common2_ptn1.png" path="/Imag/" exported="true"/>
+    <image id="gerr29" name="btn_common_shiftleft.png" path="/Imag/" exported="true"/>
+    <component id="gerr2a" name="Button_shift.xml" path="/Comp/" exported="true"/>
+    <image id="gerr2c" name="frame1_common_title_purple.png" path="/Imag/" exported="true"/>
+    <image id="mjv52d" name="frame1_common_title_blue.png" path="/Imag/" exported="true"/>
+    <image id="mjv52e" name="btn_common_back.png" path="/Imag/" exported="true"/>
+    <component id="mjv52f" name="Button_common_back.xml" path="/Comp/" exported="true"/>
+    <image id="o2bo2g" name="btn_common_close.png" path="/Imag/" exported="true"/>
+    <component id="o2bo2h" name="Button_common_close.xml" path="/Comp/" exported="true"/>
+    <component id="nnhx1j" name="common_topinfo.xml" path="/Comp/" exported="true"/>
+    <image id="vy2y1t" name="frame_commom_tips.png" path="/Imag/" exported="true" scale="9grid" scale9grid="229,22,9,9"/>
+    <component id="vy2y1s" name="Frame_common_tips.xml" path="/Comp/" exported="true"/>
+    <image id="dd7o2i" name="frame_common_levelup.png" path="/Imag/" exported="true" scale="9grid" scale9grid="182,252,364,2"/>
+    <image id="dd7o2j" name="frame_common_levelup1.png" path="/Imag/" exported="true"/>
+    <component id="dd7o2k" name="Frame_common_levelup.xml" path="/Comp/" exported="true"/>
+    <component id="dd7o2l" name="frame_common_levelup_com.xml" path="/Comp/" exported="true"/>
+    <image id="lnqm0" name="ptn_attributebg.png" path="/Imag/" exported="true" scale="9grid" scale9grid="30,0,1,56"/>
+    <component id="dd7o2m" name="Frame_common_attributes.xml" path="/Comp/" exported="true"/>
+    <component id="dd7oq2e" name="Frame_common_obtainattribute.xml" path="/Comp/" exported="true"/>
+    <component id="p7i4q2f" name="Small load.xml" path="/Comp/" exported="true"/>
+    <image id="izqhb" name="btn_choosedoll_final.png" path="/Imag/" exported="true"/>
+    <component id="vdqr18" name="Button_choosedoll_final.xml" path="/Comp/" exported="true"/>
+    <component id="vdqr1b" name="Button_sontinue.xml" path="/Comp/" exported="true"/>
+    <image id="vdqr1a" name="btn_continue.png" path="/Imag/" exported="true"/>
+    <image id="vdqr1c" name="ptn_ongratulations.png" path="/Imag/" exported="true"/>
+    <component id="vdqr17" name="Choose_doll_final.xml" path="/Comp/" exported="true"/>
+    <component id="p7i4q2h" name="Frame_common_levelup_list.xml" path="/Comp/" exported="true"/>
+    <component id="rjsyq2i" name="Common.xml" path="/Comp/" exported="true"/>
+    <component id="rjsyq2j" name="Frame_skipbutton.xml" path="/Comp/" exported="true"/>
+    <component id="gerr2i" name="Frame_story.xml" path="/Comp/" exported="true"/>
+    <component id="gerr2j" name="Text_story.xml" path="/Comp/" exported="true"/>
+    <image id="hsbvq2k" name="btn_special_red_active.png" path="/Imag/" exported="true"/>
+    <image id="n3xvq2m" name="btn_continue_active.png" path="/Imag/" exported="true"/>
+    <component id="iua3q2n" name="Frame_number.xml" path="/Comp/" exported="true"/>
+    <image id="gab6q2p" name="btn_common_bookmark_active.png" path="/Imag/" exported="true"/>
+    <component id="gab61o" name="frame_title.xml" path="/Comp/" exported="true"/>
+    <image id="gab6q2q" name="ptn_xian.png" path="/Imag/" exported="true" scale="9grid" scale9grid="42,4,3,8"/>
+    <image id="gab6q2r" name="btn_up.png" path="/Imag/" exported="true"/>
+    <component id="gab6q2s" name="Button_attribute.xml" path="/Comp/" exported="true"/>
+    <image id="gab61p" name="ptn_line.png" path="/Imag/" exported="true" scale="9grid" scale9grid="32,69,2,138"/>
+    <image id="gab6q2t" name="ptn_common_split line2.png" path="/Imag/" exported="true"/>
+    <image id="gab6q2u" name="frame1_common3.png" path="/Imag/" exported="true" favorite="true" scale="9grid" scale9grid="0,118,750,2"/>
+    <image id="gab6q2v" name="ptn_propbumberbg2.png" path="/Imag/" exported="true"/>
+    <image id="hsbv1v" name="ptn_mask.png" path="/Imag/" exported="true"/>
+    <image id="r5hl1w" name="frame_tipsbg.png" path="/Imag/" exported="true" scale="9grid" scale9grid="0,99,624,2"/>
+    <component id="lq3mq2w" name="Frame_common_attributes1.xml" path="/Comp/" exported="true"/>
+    <image id="lq3mq2x" name="ptn_attributebg1.png" path="/Imag/" exported="true" scale="9grid" scale9grid="41,0,3,89"/>
+    <image id="gab61m" name="ptn_titlebg.png" path="/Imag/" exported="true"/>
+    <image id="w8uf2p" name="ptn_rolelevelupbg.png" path="/Imag/" exported="true"/>
+    <component id="w8ufq2y" name="Button_common_back2.xml" path="/Comp/" exported="true"/>
+    <component id="n3xv1j" name="Button_continue.xml" path="/Comp/" exported="true"/>
+    <component id="e2l7q2z" name="mask_Component.xml" path="/Comp/" exported="true"/>
+    <image id="e2l7q30" name="ptn_star.png" path="/Imag/" exported="true"/>
+    <image id="e2l7q31" name="ptn_star2.png" path="/Imag/" exported="true"/>
+    <component id="izqh1j" name="Frame_update.xml" path="/Comp/" exported="true"/>
+    <image id="iv1tq32" name="loading5.png" path="/Imag/" exported="true"/>
+    <image id="iv1tq33" name="loading4.png" path="/Imag/" exported="true"/>
+    <image id="iv1tq34" name="loading3.png" path="/Imag/" exported="true"/>
+    <image id="iv1tq35" name="loading2.png" path="/Imag/" exported="true"/>
+    <image id="iv1tq36" name="loading1.png" path="/Imag/" exported="true"/>
+    <component id="iv1tq37" name="loadingfx.xml" path="/Comp/" exported="true"/>
+    <image id="qobkq38" name="ladiingbg.png" path="/Imag/" exported="true"/>
+    <image id="izqh1h" name="ProgressBar_load1.png" path="/Imag/" exported="true"/>
+    <image id="izqh1g" name="ProgressBar_load2.png" path="/Imag/" exported="true" scale="9grid" scale9grid="150,3,300,6"/>
+    <component id="l0t2q3a" name="Frame_loading.xml" path="/Comp/" exported="true"/>
+    <image id="lq3mv" name="frame_chooseshenfen.png" path="/Imag/" exported="true"/>
+    <image id="w8uf10" name="frame_chooseshenfen2.png" path="/Imag/" exported="true"/>
+    <image id="w8uf11" name="frame_chooseshenfen3.png" path="/Imag/" exported="true"/>
+    <image id="w8ufz" name="frame_chooseshenfen1.png" path="/Imag/" exported="true"/>
+    <component id="lq3mw" name="Frame_chooseshenfen.xml" path="/Comp/" exported="true"/>
+    <component id="iua3q" name="Frame_Scrollselection.xml" path="/Comp/" exported="true"/>
+    <component id="lq3my" name="Button_shenfen.xml" path="/Comp/" exported="true"/>
+    <component id="izqh1m" name="ProgressBar_load.xml" path="/Comp/" exported="true"/>
+    <image id="lnqm10" name="ptn_bubble.png" path="/Imag/" exported="true" scale9grid="38,67,3,9"/>
+    <component id="lnqm11" name="Frame_bubble.xml" path="/Comp/" exported="true"/>
+    <image id="t4052i" name="popnamebg.png" path="/Imag/" exported="true" scale="9grid" scale9grid="77,25,1,50"/>
+    <image id="t4052j" name="popnumberbg.png" path="/Imag/" exported="true" scale="9grid" scale9grid="30,14,1,28"/>
+    <image id="t4052f" name="frame_gifts.png" path="/Imag/" exported="true" scale="9grid" scale9grid="0,102,644,1"/>
+    <image id="t405q3b" name="icon_jian.png" path="/Imag/" exported="true"/>
+    <image id="t405q3c" name="icon_jia.png" path="/Imag/" exported="true"/>
+    <component id="t405q3d" name="Button_jia.xml" path="/Comp/" exported="true"/>
+    <component id="t405q3e" name="Button_jian.xml" path="/Comp/" exported="true"/>
+    <image id="t405q3f" name="ptn_buyunmberbg.png" path="/Imag/" exported="true" scale="9grid" scale9grid="11,13,22,26"/>
+    <image id="t4052k" name="ptn_framelight.png" path="/Imag/" exported="true"/>
+    <image id="qm23q3g" name="frame_common_story.png" path="/Imag/" exported="true" scale="9grid" scale9grid="0,120,749,1"/>
+    <component id="hee62y" name="cha_banshen.xml" path="/Comp/" exported="true"/>
+    <image id="kw5tq3k" name="fx_1.png" path="/Imag/" exported="true" scale="9grid" scale9grid="0,173,400,35"/>
+    <component id="kw5tq3l" name="Frame_huodefx.xml" path="/Comp/" exported="true"/>
+    <component id="jlkxq3m" name="Icon_pop.xml" path="/Comp/" exported="true"/>
+    <image id="vycmq3n" name="frame_shiming.png" path="/Imag/" exported="true" scale="9grid" scale9grid="1,117,737,2"/>
+    <component id="vycmq3o" name="Frame_shiming.xml" path="/Comp/" exported="true"/>
+    <image id="vycmq3p" name="shiming_type.png" path="/Imag/" exported="true" scale="9grid" scale9grid="15,15,30,30"/>
+    <image id="vycmq3q" name="ptn_renzheng.png" path="/Imag/" exported="true"/>
+    <image id="nuqxq3r" name="icon_common_jiage.png" path="/Imag/" exported="true"/>
+    <image id="frl4q3s" name="icon_exp.png" path="/Imag/" exported="true"/>
+    <image id="qaikq3t" name="ptn_jiantou3.png" path="/Imag/" exported="true"/>
+    <image id="qaikq3u" name="ptn_shengji.png" path="/Imag/" exported="true"/>
+    <component id="qaikq3v" name="Frame_levelup.xml" path="/Comp/" exported="true"/>
+    <image id="qaikq3w" name="ptn_jiantouup.png" path="/Imag/" exported="true"/>
+    <image id="qaikq3x" name="ptn_levelup4.png" path="/Imag/" exported="true"/>
+    <image id="qaikq3y" name="ptn_levelup1.png" path="/Imag/" exported="true" scale="9grid" scale9grid="372,132,2,41"/>
+    <image id="qaikq3z" name="ptn_levelup1mask.png" path="/Imag/" exported="true"/>
+    <component id="qaikq42" name="Frame_ptn_levelup.xml" path="/Comp/" exported="true"/>
+    <component id="xmr3q43" name="Gcom_EffectGraph.xml" path="/Comp/" exported="true"/>
+    <component id="10xzq15" name="Button_skip.xml" path="/Comp/" exported="true"/>
+    <component id="10xzq14" name="Button_tips.xml" path="/Comp/" exported="true"/>
+    <image id="10xzq13" name="icon_skip.png" path="/Imag/" exported="true"/>
+    <image id="10xzq12" name="icon_tips.png" path="/Imag/" exported="true"/>
+    <image id="ls1aq4q" name="freme_tips.png" path="/Imag/" exported="true" scale="9grid" scale9grid="0,115,719,2"/>
+    <component id="ikcrq1s" name="Frame_tips.xml" path="/Comp/" exported="true"/>
+    <image id="kki5b" name="star_jindu.png" path="/Imag/" exported="true"/>
+    <image id="m7ftq3s" name="star_jindu1.png" path="/Imag/" exported="true"/>
+    <image id="m7ftq3r" name="star_jindu2.png" path="/Imag/" exported="true"/>
+    <image id="m7ftq3t" name="star_jinduze.png" path="/Imag/" exported="true"/>
+    <component id="kki5w" name="ProgressBar_xin.xml" path="/Comp/" exported="true"/>
+    <image id="zee8d" name="ptn_headicon_zhe.png" path="/Imag/" exported="true"/>
+    <component id="zee8f" name="headicon_zhezhao.xml" path="/Comp/" exported="true"/>
+    <component id="zee8e" name="headicon.xml" path="/Comp/" exported="true"/>
+    <image id="urj11i" name="frame_message.png" path="/Imag/" exported="true" scale="9grid" scale9grid="139,0,1,144"/>
+    <image id="urj11j" name="ptn_fenge.png" path="/Imag/" exported="true" scale="9grid" scale9grid="0,1,2,1"/>
+    <image id="kr050" name="frame_call.png" path="/Imag/" exported="true"/>
+    <image id="kr053" name="btn_call.png" path="/Imag/" exported="true"/>
+    <image id="kr051" name="btn_accept.png" path="/Imag/" exported="true"/>
+    <image id="kr052" name="btn_refuse.png" path="/Imag/" exported="true"/>
+    <movieclip id="kr05e" name="MovieClip_callin.jta" path="/Comp/" exported="true" atlas="alone"/>
+    <component id="kr057" name="Button_refuse.xml" path="/Comp/" exported="true"/>
+    <component id="kr056" name="Button_accept.xml" path="/Comp/" exported="true"/>
+    <component id="kr055" name="Call_in.xml" path="/Comp/" exported="true"/>
+    <component id="p9u3q4r" name="Messagecall.xml" path="/Comp/" exported="true"/>
+    <component id="urj11k" name="Frame_message.xml" path="/Comp/" exported="true"/>
+    <component id="m7ftq3u" name="redheart.xml" path="/Comp/" exported="true"/>
+    <movieclip id="s7t6q4s" name="MovieClip_loading.jta" path="/Comp/" exported="true" atlas="alone"/>
+    <image id="s7t6q4u" name="btn_choosedoll_final_active.png" path="/Imag/" exported="true"/>
+    <image id="oi2kq4w" name="ptn_pengyouquantanchu.png" path="/Imag/" exported="true"/>
+    <component id="oi2kq4x" name="Frame_pengyouquan.xml" path="/Comp/" exported="true"/>
+    <image id="oi2kq4y" name="ptn_fenge2.png" path="/Imag/" exported="true" scale="9grid"/>
+    <component id="k1w4q4z" name="Button2_blue_xiaohao.xml" path="/Comp/" exported="true"/>
+    <image id="dkwiq51" name="ptn_jizhang.png" path="/Imag/" exported="true"/>
+    <image id="ubaiq54" name="frame_liwu1(1).png" path="/Imag/" exported="true"/>
+    <image id="ubaiq55" name="number_bg(1).png" path="/Imag/" exported="true" scale="9grid" scale9grid="8,7,16,14"/>
+    <image id="ubaiq56" name="frame_liwu2(1).png" path="/Imag/" exported="true"/>
+    <component id="ubaiq58" name="Frame_liwupop(1).xml" path="/Comp/" exported="true"/>
+    <image id="pzu0q44" name="titlebg(1).png" path="/Imag/" exported="true" scale="9grid" scale9grid="4,0,6,48"/>
+    <image id="pzu0q59" name="line.png" path="/Imag/" exported="true" scale="9grid" scale9grid="114,0,2,0"/>
+    <image id="pzu0q5a" name="ptn_weihuode.png" path="/Imag/" exported="true"/>
+    <image id="pzu0q5b" name="btn_xiexia.png" path="/Imag/" exported="true"/>
+    <image id="pzu0q5c" name="ptn_choose.png" path="/Imag/" exported="true"/>
+    <image id="pzu0q5d" name="btn1_common_red2.png" path="/Imag/" exported="true"/>
+    <component id="pzu0q5e" name="Button_xiexia.xml" path="/Comp/" exported="true"/>
+    <component id="pzu03q" name="Button2_red2.xml" path="/Comp/" exported="true"/>
+    <component id="rj5h1r" name="Frame_changetitle.xml" path="/Comp/" exported="true"/>
+    <component id="pzu03p" name="list_title.xml" path="/Comp/" exported="true"/>
+    <component id="nnz4q5i" name="list_selecttitle.xml" path="/Comp/" exported="true"/>
+    <image id="mgpzq5j" name="btn_laiyuan.png" path="/Imag/" exported="true"/>
+    <component id="mgpzq5k" name="Button_laiyuan.xml" path="/Comp/" exported="true"/>
+    <image id="q821q5l" name="ptn_down.png" path="/Imag/" exported="true"/>
+    <image id="q821q5m" name="ptn_up.png" path="/Imag/" exported="true"/>
+    <component id="f54j1i" name="kong.xml" path="/Comp/" exported="true"/>
+    <image id="w8ufq4n" name="btn_confrim.png" path="/Imag/" exported="true"/>
+    <image id="w8ufq4g" name="btn_start.png" path="/Imag/" exported="true"/>
+    <component id="w8ufq4m" name="Button_confrim.xml" path="/Comp/" exported="true"/>
+    <image id="w8ufq4f" name="ptn_timebg.png" path="/Imag/" exported="true"/>
+    <image id="w8ufq4i" name="btn_h.png" path="/Imag/" exported="true"/>
+    <image id="w8ufq4j" name="btn_m.png" path="/Imag/" exported="true"/>
+    <component id="w8ufq4k" name="Button_h.xml" path="/Comp/" exported="true"/>
+    <component id="w8ufq4l" name="Button_m.xml" path="/Comp/" exported="true"/>
+    <component id="tat8q3j" name="Frame_shifenzhen.xml" path="/Comp/" exported="true"/>
+    <image id="w8ufq4e" name="ptn_textbg.png" path="/Imag/" exported="true" scale="9grid" scale9grid="156,16,312,32"/>
+    <image id="g0xm22" name="frame_chuan(1).png" path="/Imag/" exported="true" scale="9grid" scale9grid="95,92,4,15"/>
+    <image id="g0xm24" name="frame_chuan1(1).png" path="/Imag/" exported="true"/>
+    <component id="wf3bq5o" name="Button1_red.xml" path="/Comp/" exported="true" favorite="true"/>
+    <image id="cn0h2p" name="successed(1).png" path="/Imag/" exported="true"/>
+    <component id="suo01c" name="ProgressBar1.xml" path="/Comp/" exported="true"/>
+    <component id="suo01l" name="var1.xml" path="/Comp/" exported="true"/>
+    <image id="suo01g" name="jindu3.png" path="/Imag/" exported="true"/>
+    <image id="suo01k" name="jindu6.png" path="/Imag/" exported="true"/>
+    <image id="suo01e" name="jindu1.png" path="/Imag/" exported="true"/>
+    <image id="suo01f" name="jindu2.png" path="/Imag/" exported="true"/>
+    <image id="suo01h" name="jindu4.png" path="/Imag/" exported="true" scale="9grid" scale9grid="0,11,55,3"/>
+    <image id="suo01j" name="jindu5.png" path="/Imag/" exported="true"/>
+    <component id="gyvjq5p" name="call_in2.xml" path="/Comp/" exported="true"/>
+    <image id="gyvjq5r" name="call bk.png" path="/Imag/" exported="true"/>
+    <image id="gyvjq5s" name="call pick up.png" path="/Imag/" exported="true"/>
+    <component id="gyvjq5t" name="Button_call pick up.xml" path="/Comp/" exported="true"/>
+    <image id="gyvjq5v" name="button_refuse.png" path="/Imag/" exported="true"/>
+    <component id="gyvjq5x" name="Button_call_refuse.xml" path="/Comp/" exported="true"/>
+    <component id="d44rq5y" name="Button_continue2.xml" path="/Comp/" exported="true"/>
+    <image id="d44rq5z" name="ptn_namebg.png" path="/Imag/" exported="true"/>
+    <image id="d44rq60" name="ptn_huawending.png" path="/Imag/" exported="true"/>
+    <component id="bvfrq63" name="Button1_blue_danxuan.xml" path="/Comp/" exported="true"/>
+    <image id="oymvp" name="bt_choice.png" path="/Imag/" exported="true"/>
+    <image id="oymvo" name="bt_nochoice.png" path="/Imag/" exported="true"/>
+    <component id="bvfrq64" name="star_diamond.xml" path="/Comp/" exported="true"/>
+    <image id="bvfr1o" name="bg_frame.png" path="/Imag/" exported="true" scale="9grid" scale9grid="26,18,52,38"/>
+    <component id="k7ird" name="frame_playerinfo.xml" path="/Comp/" exported="true"/>
+    <image id="bvfrv" name="headkuang.png" path="/Imag/" exported="true"/>
+    <image id="bvfr19" name="icon_magic.png" path="/Imag/" exported="true"/>
+    <image id="bvfr1b" name="icon_smart.png" path="/Imag/" exported="true"/>
+    <image id="bvfr1c" name="icon_beauty.png" path="/Imag/" exported="true"/>
+    <image id="bvfr1d" name="icon_add.png" path="/Imag/" exported="true"/>
+    <image id="bvfr17" name="icon_delete.png" path="/Imag/" exported="true"/>
+    <image id="bvfr1a" name="icon_environmental.png" path="/Imag/" exported="true"/>
+    <image id="rpjzq66" name="icon_haogandu.png" path="/Imag/" exported="true"/>
+    <component id="dkwi1e" name="list_headicon.xml" path="/Comp/" exported="true"/>
+    <image id="xv4hq67" name="icon_alreadyadd.png" path="/Imag/" exported="true"/>
+    <image id="s8t3q68" name="btn_red.png" path="/Imag/"/>
+    <image id="s8t3q69" name="btn_red_s.png" path="/Imag/"/>
+    <component id="s8t3q6a" name="Button1_tifred.xml" path="/Comp/" exported="true" favorite="true"/>
+    <component id="s8t3q6b" name="Button2_tifred_big.xml" path="/Comp/" favorite="true"/>
+    <image id="ubaib" name="title.png" path="/Imag/" exported="true"/>
+    <image id="ubail" name="wanhceng.png" path="/Imag/" exported="true"/>
+    <image id="bvfrt" name="bt_pink2.png" path="/Imag/" exported="true"/>
+    <image id="bvfru" name="bt_blue2.png" path="/Imag/" exported="true"/>
+    <image id="a9ezq6c" name="n1.png" path="/"/>
+    <image id="a9ezq6d" name="btn_share.png" path="/Imag/" exported="true"/>
+    <image id="a9ezq6e" name="btn_share_blue.png" path="/Imag/" exported="true"/>
+    <image id="fpsfq6f" name="title_success.png" path="/Imag/" exported="true"/>
+    <image id="h4fs2e" name="xinling.png" path="/Imag/" exported="true"/>
+    <image id="gab61l" name="ptn_lv.png" path="/Imag/" exported="true"/>
+    <image id="k9ebq6g" name="bg_title.png" path="/Imag/" exported="true"/>
+    <image id="mjv53" name="ptn_cha_frame.png" path="/Imag/" exported="true" scale="9grid" scale9grid="0,0,50,172" gridTile="16" duplicatePadding="true"/>
+    <image id="w8ufq3w" name="btn_headbg.png" path="/Imag/" exported="true" scale9grid="51,51,102,102"/>
+    <image id="iv3yq6h" name="watchtime_final.png" path="/Imag/" exported="true"/>
+    <image id="lye8q6i" name="bg_white.png" path="/Imag/" exported="true" scale="9grid" scale9grid="310,5,290,10" duplicatePadding="true"/>
+    <image id="mq08q6j" name="图层 54.png" path="/Imag/" exported="true"/>
+    <image id="hmq0q6k" name="talk_frame.png" path="/Imag/" exported="true"/>
+    <component id="dyo5q6l" name="gain_ime.xml" path="/Comp/" exported="true"/>
+    <component id="dyo5q6m" name="role.xml" path="/Comp/" exported="true"/>
+    <component id="dyo5q6n" name="roleframe.xml" path="/Comp/" exported="true"/>
+    <component id="dyo5q6o" name="time.xml" path="/Comp/"/>
+    <component id="dyo5q6p" name="xiaohua.xml" path="/Comp/" exported="true"/>
+    <component id="dyo5q6q" name="xiaohua_ani.xml" path="/Comp/" exported="true"/>
+    <image id="dyo5q6r" name="paten2.png" path="/Imag/" exported="true"/>
+    <image id="dyo5q6s" name="paten3.png" path="/Imag/" exported="true"/>
+    <image id="dyo5q6t" name="paten4.png" path="/Imag/" exported="true"/>
+    <image id="dyo5q6u" name="paten5.png" path="/Imag/" exported="true"/>
+    <image id="dyo5q6v" name="timelight.png" path="/Imag/" scale="9grid" scale9grid="71,61,6,17"/>
+    <component id="c6pwq6w" name="mask_newbie.xml" path="/Comp/" exported="true"/>
+  </resources>
+  <publish name="T_Common"/>
+</packageDescription>

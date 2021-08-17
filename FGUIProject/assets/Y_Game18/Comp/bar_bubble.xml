@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="590,77" mask="n9_h4fs">
+  <displayList>
+    <image id="n9_h4fs" name="bar" src="vvaw0" fileName="Imag/progressbar_in.png" xy="5,25" size="580,26">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n4_h4fs" name="n4" src="h4fsb" fileName="Imag/bar_effect.png" xy="599,-5" size="94,607" rotation="90" flip="hz"/>
+    <image id="n8_h4fs" name="n8" src="h4fsb" fileName="Imag/bar_effect.png" xy="1206,-5" size="94,607" rotation="90" flip="hz">
+      <relation target="n4_h4fs" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+  <transition name="t2" autoPlay="true" autoPlayRepeat="-1" frameRate="60">
+    <item time="0" type="XY" target="n4_h4fs" tween="true" startValue="-6,-5" endValue="601,-5" duration="360" ease="Linear"/>
+  </transition>
+</component>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://uluoyg28rj5h8">
+  <displayList>
+    <loader id="n9_vy2y" name="n9" xy="-235,0" size="1220,1624" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <graph id="n34_v302" name="n34" xy="-235,0" size="1220,1624" blend="multiply" type="rect" lineSize="0" fillColor="#ff000099">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n12_n3xv" name="n12" src="dyo5q6n" fileName="Comp/roleframe.xml" xy="0,235">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n13_n3xv" name="n2" src="n3xv1j" fileName="Comp/Button_continue.xml" xy="221,1312" scale="0.741,0.741" visible="false">
+      <relation target="" sidePair="center-center,bottom-bottom%"/>
+    </component>
+    <graph id="n26_vofa" name="n26" xy="0,0" size="100,100" type="rect" lineColor="#00000000" fillColor="#00ff0000">
+      <relation target="n9_vy2y" sidePair="center-center,middle-middle"/>
+    </graph>
+    <component id="n27_k7i8" name="n27" src="f54j1i" fileName="Comp/kong.xml" xy="-235,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n35_v302" name="n35" src="dyo5q6q" fileName="Comp/xiaohua_ani.xml" xy="-169,102" pivot="0.5,0.5" group="n37_v302"/>
+    <component id="n36_v302" name="n36" src="dyo5q6q" fileName="Comp/xiaohua_ani.xml" xy="530,102" pivot="0.5,0.5" group="n37_v302" scale="-1,1"/>
+    <group id="n37_v302" name="n37" xy="-169,102" size="1083,442" group="n40_v302" advanced="true"/>
+    <image id="n38_v302" name="n38" src="vdqr1c" fileName="Imag/ptn_ongratulations.png" xy="144,93" group="n40_v302"/>
+    <text id="n39_v302" name="n39" xy="293,153" size="164,54" group="n40_v302" font="ui://bs2uwwz8flzz0" fontSize="40" color="#ffffff" text="恭喜获得"/>
+    <group id="n40_v302" name="n40" xy="-169,93" size="1083,451" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <transition name="t5" frameRate="60">
+    <item time="0" type="Alpha" target="n12_n3xv" value="0"/>
+    <item time="0" type="Alpha" target="n12_n3xv" tween="true" startValue="0" endValue="0" duration="109"/>
+    <item time="0" type="Alpha" target="n34_v302" tween="true" startValue="0" endValue="0.77" duration="109"/>
+    <item time="0" type="XY" target="n13_n3xv" value="-,1642"/>
+    <item time="0" type="XY" target="n40_v302" value="-,-457"/>
+    <item time="109" type="Alpha" target="n12_n3xv" tween="true" startValue="0" endValue="1" duration="5"/>
+    <item time="109" type="Alpha" target="n34_v302" tween="true" startValue="0.77" endValue="0" duration="55"/>
+    <item time="109" type="XY" target="n13_n3xv" tween="true" startValue="-,1672" endValue="221,1312" duration="25" ease="Back.Out"/>
+    <item time="109" type="XY" target="n40_v302" tween="true" startValue="-,-467" endValue="-,93" duration="25" ease="Back.Out"/>
+  </transition>
+</component>

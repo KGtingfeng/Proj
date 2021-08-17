@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="vsypkz7i">
+  <resources>
+    <component id="dkwi0" name="Rank.xml" path="/Comp/" exported="true"/>
+    <image id="dkwi2" name="attributebg.png" path="/Imag/" exported="true"/>
+    <image id="dkwi3" name="framebg.png" path="/Imag/" exported="true" scale="9grid" scale9grid="20,28,26,29"/>
+    <image id="dkwi4" name="framebg2.png" path="/Imag/" exported="true"/>
+    <image id="dkwi5" name="frameptn.png" path="/Imag/" exported="true"/>
+    <image id="dkwi6" name="icon_huanbao.png" path="/Imag/" exported="true"/>
+    <image id="dkwi7" name="icon_meili.png" path="/Imag/" exported="true"/>
+    <image id="dkwi8" name="icon_mofa.png" path="/Imag/" exported="true"/>
+    <image id="dkwi9" name="icon_zhihui.png" path="/Imag/" exported="true"/>
+    <image id="dkwia" name="myrankbg.png" path="/Imag/" exported="true" scale="9grid" scale9grid="19,47,38,94"/>
+    <image id="dkwib" name="ptn_haogan.png" path="/Imag/" exported="true"/>
+    <image id="dkwid" name="ptn_rank.png" path="/Imag/" exported="true"/>
+    <image id="dkwie" name="ptn_shouji.png" path="/Imag/" exported="true"/>
+    <image id="dkwif" name="ptn_shuxing.png" path="/Imag/" exported="true"/>
+    <image id="dkwig" name="ptn_xuwei.png" path="/Imag/" exported="true"/>
+    <image id="dkwih" name="rank.png" path="/Imag/" exported="true"/>
+    <image id="dkwii" name="rank1.png" path="/Imag/" exported="true"/>
+    <image id="dkwij" name="rank1bg.png" path="/Imag/" exported="true"/>
+    <image id="dkwik" name="rank2.png" path="/Imag/" exported="true"/>
+    <image id="dkwil" name="rank2bg.png" path="/Imag/" exported="true"/>
+    <image id="dkwim" name="rank3.png" path="/Imag/" exported="true"/>
+    <image id="dkwin" name="rank3bg.png" path="/Imag/" exported="true"/>
+    <image id="dkwio" name="rankptn1.png" path="/Imag/" exported="true"/>
+    <image id="dkwip" name="titlebg.png" path="/Imag/" exported="true" scale="9grid" scale9grid="4,0,6,48"/>
+    <image id="dkwiq" name="xuwei.png" path="/Imag/" exported="true"/>
+    <component id="dkwir" name="Button_haogan.xml" path="/Comp/" exported="true"/>
+    <component id="dkwis" name="Button_shouji.xml" path="/Comp/" exported="true"/>
+    <component id="dkwit" name="Button_shuxing.xml" path="/Comp/" exported="true"/>
+    <component id="dkwix" name="rank2.xml" path="/Comp/" exported="true"/>
+    <component id="dkwiy" name="rank1.xml" path="/Comp/" exported="true"/>
+    <component id="dkwiz" name="rank3.xml" path="/Comp/" exported="true"/>
+    <image id="dkwi46" name="headframe_fen(1).png" path="/Imag/" exported="true"/>
+    <image id="dkwi47" name="headframe_lan(1).png" path="/Imag/" exported="true"/>
+    <component id="dkwi48" name="headframe(1).xml" path="/Comp/" exported="true"/>
+    <component id="dkwi10" name="headicon.xml" path="/Comp/" exported="true"/>
+    <component id="dkwi11" name="headiconkuang.xml" path="/Comp/" exported="true"/>
+    <image id="dkwi12" name="attributebg2.png" path="/Imag/" exported="true"/>
+    <component id="dkwi13" name="list_role.xml" path="/Comp/" exported="true"/>
+    <component id="dkwi15" name="list_player.xml" path="/Comp/" exported="true"/>
+    <image id="dkwi16" name="ptn_myrank.png" path="/Imag/" exported="true" duplicatePadding="true"/>
+    <component id="dkwi17" name="list_mine.xml" path="/Comp/" exported="true"/>
+    <component id="dkwi18" name="list_xuwei.xml" path="/Comp/" exported="true"/>
+    <component id="dkwi19" name="list_shuxing_huanbao.xml" path="/Comp/" exported="true"/>
+    <component id="dkwi1a" name="list_shuxing_meili.xml" path="/Comp/" exported="true"/>
+    <component id="dkwi1b" name="list_shuxing_zhihui.xml" path="/Comp/" exported="true"/>
+    <component id="dkwi1c" name="list_shuxing_mofa.xml" path="/Comp/" exported="true"/>
+    <image id="dkwiq42" name="ptn_freme_playerinfo(1).png" path="/Imag/" exported="true" scale="9grid" scale9grid="12,12,24,24"/>
+    <component id="ieaaq43" name="list_rank.xml" path="/Comp/" exported="true"/>
+    <component id="nu56q45" name="list_allrank.xml" path="/Comp/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

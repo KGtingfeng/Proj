@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="612,169" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_g6pv" name="n0" src="mjv5m" fileName="Imag/ptn_selectdialog.png" xy="0,0" size="612,169" alpha="0.8">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <relation target="n3_g6pv" sidePair="bottomext-bottom"/>
+    </image>
+    <image id="n1_g6pv" name="n1" src="mjv5m" fileName="Imag/ptn_selectdialog.png" xy="0,0" size="612,169" alpha="0.8">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <relation target="n3_g6pv" sidePair="bottomext-bottom"/>
+    </image>
+    <richtext id="n3_g6pv" name="title" xy="87,48" size="446,36" alpha="0.8" font="ui://bs2uwwz8flzz2" fontSize="26" color="#773d7a" align="center" autoSize="height" strokeColor="#ffffff" strokeSize="2" text="我为什么要回到过去？">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <loader id="n7_g5m2" name="n4" xy="296,91" size="51,45" fill="scale" shrinkOnly="true" clearOnPublish="true">
+      <relation target="" sidePair="bottom-bottom"/>
+    </loader>
+    <text id="n5_dd7o" name="n5" xy="349,91" size="182,44" font="ui://bs2uwwz8flzz2" fontSize="32" color="#634265" vAlign="middle" autoSize="none" strokeColor="#ffffff" strokeSize="2" text="60开启">
+      <relation target="" sidePair="bottom-bottom"/>
+    </text>
+    <text id="n6_w8uf" name="n6" xy="97,91" size="197,45" font="ui://bs2uwwz8flzz2" fontSize="32" color="#634265" align="right" vAlign="middle" autoSize="none" strokeColor="#ffffff" strokeSize="2" text="需要魅力">
+      <relation target="" sidePair="bottom-bottom"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".96"/>
+  <relation target="n0_g6pv" sidePair="bottomext-bottom"/>
+</component>

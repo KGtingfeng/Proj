@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,165">
+  <controller name="c1" pages="0,联系,1,未联系" selected="0"/>
+  <controller name="c2" pages="0,normal,1,littlered" selected="0"/>
+  <displayList>
+    <graph id="n9_ufhu" name="n10" xy="59,33" pivot="0.5,0.5" size="100,100">
+      <relation target="" sidePair="left-left%"/>
+    </graph>
+    <component id="n0_ufhu" name="n5" src="zee8e" fileName="Comp/headicon.xml" pkg="82yrhfjg" xy="-26,-53" pivot="0.5,0.5" scale="0.47,0.47">
+      <gearLook controller="c1" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <relation target="n9_ufhu" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n1_ufhu" name="n1" src="m7ftq3t" fileName="Imag/star_jinduze.png" pkg="82yrhfjg" xy="643,78" pivot="0.5,0.5">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="n2_ufhu" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n2_ufhu" name="n2" src="kki5w" fileName="Comp/ProgressBar_xin.xml" pkg="82yrhfjg" xy="632,69">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="right-right%"/>
+    </component>
+    <component id="n3_ufhu" name="n3" src="ufhu2v" fileName="Comp/ProgressBar1.xml" xy="196,89" size="391,28">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="n9_ufhu" sidePair="left-left%"/>
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <text id="n4_ufhu" name="n4" xy="208,28" size="94,42" font="ui://bs2uwwz8flzz0" fontSize="30" color="#886175" text="名字啊">
+      <relation target="n9_ufhu" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n5_ufhu" name="n8" src="ufhu2w" fileName="Image/line.png" xy="34,161" size="680,5">
+      <relation target="" sidePair="width-width%"/>
+    </image>
+    <component id="n6_ufhu" name="n6" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="570,70" scale="0.7,0.7">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="right-right%"/>
+      <Button title="获取"/>
+    </component>
+    <image id="n7_ufhu" name="n7" src="ufhu2t" fileName="Image/ptn_jindu2.png" xy="196,89" pivot="0.5,0.5" size="390,28">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n9_ufhu" sidePair="left-left%"/>
+    </image>
+    <text id="n8_ufhu" name="n9" xy="303,28" size="115,42" font="ui://bs2uwwz8flzz2" fontSize="30" color="#886175" text="(未联系)">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n4_ufhu" sidePair="middle-middle,left-right"/>
+    </text>
+    <component id="n10_mgpz" name="n10" src="lnqm1e" fileName="Comp/Littlered.xml" pkg="82yrhfjg" xy="120,8">
+      <gearDisplay controller="c2" pages="1"/>
+    </component>
+  </displayList>
+</component>

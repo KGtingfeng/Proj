@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="168,162">
+  <displayList>
+    <image id="n5_r8fu" name="n5" src="r8fuf" fileName="Imag/liwu_di.png" xy="18,17" size="131,129"/>
+    <loader id="n1_r8fu" name="n1" xy="18,15" size="200,200" scale="0.66,0.66" url="ui://uluoyg289h341r" fill="scaleNoBorder" shrinkOnly="true"/>
+    <image id="n2_r8fu" name="n2" src="r8fuq51" fileName="Imag/number_bg(1).png" xy="19,105"/>
+    <image id="n3_r8fu" name="n3" src="r8fuq52" fileName="Imag/frame_liwu2(1).png" xy="-15,-18" size="199,199"/>
+    <text id="n4_r8fu" name="n4" xy="23,107" size="120,35" font="ui://wkrcryqms5cu3" fontSize="25" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="1/55"/>
+  </displayList>
+</component>

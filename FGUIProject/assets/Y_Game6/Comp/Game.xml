@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <loader id="n0_ufcb" name="n0" xy="-235,0" size="1220,1624" url="ui://6f2m7fxrufcbj" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <graph id="n5_qxg9" name="n5" xy="-235,0" size="1220,1624" type="rect" lineSize="0" fillColor="#00ffffff"/>
+    <graph id="n7_qxg9" name="n7" xy="-235,0" size="1220,1624" type="rect" lineSize="0" fillColor="#00ffffff"/>
+    <component id="n4_ufcb" name="n4" src="ufcb0" fileName="Comp/Game_scene.xml" xy="0,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n1_ufcb" name="n1" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" scale="0.8,0.8">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n2_ufcb" name="n2" src="10xzq14" fileName="Comp/Button_tips.xml" pkg="82yrhfjg" xy="576,69">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+    <component id="n3_ufcb" name="n3" src="10xzq15" fileName="Comp/Button_skip.xml" pkg="82yrhfjg" xy="576,146">
+      <relation target="" sidePair="right-right,top-top%"/>
+    </component>
+  </displayList>
+</component>

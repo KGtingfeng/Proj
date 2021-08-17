@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n7_otl7" name="n7" xy="-235,0" size="1220,1624" url="ui://wkrcryqmotl734" autoSize="true" clearOnPublish="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n13_okvb" name="n13" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="-235,0"/>
+    <image id="n12_okvb" name="n12" src="otl75" fileName="Imag/ptn_move.png" xy="302,774"/>
+    <component id="n10_otl7" name="n10" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-235,0" size="1220,1624">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n8_otl7" name="n8" src="rzdk6" fileName="Imag/312frame.png" pkg="17rhwh28" xy="6,841">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n11_otl7" name="n11" xy="66,863" size="617,233" font="ui://bs2uwwz8flzz2" fontSize="32" color="#ffffff" vAlign="middle" autoSize="none" text="按住屏幕任何地方都可以让头像移动，直到终点；&#xA;途中注意不要碰到路径边缘！点击屏幕即开始游戏！">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

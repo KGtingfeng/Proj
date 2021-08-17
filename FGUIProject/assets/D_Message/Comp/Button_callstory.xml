@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,90" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="c1" pages="0,声音,1,视频" selected="1"/>
+  <controller name="c2" pages="1,无小红点,0,小红点,2,灰色" selected="1"/>
+  <displayList>
+    <image id="n0_jhz3" name="n0" src="jhz31x" fileName="Image/list_videostory.png" xy="0,0" size="800,90">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_jhz3" name="n1" src="jhz31x" fileName="Image/list_videostory.png" xy="0,0" size="800,90">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n7_jhz3" name="n7" src="jhz31z" fileName="Image/ptn_list_video.png" xy="64,17" size="277,56">
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </image>
+    <image id="n3_jhz3" name="n3" src="jhz31w" fileName="Image/icon_sound.png" xy="685,17" size="56,56">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </image>
+    <text id="n4_jhz3" name="title" xy="86,19" size="233,52" font="ui://bs2uwwz8flzz2" fontSize="38" color="#e45987" align="center" autoSize="none" text="微风为微风为">
+      <gearColor controller="c2" pages="2" values="#766b6a,#000000" default="#e45987,#000000"/>
+      <relation target="n7_jhz3" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n5_jhz3" name="n5" src="jhz31v" fileName="Image/icon_video.png" xy="685,17">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </image>
+    <image id="n6_jhz3" name="n6" src="zee8g" fileName="Image/ptn_tixing.png" xy="305,5">
+      <gearDisplay controller="c2" pages="0"/>
+      <relation target="n7_jhz3" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".98"/>
+</component>

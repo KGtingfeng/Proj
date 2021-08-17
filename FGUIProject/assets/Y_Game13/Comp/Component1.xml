@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="797,956">
+  <displayList>
+    <image id="n1_cn0h" name="n1" src="cn0h54" fileName="Imag/frame_pinbg.png" xy="1,0" size="795,956"/>
+    <image id="n3_cn0h" name="n3" src="cn0h55" fileName="Imag/textbg.png" xy="86,830" pivot="0.5,0.5"/>
+    <text id="n4_cn0h" name="n4" xy="246,836" size="304,38" font="ui://bs2uwwz8flzz0" fontSize="27" color="#ffffff" align="center" autoSize="none" text="拖动碎片，修复钟楼"/>
+    <image id="n5_cn0h" name="n5" src="cn0h28" fileName="Imag/frame_chuan1(1)(1).png" xy="182,37" pivot="0.5,0.5"/>
+    <image id="n6_cn0h" name="n6" src="cn0h28" fileName="Imag/frame_chuan1(1)(1).png" xy="182,910" pivot="0.5,0.5"/>
+    <image id="n7_cn0h" name="n7" src="cn0h28" fileName="Imag/frame_chuan1(1)(1).png" xy="-292,472" pivot="0.5,0.5" size="670,10" rotation="90"/>
+    <image id="n8_cn0h" name="n8" src="cn0h28" fileName="Imag/frame_chuan1(1)(1).png" xy="419,476" pivot="0.5,0.5" size="670,10" rotation="90"/>
+    <image id="n10_cn0h" name="n10" src="cn0h57" fileName="Imag/suipianbg.png" xy="59,92"/>
+    <component id="n12_dobn" name="n12" src="cn0h4o" fileName="Comp/Sp10.xml" xy="433,321" pivot="0.5,0.5" group="n33_dobn"/>
+    <component id="n13_dobn" name="n13" src="cn0h4p" fileName="Comp/Sp11.xml" xy="417,186" pivot="0.5,0.5" group="n33_dobn"/>
+    <component id="n14_dobn" name="n14" src="cn0h4q" fileName="Comp/Sp12.xml" xy="351,97" pivot="0.5,0.5" group="n33_dobn"/>
+    <component id="n15_dobn" name="n15" src="cn0h4r" fileName="Comp/Sp13.xml" xy="198,95" pivot="0.5,0.5" group="n33_dobn"/>
+    <component id="n16_dobn" name="n16" src="cn0h4s" fileName="Comp/Sp14.xml" xy="102,149" pivot="0.5,0.5" group="n33_dobn"/>
+    <component id="n17_dobn" name="n17" src="cn0h4t" fileName="Comp/Sp15.xml" xy="61,253" pivot="0.5,0.5" group="n33_dobn"/>
+    <component id="n18_dobn" name="n18" src="cn0h4u" fileName="Comp/Sp16.xml" xy="59,334" pivot="0.5,0.5" group="n33_dobn"/>
+    <component id="n19_dobn" name="n19" src="cn0h4v" fileName="Comp/Sp17.xml" xy="201,394" pivot="0.5,0.5" group="n33_dobn"/>
+    <component id="n20_dobn" name="n20" src="cn0h4w" fileName="Comp/Sp18.xml" xy="104,475" pivot="0.5,0.5" group="n33_dobn"/>
+    <component id="n21_dobn" name="n21" src="cn0h4x" fileName="Comp/Sp19.xml" xy="178,527" pivot="0.5,0.5" group="n33_dobn"/>
+    <component id="n22_dobn" name="n22" src="cn0h4g" fileName="Comp/Sp2.xml" xy="33,63" pivot="0.5,0.5" group="n33_dobn"/>
+    <component id="n23_dobn" name="n23" src="cn0h4y" fileName="Comp/Sp20.xml" xy="100,574" pivot="0.5,0.5" group="n33_dobn"/>
+    <component id="n25_dobn" name="n25" src="cn0h4h" fileName="Comp/Sp3.xml" xy="327,60" pivot="0.5,0.5" group="n33_dobn"/>
+    <component id="n27_dobn" name="n27" src="cn0h4j" fileName="Comp/Sp5.xml" xy="31,362" pivot="0.5,0.5" group="n33_dobn"/>
+    <component id="n26_dobn" name="n26" src="cn0h4i" fileName="Comp/Sp4.xml" xy="500,241" pivot="0.5,0.5" group="n33_dobn"/>
+    <component id="n28_dobn" name="n28" src="cn0h4k" fileName="Comp/Sp6.xml" xy="342,511" pivot="0.5,0.5" group="n33_dobn"/>
+    <component id="n29_dobn" name="n29" src="cn0h4l" fileName="Comp/Sp7.xml" xy="450,451" pivot="0.5,0.5" group="n33_dobn"/>
+    <component id="n30_dobn" name="n30" src="cn0h4m" fileName="Comp/Sp8.xml" xy="343,407" pivot="0.5,0.5" group="n33_dobn"/>
+    <component id="n31_dobn" name="n31" src="cn0h4n" fileName="Comp/Sp9.xml" xy="273,280" pivot="0.5,0.5" group="n33_dobn"/>
+    <component id="n24_dobn" name="n24" src="cn0h4e" fileName="Comp/Sp21.xml" xy="278,385" pivot="0.5,0.5" group="n33_dobn"/>
+    <component id="n11_dobn" name="n11" src="cn0h4b" fileName="Comp/Sp1.xml" xy="164,307" pivot="0.5,0.5" group="n33_dobn" aspect="true"/>
+    <group id="n33_dobn" name="n32" xy="31,60" size="739,746" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n34_mdko" name="n34" src="mdko5e" fileName="Imag/ptn_f.png" xy="195,339" visible="false"/>
+    <image id="n35_mdko" name="n35" src="mdko5f" fileName="Imag/ptn_s.png" xy="307,420" visible="false"/>
+  </displayList>
+</component>

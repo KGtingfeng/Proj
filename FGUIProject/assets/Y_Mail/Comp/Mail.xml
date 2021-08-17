@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,邮件列表,1,内页" selected="1"/>
+  <displayList>
+    <image id="n1_r8fu" name="n1" src="hsbv1v" fileName="Imag/ptn_mask.png" pkg="82yrhfjg" xy="-235,0" size="1220,1624">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n17_rxhn" name="n14" src="dgzdq53" fileName="Comp/mail_list.xml" xy="21,144">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n16_qwce" name="n16" src="o2bo2h" fileName="Comp/Button_common_close.xml" pkg="82yrhfjg" xy="575,130">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="n17_rxhn" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n15_r8fu" name="n15" src="r8fub" fileName="Comp/Frame_neiye.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

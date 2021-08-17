@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <component id="n9_ibet" name="n9" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-235,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <graph id="n10_b9y4" name="n10" xy="44,524" size="678,622" type="rect" lineSize="0" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <image id="n0_vvaw" name="n0" src="qm23q3g" fileName="Imag/frame_common_story.png" pkg="82yrhfjg" xy="39,500" size="671,660">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n1_vvaw" name="n1" xy="239,544" size="281,59" font="ui://bs2uwwz8flzz0" fontSize="44" color="#ffffff" align="center" autoSize="none" text="制作娃娃">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n2_vvaw" name="n2" xy="77,648" size="596,121" font="ui://bs2uwwz8flzz2" fontSize="30" color="#9c738e" autoSize="none" text="辛灵姐姐打算送小朋友们一些娃娃，快去帮助她吧！">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n3_vvaw" name="n3" xy="78,757" size="414,80" font="ui://bs2uwwz8flzz2" fontSize="30" color="#9c738e" autoSize="none" text="完成任务获得以下奖励：">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n4_vvaw" name="n4" src="ubaiq58" fileName="Comp/Frame_liwupop(1).xml" pkg="82yrhfjg" xy="167,812">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n5_vvaw" name="n5" src="ubaiq58" fileName="Comp/Frame_liwupop(1).xml" pkg="82yrhfjg" xy="420,811">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n6_vvaw" name="n6" xy="179,969" size="140,42" font="ui://bs2uwwz8flzz0" fontSize="25" color="#9c738e" align="center" autoSize="none" text="随机礼物">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n7_vvaw" name="n7" xy="435,966" size="140,42" font="ui://bs2uwwz8flzz0" fontSize="25" color="#9c738e" align="center" autoSize="none" text="经验">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n8_vvaw" name="n8" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="275,1033">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="前往"/>
+    </component>
+  </displayList>
+</component>

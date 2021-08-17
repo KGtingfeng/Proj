@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="82,115">
+  <displayList>
+    <image id="n10_g0xm" name="n10" src="g0xmb" fileName="Imag/ptn1_biao6.png" xy="0,0"/>
+    <image id="n11_g0xm" name="n11" src="g0xma" fileName="Imag/ptn1_biao6_1.png" xy="24,43"/>
+  </displayList>
+</component>

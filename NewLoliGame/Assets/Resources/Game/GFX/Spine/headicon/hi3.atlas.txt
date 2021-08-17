@@ -1,0 +1,27 @@
+
+hi3.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3_1
+  rotate: false
+  xy: 322, 249
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+3_2
+  rotate: true
+  xy: 322, 187
+  size: 61, 53
+  orig: 61, 53
+  offset: 0, 0
+  index: -1
+3_3
+  rotate: false
+  xy: 1, 1
+  size: 320, 318
+  orig: 320, 318
+  offset: 0, 0
+  index: -1

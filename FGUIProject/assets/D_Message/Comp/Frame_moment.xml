@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,345">
+  <controller name="c1" pages="0,未回复,1,已回复" selected="0"/>
+  <displayList>
+    <component id="n8_h8ad" name="n8" src="ufhu2o" fileName="Comp/line.xml" xy="0,330">
+      <relation target="n9_h8ad" sidePair="bottom-bottom"/>
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n9_h8ad" name="n9" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="540,262">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="right-right%"/>
+      <relation target="n11_q568" sidePair="bottom-bottom"/>
+      <Button title="回复"/>
+    </component>
+    <component id="n2_h8ad" name="n5" src="zee8e" fileName="Comp/headicon.xml" pkg="82yrhfjg" xy="-30,-65" pivot="0.5,0.5" scale="0.47,0.47"/>
+    <image id="n3_h8ad" name="n3" src="m7ftq3t" fileName="Imag/star_jinduze.png" pkg="82yrhfjg" xy="37,88" pivot="0.5,0.5" scale="0.75,0.75">
+      <relation target="n4_h8ad" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n4_h8ad" name="n4" src="kki5w" fileName="Comp/ProgressBar_xin.xml" pkg="82yrhfjg" xy="37,88" scale="0.7,0.7">
+      <relation target="n2_h8ad" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n5_h8ad" name="n12" xy="184,26" size="74,48" font="ui://bs2uwwz8flzz0" fontSize="35" color="#886175" text="名字">
+      <relation target="n2_h8ad" sidePair="left-right,top-top"/>
+    </text>
+    <graph id="n10_q568" name="n10" xy="183,273" size="518,44" alpha="0.59" type="rect" lineSize="0">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n11_q568" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </graph>
+    <richtext id="n11_q568" name="n11" xy="199,276" size="487,39" font="ui://xk3nrdkvkki51" fontSize="28" color="#85788a" ubb="true" autoSize="height" text="玩家：思思，你又要施展什么魔法？">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n14_sh1j" sidePair="top-bottom,rightext-left"/>
+    </richtext>
+    <component id="n14_sh1j" name="n14" src="ufhu2h" fileName="Comp/Frame_posttextimage.xml" xy="184,91"/>
+  </displayList>
+  <relation target="n8_h8ad" sidePair="bottomext-bottom"/>
+</component>

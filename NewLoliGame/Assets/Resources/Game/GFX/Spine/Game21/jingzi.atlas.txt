@@ -1,0 +1,27 @@
+
+jingzi.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang
+  rotate: false
+  xy: 431, 1
+  size: 42, 170
+  orig: 42, 170
+  offset: 0, 0
+  index: -1
+in
+  rotate: false
+  xy: 1, 35
+  size: 429, 136
+  orig: 429, 136
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 1, 172
+  size: 510, 334
+  orig: 510, 334
+  offset: 0, 0
+  index: -1

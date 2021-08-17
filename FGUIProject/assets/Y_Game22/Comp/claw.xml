@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="56,43">
+  <displayList>
+    <image id="n5_m11d" name="n5" src="m11do" fileName="Imag/r.png" xy="30,4" pivot="0.146,0.097"/>
+    <image id="n4_m11d" name="n4" src="m11dn" fileName="Imag/l.png" xy="1,3" pivot="0.741,0.143"/>
+    <image id="n3_8noa" name="n3" src="8noad" fileName="Imag/c.png" xy="17,-9">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+  <transition name="t0" autoPlayRepeat="0" frameRate="60">
+    <item time="0" type="Rotation" target="n4_m11d" tween="true" startValue="0" endValue="37.73" duration="18"/>
+    <item time="0" type="Rotation" target="n5_m11d" tween="true" startValue="0" endValue="-34.32" duration="18"/>
+    <item time="18" type="Rotation" target="n4_m11d" tween="true" startValue="37.73" endValue="0" duration="18" ease="Quart.Out"/>
+    <item time="18" type="Rotation" target="n5_m11d" tween="true" startValue="-34.32" endValue="0" duration="18" ease="Quart.Out"/>
+  </transition>
+</component>

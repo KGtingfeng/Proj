@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="6f2m7fxr">
+  <resources>
+    <component id="ufcb0" name="Game_scene.xml" path="/Comp/" exported="true"/>
+    <image id="ufcb1" name="ans_1.png" path="/Imag/" exported="true"/>
+    <image id="ufcb2" name="ans_2.png" path="/Imag/" exported="true"/>
+    <image id="ufcb3" name="ans_3.png" path="/Imag/" exported="true"/>
+    <image id="ufcb4" name="ans_4.png" path="/Imag/" exported="true"/>
+    <image id="ufcb5" name="ans_5.png" path="/Imag/" exported="true"/>
+    <image id="ufcb6" name="ans_6.png" path="/Imag/" exported="true"/>
+    <image id="ufcb7" name="ans_btn_1.png" path="/Imag/" exported="true"/>
+    <image id="ufcb8" name="ans_btn_1h.png" path="/Imag/" exported="true"/>
+    <image id="ufcb9" name="ans_btn_2.png" path="/Imag/" exported="true"/>
+    <image id="ufcba" name="ans_btn_2h.png" path="/Imag/" exported="true"/>
+    <image id="ufcbb" name="ans_btn_3.png" path="/Imag/" exported="true"/>
+    <image id="ufcbc" name="ans_btn_3h.png" path="/Imag/" exported="true"/>
+    <image id="ufcbd" name="ans_btn_4.png" path="/Imag/" exported="true"/>
+    <image id="ufcbe" name="ans_btn_4h.png" path="/Imag/" exported="true"/>
+    <image id="ufcbf" name="ans_btn_5.png" path="/Imag/" exported="true"/>
+    <image id="ufcbg" name="ans_btn_5h.png" path="/Imag/" exported="true"/>
+    <image id="ufcbh" name="ans_btn_6.png" path="/Imag/" exported="true"/>
+    <image id="ufcbi" name="ans_btn_6h.png" path="/Imag/" exported="true"/>
+    <image id="ufcbk" name="texbg.png" path="/Imag/" exported="true"/>
+    <component id="ufcbl" name="Button1_ans1.xml" path="/Comp/" exported="true"/>
+    <component id="ufcbm" name="Button1_ans2.xml" path="/Comp/" exported="true"/>
+    <component id="ufcbn" name="Button1_ans3.xml" path="/Comp/" exported="true"/>
+    <component id="ufcbo" name="Button1_ans4.xml" path="/Comp/" exported="true"/>
+    <component id="ufcbp" name="Button1_ans5.xml" path="/Comp/" exported="true"/>
+    <component id="ufcbq" name="Button1_ans6.xml" path="/Comp/" exported="true"/>
+    <component id="ufcbr" name="Game.xml" path="/Comp/" exported="true"/>
+    <component id="ufcbs" name="Tips.xml" path="/Comp/" exported="true"/>
+    <component id="ufcbt" name="ans1.xml" path="/Comp/" exported="true"/>
+    <image id="ufcbu" name="ans_1a.png" path="/Imag/"/>
+    <image id="ufcbv" name="ans_2a.png" path="/Imag/"/>
+    <image id="ufcbw" name="ans_3a.png" path="/Imag/"/>
+    <image id="ufcbx" name="ans_4a.png" path="/Imag/"/>
+    <image id="ufcby" name="ans_5a.png" path="/Imag/"/>
+    <image id="ufcbz" name="ans_6a.png" path="/Imag/"/>
+    <component id="ufcb10" name="ans2.xml" path="/Comp/" exported="true"/>
+    <component id="ufcb11" name="ans3.xml" path="/Comp/" exported="true"/>
+    <component id="ufcb12" name="ans4.xml" path="/Comp/" exported="true"/>
+    <component id="ufcb13" name="ans5.xml" path="/Comp/" exported="true"/>
+    <component id="ufcb14" name="ans6.xml" path="/Comp/" exported="true"/>
+    <component id="ej9f15" name="anime_clock.xml" path="/Comp/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

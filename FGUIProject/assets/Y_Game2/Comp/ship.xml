@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,100">
+  <displayList>
+    <graph id="n0_rvpf" name="n0" xy="25,50" pivot="0.5,0.5" anchor="true" size="50,100" touchable="false" type="rect" lineSize="0" fillColor="#00ffffff"/>
+  </displayList>
+</component>

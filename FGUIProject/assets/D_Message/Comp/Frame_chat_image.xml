@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,411">
+  <displayList>
+    <component id="n0_zee8" name="n5" src="zee8e" fileName="Comp/headicon.xml" pkg="82yrhfjg" xy="-32,-73" pivot="0.5,0.5" scale="0.47,0.47"/>
+    <component id="n5_f8rr" name="n6" src="fn413p" fileName="Comp/Dialogueimag.xml" xy="190,31" scale="0.216,0.216"/>
+    <image id="n1_zee8" name="n1" src="fn413r" fileName="Image/frame_dialogue_other1.png" xy="159,3" size="276,411"/>
+    <component id="n6_ry7w" name="n10" src="ry7w3u" fileName="Comp/headframe.xml" xy="39,1"/>
+  </displayList>
+  <relation target="n1_zee8" sidePair="height-height"/>
+</component>

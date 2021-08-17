@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="716,167" designImage="ui://uluoyg28bvfr31" designImageOffsetX="-17" designImageOffsetY="-371">
+  <controller name="c1" pages="0,已赠送,1,未赠送" selected="0"/>
+  <controller name="c2" pages="0,未领取,1,已领取,2,空" selected="1"/>
+  <displayList>
+    <image id="n0_k7ir" name="n0" src="bvfrs" fileName="Imag/bg_friend.png" xy="-2,-1" size="721,161"/>
+    <loader id="n1_k7ir" name="n1" xy="50,27" size="116,115" url="ui://wkrcryqmchzbb" fill="scaleFree"/>
+    <graph id="n16_l049" name="n16" xy="50,27" size="116,115" type="rect" lineSize="0" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <text id="n4_k7ir" name="n4" xy="269,37" size="121,45" font="ui://bs2uwwz8flzz0" fontSize="28" color="#485671" autoSize="none" text="玩家名称&#xA;"/>
+    <component id="n15_l049" name="n15" src="gab61o" fileName="Comp/frame_title.xml" pkg="82yrhfjg" xy="211,87">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n6_k7ir" name="n6" xy="207,89" size="249,39" font="ui://bs2uwwz8flzz0" fontSize="28" color="#ffffff" align="center" autoSize="none" text="称号"/>
+    <graph id="n13_sw58" name="n19" xy="6,7" size="704,158" type="rect" lineColor="#00000000" fillColor="#00ffffff"/>
+    <component id="n10_k7ir" name="n10" src="ms0gm" fileName="Cmop/Button1_red.xml" xy="520,82" size="199,68">
+      <gearDisplay controller="c2" pages="0"/>
+      <Button titleFontSize="20"/>
+    </component>
+    <component id="n11_k7ir" name="n11" src="ms0gl" fileName="Cmop/Button1_blue.xml" xy="520,18">
+      <gearDisplay controller="c1" pages="1,2"/>
+      <Button titleFontSize="20"/>
+    </component>
+    <component id="n12_k7ir" name="n12" src="ms0gm" fileName="Cmop/Button1_red.xml" xy="520,82" visible="false" touchable="false">
+      <gearDisplay controller="c2" pages="1"/>
+      <Button title="已领取" titleFontSize="20"/>
+    </component>
+    <component id="n9_k7ir" name="n9" src="ms0gl" fileName="Cmop/Button1_blue.xml" xy="520,18" visible="false" touchable="false">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button title="已赠送" titleFontSize="20"/>
+    </component>
+    <loader id="n14_bvfr" name="n14" xy="-36,-113" pivot="0.5,0.5" size="288,394" scale="0.428,0.428" align="center" vAlign="middle" fill="scaleFree" autoSize="true"/>
+    <image id="n2_k7ir" name="n2" src="k7ir7" fileName="Imag/frame_chuan(1).png" xy="17,96" size="52,46"/>
+    <text id="n3_k7ir" name="n3" xy="14,105" size="60,35" font="ui://bs2uwwz8flzz2" fontSize="20" color="#ffffff" align="center" autoSize="none" shadowColor="#d86988" shadowOffset="1,1" text="99"/>
+    <text id="n17_kfwi" name="n17" xy="586,98" size="64,29" font="ui://bs2uwwz8flzz0" fontSize="20" color="#918c8c" text="已领取">
+      <gearDisplay controller="c2" pages="1"/>
+    </text>
+    <text id="n18_kfwi" name="n18" xy="586,43" size="64,29" font="ui://bs2uwwz8flzz0" fontSize="20" color="#918c8c" text="已赠送">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+  </displayList>
+</component>

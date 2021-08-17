@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="384,442">
+  <displayList>
+    <image id="n28_v302" name="n28" src="dyo5q6r" fileName="Imag/paten2.png" xy="0,61" pivot="0.255,0.5"/>
+    <component id="n29_v302" name="n29" src="dyo5q6p" fileName="Comp/xiaohua.xml" xy="67,357" pivot="0.5,0.473" scale="0.6,0.6"/>
+    <image id="n30_v302" name="n30" src="dyo5q6t" fileName="Imag/paten4.png" xy="62,0" pivot="0.404,0.277"/>
+    <component id="n31_v302" name="n31" src="dyo5q6p" fileName="Comp/xiaohua.xml" xy="300,106" pivot="0.5,0.473"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayDelay="1.083" frameRate="60">
+    <item time="0" type="Alpha" target="n28_v302" tween="true" startValue="0" endValue="1" duration="24"/>
+    <item time="0" type="Alpha" target="n29_v302" value="0"/>
+    <item time="0" type="Alpha" target="n30_v302" value="0"/>
+    <item time="0" type="Alpha" target="n31_v302" value="0"/>
+    <item time="0" type="Rotation" target="n28_v302" tween="true" startValue="31.08" endValue="0" duration="24" ease="Quart.Out"/>
+    <item time="0" type="Rotation" target="n30_v302" value="0"/>
+    <item time="0" type="Scale" target="n28_v302" tween="true" startValue="0.59,0.58" endValue="1,1" duration="24"/>
+    <item time="0" type="Scale" target="n29_v302" value="0,0"/>
+    <item time="0" type="Scale" target="n30_v302" value="1,1"/>
+    <item time="0" type="Scale" target="n31_v302" value="0,0"/>
+    <item time="0" type="XY" target="n28_v302" tween="true" startValue="38,-55" endValue="0,61" duration="24" ease="Quart.Out" path="2,0,0,-38,33,-49,67,1,2,-38,116,0,0,0,0,1"/>
+    <item time="0" type="XY" target="n30_v302" value="62,0"/>
+    <item time="12" type="Alpha" target="n30_v302" tween="true" startValue="0" endValue="1" duration="24"/>
+    <item time="12" type="Rotation" target="n30_v302" tween="true" startValue="-31.03" endValue="0" duration="24"/>
+    <item time="12" type="Scale" target="n30_v302" tween="true" startValue="0.82,0.82" endValue="1,1" duration="24"/>
+    <item time="12" type="XY" target="n30_v302" tween="true" startValue="-8,57" endValue="62,0" duration="24" path="2,0,0,5,-16,32,-51,1,2,70,-57,159.1672,-71.07903,0,0,1"/>
+    <item time="24" type="Alpha" target="n29_v302" tween="true" startValue="0" endValue="1" duration="12" ease="Quart.Out"/>
+    <item time="24" type="Scale" target="n29_v302" tween="true" startValue="0.32,0.32" endValue="0.6,0.6" duration="12"/>
+    <item time="36" type="Alpha" target="n31_v302" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="36" type="Scale" target="n31_v302" tween="true" startValue="0,0" endValue="1,1" duration="6"/>
+  </transition>
+</component>

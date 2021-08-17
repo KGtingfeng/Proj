@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="1rl5fz6d">
+  <resources>
+    <image id="rzdk0" name="suipian.png" path="/Imag/" exported="true"/>
+    <component id="rzdk1" name="Game.xml" path="/Comp/" exported="true"/>
+    <component id="rzdk3" name="Suipian.xml" path="/Comp/" exported="true"/>
+    <image id="rzdk2a" name="312frame(1).png" path="/Imag/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

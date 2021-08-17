@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <displayList>
+    <image id="n20_eao3" name="n20" src="hsbv1v" fileName="Imag/ptn_mask.png" pkg="82yrhfjg" xy="-235,0" size="1220,1624">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n16_vvaw" name="n16" src="h4fs2i" fileName="Imag/bg_defeated.png" xy="84,561" size="581,501" group="n21_ucv0"/>
+    <text id="n17_vvaw" name="n17" xy="155,595" size="440,54" group="n21_ucv0" font="ui://bs2uwwz8flzz0" fontSize="40" color="#ffffff" align="center" autoSize="none" text="任务失败"/>
+    <text id="n18_vvaw" name="n18" xy="165,768" size="444,71" group="n21_ucv0" font="ui://bs2uwwz8flzz2" fontSize="30" color="#948787" align="center" autoSize="none" text="时间不足了，下次更快一点吧~"/>
+    <component id="n19_vvaw" name="n19" src="rj5h22" fileName="Comp/Button2_red.xml" pkg="82yrhfjg" xy="252,943" group="n21_ucv0">
+      <Button title="重新开始"/>
+    </component>
+    <group id="n21_ucv0" name="n21" xy="84,561" size="581,501" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

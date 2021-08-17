@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://uluoyg28hnnp2l">
+  <displayList>
+    <component id="n0_hnnp" name="n0" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-235,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n1_hnnp" name="n1" src="t4052f" fileName="Imag/frame_gifts.png" pkg="82yrhfjg" xy="52,496" size="644,630" group="n18_ua4k"/>
+    <text id="n3_hnnp" name="n3" xy="286,530" size="164,54" group="n18_ua4k" font="ui://wkrcryqms5cu3" fontSize="40" color="#ffffff" text="购买星星"/>
+    <image id="n4_hnnp" name="n4" src="hnnpq3t" fileName="Imag/ptn_xing.png" xy="433,621" group="n18_ua4k"/>
+    <image id="n5_hnnp" name="n5" src="hnnpq3u" fileName="Imag/ptn_baoshi.png" xy="111,621" group="n18_ua4k"/>
+    <image id="n6_hnnp" name="n6" src="hnnp1w" fileName="Imag/ptn_jiantou.png" xy="329,712" group="n18_ua4k"/>
+    <text id="n7_hnnp" name="n7" xy="330,735" size="72,46" group="n18_ua4k" font="ui://wkrcryqms5cu3" fontSize="34" color="#9a5867" text="购买"/>
+    <graph id="n19_ego8" name="n19" xy="51,495" size="646,630" group="n18_ua4k" type="rect" lineSize="0" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <text id="n8_hnnp" name="n8" xy="146,886" size="133,42" group="n13_hnnp" font="ui://wkrcryqms5cu5" fontSize="30" color="#645757" letterSpacing="3" text="购买数量"/>
+    <component id="n9_hnnp" name="n9" src="t405q3d" fileName="Comp/Button_jia.xml" pkg="82yrhfjg" xy="557,883" group="n13_hnnp"/>
+    <component id="n10_hnnp" name="n10" src="t405q3e" fileName="Comp/Button_jian.xml" pkg="82yrhfjg" xy="295,883" group="n13_hnnp"/>
+    <image id="n11_hnnp" name="n11" src="t405q3f" fileName="Imag/ptn_buyunmberbg.png" pkg="82yrhfjg" xy="354,881" size="194,52" group="n13_hnnp"/>
+    <text id="n12_hnnp" name="n12" xy="355,882" size="193,50" group="n13_hnnp" font="ui://wkrcryqms5cu5" fontSize="26" color="#645757" align="center" vAlign="middle" letterSpacing="3" autoSize="none" text="1"/>
+    <group id="n13_hnnp" name="n13" xy="146,881" size="459,52" group="n18_ua4k" advanced="true"/>
+    <component id="n15_hnnp" name="n15" src="rj5h23" fileName="Comp/Button2_blue.xml" pkg="82yrhfjg" xy="245,977" group="n18_ua4k">
+      <Button title="确定"/>
+    </component>
+    <text id="n16_frl4" name="n16" xy="137,810" size="156,42" group="n18_ua4k" font="ui://wkrcryqms5cu5" fontSize="30" color="#645757" align="center" vAlign="middle" letterSpacing="3" autoSize="none" text="10"/>
+    <text id="n17_frl4" name="n17" xy="458,810" size="156,42" group="n18_ua4k" font="ui://wkrcryqms5cu5" fontSize="30" color="#645757" align="center" vAlign="middle" letterSpacing="3" autoSize="none" text="100"/>
+    <group id="n18_ua4k" name="n18" xy="51,495" size="646,631" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

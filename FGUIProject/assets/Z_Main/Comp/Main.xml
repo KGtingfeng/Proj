@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://uluoyg28rg9229">
+  <controller name="c1" pages="0,主界面,9,头像和消耗品,1,主界面_主界面气泡,2,玩家信息,3,更换头像,10,修改名字,11,兑换星星,12,击掌" selected="0"/>
+  <displayList>
+    <loader id="n41_vy2y" name="n41" xy="-235,0" size="1220,1624" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <graph id="n43_oive" name="n43" xy="-233,0" pivot="0.5,0.5" size="1220,1624" type="rect" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <graph id="n45_fq4l" name="n45" xy="131,613" size="501,1007" type="rect" lineSize="0" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <graph id="n44_oive" name="n44" xy="129,263" size="501,337" type="rect" lineSize="0" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <image id="n59_ov6w" name="n59" src="ov6wq6q" fileName="Imag/bg_front_dark.png" xy="-16,0" pivot="0.5,0.5" size="782,256">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n60_ov6w" name="n60" src="ov6wq6q" fileName="Imag/bg_front_dark.png" xy="-22,1368" pivot="0.5,0.5" size="794,256" flip="vt">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n22_lnqm" name="n22" src="lnqmq" fileName="Comp/Button_main_achievement.xml" xy="70,863" pivot="0.5,0.5" anchor="true" size="138,138" group="n49_7t81" scale="0.8,0.8">
+      <gearDisplay controller="c1" pages="0,1,2,3,12"/>
+      <relation target="" sidePair="left-left%,top-top%"/>
+    </component>
+    <component id="n54_h4v2" name="n54" src="h4v2q3y" fileName="Comp/Button_main_task.xml" xy="70,993" pivot="0.5,0.5" anchor="true" size="138,138" group="n49_7t81" scale="0.8,0.8">
+      <gearDisplay controller="c1" pages="0,1,2,3,12"/>
+      <relation target="" sidePair="left-left%,top-top%"/>
+    </component>
+    <component id="n17_vdqr" name="n17" src="vdqrl" fileName="Comp/Button_main_shop.xml" xy="70,473" pivot="0.5,0.5" anchor="true" size="138,138" group="n49_7t81" scale="0.8,0.8">
+      <gearDisplay controller="c1" pages="0,1,2,3,12"/>
+      <relation target="" sidePair="left-left%,top-top%"/>
+    </component>
+    <component id="n18_vdqr" name="n18" src="vdqrm" fileName="Comp/Button_main_first charge.xml" xy="70,343" pivot="0.5,0.5" anchor="true" size="138,138" group="n49_7t81" scale="0.8,0.8">
+      <gearDisplay controller="c1" pages="0,1,2,3,12"/>
+      <relation target="" sidePair="left-left%,top-top%"/>
+    </component>
+    <component id="n19_lnqm" name="n19" src="lnqmn" fileName="Comp/Button_main_welfare.xml" xy="70,603" pivot="0.5,0.5" anchor="true" size="138,138" group="n49_7t81" scale="0.8,0.8">
+      <gearDisplay controller="c1" pages="0,1,2,3,12"/>
+      <relation target="" sidePair="left-left%,top-top%"/>
+    </component>
+    <component id="n20_lnqm" name="n20" src="lnqmo" fileName="Comp/Button_main_activity.xml" xy="70,733" pivot="0.5,0.5" anchor="true" size="138,138" group="n49_7t81" scale="0.8,0.8">
+      <gearDisplay controller="c1" pages="0,1,2,3,12"/>
+      <relation target="" sidePair="left-left%,top-top%"/>
+    </component>
+    <component id="n21_lnqm" name="n21" src="lnqmp" fileName="Comp/Button_main_a&amp;a.xml" xy="-438,930" size="138,138" group="n49_7t81" visible="false" touchable="false">
+      <gearDisplay controller="c1" pages="0,1,2,3,12"/>
+      <relation target="" sidePair="left-left%,top-top%"/>
+    </component>
+    <component id="n57_cf64" name="n57" src="cf6411" fileName="Comp/Talk_small1.xml" xy="142,911" group="n49_7t81">
+      <gearDisplay controller="c1" pages="0,1,2,3,12"/>
+      <relation target="n54_h4v2" sidePair="left-left,top-top"/>
+    </component>
+    <group id="n49_7t81" name="n49" xy="-438,274" size="945,814" advanced="true"/>
+    <component id="n23_lnqm" name="n23" src="lnqmr" fileName="Comp/Button_main_mail.xml" xy="686,213" pivot="0.5,0.5" anchor="true" size="138,138" group="n50_7t81" scale="0.8,0.8">
+      <gearDisplay controller="c1" pages="0,1,2,3,12"/>
+      <relation target="" sidePair="right-right%,top-top%"/>
+    </component>
+    <component id="n24_lnqm" name="n24" src="lnqms" fileName="Comp/Button_main_friend.xml" xy="686,472" pivot="0.5,0.5" anchor="true" size="138,138" group="n50_7t81" scale="0.8,0.8">
+      <gearDisplay controller="c1" pages="0,1,2,3,12"/>
+      <relation target="" sidePair="right-right%,top-top%"/>
+    </component>
+    <component id="n25_lnqm" name="n25" src="lnqmt" fileName="Comp/Button_main_rank.xml" xy="686,343" pivot="0.5,0.5" anchor="true" size="138,138" group="n50_7t81" scale="0.8,0.8">
+      <gearDisplay controller="c1" pages="0,1,2,3,12"/>
+      <relation target="" sidePair="right-right%,top-top%"/>
+    </component>
+    <component id="n26_lnqm" name="n26" src="lnqmu" fileName="Comp/Button_main_collect.xml" xy="686,603" pivot="0.5,0.5" anchor="true" size="138,138" group="n50_7t81" scale="0.8,0.8">
+      <gearDisplay controller="c1" pages="0,1,2,3,12"/>
+      <relation target="" sidePair="right-right%,top-top%"/>
+    </component>
+    <group id="n50_7t81" name="n50" xy="617,144" size="138,528" advanced="true"/>
+    <component id="n27_lnqm" name="n27" src="lnqmv" fileName="Comp/Button_main_phone.xml" xy="240,1504" pivot="0.5,0.5" anchor="true" group="n51_7t81" scale="0.95,0.95">
+      <gearDisplay controller="c1" pages="0,1,2,3,12"/>
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n29_lnqm" name="n29" src="lnqmx" fileName="Comp/Button_grow up.xml" xy="73,1510" pivot="0.5,0.5" anchor="true" size="138,138" group="n51_7t81">
+      <gearDisplay controller="c1" pages="0,1,2,3,12"/>
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n55_d1ok" name="n55" src="d1okq6f" fileName="Comp/Button_main_helpxinling.xml" xy="664,1312" pivot="0.5,0.5" anchor="true" size="168,168" group="n51_7t81" scale="0.95,0.95">
+      <gearDisplay controller="c1" pages="0,1,2,3,12"/>
+    </component>
+    <component id="n28_lnqm" name="n28" src="lnqmw" fileName="Comp/Button_main_interactive.xml" xy="410,1503" pivot="0.5,0.5" anchor="true" group="n51_7t81" aspect="true" scale="0.94,0.94">
+      <gearDisplay controller="c1" pages="0,1,2,3,12"/>
+    </component>
+    <component id="n30_lnqm" name="n30" src="lnqmy" fileName="Comp/Button_shop window.xml" xy="488,1351" pivot="0.5,0.5" anchor="true" group="n51_7t81">
+      <gearDisplay controller="c1" pages="0,1,2,3,12"/>
+    </component>
+    <component id="n31_lnqm" name="n31" src="lnqmz" fileName="Comp/Button_main_story.xml" xy="619,1492" pivot="0.5,0.5" anchor="true" size="256,256" group="n51_7t81" scale="0.8,0.8">
+      <gearDisplay controller="c1" pages="0,1,2,3,12"/>
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n58_cf64" name="n58" src="xrnqg" fileName="Comp/Talk_small.xml" xy="255,1150" group="n51_7t81">
+      <gearDisplay controller="c1" pages="0,1,2,3,12"/>
+      <relation target="n55_d1ok" sidePair="right-right,top-top"/>
+    </component>
+    <group id="n51_7t81" name="n51" xy="4,1150" size="744,470" advanced="true">
+      <relation target="" sidePair="right-right%,bottom-top%"/>
+    </group>
+    <component id="n34_lnqm" name="n34" src="lnqm11" fileName="Comp/Frame_bubble.xml" pkg="82yrhfjg" xy="120,746">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </component>
+    <component id="n36_lnqm" name="n36" src="lnqm13" fileName="Comp/Frame_playerinfo.xml" xy="-235,0">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n38_lnqm" name="n38" src="lnqm1f" fileName="Comp/Frame_changehead.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n40_nnhx" name="n40" src="nnhx1j" fileName="Comp/common_topinfo.xml" pkg="82yrhfjg" xy="0,7" size="750,188">
+      <gearDisplay controller="c1" pages="0,9,1,2,3,12"/>
+      <relation target="" sidePair="width-width,top-top%"/>
+    </component>
+    <component id="n47_gab6" name="n47" src="gab61u" fileName="Comp/Frame_changename_father.xml" xy="-235,0">
+      <gearDisplay controller="c1" pages="10"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n48_hnnp" name="n48" src="hnnp1v" fileName="Comp/Frame_xingxingduihuan.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="11"/>
+    </component>
+    <component id="n53_u7g1" name="n52" src="u7g1q3w" fileName="Comp/Frame_kong.xml" xy="-235,0">
+      <gearDisplay controller="c1" pages="12"/>
+    </component>
+  </displayList>
+</component>

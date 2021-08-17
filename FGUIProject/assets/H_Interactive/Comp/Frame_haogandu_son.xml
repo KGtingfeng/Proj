@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="434,189">
+  <displayList>
+    <image id="n1_qaik" name="n1" src="qaikq44" fileName="Imag/frame_haogandu1.png" xy="21,20" group="n8_qaik"/>
+    <component id="n3_qaik" name="n3" src="qaikq47" fileName="Comp/icon_headwithmask.xml" xy="30,29" group="n8_qaik"/>
+    <image id="n0_qaik" name="n0" src="qaikq45" fileName="Imag/frame_hangandu0.png" xy="30,29" group="n8_qaik"/>
+    <image id="n6_qaik" name="n6" src="qaikq48" fileName="Imag/frame_haogandu2.png" xy="124,53" group="n8_qaik"/>
+    <group id="n8_qaik" name="n8" xy="21,20" size="249,150" advanced="true">
+      <relation target="n7_qaik" sidePair="left-left"/>
+    </group>
+    <text id="n7_qaik" name="n7" xy="247,48" size="161,88" font="ui://jq7r9sohqaikq4a" fontSize="25" color="#ffe4e7" align="right" letterSpacing="-17" text="1200">
+      <relation target="" sidePair="right-right"/>
+    </text>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="0" autoPlayDelay="1.26" frameRate="60">
+    <item time="0" type="Alpha" target="n7_qaik" value="0"/>
+    <item time="0" type="Alpha" target="n8_qaik" tween="true" startValue="0" endValue="1" duration="42"/>
+    <item time="0" type="XY" target="n8_qaik" tween="true" startValue="110,21" endValue="20,20" duration="42"/>
+    <item time="24" type="Alpha" target="n7_qaik" tween="true" startValue="0" endValue="1" duration="18"/>
+  </transition>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="275,88" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_r8fu" name="n0" src="r8fu2" fileName="Imag/btn_yijian.png" xy="0,6">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_r8fu" name="n1" src="r8fu2" fileName="Imag/btn_yijian.png" xy="0,6">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_c9tr" name="title" xy="38,11" size="199,66" font="ui://wkrcryqms5cu3" fontSize="30" color="#ffffff" align="center" vAlign="middle" ubb="true" autoSize="none" strokeColor="#a2adfd" singleLine="true" text="一键领取">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".97"/>
+</component>

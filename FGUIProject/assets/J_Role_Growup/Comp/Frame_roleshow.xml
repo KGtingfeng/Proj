@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="338,480" pivot="0.5,0.5">
+  <controller name="c1" pages="0,已获得,1,未获得" selected="0"/>
+  <controller name="c2" pages="0,normal,1,littlered" selected="0"/>
+  <displayList>
+    <image id="n3_lnqm" name="n3" src="lnqm3" fileName="Imag/frame_rolebg.png" xy="0,-9">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n13_phej" name="n6" src="hee62y" fileName="Comp/cha_banshen.xml" pkg="82yrhfjg" xy="29,57" size="448,600" scale="0.64,0.64"/>
+    <loader id="n4_lnqm" name="n4" xy="45,102" size="120,120" scale="0.3,0.3" url="ui://82yrhfjglnqml">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n5_lnqm" name="n5" xy="45,138" size="120,120" scale="0.3,0.3" url="ui://82yrhfjglnqmn">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n15_mrko" name="n15" src="mrko2j" fileName="Imag/frame_rolebg2.png" xy="25,-3">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n16_mrko" name="n16" src="mrko2k" fileName="Imag/frame_rolebg3.png" xy="21,-2">
+      <gearDisplay controller="c1" pages="0,1"/>
+    </image>
+    <image id="n14_gab6" name="n7" src="gab62i" fileName="Imag/frame_rolebg1.png" xy="16,392">
+      <relation target="n3_lnqm" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n9_lnqm" name="n9" xy="173,424" size="104,29" alpha="0.7" font="ui://bs2uwwz8flzz0" fontSize="20" color="#9b1f1f" autoSize="none" strokeColor="#ffffff" text="Lv.77">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n8_lnqm" name="n8" xy="55,424" size="104,29" alpha="0.7" font="ui://bs2uwwz8flzz0" fontSize="20" color="#9b1f1f" align="right" autoSize="none" strokeColor="#ffffff" text="罗丽">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n18_mrko" name="n12" src="mrko2m" fileName="Comp/Button_gain.xml" xy="-26,309" pivot="0.5,0.5" scale="0.3,0.3">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n19_mgpz" name="n19" src="lnqm1e" fileName="Comp/Littlered.xml" pkg="82yrhfjg" xy="262,27">
+      <gearDisplay controller="c2" pages="1"/>
+    </component>
+  </displayList>
+</component>

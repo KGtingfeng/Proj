@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,189">
+  <displayList>
+    <loader id="n22_10xzq" name="n10" xy="0,0" size="638,186" url="ui://65jpza8yrj5h1y" autoSize="true"/>
+    <component id="n25_gab6" name="n18" src="gab6q2s" fileName="Comp/Button_attribute.xml" pkg="82yrhfjg" xy="496,95" scale="0.75,0.75">
+      <Button title="美化"/>
+    </component>
+    <text id="n11_rj5h" name="n11" xy="14,153" size="64,29" alpha="0.78" font="ui://bs2uwwz8flzz2" fontSize="20" text="等级："/>
+    <text id="n12_rj5h" name="n12" xy="78,153" size="27,29" alpha="0.78" font="ui://bs2uwwz8flzz2" fontSize="20" align="right" text="12"/>
+    <loader id="n23_10xzq" name="n13" xy="102,151" size="120,120" scale="0.29,0.29" url="ui://82yrhfjglnqmn"/>
+    <text id="n14_rj5h" name="n14" xy="140,153" size="44,29" alpha="0.78" font="ui://bs2uwwz8flzz2" fontSize="20" text="魅力"/>
+    <text id="n15_rj5h" name="n15" xy="192,153" size="38,29" alpha="0.78" font="ui://bs2uwwz8flzz2" fontSize="20" text="200">
+      <relation target="n14_rj5h" sidePair="left-right"/>
+    </text>
+    <image id="n16_rj5h" name="n16" src="rj5h21" fileName="Imag/btn_arrow.png" xy="235,157">
+      <relation target="n15_rj5h" sidePair="left-right"/>
+    </image>
+    <text id="n17_rj5h" name="n17" xy="259,153" size="38,29" alpha="0.78" font="ui://bs2uwwz8flzz2" fontSize="20" text="200">
+      <relation target="n16_rj5h" sidePair="left-right"/>
+    </text>
+    <loader id="n24_dd7o" name="n20" xy="529,109" size="100,100" scale="0.32,0.32" url="ui://82yrhfjgvdqrd" autoSize="true">
+      <relation target="n21_rj5h" sidePair="left-left"/>
+    </loader>
+    <text id="n21_rj5h" name="n21" xy="565,111" size="61,34" font="ui://bs2uwwz8flzz2" fontSize="22" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="256&#xA;">
+      <relation target="n25_gab6" sidePair="center-center%,middle-middle"/>
+    </text>
+    <text id="n26_xazz" name="n26" xy="17,12" size="148,34" font="ui://bs2uwwz8flzz0" fontSize="24" color="#ffffff" text="仙境小屋美化"/>
+  </displayList>
+</component>

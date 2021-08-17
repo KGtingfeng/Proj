@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://uluoyg28k80aq49">
+  <controller name="c1" pages="0,主页,1,时刻相册,2,精选海报" selected="1"/>
+  <displayList>
+    <loader id="n16_s8t3" name="n16" xy="0,0" size="750,1624" url="ui://xyox4q1eg0xm1b" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n0_k80a" name="n0" src="lol4y" fileName="Comp/Button_sk.xml" xy="56,267">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n1_k80a" name="n1" src="lol4z" fileName="Comp/Button_hb.xml" xy="55,618">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n3_k80a" name="n3" src="k80aq4x" fileName="Imag/ptn_xiangce.png" xy="0,210" size="750,1266">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </image>
+    <image id="n2_k80a" name="n2" src="k80aq4w" fileName="Imag/biaoti.png" xy="28,146" size="702,76">
+      <gearDisplay controller="c1" pages="1,2"/>
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </image>
+    <text id="n4_zh3o" name="n4" xy="37,158" size="248,49" font="ui://bs2uwwz8flzz0" fontSize="36" color="#ffffff" align="center" letterSpacing="6" autoSize="none" strokeColor="#d18c67" shadowColor="#d18c67" shadowOffset="1,2" text="时刻相册">
+      <gearDisplay controller="c1" pages="1,2"/>
+      <gearText controller="c1" pages="2" values="舒言的时刻" default="时刻相册"/>
+      <relation target="n2_k80a" sidePair="middle-middle,left-left"/>
+    </text>
+    <text id="n5_zh3o" name="n5" xy="496,170" size="190,39" font="ui://bs2uwwz8flzz2" fontSize="28" color="#ffffff" align="center" letterSpacing="5" strokeColor="#878dbd" shadowColor="#878dbd" shadowOffset="1,1" text="已获得:5/32">
+      <gearDisplay controller="c1" pages="1,2"/>
+      <gearText controller="c1" pages="2" values="已拥有:2张" default="已获得:5/32"/>
+      <relation target="n2_k80a" sidePair="middle-middle,right-right"/>
+    </text>
+    <image id="n6_zh3o" name="n6" src="zh3o1q" fileName="Imag/ptn_select.png" xy="-235,1438" pivot="0.5,0.5" size="1220,186">
+      <gearDisplay controller="c1" pages="1,2"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </image>
+    <image id="n7_zh3o" name="n7" src="zh3o1p" fileName="Imag/ptn_huawen.png" xy="570,1514" pivot="0.5,0.5">
+      <gearDisplay controller="c1" pages="1,2"/>
+      <relation target="n6_zh3o" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n8_zh3o" name="n8" src="zh3o1p" fileName="Imag/ptn_huawen.png" xy="11,1514" pivot="0.5,0.5" scale="-1,1">
+      <gearDisplay controller="c1" pages="1,2"/>
+      <relation target="n6_zh3o" sidePair="center-center,middle-middle"/>
+    </image>
+    <list id="n9_zh3o" name="n9" xy="140,1501" pivot="0.5,0.5" size="469,101" layout="flow_hz" colGap="20" defaultItem="ui://x03va7jnzh3o1t" align="center">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item title="全部"/>
+      <item title="仙子"/>
+      <item title="人类"/>
+    </list>
+    <list id="n11_zh3o" name="n11" xy="0,216" size="750,1258" layout="flow_vt" overflow="scroll" scrollBarFlags="2048" margin="38,0,0,0" clipSoftness="40,40" lineGap="22" colGap="40" align="center" autoClearItems="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="width-width,middle-middle"/>
+      <item url="ui://x03va7jnzh3o1w"/>
+      <item url="ui://x03va7jnzh3o1x"/>
+      <item url="ui://x03va7jnzh3o1w"/>
+      <item url="ui://x03va7jnzh3o1x"/>
+    </list>
+    <list id="n12_zh3o" name="n12" xy="140,1501" pivot="0.5,0.5" size="469,101" layout="flow_hz" colGap="20" defaultItem="ui://x03va7jnzh3o1t" align="center">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item title="全部"/>
+      <item title="解锁"/>
+      <item title="未解锁"/>
+    </list>
+    <list id="n14_zh3o" name="n14" xy="0,214" size="750,1257" layout="flow_vt" overflow="scroll" margin="44,0,0,0" lineGap="18" colGap="34" defaultItem="ui://x03va7jnzh3o21" align="center">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="width-width,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

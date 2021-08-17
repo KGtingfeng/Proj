@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="17rhwh28">
+  <resources>
+    <component id="rzdk22" name="Ani_321.xml" path="/Comp/" exported="true"/>
+    <image id="rzdk23" name="1.png" path="/Imag/" exported="true"/>
+    <image id="rzdk24" name="2.png" path="/Imag/" exported="true"/>
+    <image id="rzdk25" name="3.png" path="/Imag/" exported="true"/>
+    <image id="rzdk6" name="312frame.png" path="/Imag/" exported="true"/>
+    <image id="rzdk0" name="tipsbg.png" path="/Imag/" exported="true"/>
+    <component id="rzdk26" name="ProgressBar1.xml" path="/Comp/" exported="true"/>
+    <component id="rzdk2b" name="var1.xml" path="/Comp/" exported="true"/>
+    <image id="rzdk1" name="jindu2.png" path="/Imag/" exported="true"/>
+    <image id="rzdk2" name="jindu3.png" path="/Imag/" exported="true"/>
+    <image id="rzdk3" name="jindu1.png" path="/Imag/" exported="true"/>
+    <image id="rzdk4" name="jindu4.png" path="/Imag/" exported="true" scale="9grid" scale9grid="0,10,55,1"/>
+    <image id="rzdk5" name="jindu5.png" path="/Imag/" exported="true"/>
+    <image id="rzdk7" name="jindu6.png" path="/Imag/" exported="true"/>
+    <component id="suu92c" name="321.xml" path="/Comp/" exported="true"/>
+    <component id="vvawd" name="xinling_talk.xml" path="/Comp/" exported="true"/>
+    <component id="vvawx" name="Guide.xml" path="/Comp/" exported="true"/>
+    <component id="vvaw2d" name="Frame_xinling_thank.xml" path="/Comp/" exported="true"/>
+    <image id="h4fs2f" name="tall_bubble.png" path="/Imag/" exported="true"/>
+    <image id="h4fs2h" name="bg_pop_frame.png" path="/Imag/" exported="true"/>
+    <image id="h4fs22" name="bg_1.png" path="/Imag/" exported="true"/>
+    <image id="h4fs2i" name="bg_defeated.png" path="/Imag/" exported="true"/>
+    <component id="h4fs2j" name="frame_defeated.xml" path="/Comp/" exported="true"/>
+    <component id="vnhj2k" name="Frame_Game_success.xml" path="/Comp/" exported="true"/>
+    <image id="fpsf2l" name="title_success.png" path="/Imag/" exported="true"/>
+    <image id="vvawu" name="character1.png" path="/Imag/" exported="true"/>
+    <component id="qfcc1t" name="tap.xml" path="/Comp/" exported="true"/>
+    <image id="qfcc1s" name="tap1.png" path="/Imag/" exported="true"/>
+    <image id="li842n" name="bt_look_picture.png" path="/Imag/" exported="true"/>
+    <component id="li84q6j" name="Button_lookpicture.xml" path="/Comp/" exported="true"/>
+    <component id="o31qq6k" name="Frame_tu.xml" path="/Comp/" exported="true"/>
+    <image id="gxb8q6l" name="tap_finger.png" path="/Imag/" exported="true"/>
+    <component id="gxb815" name="tap_finger_anime.xml" path="/Comp/" exported="true"/>
+    <component id="jyfqq6n" name="game instructions.xml" path="/Comp/" exported="true"/>
+    <image id="jyfqq6o" name="BG_game instructions.png" path="/Imag/"/>
+    <image id="jyfqq6p" name="game_titte.png" path="/Imag/"/>
+    <image id="jyfqq6r" name="1防御曼多拉.png" path="/Imag/"/>
+    <component id="m852q6s" name="tap_finger.xml" path="/Comp/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

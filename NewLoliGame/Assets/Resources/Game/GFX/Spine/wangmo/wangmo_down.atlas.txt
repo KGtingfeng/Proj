@@ -1,0 +1,20 @@
+
+wangmo_down.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/piaodai
+  rotate: true
+  xy: 320, 262
+  size: 188, 162
+  orig: 188, 162
+  offset: 0, 0
+  index: -1
+image/xiashen
+  rotate: false
+  xy: 2, 2
+  size: 316, 448
+  orig: 316, 448
+  offset: 0, 0
+  index: -1

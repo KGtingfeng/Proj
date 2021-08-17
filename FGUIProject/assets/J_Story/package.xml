@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="6f05wxg5">
+  <resources>
+    <component id="gerr0" name="Story.xml" path="/Comp/" exported="true"/>
+    <component id="mjv51" name="Frame_story_choose.xml" path="/Comp/" exported="true"/>
+    <image id="mjv52" name="ptn_cha.png" path="/Imag/" exported="true"/>
+    <image id="mjv54" name="btn_story_obtain.png" path="/Imag/" exported="true"/>
+    <image id="mjv55" name="btn_story_again.png" path="/Imag/" exported="true"/>
+    <image id="mjv56" name="btn_story_enter.png" path="/Imag/" exported="true" scale="9grid" scale9grid="51,19,102,38"/>
+    <component id="mjv58" name="Button_story_obtain.xml" path="/Comp/" exported="true"/>
+    <component id="mjv59" name="Button_story_again.xml" path="/Comp/" exported="true"/>
+    <component id="mjv5a" name="Button_story_enter.xml" path="/Comp/" exported="true"/>
+    <component id="mjv5b" name="Frame_storyofcha.xml" path="/Comp/" exported="true"/>
+    <image id="mjv5c" name="ptn_chapter.png" path="/Imag/" exported="true"/>
+    <component id="mjv5d" name="Button_chapter.xml" path="/Comp/" exported="true"/>
+    <component id="mjv5e" name="Frame_chapter.xml" path="/Comp/" exported="true"/>
+    <image id="mjv5f" name="btn_autoplay.png" path="/Imag/" exported="true"/>
+    <image id="mjv5g" name="btn_review.png" path="/Imag/" exported="true"/>
+    <component id="mjv5h" name="Button_review.xml" path="/Comp/" exported="true"/>
+    <image id="mjv5j" name="ptn_namebg.png" path="/Imag/" exported="true" scale="9grid" scale9grid="157,35,2,70"/>
+    <image id="mjv5k" name="ptn_dialog box.png" path="/Imag/" exported="true"/>
+    <image id="mjv5l" name="ptn_answer.png" path="/Imag/" exported="true" scale="9grid" scale9grid="312,64,138,128"/>
+    <image id="mjv5m" name="ptn_selectdialog.png" path="/Imag/" exported="true" scale="9grid" scale9grid="125,18,7,4"/>
+    <component id="mjv5q" name="Cha_bust.xml" path="/Comp/" exported="true"/>
+    <component id="g6pvs" name="Frame_dialog_npcme.xml" path="/Comp/" exported="true"/>
+    <component id="g6pvt" name="cha_half.xml" path="/Comp/" exported="true"/>
+    <component id="g6pvv" name="Frame_prelude.xml" path="/Comp/" exported="true"/>
+    <component id="g6pvw" name="Frame_narration.xml" path="/Comp/" exported="true"/>
+    <component id="g6pvx" name="Frame_dialog_npc.xml" path="/Comp/" exported="true"/>
+    <component id="g6pvy" name="Frame_dialog_shoose.xml" path="/Comp/" exported="true"/>
+    <component id="g6pvz" name="Button_dialog_choose.xml" path="/Comp/" exported="true"/>
+    <component id="10xzq11" name="Combine1.xml" path="/Comp/" exported="true"/>
+    <image id="ikcrq1t" name="ptn_tips.png" path="/Imag/" exported="true"/>
+    <component id="dd7oq1x" name="TmpItem.xml" path="/Comp/" exported="true"/>
+    <component id="dd7oq1y" name="Frame_attributes_lack.xml" path="/Comp/" exported="true"/>
+    <image id="dd7oq1z" name="ptn_attributebg.png" path="/Imag/" exported="true" scale="9grid" scale9grid="150,33,68,8"/>
+    <component id="dd7oq20" name="Button_attribute_choose.xml" path="/Comp/" exported="true"/>
+    <component id="dd7oq22" name="Frame_attributes_lackfail.xml" path="/Comp/" exported="true"/>
+    <image id="dd7oq23" name="ptn_attributes_lackfail.png" path="/Imag/" exported="true" scale9grid="8,243,16,4"/>
+    <component id="dd7oq24" name="Frame_storyreview.xml" path="/Comp/"/>
+    <component id="dd7oq25" name="Dialog_Narrator.xml" path="/Comp/" exported="true"/>
+    <component id="dd7oq26" name="Dialog_role.xml" path="/Comp/" exported="true"/>
+    <component id="dd7oq27" name="Dialog_character.xml" path="/Comp/" exported="true"/>
+    <component id="dd7oq28" name="Watch_timeshoose.xml" path="/Comp/" exported="true"/>
+    <image id="dd7oq2d" name="watchtime_final.png" path="/Imag/" exported="true"/>
+    <component id="dd7oq2f" name="Watch_time.xml" path="/Comp/" exported="true"/>
+    <component id="c52nq2h" name="Button_watch_choose.xml" path="/Comp/" exported="true"/>
+    <component id="p7i4q2i" name="Combine_kong.xml" path="/Comp/"/>
+    <component id="ro8rq2n" name="Frame_dialog.xml" path="/Comp/"/>
+    <component id="ro8rq2o" name="Frame_tips0.xml" path="/Comp/" exported="true"/>
+    <component id="ro8rq2p" name="Btn_other.xml" path="/Comp/" exported="true"/>
+    <component id="ro8rq2q" name="Btn_other_father.xml" path="/Comp/" exported="true"/>
+    <component id="ro8rq37" name="Ptn_attribute_lackfailbg.xml" path="/Comp/" exported="true"/>
+    <component id="f9t3q39" name="Button_autoplay.xml" path="/Comp/" exported="true"/>
+    <image id="f9t3q3c" name="btn_autoplayx1.png" path="/Imag/" exported="true"/>
+    <image id="f9t3q3d" name="btn_autoplayx2.png" path="/Imag/" exported="true"/>
+    <component id="m44fq3e" name="Button_story_review.xml" path="/Comp/" exported="true"/>
+    <image id="n3xvq3f" name="game_4.png" path="/Imag/" exported="true"/>
+    <image id="n3xvq3g" name="game_1.png" path="/Imag/" exported="true"/>
+    <image id="n3xvq3h" name="game_3.png" path="/Imag/" exported="true"/>
+    <image id="n3xvq3i" name="game_2.png" path="/Imag/" exported="true"/>
+    <image id="gab6q3k" name="ptn_prelude.png" path="/Imag/" exported="true" scale="9grid" scale9grid="131,124,15,10"/>
+    <image id="gab6q3l" name="frame_dialog_happy.png" path="/Imag/" exported="true"/>
+    <image id="gab6q3m" name="frame_dialog_pangbai.png" path="/Imag/" exported="true"/>
+    <image id="gab6q3n" name="frame_dialog_normal.png" path="/Imag/" exported="true"/>
+    <image id="gab6q3o" name="frame_dialog_special.png" path="/Imag/" exported="true"/>
+    <image id="gab6q3p" name="ptn_namebg1.png" path="/Imag/" exported="true"/>
+    <component id="gab6q3q" name="Frame_storyreview_son.xml" path="/Comp/"/>
+    <component id="lq3mq3r" name="Frame_narration_son.xml" path="/Comp/"/>
+    <image id="lq3mq3s" name="btn_attribute_r.png" path="/Imag/" exported="true"/>
+    <image id="lq3mq3t" name="btn_attribute_b.png" path="/Imag/" exported="true"/>
+    <component id="lq3mq3u" name="Button_attribute_b.xml" path="/Comp/"/>
+    <component id="lq3mq3v" name="Button_attribute_r.xml" path="/Comp/"/>
+    <image id="w8ufq3x" name="btn_unactive.png" path="/Imag/" exported="true"/>
+    <image id="w8ufq3y" name="btn_all.png" path="/Imag/" exported="true"/>
+    <image id="w8ufq3z" name="btn_girl.png" path="/Imag/" exported="true"/>
+    <image id="w8ufq40" name="btn_boy.png" path="/Imag/" exported="true"/>
+    <component id="w8ufq41" name="Button_role_all.xml" path="/Comp/" exported="true"/>
+    <component id="w8ufq42" name="Button_role_boy.xml" path="/Comp/" exported="true"/>
+    <component id="w8ufq43" name="Button_role_girl.xml" path="/Comp/"/>
+    <image id="w8ufq45" name="btn_story_review.png" path="/Imag/" exported="true"/>
+    <component id="w8ufq46" name="Button_story_review2.xml" path="/Comp/" exported="true"/>
+    <component id="w8ufq47" name="Button_chapter1.xml" path="/Comp/" exported="true"/>
+    <image id="w8ufq48" name="btn_common_back2.png" path="/Imag/" exported="true"/>
+    <image id="w8ufq49" name="ptn_watchbg.png" path="/Imag/" exported="true"/>
+    <image id="w8ufq4a" name="slider_watcg2.png" path="/Imag/" exported="true"/>
+    <image id="w8ufq4b" name="slider_watcg1.png" path="/Imag/" exported="true"/>
+    <component id="w8ufq4c" name="Slider_wacht_grip.xml" path="/Comp/" exported="true"/>
+    <component id="w8ufq4h" name="Button_start.xml" path="/Comp/" exported="true"/>
+    <image id="hee6q4o" name="ptn_findtime.png" path="/Imag/" exported="true"/>
+    <image id="ls1aq4t" name="ptn_star.png" path="/Imag/" exported="true"/>
+    <image id="tc0mq4u" name="frame_paibang.png" path="/Imag/" exported="true" scale="9grid" scale9grid="175,108,350,10"/>
+    <component id="qwceq4v" name="Slider_wacht.xml" path="/Comp/"/>
+    <component id="m2f3q4w" name="Frame_imageselect.xml" path="/Comp/" exported="true"/>
+    <image id="k9ebq4y" name="bg_charactername.png" path="/Imag/"/>
+    <image id="k9ebq4z" name="bg_charactercollect.png" path="/Imag/"/>
+    <image id="ybqgq50" name="btn_headbg.png" path="/Imag/"/>
+    <image id="ybqgq51" name="ptn_cha_frame.png" path="/Imag/"/>
+    <component id="mq08q52" name="Frame_dialog_ani.xml" path="/Comp/" exported="true"/>
+    <component id="hmq0q53" name="frame_video.xml" path="/Comp/" exported="true"/>
+    <image id="v302q53" name="larrow1.png" path="/Imag/" exported="true"/>
+    <image id="v302q54" name="larrow2.png" path="/Imag/" exported="true"/>
+    <component id="v302q55" name="larrow.xml" path="/Comp/"/>
+    <image id="dyo5q59" name="c4.png" path="/Imag/" exported="true"/>
+    <image id="dyo5q5a" name="c0.png" path="/Imag/" exported="true"/>
+  </resources>
+  <publish name="J_Story"/>
+</packageDescription>

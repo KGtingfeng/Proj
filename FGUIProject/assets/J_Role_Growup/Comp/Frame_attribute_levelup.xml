@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <displayList>
+    <image id="n39_e2l7" name="n39" src="hsbv1v" fileName="Imag/ptn_mask.png" pkg="82yrhfjg" xy="0,0" size="1220,1624"/>
+    <loader id="n38_e2l7" name="n38" xy="209,149" size="820,1426" group="n40_e2l7" url="ui://uluoyg28e2l71o" autoSize="true"/>
+    <image id="n1_rj5h" name="n1" src="lnqm1p" fileName="Imag/ptn_freme_playerinfo.png" pkg="82yrhfjg" xy="276,310" size="670,48" group="n40_e2l7" alpha="0.41"/>
+    <component id="n4_rj5h" name="n4" src="lnqm1r" fileName="Comp/Icon_head.xml" pkg="t0kqvihp" xy="368,286" group="n40_e2l7" scale="0.52,0.52"/>
+    <text id="n7_rj5h" name="n7" xy="535,318" size="173,42" group="n40_e2l7" font="ui://bs2uwwz8flzz0" fontSize="30" color="#71635d" text="XXXXXXXXX"/>
+    <component id="n35_gab6" name="n35" src="gab61o" fileName="Comp/frame_title.xml" pkg="82yrhfjg" xy="521,362" group="n40_e2l7" scale="0.73,0.73"/>
+    <text id="n8_rj5h" name="n8" xy="521,367" size="172,26" group="n40_e2l7" font="ui://bs2uwwz8flzz0" fontSize="18" color="#ffffff" align="center" autoSize="none" text="仙境百事通"/>
+    <image id="n9_rj5h" name="n9" src="lnqmi" fileName="Imag/ptn_common_split line.png" pkg="82yrhfjg" xy="290,448" size="644,4" group="n40_e2l7"/>
+    <component id="n30_phej" name="n30" src="o2bo2h" fileName="Comp/Button_common_close.xml" pkg="82yrhfjg" xy="881,124" group="n40_e2l7"/>
+    <list id="n31_10xzq" name="n31" xy="283,592" size="686,862" group="n40_e2l7" margin="-5,0,9,0" lineGap="6" defaultItem="ui://65jpza8yrj5h1z" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n32_dd7o" name="n32" src="dd7o2m" fileName="Comp/Frame_common_attributes.xml" pkg="82yrhfjg" xy="349,462" group="n40_e2l7"/>
+    <text id="n33_gab6" name="n33" xy="503,279" size="48,32" group="n40_e2l7" font="ui://bs2uwwz8flzz2" fontSize="22" color="#ffffff" align="right" shadowColor="#6a7791" shadowOffset="1,1" text="ID："/>
+    <text id="n34_gab6" name="n34" xy="541,279" size="192,32" group="n40_e2l7" font="ui://bs2uwwz8flzz2" fontSize="22" color="#ffffff" shadowColor="#6a7791" shadowOffset="1,1" text="666666666666666"/>
+    <image id="n36_gab6" name="n36" src="gab61l" fileName="Imag/ptn_lv.png" pkg="82yrhfjg" xy="371,381" group="n40_e2l7"/>
+    <text id="n37_gab6" name="n37" xy="370,390" size="42,22" group="n40_e2l7" font="ui://bs2uwwz8flzz0" fontSize="14" color="#ffffff" strokeColor="#c65959" text="LV.60">
+      <relation target="n36_gab6" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n40_e2l7" name="n40" xy="209,124" size="820,1451" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

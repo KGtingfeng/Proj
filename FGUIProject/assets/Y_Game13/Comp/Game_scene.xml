@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://kzvhx58pcn0h3z">
+  <controller name="c1" pages="0,选择,1,找碎片,3," selected="0"/>
+  <displayList>
+    <component id="n13_cn0h" name="n13" src="cn0hn" fileName="Comp/Game_scene_sub.xml" xy="-235,0" pivot="0.5,0.5" aspect="true">
+      <gearSize controller="c1" pages="0" values="1220,1624,1,1" default="1220,1624,1.322,1.322" tween="true" duration="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n16_cn0h" name="n16" src="cn0ho" fileName="Imag/blue.png" xy="-99,435" pivot="0.5,0.5" size="948,754" aspect="true" touchable="false">
+      <gearDisplay controller="c1" pages="0"/>
+      <gearSize controller="c1" pages="0,1" values="948,754,1,1|948,754,1.322,1.322" default="948,754,1.322,1.322" tween="true" duration="1"/>
+      <gearLook controller="c1" pages="1" values="0,0,0,0" default="1,0,0,0" tween="true" ease="Quint.Out" duration=".2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n17_cn0h" name="n17" src="cn0h4z" fileName="Comp/Frame_suipian.xml" xy="42,1273" alpha="0">
+      <gearDisplay controller="c1" pages="1"/>
+      <gearLook controller="c1" pages="0" values="0,0,0,1" default="1,0,0,1" tween="true"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n19_cwn6" name="n18" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="59,549" size="664,496">
+      <gearDisplay controller="c1" pages="0,3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n20_cwn6" name="n20" src="cwn65a" fileName="Imag/texbg.png" xy="50,1172" size="667,77">
+      <gearDisplay controller="c1" pages="3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n21_cwn6" name="n21" xy="130,1186" size="498,52" font="ui://xk3nrdkvkki50" fontSize="32" color="#ffffff" align="center" autoSize="none" text="成功找到所有碎片">
+      <gearDisplay controller="c1" pages="3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n22_cwn6" name="n19" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="0,0" size="750,1624">
+      <gearDisplay controller="c1" pages="3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

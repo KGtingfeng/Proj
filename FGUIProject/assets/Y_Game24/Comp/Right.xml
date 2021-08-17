@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="122,122" pivot="0.42,0.73" anchor="true" mask="n3_s8t3">
+  <displayList>
+    <image id="n2_e6xi" name="n2" src="vvaw4" fileName="Imag/ptn.png" xy="13,20" size="96,82"/>
+    <graph id="n3_s8t3" name="n3" xy="10,9" size="100,100" type="rect"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="XY" target="n3_s8t3" tween="true" startValue="-110,9" endValue="10,9" duration="18" ease="Quart.InOut"/>
+  </transition>
+</component>

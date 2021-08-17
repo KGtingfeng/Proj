@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://uluoyg28nuqx2g">
+  <displayList>
+    <component id="n0_nuqx" name="n0" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-235,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n1_nuqx" name="n1" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-235,0" alpha="0.77">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n3_nuqx" name="n3" src="lnqm12" fileName="Imag/frame1_common.png" pkg="82yrhfjg" xy="68,453" size="613,779">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n6_nuqx" name="n6" xy="257,990" size="221,42" font="ui://bs2uwwz8flzz0" fontSize="30" color="#e1557c" letterSpacing="2" text="阅读[艺术之书]">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n7_nuqx" name="n7" src="p7i4q2h" fileName="Comp/Frame_common_levelup_list.xml" pkg="82yrhfjg" xy="139,1038">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <graph id="n8_mkoa" name="n8" xy="-235,0" size="1220,1624" type="rect" fillColor="#00ffffff"/>
+  </displayList>
+</component>

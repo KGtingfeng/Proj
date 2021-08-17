@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImageOffsetX="-225">
+  <controller name="c1" pages="2,game,0,guid,1,321" selected="0"/>
+  <displayList>
+    <component id="n28_10tnr" name="n28" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="-235,0" touchable="false"/>
+    <component id="n2_k1a1" name="n33" src="k1a18" fileName="Comp/Button_blue.xml" xy="555,1298">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n3_k1a1" name="n32" src="k1a19" fileName="Comp/Button_pink.xml" xy="379,1299">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n4_k1a1" name="n30" src="k1a1a" fileName="Comp/Button_green.xml" xy="20,1298">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n5_k1a1" name="n31" src="k1a1b" fileName="Comp/Button_purple.xml" xy="199,1299">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n6_k1a1" name="n6" src="k1a1c" fileName="Comp/light.xml" xy="112,1269" pivot="0.5,0.5" anchor="true">
+      <relation target="n4_k1a1" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n7_k1a1" name="n7" src="k1a1c" fileName="Comp/light.xml" xy="291,1269" pivot="0.5,0.5" anchor="true">
+      <relation target="n5_k1a1" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n8_k1a1" name="n8" src="k1a1c" fileName="Comp/light.xml" xy="469,1270" pivot="0.5,0.5" anchor="true">
+      <relation target="n3_k1a1" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n9_k1a1" name="n9" src="k1a1c" fileName="Comp/light.xml" xy="646,1269" pivot="0.5,0.5" anchor="true">
+      <relation target="n2_k1a1" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n10_k1a1" name="n10" src="k1a1e" fileName="Imag/ptn_timebg.png" xy="177,202">
+      <gearDisplay controller="c1" pages="2,0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n12_k1a1" name="n12" xy="273,261" size="189,34" font="ui://bs2uwwz8flzz2" fontSize="24" color="#fff6ea" text="剩余时间：1：30">
+      <gearDisplay controller="c1" pages="2,0"/>
+      <relation target="n10_k1a1" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n13_k1a1" name="n13" xy="289,294" size="157,44" font="ui://bs2uwwz8flzz0" fontSize="32" color="#ffa4ef" strokeColor="#ffffff" strokeSize="2" text="得分：300">
+      <gearDisplay controller="c1" pages="2,0"/>
+      <relation target="n10_k1a1" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n15_k1a1" name="n15" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-235,0">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n14_k1a1" name="n14" src="rzdk22" fileName="Comp/Ani_321.xml" pkg="17rhwh28" xy="296,577">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n16_k1a1" name="n16" src="k1a16" fileName="Imag/bg_talk.png" xy="40,1037">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n17_k1a1" name="n17" xy="150,1055" size="473,202" font="ui://bs2uwwz8flzz2" fontSize="27" color="#ffffff" vAlign="middle" leading="16" autoSize="none" text="看准音符掉落的位置，点击对应的琴键&#xD;即可得分，累计1000分过关！点击屏幕&#xD;即可开始游戏">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <graph id="n18_eyr0" name="n18" xy="112,-69" pivot="0.5,0.5" anchor="true" size="116,47" group="n24_10tnr" type="rect" lineColor="#00ff0000" fillColor="#00ffffff">
+      <relation target="n6_k1a1" sidePair="center-center,middle-middle"/>
+    </graph>
+    <graph id="n19_eyr0" name="n19" xy="291,-69" pivot="0.5,0.5" anchor="true" size="116,47" group="n24_10tnr" type="rect" lineColor="#00ff0000" fillColor="#00ffffff">
+      <relation target="n7_k1a1" sidePair="center-center,middle-middle"/>
+    </graph>
+    <graph id="n20_eyr0" name="n20" xy="469,-69" pivot="0.5,0.5" anchor="true" size="116,47" group="n24_10tnr" type="rect" lineColor="#00ff0000" fillColor="#00ffffff">
+      <relation target="n8_k1a1" sidePair="center-center,middle-middle"/>
+    </graph>
+    <graph id="n21_eyr0" name="n21" xy="646,-69" pivot="0.5,0.5" anchor="true" size="116,47" group="n24_10tnr" type="rect" lineColor="#00ff0000" fillColor="#00ffffff">
+      <relation target="n9_k1a1" sidePair="center-center,middle-middle"/>
+    </graph>
+    <group id="n24_10tnr" name="n24" xy="54,-92" size="650,47"/>
+    <component id="n27_10tnr" name="n27" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="-235,0" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n23_xepi" name="n29" src="qfcc1t" fileName="Comp/tap.xml" pkg="17rhwh28" xy="509,1425"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Scale" target="n23_xepi" value="1,1"/>
+    <item time="0" type="Scale" target="n23_xepi" value="1,1"/>
+    <item time="1" type="Scale" target="n23_xepi" tween="true" startValue="1,1" endValue="0.76,0.76" duration="7"/>
+    <item time="9" type="Scale" target="n23_xepi" tween="true" startValue="0.76,0.76" endValue="1,1" duration="17"/>
+  </transition>
+</component>

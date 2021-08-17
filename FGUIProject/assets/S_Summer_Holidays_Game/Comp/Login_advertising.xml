@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="692,851">
+  <displayList>
+    <image id="n19_b05h" name="n19" src="gab6q2u" fileName="Imag/frame1_common3.png" pkg="82yrhfjg" xy="0,0" size="692,851"/>
+    <image id="n20_b05h" name="n20" src="b05hd" fileName="Imag/Cut_line.png" xy="39,565" size="602,2"/>
+    <image id="n21_b05h" name="n21" src="b05he" fileName="Imag/ptn_3.png" xy="29,144"/>
+    <text id="n22_b05h" name="n22" xy="220,35" size="239,63" font="ui://bs2uwwz8flzz0" fontSize="47" color="#ffffff" text="暑假向前冲"/>
+    <text id="n23_b05h" name="n23" xy="118,594" size="443,113" font="ui://bs2uwwz8flzz2" fontSize="27" color="#948787" align="center" autoSize="none" text="暑假向前冲活动火热进行中！&#xD;活动时间：2021年8月1日-8月30日&#xD;活动奖励：夏日限定背景"/>
+    <component id="n24_b05h" name="n24" src="lnqmu" fileName="Comp/Button_special_blue.xml" pkg="82yrhfjg" xy="113,726" scale="0.918,0.878">
+      <Button title="立即前往"/>
+    </component>
+  </displayList>
+</component>

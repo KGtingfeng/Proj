@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,3220">
+  <displayList>
+    <loader id="n9_k8n8" name="n9" xy="0,1596" size="1220,1624" url="ui://uluoyg28cytc2u" autoSize="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <loader id="n0_k8n8" name="n0" xy="0,0" size="1220,1624" url="ui://uluoyg28cytc2t" autoSize="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <graph id="n10_k8n8" name="n10" xy="581,-13" pivot="0.5,0.5" size="10,10" type="eclipse"/>
+    <component id="n11_cytc" name="n11" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="624,437" size="150,136" group="n16_cytc"/>
+    <component id="n12_cytc" name="n12" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="424,1056" size="150,136" group="n16_cytc"/>
+    <component id="n13_cytc" name="n13" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="367,1439" size="150,136" group="n16_cytc"/>
+    <component id="n14_cytc" name="n14" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="503,1785" size="150,136" group="n16_cytc"/>
+    <component id="n15_cytc" name="n15" src="f54j1i" fileName="Comp/kong.xml" pkg="82yrhfjg" xy="631,1978" size="150,136" group="n16_cytc"/>
+    <group id="n16_cytc" name="n16" xy="367,437" size="414,1677" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <transition name="t0" frameRate="60">
+    <item time="0" type="XY" target="n10_k8n8" tween="true" startValue="581,-13" endValue="341,399" duration="54"/>
+    <item time="54" type="XY" target="n10_k8n8" tween="true" startValue="341,399" endValue="696,512" duration="24" ease="Quad.InOut"/>
+    <item time="78" type="XY" target="n10_k8n8" tween="true" startValue="696,512" endValue="491,1120" duration="84" ease="Quad.InOut"/>
+    <item time="162" type="XY" target="n10_k8n8" tween="true" startValue="491,1120" endValue="589,1213" duration="27" ease="Linear"/>
+    <item time="189" type="XY" target="n10_k8n8" tween="true" startValue="589,1213" endValue="569,1360" duration="23" ease="Linear"/>
+    <item time="212" type="XY" target="n10_k8n8" tween="true" startValue="569,1360" endValue="432,1499" duration="38" ease="Linear"/>
+    <item time="250" type="XY" target="n10_k8n8" tween="true" startValue="432,1499" endValue="573,1850" duration="86" ease="Quad.InOut"/>
+    <item time="336" type="XY" target="n10_k8n8" tween="true" startValue="573,1850" endValue="709,2048" duration="48" ease="Quad.InOut"/>
+  </transition>
+</component>

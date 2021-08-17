@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="583,993">
+  <controller name="c1" pages="4,游戏引导" selected="0"/>
+  <displayList>
+    <image id="n44_vvaw" name="n44" src="vvawu" fileName="Imag/character1.png" xy="0,0" group="n47_vvaw"/>
+    <image id="n45_vvaw" name="n45" src="lnqm10" fileName="Imag/ptn_bubble.png" pkg="82yrhfjg" xy="92,672" group="n47_vvaw" flip="hz"/>
+    <group id="n47_vvaw" name="n47" xy="0,0" size="583,993" advanced="true">
+      <gearDisplay controller="c1" pages="4"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <text id="n48_vvaw" name="n48" xy="164,716" size="355,119" fontSize="24" autoSize="none" text="游戏引导描述吧啦吧啦吧啦"/>
+  </displayList>
+</component>

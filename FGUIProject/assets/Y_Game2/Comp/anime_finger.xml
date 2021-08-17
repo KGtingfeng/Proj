@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="184,280">
+  <displayList>
+    <image id="n42_l67t" name="n42" src="l67t24" fileName="imag/ptn_finger.png" xy="1,48" pivot="0.5,0.5" size="184,238"/>
+    <image id="n43_l67t" name="n43" src="l67t27" fileName="imag/ptn_finger2.png" xy="-49,-70" pivot="0.5,0.5" rotation="-9"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1" frameRate="60">
+    <item time="0" type="Alpha" target="n43_l67t" value="0.01"/>
+    <item time="0" type="Rotation" target="n42_l67t" tween="true" startValue="0" endValue="-18.41" duration="18"/>
+    <item time="0" type="Scale" target="n42_l67t" tween="true" startValue="1,1" endValue="0.7,0.7" duration="18"/>
+    <item time="0" type="Scale" target="n43_l67t" value="1,1"/>
+    <item time="0" type="XY" target="n43_l67t" value="-43.5,-68.5"/>
+    <item time="18" type="Rotation" target="n42_l67t" tween="true" startValue="-18.41" endValue="1.18" duration="6"/>
+    <item time="18" type="Scale" target="n42_l67t" tween="true" startValue="0.7,0.7" endValue="0.9,0.9" duration="6"/>
+    <item time="24" type="Rotation" target="n42_l67t" tween="true" startValue="1.18" endValue="-15.45" duration="18"/>
+    <item time="24" type="Scale" target="n42_l67t" tween="true" startValue="0.9,0.9" endValue="0.7,0.7" duration="18"/>
+    <item time="42" type="Alpha" target="n43_l67t" tween="true" startValue="0.07" endValue="1" duration="24"/>
+    <item time="42" type="Scale" target="n43_l67t" tween="true" startValue="0.35,0.35" endValue="1,1" duration="24"/>
+    <item time="42" type="XY" target="n43_l67t" tween="true" startValue="-52,-6" endValue="-50,-38" duration="24"/>
+  </transition>
+</component>

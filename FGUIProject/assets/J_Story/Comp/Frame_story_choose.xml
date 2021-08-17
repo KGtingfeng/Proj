@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImageOffsetX="-257" designImageAlpha="0">
+  <displayList>
+    <loader id="n31_mwdm" name="n31" xy="-236,-2" size="1222,1629" url="ui://6f05wxg5o8gcq5b">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n27_ple6" name="n27" src="k9ebq6g" fileName="Imag/bg_title.png" pkg="82yrhfjg" xy="10,0" group="n28_ple6"/>
+    <group id="n28_ple6" name="n28" xy="10,0" size="720,238" group="n29_ple6" advanced="true">
+      <relation target="" sidePair="center-center%"/>
+    </group>
+    <loader id="n18_w8uf" name="n0" xy="-46,97" size="50,30" group="n25_hee6" url="ui://uluoyg28w8uf11" autoSize="true"/>
+    <text id="n2_mjv5" name="n2" xy="318,168" size="114,66" group="n25_hee6" font="ui://bs2uwwz8flzz0" fontSize="50" color="#ff6699" align="center" letterSpacing="10" strokeColor="#ffffff" strokeSize="2" text="剧情"/>
+    <list id="n13_mjv5" name="n13" xy="-261,304" size="1272,1160" group="n25_hee6" overflow="scroll" margin="4,0,27,0" clipSoftness="30,30" lineGap="62" defaultItem="ui://6f05wxg5mjv5b">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n23_w8uf" name="n23" xy="44,1498" size="662,84" group="n25_hee6" layout="row" margin="0,0,19,0" colGap="6">
+      <item url="ui://6f05wxg5w8ufq41" title="所有"/>
+      <item url="ui://6f05wxg5w8ufq41" title="人类"/>
+      <item url="ui://6f05wxg5w8ufq41" title="仙子"/>
+    </list>
+    <group id="n25_hee6" name="n25" xy="-261,97" size="1272,1498" group="n29_ple6" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <group id="n29_ple6" name="n29" xy="-281,0" size="1272,1595"/>
+  </displayList>
+</component>

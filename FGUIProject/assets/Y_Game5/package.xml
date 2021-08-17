@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="oagcz368">
+  <resources>
+    <component id="rn790" name="Game.xml" path="/Comp/" exported="true"/>
+    <image id="rn792" name="frame_below.png" path="/Imag/" exported="true"/>
+    <image id="rn793" name="ptn_tip.png" path="/Imag/" exported="true"/>
+    <image id="rn794" name="ptn_tip4.png" path="/Imag/" exported="true"/>
+    <image id="rn795" name="ptn_tip1.png" path="/Imag/" exported="true"/>
+    <image id="rn796" name="ptn_tip3.png" path="/Imag/" exported="true"/>
+    <image id="rn797" name="ptn_tip6.png" path="/Imag/" exported="true"/>
+    <image id="rn798" name="ptn_tip5.png" path="/Imag/" exported="true"/>
+    <image id="rn799" name="ptn_tip2.png" path="/Imag/" exported="true"/>
+    <image id="rn79a" name="ptn2_biao4.png" path="/Imag/" exported="true"/>
+    <image id="rn79b" name="ptn2_biao1.png" path="/Imag/" exported="true"/>
+    <image id="rn79c" name="ptn2_biao3.png" path="/Imag/" exported="true"/>
+    <image id="rn79d" name="ptn2_biao6.png" path="/Imag/" exported="true"/>
+    <image id="rn79e" name="ptn2_biao5.png" path="/Imag/" exported="true"/>
+    <image id="rn79f" name="ptn2_biao2.png" path="/Imag/" exported="true"/>
+    <image id="rn79g" name="ptn1_biao4.png" path="/Imag/" exported="true"/>
+    <image id="rn79h" name="ptn1_biao5.png" path="/Imag/" exported="true"/>
+    <image id="rn79i" name="ptn1_biao3.png" path="/Imag/" exported="true"/>
+    <image id="rn79j" name="ptn1_biao1.png" path="/Imag/" exported="true"/>
+    <image id="rn79k" name="ptn1_biao6.png" path="/Imag/" exported="true"/>
+    <image id="rn79l" name="ptn1_biao2.png" path="/Imag/" exported="true"/>
+    <component id="rn79m" name="Game_scene.xml" path="/Comp/" exported="true"/>
+    <component id="rn79n" name="ptn1_biao1.xml" path="/Comp/" exported="true"/>
+    <component id="rn79o" name="ptn1_biao2.xml" path="/Comp/" exported="true"/>
+    <component id="rn79p" name="ptn1_biao3.xml" path="/Comp/" exported="true"/>
+    <component id="rn79q" name="ptn1_biao4.xml" path="/Comp/" exported="true"/>
+    <component id="rn79r" name="ptn1_biao5.xml" path="/Comp/" exported="true"/>
+    <component id="rn79s" name="ptn1_biao6.xml" path="/Comp/" exported="true"/>
+    <image id="rn7928" name="frame_chuan.png" path="/Imag/" exported="true" scale="9grid" scale9grid="95,92,4,15"/>
+    <image id="rn7929" name="frame_chuan1.png" path="/Imag/" exported="true"/>
+    <image id="rn792a" name="textbg.png" path="/Imag/" exported="true"/>
+    <component id="ufcb2b" name="ptn_tip1.xml" path="/Comp/" exported="true"/>
+    <component id="ufcb2c" name="ptn_tip2.xml" path="/Comp/" exported="true"/>
+    <component id="ufcb2d" name="ptn_tip3.xml" path="/Comp/" exported="true"/>
+    <component id="ufcb2e" name="ptn_tip5.xml" path="/Comp/" exported="true"/>
+    <component id="ufcb2f" name="ptn_tip4.xml" path="/Comp/" exported="true"/>
+    <component id="ufcb2g" name="ptn_tip6.xml" path="/Comp/" exported="true"/>
+    <component id="ufcb2i" name="ptn2_biao1.xml" path="/Comp/" exported="true"/>
+    <component id="ufcb2j" name="ptn2_biao2.xml" path="/Comp/" exported="true"/>
+    <component id="ufcb2k" name="ptn2_biao3.xml" path="/Comp/" exported="true"/>
+    <component id="ufcb2l" name="ptn2_biao4.xml" path="/Comp/" exported="true"/>
+    <component id="ufcb2m" name="ptn2_biao5.xml" path="/Comp/" exported="true"/>
+    <component id="ufcb2n" name="ptn2_biao6.xml" path="/Comp/" exported="true"/>
+    <image id="ufcb28" name="final.png" path="/Imag/" exported="true"/>
+    <component id="ufcb29" name="tips.xml" path="/Comp/" exported="true"/>
+    <component id="ufcb22" name="Button_gofind(1).xml" path="/Comp/" exported="true"/>
+    <image id="ufcb23" name="btn_gofind(1).png" path="/Imag/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImage="ui://f738c2kbvycmqd">
+  <displayList>
+    <component id="n9_vycm" name="n9" src="e2l7q2z" fileName="Comp/mask_Component.xml" pkg="82yrhfjg" xy="-235,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n0_vycm" name="n0" src="vycmq3q" fileName="Imag/frame_libaoreview.png" xy="127,563" size="495,498" group="n8_vycm"/>
+    <image id="n2_vycm" name="n2" src="exzoq" fileName="Imag/frame_pop3.png" xy="157,613" size="149,146" group="n8_vycm"/>
+    <loader id="n3_vycm" name="n3" xy="170,628" size="120,120" group="n8_vycm" url="ui://f738c2kbexzoqa" align="center" fill="scale" shrinkOnly="true"/>
+    <image id="n4_vycm" name="n4" src="vycmq3p" fileName="Imag/libaonamebg.png" xy="343,614" size="230,82" group="n8_vycm" scale="0.75,0.75"/>
+    <text id="n5_vycm" name="n5" xy="347,615" size="167,59" group="n8_vycm" font="ui://bs2uwwz8flzz0" fontSize="25" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" text="钟楼广场碎片"/>
+    <text id="n6_vycm" name="n6" xy="356,688" size="158,35" group="n8_vycm" font="ui://bs2uwwz8flzz2" fontSize="25" color="#ac88a5" align="center" text="拥有数量：20"/>
+    <text id="n7_vycm" name="n7" xy="158,778" size="443,242" group="n8_vycm" font="ui://bs2uwwz8flzz2" fontSize="23" color="#ac88a5" leading="2" autoSize="none" text="物品说明物品说明物品说明物品说明物品说明物品说明物品说明物品说明物品说明物品说明"/>
+    <group id="n8_vycm" name="n8" xy="127,563" size="495,498" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1220,1624">
+  <controller name="c1" pages="0,回答正确,2,时间不足,3,答题错误,4,提示" selected="0"/>
+  <displayList>
+    <graph id="n0_k8n8" name="n0" xy="0,0" pivot="0.5,0.5" size="1220,1624" alpha="0.35" type="rect" lineSize="0" fillColor="#ff141d32">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n1_k8n8" name="n1" src="k8n83" fileName="Imag/tips.png" xy="275,550" size="670,463">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n3_k8n8" name="n3" xy="302,588" size="607,55" font="ui://bs2uwwz8flzz0" fontSize="41" color="#ffffff" align="center" vAlign="middle" letterSpacing="6" autoSize="none" text="回答正确">
+      <gearText controller="c1" pages="2,3,4" values="时间不足|回答错误|提示" default="回答正确"/>
+      <relation target="n1_k8n8" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n5_k8n8" name="n5" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="510,873">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="n1_k8n8" sidePair="center-center,middle-middle"/>
+      <Button title="下一题"/>
+    </component>
+    <text id="n6_k8n8" name="n6" xy="303,677" size="605,162" font="ui://bs2uwwz8flzz2" fontSize="28" color="#e06da2" align="center" vAlign="middle" autoSize="none" text="恭喜你回答正确，继续加油！">
+      <gearDisplay controller="c1" pages="0,2,3"/>
+      <gearText controller="c1" pages="2,3" values="很遗憾,你没能就出时间公主&#xA;自己也被困在了时间夹缝中|很遗憾，你没能救出时间公主&#xD;自己也被困在了时间夹缝中&#xD;请选择重新来过或再答一次" default="恭喜你回答正确，继续加油！"/>
+      <relation target="n1_k8n8" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n9_k8n8" name="n9" src="k8n8h" fileName="Comp/Buttonblue.xml" xy="308,873">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="n1_k8n8" sidePair="middle-middle,left-left"/>
+    </component>
+    <component id="n10_k8n8" name="n10" src="7cz7a" fileName="Comp/Button1_blue.xml" pkg="82yrhfjg" xy="671,878" scale="1.5,1.5">
+      <gearDisplay controller="c1" pages="2,3,4"/>
+      <gearText controller="c1" pages="2,3,4" values="重新来过|重新来过|确认" default="认同感"/>
+      <relation target="n1_k8n8" sidePair="middle-middle,right-right"/>
+      <Button title="认同感" titleFontSize="20"/>
+    </component>
+    <component id="n11_k8n8" name="n11" src="k8n8i" fileName="Comp/Buttonblue2.xml" xy="308,873">
+      <gearDisplay controller="c1" pages="3"/>
+      <relation target="n1_k8n8" sidePair="middle-middle,left-left"/>
+    </component>
+    <component id="n12_k8n8" name="n12" src="wf3bq5o" fileName="Comp/Button1_red.xml" pkg="82yrhfjg" xy="359,877" scale="1.5,1.5">
+      <gearDisplay controller="c1" pages="4"/>
+      <relation target="n1_k8n8" sidePair="middle-middle,left-left"/>
+      <Button title="取消" titleFontSize="20"/>
+    </component>
+    <text id="n13_k8n8" name="n13" xy="415,754" size="163,39" font="ui://xk3nrdkvkki51" fontSize="28" color="#e06da2" align="right" vAlign="middle" autoSize="none" text="花费100">
+      <gearDisplay controller="c1" pages="4"/>
+      <relation target="n14_k8n8" sidePair="middle-middle,left-left"/>
+    </text>
+    <image id="n14_k8n8" name="n14" src="vdqrc" fileName="Imag/icon_common_zuanshi.png" pkg="82yrhfjg" xy="553,723" pivot="0.5,0.5" scale="0.55,0.55">
+      <gearDisplay controller="c1" pages="4"/>
+      <relation target="n1_k8n8" sidePair="center-center,middle-middle%"/>
+    </image>
+    <text id="n15_k8n8" name="n15" xy="631,754" size="163,39" font="ui://xk3nrdkvkki51" fontSize="28" color="#e06da2" vAlign="middle" autoSize="none" text="获得提示">
+      <gearDisplay controller="c1" pages="4"/>
+      <relation target="n14_k8n8" sidePair="middle-middle,left-right%"/>
+    </text>
+  </displayList>
+</component>

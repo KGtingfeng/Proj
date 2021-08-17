@@ -1,0 +1,41 @@
+
+Sword.png
+size: 736,145
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 104
+  size: 283, 39
+  orig: 283, 39
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 610, 9
+  size: 134, 124
+  orig: 134, 124
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 455, 2
+  size: 153, 141
+  orig: 155, 143
+  offset: 1, 1
+  index: -1
+l
+  rotate: true
+  xy: 2, 2
+  size: 100, 203
+  orig: 108, 206
+  offset: 0, 1
+  index: -1
+x
+  rotate: true
+  xy: 287, 12
+  size: 131, 166
+  orig: 134, 167
+  offset: 2, 0
+  index: -1

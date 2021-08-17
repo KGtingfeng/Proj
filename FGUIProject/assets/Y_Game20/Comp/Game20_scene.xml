@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624">
+  <controller name="c1" pages="0,,1,引导,2,完成游戏" selected="0"/>
+  <displayList>
+    <graph id="n18_mwdm" name="n18" xy="373,761" pivot="0.5,0.5" anchor="true" size="100,100" type="rect" lineColor="#00000000" fillColor="#00ffffff"/>
+    <graph id="n19_mwdm" name="n19" xy="373,761" pivot="0.5,0.5" anchor="true" size="100,100" type="rect" lineColor="#00000000" fillColor="#00ffffff"/>
+    <image id="n11_vvaw" name="n11" src="vvawb" fileName="Imag/ptn_reminder.png" xy="124,320">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n8_vvaw" name="n0" src="vvawk" fileName="Comp/ptn_puzzle9.xml" xy="148,537" rotation="180">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n1_vvaw" name="n1" src="vvawd" fileName="Comp/ptn_puzzle2.xml" xy="370,986" rotation="180">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n2_vvaw" name="n2" src="vvawe" fileName="Comp/ptn_puzzle3.xml" xy="131,966" rotation="180">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n3_vvaw" name="n3" src="vvawf" fileName="Comp/ptn_puzzle4.xml" xy="611,762" aspect="true" rotation="180">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n4_vvaw" name="n4" src="vvawg" fileName="Comp/ptn_puzzle5.xml" xy="370,760" rotation="180">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n5_vvaw" name="n5" src="vvawh" fileName="Comp/ptn_puzzle6.xml" xy="137,759" rotation="180">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n6_vvaw" name="n6" src="vvawi" fileName="Comp/ptn_puzzle7.xml" xy="581,520" rotation="180">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n7_vvaw" name="n7" src="vvawj" fileName="Comp/ptn_puzzle8.xml" xy="367,519" rotation="180">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n0_vvaw" name="n8" src="vvawc" fileName="Comp/ptn_puzzle1.xml" xy="594,982" rotation="180">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n13_s8t3" name="n13" src="vy2y1t" fileName="Imag/frame_commom_tips.png" pkg="82yrhfjg" xy="37,1281" size="676,123">
+      <gearDisplay controller="c1" pages="0,1,2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n9_vvaw" name="n9" xy="75,1297" size="600,88" font="ui://bs2uwwz8flzz2" fontSize="33" color="#ffffff" align="center" autoSize="height" text="把所有碎片旋转到正确的位置，&#xA;修复魔法阵！">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n12_vvaw" name="n12" xy="75,1295" size="600,88" font="ui://wkrcryqms8t39" fontSize="33" color="#ffffff" align="center" autoSize="height" text="魔法阵修复了！&#xA;使用叶罗丽魔法击败曼多拉吧！">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n15_s8t3" name="n15" src="s8t3m" fileName="Imag/bg_tip.png" xy="17,227">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n10_vvaw" name="n10" xy="-20,238" size="383,61" fontSize="22" color="#ffffff" align="center" autoSize="none" text="点击旋转碎片，&#xA;把它转到正确的角度吧！">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <graph id="n17_mwdm" name="n17" xy="373,761" pivot="0.5,0.5" anchor="true" size="100,100" touchable="false" type="rect" lineColor="#00000000" fillColor="#00ffffff"/>
+  </displayList>
+</component>

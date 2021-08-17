@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="176,176">
+  <displayList>
+    <image id="n1_w8uf" name="n1" src="w8ufq49" fileName="Imag/ptn_watchbg.png" xy="0,0"/>
+    <loader id="n0_dd7o" name="n0" xy="4,4" size="168,168" url="ui://uluoyg28w8uf1f" align="center" vAlign="middle" autoSize="true"/>
+  </displayList>
+</component>

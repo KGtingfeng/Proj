@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="wakg4v19">
+  <resources>
+    <image id="cn0h22" name="1.png" path="/Imag/" exported="true"/>
+    <image id="cn0h23" name="2.png" path="/Imag/" exported="true"/>
+    <image id="cn0h24" name="3.png" path="/Imag/" exported="true"/>
+    <component id="cn0h25" name="Ani_321.xml" path="/Comp/" exported="true"/>
+    <component id="cn0h26" name="321.xml" path="/Comp/" exported="true"/>
+    <image id="cn0h27" name="312frame.png" path="/Imag/" exported="true"/>
+    <image id="cn0h0" name="jindu2.png" path="/Imag/" exported="true"/>
+    <image id="cn0h1" name="jindu3.png" path="/Imag/" exported="true"/>
+    <image id="cn0h2" name="jindu1.png" path="/Imag/" exported="true"/>
+    <image id="cn0h3" name="jindu4.png" path="/Imag/" exported="true" scale="9grid" scale9grid="0,10,55,2"/>
+    <image id="cn0h4" name="jindu5.png" path="/Imag/" exported="true"/>
+    <image id="cn0h5" name="jindu6.png" path="/Imag/" exported="true"/>
+    <component id="cn0h6" name="Game.xml" path="/Comp/" exported="true"/>
+    <component id="cn0h28" name="var1.xml" path="/Comp/" exported="true"/>
+    <component id="cn0h29" name="tips.xml" path="/Comp/" exported="true"/>
+    <image id="cn0hc" name="baipan3.png" path="/Imag/" exported="true"/>
+    <image id="cn0hd" name="baipan2.png" path="/Imag/" exported="true"/>
+    <image id="cn0he" name="baipan1.png" path="/Imag/" exported="true"/>
+    <image id="cn0hf" name="baipan4.png" path="/Imag/" exported="true"/>
+    <component id="cn0hg" name="biaopan.xml" path="/Comp/" exported="true"/>
+    <component id="cn0hh" name="fenzhen.xml" path="/Comp/" exported="true"/>
+    <component id="cn0hi" name="shizhen.xml" path="/Comp/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1624" designImageOffsetX="-235" designImageAlpha="100">
+  <displayList>
+    <loader id="n40_mwdm" name="n40" xy="-214,3" size="50,50">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n39_k9eb" name="n39" src="bvfrq64" fileName="Comp/star_diamond.xml" pkg="82yrhfjg" xy="220,60">
+      <relation target="" sidePair="middle-middle,right-right%"/>
+    </component>
+    <component id="n2_h4v2" name="n2" src="mjv52f" fileName="Comp/Button_common_back.xml" pkg="82yrhfjg" xy="0,21" scale="0.8,0.8"/>
+    <image id="n35_t19t" name="n35" src="t19tu" fileName="Imag/bg_task.png" xy="67,298" size="182,42" group="n29_h4v2"/>
+    <loader id="n1_h4v2" name="n1" xy="5,169" size="50,30" group="n29_h4v2" url="ui://uluoyg28v2qzq4h" autoSize="true"/>
+    <component id="n3_h4v2" name="n30" src="h4v2a" fileName="Comp/ProgressBar1.xml" xy="56,407" size="82,20" group="n29_h4v2">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <component id="n30_v2qz" name="n31" src="h4v2a" fileName="Comp/ProgressBar1.xml" xy="193,407" size="73,20" group="n29_h4v2">
+      <ProgressBar max="100"/>
+    </component>
+    <component id="n31_v2qz" name="n32" src="h4v2a" fileName="Comp/ProgressBar1.xml" xy="324,407" size="73,20" group="n29_h4v2">
+      <ProgressBar max="100"/>
+    </component>
+    <component id="n32_v2qz" name="n33" src="h4v2a" fileName="Comp/ProgressBar1.xml" xy="457,406" size="73,20" group="n29_h4v2">
+      <ProgressBar max="100"/>
+    </component>
+    <component id="n33_v2qz" name="n34" src="h4v2a" fileName="Comp/ProgressBar1.xml" xy="588,407" size="73,20" group="n29_h4v2">
+      <ProgressBar max="100"/>
+    </component>
+    <image id="n4_h4v2" name="n4" src="h4v22" fileName="Imag/icon.png" xy="24,395" group="n29_h4v2"/>
+    <list id="n16_h4v2" name="n16" xy="40,513" size="667,971" group="n29_h4v2" layout="flow_hz" overflow="scroll" clipSoftness="40,40" lineGap="33" defaultItem="ui://1g573qgkh4v2g" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n18_h4v2" name="n18" src="h4v2n" fileName="Comp/Button_yijian.xml" xy="163,1517" size="411,73" group="n29_h4v2">
+      <Button titleFontSize="25"/>
+    </component>
+    <text id="n19_h4v2" name="n19" xy="97,300" size="124,34" group="n29_h4v2" font="ui://bs2uwwz8flzz0" fontSize="24" color="#ffffff" leading="-5" shadowColor="#ee7997" shadowOffset="1,1" text="活跃度奖励"/>
+    <component id="n21_h4v2" name="n23" src="h4v2o" fileName="Comp/libao.xml" xy="124,374" group="n29_h4v2"/>
+    <component id="n24_h4v2" name="n24" src="h4v2o" fileName="Comp/libao.xml" xy="255,374" group="n29_h4v2"/>
+    <component id="n25_h4v2" name="n25" src="h4v2o" fileName="Comp/libao.xml" xy="387,375" group="n29_h4v2"/>
+    <component id="n26_h4v2" name="n26" src="h4v2o" fileName="Comp/libao.xml" xy="519,374" group="n29_h4v2"/>
+    <component id="n27_h4v2" name="n27" src="h4v2o" fileName="Comp/libao.xml" xy="651,375" group="n29_h4v2"/>
+    <text id="n28_h4v2" name="n28" xy="620,305" size="104,26" group="n29_h4v2" font="ui://bs2uwwz8flzz2" fontSize="18" color="#727272" leading="-5" text="每日0点重置"/>
+    <group id="n29_h4v2" name="n29" xy="5,169" size="726,1421" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n37_k9eb" name="n37" src="k9ebq6g" fileName="Imag/bg_title.png" pkg="82yrhfjg" xy="15,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n38_k9eb" name="n38" xy="314,180" size="142,45" font="ui://bs2uwwz8flzz0" fontSize="33" color="#ff6699" align="center" letterSpacing="2" strokeColor="#ffffff" strokeSize="2" text="每日任务">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

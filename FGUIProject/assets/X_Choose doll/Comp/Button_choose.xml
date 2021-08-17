@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="162,350" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <loader id="n3_c52n" name="n0" xy="0,0" size="162,350" url="ui://6010uxwfizqh3" autoSize="true">
+      <gearXY controller="button" pages="1" values="0,-30" default="0,0" tween="true" ease="Back.Out" duration=".2"/>
+      <gearLook controller="button" pages="1" values="1,0,0,1" default="1,0,0,1" tween="true"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n1_izqh" name="n1" src="izqh8" fileName="Imag/btn_choosedoll_h.png" xy="0,30" size="162,350" alpha="0">
+      <gearXY controller="button" pages="0" values="0,30" default="0,0" tween="true" ease="Back.Out" duration=".2"/>
+      <gearLook controller="button" pages="0" values="0,0,0,0" default="1,0,0,0" tween="true"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_izqh" name="title" xy="47,125" size="63,259" font="ui://bs2uwwz8flzz0" fontSize="36" color="#bd63c7" align="center" leading="-2" ubb="true" autoSize="none" shadowColor="#ffffff" shadowOffset="1,1" text="叶罗丽">
+      <gearXY controller="button" pages="0,1" values="47,125|47,90" tween="true" ease="Back.Out" duration=".2"/>
+    </text>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

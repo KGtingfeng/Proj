@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="715,211">
+  <displayList>
+    <component id="n46_urj1" name="n5" src="zee8e" fileName="Comp/headicon.xml" xy="-36,-7" pivot="0.5,0.5" scale="0.34,0.34">
+      <relation target="n45_urj1" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n45_urj1" name="n45" src="oi2kq4w" fileName="Imag/ptn_pengyouquantanchu.png" xy="-10,43"/>
+    <image id="n47_urj1" name="n47" src="oi2kq4y" fileName="Imag/ptn_fenge2.png" xy="257,78" pivot="0.5,0.5" size="2,102">
+      <relation target="n48_urj1" sidePair="left-right"/>
+    </image>
+    <text id="n48_urj1" name="n48" xy="158,102" size="84,54" font="ui://wkrcryqms5cu3" fontSize="40" color="#886175" text="名字"/>
+    <richtext id="n49_urj1" name="n49" xy="276,107" size="381,43" font="ui://wkrcryqms5cu5" fontSize="31" color="#6a4859" autoSize="none" text="古诗云：锦瑟无端五十弦....">
+      <relation target="n47_urj1" sidePair="left-right"/>
+    </richtext>
+  </displayList>
+</component>

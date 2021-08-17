@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="737,1116" mask="n14_pfkm">
+  <displayList>
+    <graph id="n14_pfkm" name="n14" xy="0,0" size="737,1116" type="rect">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <list id="n13_olp0" name="n12" xy="0,0" size="737,1116" overflow="scroll" clipSoftness="22,22" lineGap="21" defaultItem="ui://714w6k4uk7ira">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

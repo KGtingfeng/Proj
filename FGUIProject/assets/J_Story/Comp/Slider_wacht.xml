@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="666,10" extention="Slider">
+  <displayList>
+    <image id="n0_w8uf" name="n0" src="w8ufq4a" fileName="Imag/slider_watcg2.png" xy="0,0" size="666,10">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_w8uf" name="bar" src="w8ufq4a" fileName="Imag/slider_watcg2.png" xy="56,0" size="554,10"/>
+    <component id="n2_w8uf" name="grip" src="w8ufq4c" fileName="Comp/Slider_wacht_grip.xml" xy="554,0">
+      <relation target="n1_w8uf" sidePair="right-right"/>
+    </component>
+  </displayList>
+  <Slider/>
+</component>
